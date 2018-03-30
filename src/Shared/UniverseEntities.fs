@@ -13,7 +13,7 @@ type Position =
     static member Empty = { x= 0.0; y= 0.0; z= 0.0 }
 
 
-type internal StargateData = {
+type StargateData = {
         id: int;
         x: float; y: float; z: float;
         solarSystemId: int;
@@ -21,21 +21,21 @@ type internal StargateData = {
     } 
 
 
-type internal StarData =    { id: int; x: float; y: float; z: float; }
-type internal MoonData =    { id: int; 
+type StarData =    { id: int; x: float; y: float; z: float; }
+type MoonData =    { id: int; 
                                 x: float; y: float; z: float;
                                 solarSystemId: int; planetId: int;  }
-type internal StationData = { id: int; x: float; y: float; z: float; solarSystemId: int; planetId: int; moonId: int option; }
-type internal BeltData =    { id: int; x: float; y: float; z: float; solarSystemId: int; planetId: int; }
-type internal PlanetData =  { id: int; x: float; y: float; z: float; solarSystemId: int; }
+type StationData = { id: int; x: float; y: float; z: float; solarSystemId: int; planetId: int; moonId: int option; }
+type BeltData =    { id: int; x: float; y: float; z: float; solarSystemId: int; planetId: int; }
+type PlanetData =  { id: int; x: float; y: float; z: float; solarSystemId: int; }
 
-type internal SolarSystemData = { id: int; regionId: int; constellationId: int; 
+type SolarSystemData = { id: int; regionId: int; constellationId: int; 
                                 security: float; securityRating: SystemSecurity; 
                                 x: float; y: float; z: float;
                                 star: StarData;
                                 planets: PlanetData [];
                                 }
 
-type internal ConstellationData = { id: int; regionId: int; x: float; y: float; z: float;}
-type internal RegionData = { id: int; x: float; y: float; z: float; }
+type ConstellationData = { id: int; regionId: int; x: float; y: float; z: float;}
+type RegionData = { id: int; x: float; y: float; z: float; }
 
