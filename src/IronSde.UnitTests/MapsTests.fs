@@ -39,14 +39,14 @@ type MapsTests(output: Xunit.Abstractions.ITestOutputHelper)=
     [<InlineData(30000142, "Kimotoro")>]
     member __.SystemConstellationIsReturned(solarSystemId, expectedName)=
         let constellation = IronSde.SolarSystems.constellation solarSystemId
-        Assert.Equal(expectedName, constellation.Value.name)
+        Assert.Equal(expectedName, constellation.name)
 
     [<Theory>]
     [<InlineData(30005003, "Essence")>]
     [<InlineData(30000142, "The Forge")>]    
     member __.SystemRegionIsReturned(solarSystemId, expectedName)=
         let region = IronSde.SolarSystems.region solarSystemId
-        Assert.Equal(expectedName, region.Value.name)
+        Assert.Equal(expectedName, region.name)
 
     [<Fact>]
     member __.AdirainNeighboursAreReturned()=

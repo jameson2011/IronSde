@@ -13,13 +13,14 @@ module SolarSystems=
         solarSystemId    
                     |> Universe.Systems.solarSystem
                     |> Option.bind (fun c -> c.regionId |> Regions.fromId)
+                    |> Option.get
 
     [<CompiledName("GetConstellation")>]
     let constellation solarSystemId =
         solarSystemId    
                     |> Universe.Systems.solarSystem
                     |> Option.bind (fun c -> c.constellationId |> Constellations.fromId)
-
+                    |> Option.get
 
     [<CompiledName("GetStargates")>]
     let stargates solarSystemId = 
