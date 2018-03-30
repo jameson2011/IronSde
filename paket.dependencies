@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+nuget FAKE 5.0.0-beta024 beta
+nuget FsCheck
+nuget FsCheck.Xunit
+nuget fsharp.core 4.3.3
+nuget sharpyaml 1.6.2
+nuget xunit
+nuget xunit.runner.console
+nuget xunit.runner.visualstudio

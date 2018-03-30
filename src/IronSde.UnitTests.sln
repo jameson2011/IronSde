@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IronSde.Names.UnitTests", "IronSde.Names.UnitTests\IronSde.Names.UnitTests.fsproj", "{E1A66333-7493-4301-B312-98FA1FE48EB4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IronSde.UnitTests", "IronSde.UnitTests\IronSde.UnitTests.fsproj", "{A1AA9701-11DE-4797-AEA6-EE7B6F16AB77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A66333-7493-4301-B312-98FA1FE48EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A66333-7493-4301-B312-98FA1FE48EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A66333-7493-4301-B312-98FA1FE48EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A66333-7493-4301-B312-98FA1FE48EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1AA9701-11DE-4797-AEA6-EE7B6F16AB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1AA9701-11DE-4797-AEA6-EE7B6F16AB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1AA9701-11DE-4797-AEA6-EE7B6F16AB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1AA9701-11DE-4797-AEA6-EE7B6F16AB77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE3E998-4C35-41EC-9F97-44BEF78A0FF5}
+	EndGlobalSection
+EndGlobal

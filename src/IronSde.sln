@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "IronSde", "IronSde\IronSde.fsproj", "{BCB4086E-CCD1-492B-A1B4-923E71ACDE01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB4086E-CCD1-492B-A1B4-923E71ACDE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB4086E-CCD1-492B-A1B4-923E71ACDE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB4086E-CCD1-492B-A1B4-923E71ACDE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB4086E-CCD1-492B-A1B4-923E71ACDE01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {176F75BF-CE80-448A-AEFC-9FE6D56F8CF2}
+	EndGlobalSection
+EndGlobal
