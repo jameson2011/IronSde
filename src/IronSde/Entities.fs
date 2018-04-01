@@ -3,7 +3,10 @@
 type Position = {
         x: float<m>; y: float<m>; z: float<m>;
     } with
-    static member Empty = { x = 0.<m>; y = 0.<m>; z = 0.<m> }
+    static member Empty =   
+        { x = 0.<m>; y = 0.<m>; z = 0.<m> }
+    static member OfDoubles x y z = 
+        { x = Units.toMetres x; y = Units.toMetres y; z = Units.toMetres z }
 
 type SecurityLevel =
     | Highsec

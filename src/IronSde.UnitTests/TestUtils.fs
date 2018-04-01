@@ -23,9 +23,14 @@ type TestSampleSummary =
 
 module TestUtils=
     
+    let epsilon = 1E-100
+
+    let areEqual x y =
+        if y = x then true
+        else (y - x) < epsilon || (x - y) < epsilon
+
     let initSampling iterations =
-        { TestSampling.iterations = iterations;                      
-                      }        
+        { TestSampling.iterations = iterations; }
 
     let takeSamples (preTest: unit -> 'a) (test: 'a -> unit) (init: TestSampling)=
         let sw = new System.Diagnostics.Stopwatch()

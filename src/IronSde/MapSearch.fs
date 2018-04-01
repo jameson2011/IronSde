@@ -13,32 +13,38 @@ module MapSearch=
             |> sqrt
             |> Units.toMetres
     
-    [<CompiledName("GetDistances")>]    
-    let getDistances pos (celestials: seq<Celestial>)=
+    [<CompiledName("GetCelestialDistances")>]    
+    let getCelestialDistances pos (celestials: seq<Celestial>)=
         celestials 
         |> Seq.map (fun c ->    let d = c |> Celestials.position |> distance pos
                                 c,d)
-        |> Seq.sortBy (fun (_,d) -> d)
+        |> Seq.sortBy (fun (_,d) -> d)        
+    
+    [<CompiledName("FindClosestCelestial")>]
+    let findClosestCelestial solarSystemId (position: Position) =        
         
+        let celestials = solarSystemId
+                            |> SolarSystems.celestials
+                            |> getCelestialDistances position
+                            |> List.ofSeq
         
-    [<CompiledName("FindClosestCelestials")>]    
-    let findClosestCelestials solarSystemId (position: Position) =        
+        match celestials with        
+        | []  ->    None
+        | h::t ->   let _,bestDistance = h
+                    let range = Units.auToMetres 2.0<AU> + bestDistance
+                    let planetCelestials = Celestials.id >> SolarSystems.planetCelestials solarSystemId
 
-        let celestials = solarSystemId 
-                            |> SolarSystems.fromId 
-                            |> Option.map (fun s -> SolarSystems.celestials s.id)
-                            |> Option.defaultValue Seq.empty
-
-        let best = celestials
-                    |> getDistances position 
-                    |> Seq.tryHead
-
-        match best with
-        | Some (c,_) -> match c with
-                        | Planet (id,_,_) ->    SolarSystems.planetCelestials solarSystemId id
-                                                |> Seq.append [c]
-                                                |> getDistances position 
-                                                |> Seq.tryHead
-                        | _ -> best
-        | _ -> None
+                    let bestCelestials =  t |> Seq.filter (fun (_,d) -> d <= range )
+                                            |> Seq.append (Seq.singleton h)
+                                            |> Seq.cache
+            
+                    let subCelestials = bestCelestials
+                                            |> Seq.map (fun (c,_) -> c)
+                                            |> Seq.collect planetCelestials
+                                            |> getCelestialDistances position                    
+                        
+                    subCelestials 
+                        |> Seq.append bestCelestials                    
+                        |> Seq.minBy (fun (_,d) -> d) 
+                        |> Some
         
