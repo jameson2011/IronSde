@@ -3,17 +3,18 @@
 
 module MapSearch=
     
-    let private sq (x: float) = x * 2.
+    let private sq (x: float) = x * x
 
     [<CompiledName("GetDistance")>]    
     let distance (p1: Position) (p2: Position) =
         [ p1.x - p2.x; p1.y - p2.y; p1.z - p2.z ]
-            |> Seq.map (fun f -> float f)
-            |> Seq.map abs 
-            |> Seq.map sq |> Seq.sum |> sqrt
-            |> (fun f -> f * 1.0<m>)
-       
-    let private getDistances pos (celestials: seq<Celestial>)=
+            |> Seq.map (float >> abs >> sq)
+            |> Seq.sum 
+            |> sqrt
+            |> Units.toMetres
+    
+    [<CompiledName("GetDistances")>]    
+    let getDistances pos (celestials: seq<Celestial>)=
         celestials 
         |> Seq.map (fun c ->    let d = c |> Celestials.position |> distance pos
                                 c,d)

@@ -15,7 +15,7 @@ module internal Maps=
         | _ -> SecurityLevel.Highsec
 
     let toPosition (x: float) (y: float) (z: float) =
-        { IronSde.Position.x = x * 1.0<m>; y = y * 1.0<m>; z = z * 1.0<m> }
+        { IronSde.Position.x = Units.toMetres x; y = Units.toMetres y; z = Units.toMetres z}
 
     let ofPlanet (planet: PlanetData)= 
         Planet (planet.id, (entityName planet.id), (toPosition planet.x planet.y planet.z))
