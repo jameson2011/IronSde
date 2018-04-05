@@ -3,7 +3,7 @@
 module SolarSystems=
     
     [<CompiledName("GetById")>]
-    let fromId solarSystemId =
+    let ofId solarSystemId =
         solarSystemId    
                     |> Universe.Systems.solarSystem
                     |> Option.map Maps.ofSolarSystem
@@ -12,14 +12,14 @@ module SolarSystems=
     let region solarSystemId =
         solarSystemId    
                     |> Universe.Systems.solarSystem
-                    |> Option.bind (fun c -> c.regionId |> Regions.fromId)
+                    |> Option.bind (fun c -> c.regionId |> Regions.ofId)
                     |> Option.get
 
     [<CompiledName("GetConstellation")>]
     let constellation solarSystemId =
         solarSystemId    
                     |> Universe.Systems.solarSystem
-                    |> Option.bind (fun c -> c.constellationId |> Constellations.fromId)
+                    |> Option.bind (fun c -> c.constellationId |> Constellations.ofId)
                     |> Option.get
 
     [<CompiledName("GetStargates")>]
@@ -27,7 +27,7 @@ module SolarSystems=
         Universe.Stargates.systemStargates solarSystemId
             |> Seq.map (fun i -> match Universe.Stargates.stargate i with
                                     | Some sg -> match Universe.Stargates.stargate sg.destinationGateId with
-                                                 | Some dsg -> Maps.ofStargate sg dsg |> Some //( Stargate (sg.id, dsg.solarSystemId, (entityName sg.id), { x = sg.x; y = sg.y; z = sg.z }))
+                                                 | Some dsg -> Maps.ofStargate sg dsg |> Some
                                                  | _ -> None
                                     | _ -> None)
             |> Seq.mapToSomes
@@ -37,7 +37,7 @@ module SolarSystems=
         solarSystemId 
             |> stargates 
             |> Seq.map (function
-                        | Stargate (_,nid,_,_) -> fromId nid
+                        | Stargate (_,nid,_,_) -> ofId nid
                         | _ -> None) 
             |> Seq.mapToSomes
 

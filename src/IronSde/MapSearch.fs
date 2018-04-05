@@ -5,7 +5,7 @@ module MapSearch=
     
     let private sq (x: float) = x * x
 
-    [<CompiledName("GetDistance")>]    
+    [<CompiledName("GetDistance")>]
     let distance (p1: Position) (p2: Position) =
         [ p1.x - p2.x; p1.y - p2.y; p1.z - p2.z ]
             |> Seq.map (float >> abs >> sq)

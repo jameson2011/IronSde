@@ -22,6 +22,15 @@ type SolarSystemCelestialsPropertyAttribute() =
                                             Arbitrary = [| typeof<SolarSystemCelestials> |],
                                             QuietOnSuccess = false)
 
+type Constellations=
+    static member Values() = TestData.constellations() |> Gen.elements |> Arb.fromGen
+    
+type ConstellationsPropertyAttribute() =
+    inherit FsCheck.Xunit.PropertyAttribute(
+        Arbitrary = [| typeof<Constellations> |],
+        QuietOnSuccess = false)
+
+
 type RealFloats =
     static member Values() = Arb.Default.Float().Filter(fun d -> not (Double.IsNaN(d) || Double.IsInfinity(d) ))
                                 

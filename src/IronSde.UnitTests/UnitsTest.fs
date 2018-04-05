@@ -6,9 +6,8 @@ open IronSde
 
 module UnitsTest=
 
-
     [<RealFloatsProperty>]
-    let valuesToetresToIsSymmetric(value: float)=        
+    let valuesToMetresToIsSymmetric(value: float)=        
         let m = Units.toMetres value
 
         (float m) = value

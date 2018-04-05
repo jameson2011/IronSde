@@ -3,7 +3,7 @@
 module Constellations=
     
     [<CompiledName("GetById")>]
-    let fromId constellationId =
+    let ofId constellationId =
         constellationId    
                     |> IronSde.Universe.Constellations.constellation
                     |> Option.map Maps.ofConstellation
@@ -12,7 +12,8 @@ module Constellations=
     let region constellationId =
         constellationId    
                     |> IronSde.Universe.Constellations.constellation
-                    |> Option.bind (fun c -> c.regionId |> Regions.fromId)
+                    |> Option.bind (fun c -> c.regionId |> Regions.ofId)
+                    |> Option.get
 
     [<CompiledName("GetSolarSystems")>]
     let solarSystems constellationId =

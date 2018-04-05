@@ -97,9 +97,11 @@
     <Compile Include="TestArbitraries.fs" />
     <Compile Include="TestUtils.fs" />
     <Compile Include="UnitsTest.fs" />
-    <Compile Include="MapsTests.fs" />
+    <Compile Include="RegionsTests.fs" />
+    <Compile Include="SolarSystemsTests.fs" />
     <Compile Include="MapSearchTest.fs" />
     <Content Include="packages.config" />
+    <Compile Include="ConstellationsTests.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IronSde">

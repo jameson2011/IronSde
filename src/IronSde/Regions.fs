@@ -3,14 +3,14 @@
 module Regions=
     
     [<CompiledName("GetById")>]
-    let fromId regionId =
+    let ofId regionId =
         regionId    |> IronSde.Universe.Regions.region 
                     |> Option.map Maps.ofRegion
     
     [<CompiledName("GetAll")>]
     let all() =
         IronSde.Universe.Regions.regions()
-            |> Seq.map fromId
+            |> Seq.map ofId
             |> Seq.mapToSomes
 
     [<CompiledName("GetConstellations")>]

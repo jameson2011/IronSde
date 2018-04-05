@@ -2,6 +2,7 @@
 
 module Celestials=
     
+    [<CompiledName("GetName")>]
     let name (value: Celestial)=
         match value with
         | Star (_,n,_) -> n
@@ -11,6 +12,7 @@ module Celestials=
         | Belt (_,_,n,_) -> n
         | Station (_,_,n,_) -> n
     
+    [<CompiledName("GetId")>]
     let id celestial =
         match celestial with
         | Star (id,_,_) -> id
@@ -20,6 +22,7 @@ module Celestials=
         | Belt (id,_,_,_) -> id
         | Station (id,_,_,_) -> id
 
+    [<CompiledName("GetPosition")>]
     let position celestial =
         match celestial with
         | Star (_,_,p) -> p

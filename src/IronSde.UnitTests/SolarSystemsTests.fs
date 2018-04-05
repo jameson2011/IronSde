@@ -4,42 +4,42 @@ open System
 open Xunit
 open IronSde
 
-type MapsTests(output: Xunit.Abstractions.ITestOutputHelper)=
+type SolarSystemsTests(output: Xunit.Abstractions.ITestOutputHelper)=
 
     let adirainId = 30005003
     let jitaId = 30000142
-
-    [<Fact>]
-    member __.RegionsReturnsExpectedCount() =
-        let regions =TestData.regions() |> Array.ofSeq
-
-        Assert.Equal(100, regions.Length)
-        
-    
-    [<Theory>]
-    [<InlineData(10000064, "Essence")>]
-    [<InlineData(10000002, "The Forge")>]
-    member __.RegionIsPopulated(regionId, expectedName)=
-        let region = IronSde.Regions.fromId regionId
-
-        Assert.Equal(expectedName, region.Value.name)
 
     [<Theory>]
     [<InlineData(30005003, "Adirain")>]    
     [<InlineData(30000142, "Jita")>]    
     member __.SystemIsPopulated(systemId, expectedName)=
-        let solarSystem = IronSde.SolarSystems.fromId systemId        
+        let solarSystem = IronSde.SolarSystems.ofId systemId        
 
         Assert.Equal(expectedName, solarSystem.Value.name)
 
+    [<SolarSystemsPropertyAttribute>]
+    member __.SystemsAlwaysHaveARegion(value: IronSde.SolarSystem)=
         
+        let region = IronSde.SolarSystems.region value.id
+
+        true        
+
+    [<SolarSystemsPropertyAttribute>]
+    member __.SystemsAlwaysHaveAConstellation(value: IronSde.SolarSystem)=
+        
+        let region = IronSde.SolarSystems.constellation value.id
+
+        true        
+
 
     [<Theory>]
-    [<InlineData(30005003, "Peccanouette")>]
-    [<InlineData(30000142, "Kimotoro")>]
-    member __.SystemConstellationIsReturned(solarSystemId, expectedName)=
+    [<InlineData(30005003, "Peccanouette", 20000732)>]
+    [<InlineData(30000142, "Kimotoro", 20000020)>]
+    member __.SystemConstellationIsReturned(solarSystemId, expectedName, expectedId)=
         let constellation = IronSde.SolarSystems.constellation solarSystemId
+
         Assert.Equal(expectedName, constellation.name)
+        Assert.Equal(expectedId, constellation.id)
 
     [<Theory>]
     [<InlineData(30005003, "Essence")>]
@@ -147,7 +147,7 @@ type MapsTests(output: Xunit.Abstractions.ITestOutputHelper)=
         let ids = TestData.systems() |> Seq.map (fun s -> s.id) |> Array.ofSeq        
         let rng = new System.Random()
         let preTest() = ids.[rng.Next(ids.Length)]
-        let test = IronSde.SolarSystems.fromId >> ignore                                
+        let test = IronSde.SolarSystems.ofId >> ignore                                
 
         TestUtils.initSampling 10000
             |> TestUtils.takeSamples preTest test
