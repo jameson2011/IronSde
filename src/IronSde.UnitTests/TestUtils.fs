@@ -58,9 +58,10 @@ module TestUtils=
         { TestSampleSummary.avgTicks = avg; 
                             maxTicks = max; 
                             minTicks = min;
-                            iterations = ticks.Length + 1}
+                            iterations = ticks.Length}
 
-    let reportSamples (output: Xunit.Abstractions.ITestOutputHelper) (summary: TestSampleSummary) =
-        output.WriteLine(summary.avgTicks |> sprintf "Avg ticks: %f") 
-        output.WriteLine(summary.minTicks |> sprintf "Min ticks: %f") 
-        output.WriteLine(summary.maxTicks |> sprintf "Max ticks: %f") 
+    let reportSamples (output: Xunit.Abstractions.ITestOutputHelper) (summary: TestSampleSummary) =        
+        output.WriteLine(summary.iterations |> sprintf "Iterations: %i") 
+        output.WriteLine(summary.avgTicks   |> sprintf "Avg ticks:  %f") 
+        output.WriteLine(summary.minTicks   |> sprintf "Min ticks:  %f") 
+        output.WriteLine(summary.maxTicks   |> sprintf "Max ticks:  %f") 
