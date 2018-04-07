@@ -19,6 +19,8 @@ let buildDir = ".\\artifacts\\"
 let buildGeneratorDir = buildDir @@ "Generator"
 let buildNamesDir = buildDir @@ "Names"
 let buildUniverseDir = buildDir @@ "Universe"
+let packageDir = buildDir @@ "package"
+let packageSourceFiles = buildUniverseDir @@ "IronSde*.*"
 let buildTestsDir = ".\\testartifacts\\"
 
 let dataDir = ".\\data\\"
@@ -36,6 +38,8 @@ let frontSolution = ".\\src\\IronSde.sln"
 let generatorExe = buildGeneratorDir @@ "IronSde.Generator.exe"
 let assemblyInfo = @".\src\Shared\GlobalAssemblyInfo.fs"
 
+
+
 Target.Description "Patch AssemblyInfo"
 Target.Create "PatchAssemblyInfo" (fun _ -> Fake.DotNet.AssemblyInfoFile.UpdateAttributes 
                                                 assemblyInfo
@@ -49,7 +53,7 @@ Target.Create "CleanArtifacts" (fun _ -> CleanDirs [ buildDir; buildTestsDir; ])
 
 
 Target.Description "Create local workspaces"
-Target.Create "CreateWorkspace" (fun _ -> CleanDirs [ sdeFolder; downloadDir; ] )
+Target.Create "CreateWorkspace" (fun _ -> CleanDirs [ sdeFolder; downloadDir; packageDir; ] )
 
 Target.Description "Download Static Data"
 Target.Create "DownloadSde" (fun _ -> downloadFileAsync sdeZipFile latestSdeUri |> Async.RunSynchronously |> sprintf "Downloaded %s" |> Trace.trace)
@@ -118,6 +122,14 @@ Target.Create "UnitTests" (fun _ ->
                                         )                            
                             )
 
+Target.Description "Create package dir"
+Target.Create "CreatePackageDir" ( fun _ -> Fake.IO.Directory.ensure packageDir)
+
+Target.Description "Copy package files"
+Target.Create "CopyPackageFiles" (fun _ -> !! packageSourceFiles
+                                                |> Fake.IO.Shell.CopyFiles packageDir
+                                                )
+
 Target.Create "All" (fun _ -> Trace.trace "All done" )
 
 "CleanWorkspace"
@@ -136,6 +148,9 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 ==> "BuildUnitTests"
 ==> "UnitTests"
 
+"CreatePackageDir"
+==> "CopyPackageFiles"
+
 "VerifySde"
 ==> "All"
 "BuildNames"
@@ -144,6 +159,8 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 ==> "All"
 "UnitTests"
 ==> "All"
+"CopyPackageFiles"
+==> "All"
 
-Target.RunOrDefault "VerifySde"
+Target.RunOrDefault "All"
 

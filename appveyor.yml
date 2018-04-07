@@ -23,3 +23,5 @@ test: off
 artifacts:
 - path: artifacts\Universe
   name: IronSde
+- path: artifacts\package
+  name: IronSdePackage
