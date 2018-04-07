@@ -8,9 +8,8 @@ module internal StationsSourceWriter=
     let stationFactoryName id = sprintf "station%i" id
 
     let formatStation (value: StationData) = 
-        // TODO: moonId
-        sprintf "{ StationData.id = %i; solarSystemId = %i; planetId = %i; moonId = None; x = %.20E; y = %.20E; z = %.20E; }"
-                    value.id value.solarSystemId value.planetId value.x value.y value.z
+        sprintf "{ StationData.id = %i; solarSystemId = %i; planetId = %i; moonId = %s; x = %.20E; y = %.20E; z = %.20E; }"
+                    value.id value.solarSystemId value.planetId (Source.ofInt32Option value.moonId) value.x value.y value.z
     
     let private systemStationsCase (systemId, stations) =
         sprintf "| %i -> %s" systemId (stations |> Seq.map formatStation |> Source.toArrayOfStrings)

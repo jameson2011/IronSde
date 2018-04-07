@@ -74,11 +74,11 @@ module UniverseReader=
                 |> List.ofSeq        
 
     
-    let private toStations solarSystemId planetId (values: ObjectMap)=
+    let private toStations solarSystemId planetId moonId (values: ObjectMap)=
         values  |> tryGet "npcStations"
                 |> Option.map castObjectMap
                 |> Option.defaultValue (new ObjectMap())
-                |> Seq.map (fun kvp -> toStation solarSystemId planetId None (kvp.Key :?> int) (castObjectMap kvp.Value))
+                |> Seq.map (fun kvp -> toStation solarSystemId planetId moonId (kvp.Key :?> int) (castObjectMap kvp.Value))
                 |> List.ofSeq        
 
 
@@ -88,7 +88,7 @@ module UniverseReader=
                 |> Option.defaultValue (new ObjectMap())
                 |> Seq.map (fun kvp ->  let moonValues = (castObjectMap kvp.Value)
                                         let moon = toMoon solarSystemId (kvp.Key :?> int) planetId moonValues
-                                        let stations = moonValues |> toStations solarSystemId planetId                                                                
+                                        let stations = moonValues |> toStations solarSystemId planetId (Some moon.id)
                                         moon, stations)
                 |> List.ofSeq
         
@@ -96,7 +96,7 @@ module UniverseReader=
         let pairs = toMoons solarSystemId id values
         let moons = pairs |> Seq.map (fun (m,_) -> m)    
         let moonStations = pairs |> Seq.collect (fun (_,ss) -> ss) |> List.ofSeq
-        let planetStations = toStations solarSystemId id values
+        let planetStations = toStations solarSystemId id None values
         
         let stations = List.append planetStations moonStations |> Array.ofSeq
         let belts = toBelts solarSystemId id values |> Array.ofSeq
