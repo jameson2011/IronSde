@@ -1,4 +1,4 @@
-﻿namespace IronSde.AssemblyInfo
+namespace IronSde.AssemblyInfo
 
 open System.Reflection
 
@@ -13,6 +13,6 @@ open System.Reflection
 
 [<assembly: AssemblyVersion("0.0.0.0")>]
 [<assembly: AssemblyFileVersion("0.0.0.0")>]
-[<assembly: AssemblyInformationalVersion("0.0.0.0")>]
+[<assembly: AssemblyInformationalVersion("sde-20180323-TRANQUILITY")>]
 do
     ()

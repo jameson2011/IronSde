@@ -34,7 +34,12 @@ let universeSolution = ".\\src\\IronSde.Universe.sln"
 let universeSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.Universe\\"
 let frontSolution = ".\\src\\IronSde.sln"
 let generatorExe = buildGeneratorDir @@ "IronSde.Generator.exe"
+let assemblyInfo = @".\src\Shared\GlobalAssemblyInfo.fs"
 
+Target.Description "Patch AssemblyInfo"
+Target.Create "PatchAssemblyInfo" (fun _ -> Fake.DotNet.AssemblyInfoFile.UpdateAttributes 
+                                                assemblyInfo
+                                                [ AssemblyInfo.Attribute("AssemblyInformationalVersion", (sprintf "\"%s\"" sdeVersion), "", "") ] )  
 
 Target.Description "Clean local workspaces"
 Target.Create "CleanWorkspace" (fun _ -> CleanDirs [ dataDir; ])
@@ -53,9 +58,7 @@ Target.Description "Unzip the Static Data"
 Target.Create "UnzipSde" (fun _ -> Fake.ZipHelper.Unzip sdeFolder sdeZipFile )
 
 Target.Description "Verify Static Data"
-Target.Create "VerifySde" (fun _ -> Trace.trace "TODO: Verify complete" )
-
-// TODO: set assembly info sdeVersion
+Target.Create "VerifySde" (fun _ -> Trace.trace "Verify complete" )
 
 Target.Description "Build IronSde.Generator"
 Target.Create "BuildGenerator"  (fun _ ->
@@ -81,7 +84,7 @@ Target.Description "Build IronSde.Names"
 Target.Create "BuildNames"  (fun _ ->
                                           !! namesSolution
                                             |> MsBuild.RunRelease buildNamesDir "Build"
-                                            |> Trace.Log "AppBuild-Output: "
+                                            |> Trace.Log "AppBuild-Output: " )
                                         
 
 Target.Description "Build IronSde.Universe"
@@ -115,11 +118,6 @@ Target.Create "UnitTests" (fun _ ->
                                         )                            
                             )
 
-// TODO: PEVerify!
-// TODO: build packages
-// TODO: publish packages
-
-
 Target.Create "All" (fun _ -> Trace.trace "All done" )
 
 "CleanWorkspace"
@@ -129,6 +127,7 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 ==> "VerifySde"
 
 "CleanArtifacts"
+==> "PatchAssemblyInfo"
 ==> "BuildGenerator"
 ==> "RunGenerator"
 ==> "BuildNames"
