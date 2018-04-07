@@ -12,51 +12,14 @@ module internal MoonSourceWriter=
             value.id
             value.x value.y value.z
             value.solarSystemId
-            value.planetId            
-
+            value.planetId
 
     let formatMoons (values: seq<MoonData>) =
         values |> Seq.map formatMoon |> Source.toArrayOfStrings
         
     let private systemMoonCase solarSystemId values = 
-        values |> formatMoons |> sprintf "| %i -> (fun () -> %s)" solarSystemId
+        values |> formatMoons |> sprintf "| %i -> %s" solarSystemId
 
-    let private moonFactory (value: MoonData) = 
-        let name = value.id |> moonFactoryName        
-        sprintf "let  %s() = %s" name (formatMoon value)
-
-    let private moonCase (value: MoonData) = 
-        sprintf "| %i -> %s() |> Some" value.id (moonFactoryName value.id)
-
-    let private planetMoonsCase (planetId, (moonIds: seq<int>)) =
-        sprintf "| %i -> %s" planetId (moonIds |> Seq.map (fun i -> i.ToString())|> Source.toArrayOfStrings)
-
-    let private writeMoons dir idx (values: seq<MoonData>) = 
-        let path = combine dir (sprintf "Moons%i.fs" idx)
-        use writer = new System.IO.StreamWriter(path)
-
-        let moonsBySystem = values 
-                                |> Seq.groupBy (fun b -> b.solarSystemId)                                
-
-        let headers = seq {
-                            yield Source.declareUniverseNamespace
-                            yield "open IronSde"
-                            yield Source.declareMoonChunksModule idx
-                        }
-        let lines = seq {
-                            
-                            yield "let moon id = "
-                            yield "match id with" |> Source.indent
-                            yield! moonsBySystem |> Seq.map (fun (i,ms) -> systemMoonCase i ms)
-                            yield "| _ -> [||]" |> Source.indent                            
-                        } |> Seq.map Source.indent
-
-        Seq.concat [headers; lines] 
-            |> Seq.iter writer.WriteLine
-
-        writer.Flush()    
-        writer.Close()
-    
     let private systemMoonsChunkFile idx = (sprintf "Moons%i" idx)
 
     let private writeSystemMoons dir idx (values: seq<int * seq<MoonData>>) = 
@@ -73,7 +36,7 @@ module internal MoonSourceWriter=
                             yield "let moons solarSystemId = "
                             yield "match solarSystemId with" |> Source.indent
                             yield! values |> Seq.map (fun (i,ms) -> systemMoonCase i ms |> Source.indent)
-                            yield "| _ -> (fun () -> [||] )" |> Source.indent                            
+                            yield "| _ -> [||]" |> Source.indent                            
                         } |> Seq.map Source.indent
 
         Seq.concat [headers; lines] 
@@ -100,7 +63,7 @@ module internal MoonSourceWriter=
                             yield "let moons solarSystemId = "
                             yield "match solarSystemId with" |> Source.indent
                             yield! values |> Seq.map (fun (idx,ids) -> systemCase idx ids |> Source.indent)
-                            yield "| _ -> (fun () -> [||] )" |> Source.indent                            
+                            yield "| _ -> [||]" |> Source.indent                            
                         } |> Seq.map Source.indent
 
         Seq.concat [headers; lines] 

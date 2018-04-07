@@ -11,7 +11,7 @@ open Fake.ProcessHelper
 open Fake.DotNet.Testing.XUnit2
 open Http
 
-// TODO: detect???
+
 let sdeVersion = "sde-20180323-TRANQUILITY"
 let latestSdeUri = sprintf "https://cdn1.eveonline.com/data/sde/tranquility/%s.zip" sdeVersion
 
@@ -82,15 +82,7 @@ Target.Create "BuildNames"  (fun _ ->
                                           !! namesSolution
                                             |> MsBuild.RunRelease buildNamesDir "Build"
                                             |> Trace.Log "AppBuild-Output: "
-                                        )
-
-// TODO:
-Target.Description "Build IronSde.Names.fsproj"
-Target.Create "BuildNamesProj"  (fun _ ->
-                                          !! ".\\src\\IronSde.Names\\IronSde.Names.fsproj"
-                                            |> MsBuild.RunRelease buildNamesDir "Build"
-                                            |> Trace.Log "AppBuild-Output: "
-                                        )
+                                        
 
 Target.Description "Build IronSde.Universe"
 Target.Create "BuildUniverse"  (fun _ ->
