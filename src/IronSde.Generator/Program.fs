@@ -20,14 +20,11 @@ module Program=
     let private writeUniverse source target = 
         console "Reading universe..."
         let regions = UniverseReader.regions source
-                        // TODO: clean up
-                        //|> Seq.skip 16
-                        //|> Seq.take 6
                         |> Seq.cache
                         
         
         console "Writing universe..."
-        UniverseSourceWriter.write target regions
+        UniverseSourceWriter.write console target regions
 
         console "Finished writing universe."
 
@@ -35,29 +32,29 @@ module Program=
     let main argv = 
         try            
             match argv with
-            | [| "/sde"; sde; "/names"; namesDir;  |] ->
-                        console(sprintf "Static data source:   %s" sde)
+            | [| "/sde"; sdeDir; "/names"; namesDir;  |] ->
+                        console(sprintf "Static data source:   %s" sdeDir)
                         console(sprintf "Names directory:      %s" namesDir)
                         
-                        writeNames sde namesDir
+                        writeNames sdeDir namesDir
                         
-            | [| "/sde"; sde; "/universe"; universeDir |] ->
-                        console(sprintf "Static data source:   %s" sde)
+            | [| "/sde"; sdeDir; "/universe"; universeDir |] ->
+                        console(sprintf "Static data source:   %s" sdeDir)
                         console(sprintf "Universe directory:   %s" universeDir)
 
-                        writeUniverse sde universeDir
+                        writeUniverse sdeDir universeDir
             
-            | [| "/sde"; sde; "/names"; namesDir; "/universe"; universeDir |] ->
-                        console(sprintf "Static data source:   %s" sde)
+            | [| "/sde"; sdeDir; "/names"; namesDir; "/universe"; universeDir |] ->
+                        console(sprintf "Static data source:   %s" sdeDir)
                         console(sprintf "Names directory:      %s" namesDir)
                         console(sprintf "Universe directory:   %s" universeDir)
                         
-                        writeNames sde namesDir
-                        writeUniverse sde universeDir
+                        writeNames sdeDir namesDir
+                        writeUniverse sdeDir universeDir
             | _ -> failwith "Invalid arguments. Valid options are:\r\n
 /sde <sde root> /names <target names folder>\r\n
 /sde <sde root> /universe <target universe folder>"
             0 
         with
-        | ex -> consoleError(ex.Message)
+        | ex -> consoleError(ex.Message + System.Environment.NewLine + ex.StackTrace)
                 2

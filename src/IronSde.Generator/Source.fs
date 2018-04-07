@@ -9,6 +9,10 @@ module internal Source=
 
     let toArrayOfStrings values = values |> (Strings.join ";" >> sprintf "[| %s |]")
 
+    let ofInt32Option (value: int option) =
+        match value with
+        | Some x -> sprintf "Some %i" x
+        | None -> "None"
 
     let formatPosition (value: Position) =
         sprintf " { Position.x = %.20E; y = %.20E; z = %.20E } " value.x value.y value.z

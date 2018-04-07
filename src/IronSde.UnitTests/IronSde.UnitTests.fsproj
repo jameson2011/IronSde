@@ -97,6 +97,7 @@
     <Compile Include="TestArbitraries.fs" />
     <Compile Include="TestUtils.fs" />
     <Compile Include="UnitsTest.fs" />
+    <Compile Include="CelestialsTests.fs" />
     <Compile Include="RegionsTests.fs" />
     <Compile Include="SolarSystemsTests.fs" />
     <Compile Include="MapSearchTest.fs" />
