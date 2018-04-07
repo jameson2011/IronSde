@@ -23,4 +23,4 @@ module internal Moons=
         | x when x <= 31001712 -> Moons17.moons solarSystemId
         | x when x <= 31002108 -> Moons18.moons solarSystemId
         | x when x <= 31002504 -> Moons19.moons solarSystemId
-        | _ -> (fun () -> [||] )
+        | _ -> [||]

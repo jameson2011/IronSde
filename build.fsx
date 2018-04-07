@@ -11,7 +11,7 @@ open Fake.ProcessHelper
 open Fake.DotNet.Testing.XUnit2
 open Http
 
-// TODO: detect???
+
 let sdeVersion = "sde-20180323-TRANQUILITY"
 let latestSdeUri = sprintf "https://cdn1.eveonline.com/data/sde/tranquility/%s.zip" sdeVersion
 
@@ -19,6 +19,8 @@ let buildDir = ".\\artifacts\\"
 let buildGeneratorDir = buildDir @@ "Generator"
 let buildNamesDir = buildDir @@ "Names"
 let buildUniverseDir = buildDir @@ "Universe"
+let packageDir = buildDir @@ "package"
+let packageSourceFiles = buildUniverseDir @@ "IronSde*.*"
 let buildTestsDir = ".\\testartifacts\\"
 
 let dataDir = ".\\data\\"
@@ -34,7 +36,14 @@ let universeSolution = ".\\src\\IronSde.Universe.sln"
 let universeSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.Universe\\"
 let frontSolution = ".\\src\\IronSde.sln"
 let generatorExe = buildGeneratorDir @@ "IronSde.Generator.exe"
+let assemblyInfo = @".\src\Shared\GlobalAssemblyInfo.fs"
 
+
+
+Target.Description "Patch AssemblyInfo"
+Target.Create "PatchAssemblyInfo" (fun _ -> Fake.DotNet.AssemblyInfoFile.UpdateAttributes 
+                                                assemblyInfo
+                                                [ AssemblyInfo.Attribute("AssemblyInformationalVersion", (sprintf "\"%s\"" sdeVersion), "", "") ] )  
 
 Target.Description "Clean local workspaces"
 Target.Create "CleanWorkspace" (fun _ -> CleanDirs [ dataDir; ])
@@ -44,7 +53,7 @@ Target.Create "CleanArtifacts" (fun _ -> CleanDirs [ buildDir; buildTestsDir; ])
 
 
 Target.Description "Create local workspaces"
-Target.Create "CreateWorkspace" (fun _ -> CleanDirs [ sdeFolder; downloadDir; ] )
+Target.Create "CreateWorkspace" (fun _ -> CleanDirs [ sdeFolder; downloadDir; packageDir; ] )
 
 Target.Description "Download Static Data"
 Target.Create "DownloadSde" (fun _ -> downloadFileAsync sdeZipFile latestSdeUri |> Async.RunSynchronously |> sprintf "Downloaded %s" |> Trace.trace)
@@ -53,9 +62,7 @@ Target.Description "Unzip the Static Data"
 Target.Create "UnzipSde" (fun _ -> Fake.ZipHelper.Unzip sdeFolder sdeZipFile )
 
 Target.Description "Verify Static Data"
-Target.Create "VerifySde" (fun _ -> Trace.trace "TODO: Verify complete" )
-
-// TODO: set assembly info sdeVersion
+Target.Create "VerifySde" (fun _ -> Trace.trace "Verify complete" )
 
 Target.Description "Build IronSde.Generator"
 Target.Create "BuildGenerator"  (fun _ ->
@@ -81,16 +88,8 @@ Target.Description "Build IronSde.Names"
 Target.Create "BuildNames"  (fun _ ->
                                           !! namesSolution
                                             |> MsBuild.RunRelease buildNamesDir "Build"
-                                            |> Trace.Log "AppBuild-Output: "
-                                        )
-
-// TODO:
-Target.Description "Build IronSde.Names.fsproj"
-Target.Create "BuildNamesProj"  (fun _ ->
-                                          !! ".\\src\\IronSde.Names\\IronSde.Names.fsproj"
-                                            |> MsBuild.RunRelease buildNamesDir "Build"
-                                            |> Trace.Log "AppBuild-Output: "
-                                        )
+                                            |> Trace.Log "AppBuild-Output: " )
+                                        
 
 Target.Description "Build IronSde.Universe"
 Target.Create "BuildUniverse"  (fun _ ->
@@ -123,10 +122,13 @@ Target.Create "UnitTests" (fun _ ->
                                         )                            
                             )
 
-// TODO: PEVerify!
-// TODO: build packages
-// TODO: publish packages
+Target.Description "Create package dir"
+Target.Create "CreatePackageDir" ( fun _ -> Fake.IO.Directory.ensure packageDir)
 
+Target.Description "Copy package files"
+Target.Create "CopyPackageFiles" (fun _ -> !! packageSourceFiles
+                                                |> Fake.IO.Shell.CopyFiles packageDir
+                                                )
 
 Target.Create "All" (fun _ -> Trace.trace "All done" )
 
@@ -137,6 +139,7 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 ==> "VerifySde"
 
 "CleanArtifacts"
+==> "PatchAssemblyInfo"
 ==> "BuildGenerator"
 ==> "RunGenerator"
 ==> "BuildNames"
@@ -144,6 +147,9 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 "BuildIronSde"
 ==> "BuildUnitTests"
 ==> "UnitTests"
+
+"CreatePackageDir"
+==> "CopyPackageFiles"
 
 "VerifySde"
 ==> "All"
@@ -153,6 +159,8 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 ==> "All"
 "UnitTests"
 ==> "All"
+"CopyPackageFiles"
+==> "All"
 
-Target.RunOrDefault "VerifySde"
+Target.RunOrDefault "All"
 

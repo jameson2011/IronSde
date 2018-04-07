@@ -65,7 +65,7 @@ module SolarSystems=
 
     [<CompiledName("GetMoons")>]
     let moons solarSystemId = 
-        (Universe.Moons.moons solarSystemId)() 
+        Universe.Moons.moons solarSystemId 
                         |> Seq.map Maps.ofMoon
 
     [<CompiledName("GetPlanetCelestials")>]
