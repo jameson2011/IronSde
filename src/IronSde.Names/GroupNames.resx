@@ -1,0 +1,4170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="group0" xml:space="preserve">
+    <value>#System</value>
+  </data>
+  <data name="group1" xml:space="preserve">
+    <value>Character</value>
+  </data>
+  <data name="group2" xml:space="preserve">
+    <value>Corporation</value>
+  </data>
+  <data name="group3" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="group4" xml:space="preserve">
+    <value>Constellation</value>
+  </data>
+  <data name="group5" xml:space="preserve">
+    <value>Solar System</value>
+  </data>
+  <data name="group6" xml:space="preserve">
+    <value>Sun</value>
+  </data>
+  <data name="group7" xml:space="preserve">
+    <value>Planet</value>
+  </data>
+  <data name="group8" xml:space="preserve">
+    <value>Moon</value>
+  </data>
+  <data name="group9" xml:space="preserve">
+    <value>Asteroid Belt</value>
+  </data>
+  <data name="group10" xml:space="preserve">
+    <value>Stargate</value>
+  </data>
+  <data name="group11" xml:space="preserve">
+    <value>Asteroid OLD</value>
+  </data>
+  <data name="group12" xml:space="preserve">
+    <value>Cargo Container</value>
+  </data>
+  <data name="group13" xml:space="preserve">
+    <value>Ring</value>
+  </data>
+  <data name="group14" xml:space="preserve">
+    <value>Biomass</value>
+  </data>
+  <data name="group15" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="group16" xml:space="preserve">
+    <value>Station Services</value>
+  </data>
+  <data name="group17" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="group18" xml:space="preserve">
+    <value>Mineral</value>
+  </data>
+  <data name="group19" xml:space="preserve">
+    <value>Faction</value>
+  </data>
+  <data name="group20" xml:space="preserve">
+    <value>Drug</value>
+  </data>
+  <data name="group23" xml:space="preserve">
+    <value>Clone</value>
+  </data>
+  <data name="group24" xml:space="preserve">
+    <value>Voucher</value>
+  </data>
+  <data name="group25" xml:space="preserve">
+    <value>Frigate</value>
+  </data>
+  <data name="group26" xml:space="preserve">
+    <value>Cruiser</value>
+  </data>
+  <data name="group27" xml:space="preserve">
+    <value>Battleship</value>
+  </data>
+  <data name="group28" xml:space="preserve">
+    <value>Industrial</value>
+  </data>
+  <data name="group29" xml:space="preserve">
+    <value>Capsule</value>
+  </data>
+  <data name="group30" xml:space="preserve">
+    <value>Titan</value>
+  </data>
+  <data name="group31" xml:space="preserve">
+    <value>Shuttle</value>
+  </data>
+  <data name="group32" xml:space="preserve">
+    <value>Alliance</value>
+  </data>
+  <data name="group38" xml:space="preserve">
+    <value>Shield Extender</value>
+  </data>
+  <data name="group39" xml:space="preserve">
+    <value>Shield Recharger</value>
+  </data>
+  <data name="group40" xml:space="preserve">
+    <value>Shield Booster</value>
+  </data>
+  <data name="group41" xml:space="preserve">
+    <value>Remote Shield Booster</value>
+  </data>
+  <data name="group43" xml:space="preserve">
+    <value>Capacitor Recharger</value>
+  </data>
+  <data name="group46" xml:space="preserve">
+    <value>Propulsion Module</value>
+  </data>
+  <data name="group47" xml:space="preserve">
+    <value>Cargo Scanner</value>
+  </data>
+  <data name="group48" xml:space="preserve">
+    <value>Ship Scanner</value>
+  </data>
+  <data name="group49" xml:space="preserve">
+    <value>Survey Scanner</value>
+  </data>
+  <data name="group52" xml:space="preserve">
+    <value>Warp Scrambler</value>
+  </data>
+  <data name="group53" xml:space="preserve">
+    <value>Energy Weapon</value>
+  </data>
+  <data name="group54" xml:space="preserve">
+    <value>Mining Laser</value>
+  </data>
+  <data name="group55" xml:space="preserve">
+    <value>Projectile Weapon</value>
+  </data>
+  <data name="group56" xml:space="preserve">
+    <value>Missile Launcher</value>
+  </data>
+  <data name="group57" xml:space="preserve">
+    <value>Shield Power Relay</value>
+  </data>
+  <data name="group59" xml:space="preserve">
+    <value>Gyrostabilizer</value>
+  </data>
+  <data name="group60" xml:space="preserve">
+    <value>Damage Control</value>
+  </data>
+  <data name="group61" xml:space="preserve">
+    <value>Capacitor Battery</value>
+  </data>
+  <data name="group62" xml:space="preserve">
+    <value>Armor Repair Unit</value>
+  </data>
+  <data name="group63" xml:space="preserve">
+    <value>Hull Repair Unit</value>
+  </data>
+  <data name="group65" xml:space="preserve">
+    <value>Stasis Web</value>
+  </data>
+  <data name="group67" xml:space="preserve">
+    <value>Remote Capacitor Transmitter</value>
+  </data>
+  <data name="group68" xml:space="preserve">
+    <value>Energy Nosferatu</value>
+  </data>
+  <data name="group71" xml:space="preserve">
+    <value>Energy Neutralizer</value>
+  </data>
+  <data name="group72" xml:space="preserve">
+    <value>Smart Bomb</value>
+  </data>
+  <data name="group74" xml:space="preserve">
+    <value>Hybrid Weapon</value>
+  </data>
+  <data name="group76" xml:space="preserve">
+    <value>Capacitor Booster</value>
+  </data>
+  <data name="group77" xml:space="preserve">
+    <value>Shield Hardener</value>
+  </data>
+  <data name="group78" xml:space="preserve">
+    <value>Reinforced Bulkhead</value>
+  </data>
+  <data name="group80" xml:space="preserve">
+    <value>Burst Jammer</value>
+  </data>
+  <data name="group82" xml:space="preserve">
+    <value>Passive Targeting System</value>
+  </data>
+  <data name="group83" xml:space="preserve">
+    <value>Projectile Ammo</value>
+  </data>
+  <data name="group85" xml:space="preserve">
+    <value>Hybrid Charge</value>
+  </data>
+  <data name="group86" xml:space="preserve">
+    <value>Frequency Crystal</value>
+  </data>
+  <data name="group87" xml:space="preserve">
+    <value>Capacitor Booster Charge</value>
+  </data>
+  <data name="group88" xml:space="preserve">
+    <value>Defender Missiles</value>
+  </data>
+  <data name="group89" xml:space="preserve">
+    <value>Torpedo</value>
+  </data>
+  <data name="group90" xml:space="preserve">
+    <value>Bomb</value>
+  </data>
+  <data name="group92" xml:space="preserve">
+    <value>Mine</value>
+  </data>
+  <data name="group94" xml:space="preserve">
+    <value>Trading</value>
+  </data>
+  <data name="group95" xml:space="preserve">
+    <value>Trade Session</value>
+  </data>
+  <data name="group96" xml:space="preserve">
+    <value>Automated Targeting System</value>
+  </data>
+  <data name="group97" xml:space="preserve">
+    <value>Proximity Drone</value>
+  </data>
+  <data name="group98" xml:space="preserve">
+    <value>Armor Coating</value>
+  </data>
+  <data name="group99" xml:space="preserve">
+    <value>Sentry Gun</value>
+  </data>
+  <data name="group100" xml:space="preserve">
+    <value>Combat Drone</value>
+  </data>
+  <data name="group101" xml:space="preserve">
+    <value>Mining Drone</value>
+  </data>
+  <data name="group104" xml:space="preserve">
+    <value>Clone Blueprint</value>
+  </data>
+  <data name="group105" xml:space="preserve">
+    <value>Frigate Blueprint</value>
+  </data>
+  <data name="group106" xml:space="preserve">
+    <value>Cruiser Blueprint</value>
+  </data>
+  <data name="group107" xml:space="preserve">
+    <value>Battleship Blueprint</value>
+  </data>
+  <data name="group108" xml:space="preserve">
+    <value>Industrial Blueprint</value>
+  </data>
+  <data name="group109" xml:space="preserve">
+    <value>Capsule Blueprint</value>
+  </data>
+  <data name="group110" xml:space="preserve">
+    <value>Titan Blueprint</value>
+  </data>
+  <data name="group111" xml:space="preserve">
+    <value>Shuttle Blueprint</value>
+  </data>
+  <data name="group118" xml:space="preserve">
+    <value>Shield Extender Blueprint</value>
+  </data>
+  <data name="group119" xml:space="preserve">
+    <value>Shield Recharger Blueprint</value>
+  </data>
+  <data name="group120" xml:space="preserve">
+    <value>Shield Booster Blueprint</value>
+  </data>
+  <data name="group121" xml:space="preserve">
+    <value>Remote Shield Booster Blueprint</value>
+  </data>
+  <data name="group123" xml:space="preserve">
+    <value>Capacitor Recharger Blueprint</value>
+  </data>
+  <data name="group126" xml:space="preserve">
+    <value>Propulsion Module Blueprint</value>
+  </data>
+  <data name="group127" xml:space="preserve">
+    <value>Cargo Scanner Blueprint</value>
+  </data>
+  <data name="group128" xml:space="preserve">
+    <value>Ship Scanner Blueprint</value>
+  </data>
+  <data name="group129" xml:space="preserve">
+    <value>Survey Scanner Blueprint</value>
+  </data>
+  <data name="group130" xml:space="preserve">
+    <value>ECM Blueprint</value>
+  </data>
+  <data name="group131" xml:space="preserve">
+    <value>ECCM Blueprint</value>
+  </data>
+  <data name="group132" xml:space="preserve">
+    <value>Warp Scrambler Blueprint</value>
+  </data>
+  <data name="group133" xml:space="preserve">
+    <value>Energy Weapon Blueprint</value>
+  </data>
+  <data name="group134" xml:space="preserve">
+    <value>Mining Laser Blueprint</value>
+  </data>
+  <data name="group135" xml:space="preserve">
+    <value>Projectile Weapon Blueprint</value>
+  </data>
+  <data name="group136" xml:space="preserve">
+    <value>Missile Launcher Blueprint</value>
+  </data>
+  <data name="group137" xml:space="preserve">
+    <value>Power Manager Blueprint</value>
+  </data>
+  <data name="group139" xml:space="preserve">
+    <value>Gunnery Upgrade Blueprint</value>
+  </data>
+  <data name="group140" xml:space="preserve">
+    <value>Damage Control Blueprint</value>
+  </data>
+  <data name="group141" xml:space="preserve">
+    <value>Capacitor Battery Blueprint</value>
+  </data>
+  <data name="group142" xml:space="preserve">
+    <value>Armor Repair Unit Blueprint</value>
+  </data>
+  <data name="group143" xml:space="preserve">
+    <value>Hull Repair Unit Blueprint</value>
+  </data>
+  <data name="group145" xml:space="preserve">
+    <value>Stasis Web Blueprint</value>
+  </data>
+  <data name="group147" xml:space="preserve">
+    <value>Remote Capacitor Transmitter Blueprint</value>
+  </data>
+  <data name="group148" xml:space="preserve">
+    <value>Energy Nosferatu Blueprint</value>
+  </data>
+  <data name="group151" xml:space="preserve">
+    <value>Energy Neutralizer Blueprint</value>
+  </data>
+  <data name="group152" xml:space="preserve">
+    <value>Smart Bomb Blueprint</value>
+  </data>
+  <data name="group154" xml:space="preserve">
+    <value>Hybrid Weapon Blueprint</value>
+  </data>
+  <data name="group156" xml:space="preserve">
+    <value>Capacitor Booster Blueprint</value>
+  </data>
+  <data name="group157" xml:space="preserve">
+    <value>Shield Hardener Blueprint</value>
+  </data>
+  <data name="group158" xml:space="preserve">
+    <value>Hull Mods Blueprint</value>
+  </data>
+  <data name="group160" xml:space="preserve">
+    <value>Burst Jammer Blueprint</value>
+  </data>
+  <data name="group161" xml:space="preserve">
+    <value>Passive Targeting System Blueprint</value>
+  </data>
+  <data name="group162" xml:space="preserve">
+    <value>Automated Targeting System Blueprint</value>
+  </data>
+  <data name="group163" xml:space="preserve">
+    <value>Armor Coating Blueprint</value>
+  </data>
+  <data name="group165" xml:space="preserve">
+    <value>Projectile Ammo Blueprint</value>
+  </data>
+  <data name="group166" xml:space="preserve">
+    <value>Missile Blueprint</value>
+  </data>
+  <data name="group167" xml:space="preserve">
+    <value>Hybrid Charge Blueprint</value>
+  </data>
+  <data name="group168" xml:space="preserve">
+    <value>Frequency Crystal Blueprint</value>
+  </data>
+  <data name="group169" xml:space="preserve">
+    <value>Capacitor Booster Charge Blueprint</value>
+  </data>
+  <data name="group170" xml:space="preserve">
+    <value>Defender Missile Blueprint</value>
+  </data>
+  <data name="group172" xml:space="preserve">
+    <value>Bomb Blueprint</value>
+  </data>
+  <data name="group174" xml:space="preserve">
+    <value>Mine Blueprint</value>
+  </data>
+  <data name="group175" xml:space="preserve">
+    <value>Proximity Drone Blueprint</value>
+  </data>
+  <data name="group176" xml:space="preserve">
+    <value>Combat Drone Blueprint</value>
+  </data>
+  <data name="group177" xml:space="preserve">
+    <value>Mining Drone Blueprint</value>
+  </data>
+  <data name="group178" xml:space="preserve">
+    <value>Drug Blueprint</value>
+  </data>
+  <data name="group180" xml:space="preserve">
+    <value>Protective Sentry Gun</value>
+  </data>
+  <data name="group182" xml:space="preserve">
+    <value>Police Drone</value>
+  </data>
+  <data name="group185" xml:space="preserve">
+    <value>Pirate Drone</value>
+  </data>
+  <data name="group186" xml:space="preserve">
+    <value>Wreck</value>
+  </data>
+  <data name="group190" xml:space="preserve">
+    <value>Bloodline Bonus</value>
+  </data>
+  <data name="group191" xml:space="preserve">
+    <value>Physical Benefit</value>
+  </data>
+  <data name="group192" xml:space="preserve">
+    <value>Physical Handicap</value>
+  </data>
+  <data name="group193" xml:space="preserve">
+    <value>Phobia Handicap</value>
+  </data>
+  <data name="group194" xml:space="preserve">
+    <value>Social Handicap</value>
+  </data>
+  <data name="group195" xml:space="preserve">
+    <value>Amarr Education</value>
+  </data>
+  <data name="group196" xml:space="preserve">
+    <value>Caldari Education</value>
+  </data>
+  <data name="group197" xml:space="preserve">
+    <value>Gallente Education</value>
+  </data>
+  <data name="group198" xml:space="preserve">
+    <value>Minmatar Education</value>
+  </data>
+  <data name="group199" xml:space="preserve">
+    <value>Career Bonus</value>
+  </data>
+  <data name="group201" xml:space="preserve">
+    <value>ECM</value>
+  </data>
+  <data name="group202" xml:space="preserve">
+    <value>ECCM</value>
+  </data>
+  <data name="group203" xml:space="preserve">
+    <value>Sensor Backup Array</value>
+  </data>
+  <data name="group205" xml:space="preserve">
+    <value>Heat Sink</value>
+  </data>
+  <data name="group208" xml:space="preserve">
+    <value>Sensor Dampener</value>
+  </data>
+  <data name="group209" xml:space="preserve">
+    <value>Remote Tracking Computer</value>
+  </data>
+  <data name="group210" xml:space="preserve">
+    <value>Signal Amplifier</value>
+  </data>
+  <data name="group211" xml:space="preserve">
+    <value>Tracking Enhancer</value>
+  </data>
+  <data name="group212" xml:space="preserve">
+    <value>Sensor Booster</value>
+  </data>
+  <data name="group213" xml:space="preserve">
+    <value>Tracking Computer</value>
+  </data>
+  <data name="group218" xml:space="preserve">
+    <value>Heat Sink Blueprint</value>
+  </data>
+  <data name="group223" xml:space="preserve">
+    <value>Sensor Booster Blueprint</value>
+  </data>
+  <data name="group224" xml:space="preserve">
+    <value>Tracking Computer Blueprint</value>
+  </data>
+  <data name="group225" xml:space="preserve">
+    <value>Cheat Module Group</value>
+  </data>
+  <data name="group226" xml:space="preserve">
+    <value>Large Collidable Object</value>
+  </data>
+  <data name="group227" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="group237" xml:space="preserve">
+    <value>Corvette</value>
+  </data>
+  <data name="group255" xml:space="preserve">
+    <value>Gunnery</value>
+  </data>
+  <data name="group256" xml:space="preserve">
+    <value>Missiles</value>
+  </data>
+  <data name="group257" xml:space="preserve">
+    <value>Spaceship Command</value>
+  </data>
+  <data name="group258" xml:space="preserve">
+    <value>Fleet Support</value>
+  </data>
+  <data name="group266" xml:space="preserve">
+    <value>Corporation Management</value>
+  </data>
+  <data name="group267" xml:space="preserve">
+    <value>Obsolete Books</value>
+  </data>
+  <data name="group268" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="group269" xml:space="preserve">
+    <value>Rigging</value>
+  </data>
+  <data name="group270" xml:space="preserve">
+    <value>Science</value>
+  </data>
+  <data name="group272" xml:space="preserve">
+    <value>Electronic Systems</value>
+  </data>
+  <data name="group273" xml:space="preserve">
+    <value>Drones</value>
+  </data>
+  <data name="group274" xml:space="preserve">
+    <value>Trade</value>
+  </data>
+  <data name="group275" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="group278" xml:space="preserve">
+    <value>Social</value>
+  </data>
+  <data name="group279" xml:space="preserve">
+    <value>LCO Drone</value>
+  </data>
+  <data name="group280" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="group281" xml:space="preserve">
+    <value>Frozen</value>
+  </data>
+  <data name="group282" xml:space="preserve">
+    <value>Radioactive</value>
+  </data>
+  <data name="group283" xml:space="preserve">
+    <value>Livestock</value>
+  </data>
+  <data name="group284" xml:space="preserve">
+    <value>Biohazard</value>
+  </data>
+  <data name="group285" xml:space="preserve">
+    <value>CPU Enhancer</value>
+  </data>
+  <data name="group286" xml:space="preserve">
+    <value>Minor Threat</value>
+  </data>
+  <data name="group287" xml:space="preserve">
+    <value>Rogue Drone</value>
+  </data>
+  <data name="group288" xml:space="preserve">
+    <value>Faction Drone</value>
+  </data>
+  <data name="group289" xml:space="preserve">
+    <value>Projected ECCM</value>
+  </data>
+  <data name="group290" xml:space="preserve">
+    <value>Remote Sensor Booster</value>
+  </data>
+  <data name="group291" xml:space="preserve">
+    <value>Weapon Disruptor</value>
+  </data>
+  <data name="group295" xml:space="preserve">
+    <value>Shield Resistance Amplifier</value>
+  </data>
+  <data name="group296" xml:space="preserve">
+    <value>Shield Resistance Amplifier Blueprint</value>
+  </data>
+  <data name="group297" xml:space="preserve">
+    <value>Convoy</value>
+  </data>
+  <data name="group298" xml:space="preserve">
+    <value>Convoy Drone</value>
+  </data>
+  <data name="group299" xml:space="preserve">
+    <value>Repair Drone</value>
+  </data>
+  <data name="group300" xml:space="preserve">
+    <value>Cyberimplant</value>
+  </data>
+  <data name="group301" xml:space="preserve">
+    <value>Concord Drone</value>
+  </data>
+  <data name="group302" xml:space="preserve">
+    <value>Magnetic Field Stabilizer</value>
+  </data>
+  <data name="group303" xml:space="preserve">
+    <value>Booster</value>
+  </data>
+  <data name="group304" xml:space="preserve">
+    <value>DNA Mutator</value>
+  </data>
+  <data name="group305" xml:space="preserve">
+    <value>Comet</value>
+  </data>
+  <data name="group306" xml:space="preserve">
+    <value>Spawn Container</value>
+  </data>
+  <data name="group307" xml:space="preserve">
+    <value>Construction Platform</value>
+  </data>
+  <data name="group308" xml:space="preserve">
+    <value>Countermeasure Launcher</value>
+  </data>
+  <data name="group309" xml:space="preserve">
+    <value>Autopilot</value>
+  </data>
+  <data name="group310" xml:space="preserve">
+    <value>Beacon</value>
+  </data>
+  <data name="group311" xml:space="preserve">
+    <value>Reprocessing Array</value>
+  </data>
+  <data name="group312" xml:space="preserve">
+    <value>Planetary Cloud</value>
+  </data>
+  <data name="group313" xml:space="preserve">
+    <value>Drugs</value>
+  </data>
+  <data name="group314" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="group315" xml:space="preserve">
+    <value>Warp Core Stabilizer</value>
+  </data>
+  <data name="group316" xml:space="preserve">
+    <value>Gang Coordinator</value>
+  </data>
+  <data name="group317" xml:space="preserve">
+    <value>Computer Interface Node</value>
+  </data>
+  <data name="group318" xml:space="preserve">
+    <value>Landmark</value>
+  </data>
+  <data name="group319" xml:space="preserve">
+    <value>Large Collidable Structure</value>
+  </data>
+  <data name="group321" xml:space="preserve">
+    <value>Shield Disruptor</value>
+  </data>
+  <data name="group323" xml:space="preserve">
+    <value>Billboard</value>
+  </data>
+  <data name="group324" xml:space="preserve">
+    <value>Assault Frigate</value>
+  </data>
+  <data name="group325" xml:space="preserve">
+    <value>Remote Armor Repairer</value>
+  </data>
+  <data name="group326" xml:space="preserve">
+    <value>Armor Plating Energized</value>
+  </data>
+  <data name="group328" xml:space="preserve">
+    <value>Armor Hardener</value>
+  </data>
+  <data name="group329" xml:space="preserve">
+    <value>Armor Reinforcer</value>
+  </data>
+  <data name="group330" xml:space="preserve">
+    <value>Cloaking Device</value>
+  </data>
+  <data name="group332" xml:space="preserve">
+    <value>Tool</value>
+  </data>
+  <data name="group333" xml:space="preserve">
+    <value>Datacores</value>
+  </data>
+  <data name="group334" xml:space="preserve">
+    <value>Construction Components</value>
+  </data>
+  <data name="group335" xml:space="preserve">
+    <value>Temporary Cloud</value>
+  </data>
+  <data name="group336" xml:space="preserve">
+    <value>Mobile Sentry Gun</value>
+  </data>
+  <data name="group337" xml:space="preserve">
+    <value>Mission Drone</value>
+  </data>
+  <data name="group338" xml:space="preserve">
+    <value>Shield Boost Amplifier</value>
+  </data>
+  <data name="group339" xml:space="preserve">
+    <value>Auxiliary Power Core</value>
+  </data>
+  <data name="group340" xml:space="preserve">
+    <value>Secure Cargo Container</value>
+  </data>
+  <data name="group341" xml:space="preserve">
+    <value>Signature Scrambling</value>
+  </data>
+  <data name="group342" xml:space="preserve">
+    <value>Anti Warp Scrambler Blueprint</value>
+  </data>
+  <data name="group343" xml:space="preserve">
+    <value>Weapon Disruptor Blueprint</value>
+  </data>
+  <data name="group344" xml:space="preserve">
+    <value>Tracking Enhancer Blueprint</value>
+  </data>
+  <data name="group345" xml:space="preserve">
+    <value>Remote Tracking Computer Blueprint</value>
+  </data>
+  <data name="group346" xml:space="preserve">
+    <value>Co-Processor Blueprint</value>
+  </data>
+  <data name="group347" xml:space="preserve">
+    <value>Signal Amplifier Blueprint</value>
+  </data>
+  <data name="group348" xml:space="preserve">
+    <value>Armor Hardener Blueprint</value>
+  </data>
+  <data name="group349" xml:space="preserve">
+    <value>Armor Reinforcer Blueprint</value>
+  </data>
+  <data name="group350" xml:space="preserve">
+    <value>Remote Armor Repairer Blueprint</value>
+  </data>
+  <data name="group352" xml:space="preserve">
+    <value>Auxiliary Power Core Blueprint</value>
+  </data>
+  <data name="group353" xml:space="preserve">
+    <value>QA Module</value>
+  </data>
+  <data name="group355" xml:space="preserve">
+    <value>Refinables</value>
+  </data>
+  <data name="group356" xml:space="preserve">
+    <value>Tool Blueprint</value>
+  </data>
+  <data name="group357" xml:space="preserve">
+    <value>DroneBayExpander</value>
+  </data>
+  <data name="group358" xml:space="preserve">
+    <value>Heavy Assault Cruiser</value>
+  </data>
+  <data name="group360" xml:space="preserve">
+    <value>Shield Boost Amplifier Blueprint</value>
+  </data>
+  <data name="group361" xml:space="preserve">
+    <value>Mobile Warp Disruptor</value>
+  </data>
+  <data name="group363" xml:space="preserve">
+    <value>Ship Maintenance Array</value>
+  </data>
+  <data name="group364" xml:space="preserve">
+    <value>Mobile Storage</value>
+  </data>
+  <data name="group365" xml:space="preserve">
+    <value>Control Tower</value>
+  </data>
+  <data name="group366" xml:space="preserve">
+    <value>Warp Gate</value>
+  </data>
+  <data name="group367" xml:space="preserve">
+    <value>Ballistic Control system</value>
+  </data>
+  <data name="group368" xml:space="preserve">
+    <value>Global Warp Disruptor</value>
+  </data>
+  <data name="group369" xml:space="preserve">
+    <value>Ship Logs</value>
+  </data>
+  <data name="group370" xml:space="preserve">
+    <value>Criminal Tags</value>
+  </data>
+  <data name="group371" xml:space="preserve">
+    <value>Mobile Warp Disruptor Blueprint</value>
+  </data>
+  <data name="group372" xml:space="preserve">
+    <value>Advanced Autocannon Ammo</value>
+  </data>
+  <data name="group373" xml:space="preserve">
+    <value>Advanced Railgun Charge</value>
+  </data>
+  <data name="group374" xml:space="preserve">
+    <value>Advanced Beam Laser Crystal</value>
+  </data>
+  <data name="group375" xml:space="preserve">
+    <value>Advanced Pulse Laser Crystal</value>
+  </data>
+  <data name="group376" xml:space="preserve">
+    <value>Advanced Artillery Ammo</value>
+  </data>
+  <data name="group377" xml:space="preserve">
+    <value>Advanced Blaster Charge</value>
+  </data>
+  <data name="group378" xml:space="preserve">
+    <value>Cruise Control</value>
+  </data>
+  <data name="group379" xml:space="preserve">
+    <value>Target Painter</value>
+  </data>
+  <data name="group380" xml:space="preserve">
+    <value>Deep Space Transport</value>
+  </data>
+  <data name="group381" xml:space="preserve">
+    <value>Elite Battleship</value>
+  </data>
+  <data name="group382" xml:space="preserve">
+    <value>Shipping Crates</value>
+  </data>
+  <data name="group383" xml:space="preserve">
+    <value>Destructible Sentry Gun</value>
+  </data>
+  <data name="group384" xml:space="preserve">
+    <value>Light Missile</value>
+  </data>
+  <data name="group385" xml:space="preserve">
+    <value>Heavy Missile</value>
+  </data>
+  <data name="group386" xml:space="preserve">
+    <value>Cruise Missile</value>
+  </data>
+  <data name="group387" xml:space="preserve">
+    <value>Rocket</value>
+  </data>
+  <data name="group394" xml:space="preserve">
+    <value>Auto-Targeting Light Missile</value>
+  </data>
+  <data name="group395" xml:space="preserve">
+    <value>Auto-Targeting Heavy Missile</value>
+  </data>
+  <data name="group396" xml:space="preserve">
+    <value>Auto-Targeting Cruise Missile</value>
+  </data>
+  <data name="group397" xml:space="preserve">
+    <value>Assembly Array</value>
+  </data>
+  <data name="group400" xml:space="preserve">
+    <value>Ballistic Control System Blueprint</value>
+  </data>
+  <data name="group401" xml:space="preserve">
+    <value>Cloaking Device Blueprint</value>
+  </data>
+  <data name="group404" xml:space="preserve">
+    <value>Silo</value>
+  </data>
+  <data name="group405" xml:space="preserve">
+    <value>Anti Cloaking Pulse</value>
+  </data>
+  <data name="group406" xml:space="preserve">
+    <value>Smartbomb Supercharger</value>
+  </data>
+  <data name="group407" xml:space="preserve">
+    <value>Fighter Support Unit</value>
+  </data>
+  <data name="group408" xml:space="preserve">
+    <value>Drone Upgrade Blueprint</value>
+  </data>
+  <data name="group409" xml:space="preserve">
+    <value>Empire Insignia Drops</value>
+  </data>
+  <data name="group410" xml:space="preserve">
+    <value>Anti Cloaking Pulse Blueprint</value>
+  </data>
+  <data name="group411" xml:space="preserve">
+    <value>Force Field</value>
+  </data>
+  <data name="group413" xml:space="preserve">
+    <value>Laboratory</value>
+  </data>
+  <data name="group414" xml:space="preserve">
+    <value>Mobile Power Core</value>
+  </data>
+  <data name="group416" xml:space="preserve">
+    <value>Moon Mining</value>
+  </data>
+  <data name="group417" xml:space="preserve">
+    <value>Mobile Missile Sentry</value>
+  </data>
+  <data name="group418" xml:space="preserve">
+    <value>Mobile Shield Generator</value>
+  </data>
+  <data name="group419" xml:space="preserve">
+    <value>Combat Battlecruiser</value>
+  </data>
+  <data name="group420" xml:space="preserve">
+    <value>Destroyer</value>
+  </data>
+  <data name="group422" xml:space="preserve">
+    <value>Gas Isotopes</value>
+  </data>
+  <data name="group423" xml:space="preserve">
+    <value>Ice Product</value>
+  </data>
+  <data name="group425" xml:space="preserve">
+    <value>Orbital Assault Unit</value>
+  </data>
+  <data name="group426" xml:space="preserve">
+    <value>Mobile Projectile Sentry</value>
+  </data>
+  <data name="group427" xml:space="preserve">
+    <value>Moon Materials</value>
+  </data>
+  <data name="group428" xml:space="preserve">
+    <value>Intermediate Materials</value>
+  </data>
+  <data name="group429" xml:space="preserve">
+    <value>Composite</value>
+  </data>
+  <data name="group430" xml:space="preserve">
+    <value>Mobile Laser Sentry</value>
+  </data>
+  <data name="group435" xml:space="preserve">
+    <value>Deadspace Overseer</value>
+  </data>
+  <data name="group436" xml:space="preserve">
+    <value>Simple Reaction</value>
+  </data>
+  <data name="group438" xml:space="preserve">
+    <value>Mobile Reactor</value>
+  </data>
+  <data name="group439" xml:space="preserve">
+    <value>Electronic Warfare Battery</value>
+  </data>
+  <data name="group440" xml:space="preserve">
+    <value>Sensor Dampening Battery</value>
+  </data>
+  <data name="group441" xml:space="preserve">
+    <value>Stasis Webification Battery</value>
+  </data>
+  <data name="group443" xml:space="preserve">
+    <value>Warp Scrambling Battery</value>
+  </data>
+  <data name="group444" xml:space="preserve">
+    <value>Shield Hardening Array</value>
+  </data>
+  <data name="group445" xml:space="preserve">
+    <value>Force Field Array</value>
+  </data>
+  <data name="group446" xml:space="preserve">
+    <value>Customs Official</value>
+  </data>
+  <data name="group447" xml:space="preserve">
+    <value>Construction Component Blueprints</value>
+  </data>
+  <data name="group448" xml:space="preserve">
+    <value>Audit Log Secure Container</value>
+  </data>
+  <data name="group449" xml:space="preserve">
+    <value>Mobile Hybrid Sentry</value>
+  </data>
+  <data name="group450" xml:space="preserve">
+    <value>Arkonor</value>
+  </data>
+  <data name="group451" xml:space="preserve">
+    <value>Bistot</value>
+  </data>
+  <data name="group452" xml:space="preserve">
+    <value>Crokite</value>
+  </data>
+  <data name="group453" xml:space="preserve">
+    <value>Dark Ochre</value>
+  </data>
+  <data name="group454" xml:space="preserve">
+    <value>Hedbergite</value>
+  </data>
+  <data name="group455" xml:space="preserve">
+    <value>Hemorphite</value>
+  </data>
+  <data name="group456" xml:space="preserve">
+    <value>Jaspet</value>
+  </data>
+  <data name="group457" xml:space="preserve">
+    <value>Kernite</value>
+  </data>
+  <data name="group458" xml:space="preserve">
+    <value>Plagioclase</value>
+  </data>
+  <data name="group459" xml:space="preserve">
+    <value>Pyroxeres</value>
+  </data>
+  <data name="group460" xml:space="preserve">
+    <value>Scordite</value>
+  </data>
+  <data name="group461" xml:space="preserve">
+    <value>Spodumain</value>
+  </data>
+  <data name="group462" xml:space="preserve">
+    <value>Veldspar</value>
+  </data>
+  <data name="group463" xml:space="preserve">
+    <value>Mining Barge</value>
+  </data>
+  <data name="group464" xml:space="preserve">
+    <value>Strip Miner</value>
+  </data>
+  <data name="group465" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="group467" xml:space="preserve">
+    <value>Gneiss</value>
+  </data>
+  <data name="group468" xml:space="preserve">
+    <value>Mercoxit</value>
+  </data>
+  <data name="group469" xml:space="preserve">
+    <value>Omber</value>
+  </data>
+  <data name="group470" xml:space="preserve">
+    <value>Unanchoring Drone</value>
+  </data>
+  <data name="group471" xml:space="preserve">
+    <value>Corporate Hangar Array</value>
+  </data>
+  <data name="group472" xml:space="preserve">
+    <value>System Scanner</value>
+  </data>
+  <data name="group473" xml:space="preserve">
+    <value>Tracking Array</value>
+  </data>
+  <data name="group474" xml:space="preserve">
+    <value>Acceleration Gate Keys</value>
+  </data>
+  <data name="group475" xml:space="preserve">
+    <value>Microwarpdrive</value>
+  </data>
+  <data name="group476" xml:space="preserve">
+    <value>XL Torpedo</value>
+  </data>
+  <data name="group477" xml:space="preserve">
+    <value>Mining Barge Blueprint</value>
+  </data>
+  <data name="group478" xml:space="preserve">
+    <value>System Scanner Blueprint</value>
+  </data>
+  <data name="group479" xml:space="preserve">
+    <value>Scanner Probe</value>
+  </data>
+  <data name="group480" xml:space="preserve">
+    <value>Stealth Emitter Array</value>
+  </data>
+  <data name="group481" xml:space="preserve">
+    <value>Scan Probe Launcher</value>
+  </data>
+  <data name="group482" xml:space="preserve">
+    <value>Mining Crystal</value>
+  </data>
+  <data name="group483" xml:space="preserve">
+    <value>Frequency Mining Laser</value>
+  </data>
+  <data name="group484" xml:space="preserve">
+    <value>Complex Reactions</value>
+  </data>
+  <data name="group485" xml:space="preserve">
+    <value>Dreadnought</value>
+  </data>
+  <data name="group486" xml:space="preserve">
+    <value>Scan Probe Blueprint</value>
+  </data>
+  <data name="group487" xml:space="preserve">
+    <value>Destroyer Blueprint</value>
+  </data>
+  <data name="group489" xml:space="preserve">
+    <value>Battlecruiser Blueprint</value>
+  </data>
+  <data name="group490" xml:space="preserve">
+    <value>Strip Miner Blueprint</value>
+  </data>
+  <data name="group492" xml:space="preserve">
+    <value>Survey Probe</value>
+  </data>
+  <data name="group493" xml:space="preserve">
+    <value>Overseer Personal Effects</value>
+  </data>
+  <data name="group494" xml:space="preserve">
+    <value>Deadspace Overseer's Structure</value>
+  </data>
+  <data name="group495" xml:space="preserve">
+    <value>Deadspace Overseer's Sentry</value>
+  </data>
+  <data name="group496" xml:space="preserve">
+    <value>Deadspace Overseer's Belongings</value>
+  </data>
+  <data name="group497" xml:space="preserve">
+    <value>Fuel</value>
+  </data>
+  <data name="group498" xml:space="preserve">
+    <value>Modifications</value>
+  </data>
+  <data name="group499" xml:space="preserve">
+    <value>New EW Testing</value>
+  </data>
+  <data name="group500" xml:space="preserve">
+    <value>Festival Charges</value>
+  </data>
+  <data name="group501" xml:space="preserve">
+    <value>Festival Launcher</value>
+  </data>
+  <data name="group502" xml:space="preserve">
+    <value>Cosmic Signature</value>
+  </data>
+  <data name="group503" xml:space="preserve">
+    <value>Elite Industrial Blueprint</value>
+  </data>
+  <data name="group504" xml:space="preserve">
+    <value>Target Painter Blueprint</value>
+  </data>
+  <data name="group505" xml:space="preserve">
+    <value>Fake Skills</value>
+  </data>
+  <data name="group506" xml:space="preserve">
+    <value>Missile Launcher Cruise</value>
+  </data>
+  <data name="group507" xml:space="preserve">
+    <value>Missile Launcher Rocket</value>
+  </data>
+  <data name="group508" xml:space="preserve">
+    <value>Missile Launcher Torpedo</value>
+  </data>
+  <data name="group509" xml:space="preserve">
+    <value>Missile Launcher Light</value>
+  </data>
+  <data name="group510" xml:space="preserve">
+    <value>Missile Launcher Heavy</value>
+  </data>
+  <data name="group511" xml:space="preserve">
+    <value>Missile Launcher Rapid Light</value>
+  </data>
+  <data name="group512" xml:space="preserve">
+    <value>Missile Launcher Defender</value>
+  </data>
+  <data name="group513" xml:space="preserve">
+    <value>Freighter</value>
+  </data>
+  <data name="group514" xml:space="preserve">
+    <value>ECM Stabilizer</value>
+  </data>
+  <data name="group515" xml:space="preserve">
+    <value>Siege Module</value>
+  </data>
+  <data name="group516" xml:space="preserve">
+    <value>Siege Module Blueprint</value>
+  </data>
+  <data name="group517" xml:space="preserve">
+    <value>Agents in Space</value>
+  </data>
+  <data name="group518" xml:space="preserve">
+    <value>Anti Ballistic Defense System</value>
+  </data>
+  <data name="group519" xml:space="preserve">
+    <value>Terran Artifacts</value>
+  </data>
+  <data name="group520" xml:space="preserve">
+    <value>Storyline Frigate</value>
+  </data>
+  <data name="group521" xml:space="preserve">
+    <value>Identification</value>
+  </data>
+  <data name="group522" xml:space="preserve">
+    <value>Storyline Cruiser</value>
+  </data>
+  <data name="group523" xml:space="preserve">
+    <value>Storyline Battleship</value>
+  </data>
+  <data name="group524" xml:space="preserve">
+    <value>Missile Launcher XL Torpedo</value>
+  </data>
+  <data name="group525" xml:space="preserve">
+    <value>Freighter Blueprint</value>
+  </data>
+  <data name="group526" xml:space="preserve">
+    <value>Commodities</value>
+  </data>
+  <data name="group527" xml:space="preserve">
+    <value>Storyline Mission Frigate</value>
+  </data>
+  <data name="group528" xml:space="preserve">
+    <value>Artifacts and Prototypes</value>
+  </data>
+  <data name="group530" xml:space="preserve">
+    <value>Materials and Compounds</value>
+  </data>
+  <data name="group532" xml:space="preserve">
+    <value>Gang Coordinator Blueprint</value>
+  </data>
+  <data name="group533" xml:space="preserve">
+    <value>Storyline Mission Cruiser</value>
+  </data>
+  <data name="group534" xml:space="preserve">
+    <value>Storyline Mission Battleship</value>
+  </data>
+  <data name="group535" xml:space="preserve">
+    <value>Construction Platform Blueprint</value>
+  </data>
+  <data name="group536" xml:space="preserve">
+    <value>Station Components</value>
+  </data>
+  <data name="group537" xml:space="preserve">
+    <value>Dreadnought Blueprint</value>
+  </data>
+  <data name="group538" xml:space="preserve">
+    <value>Data Miners</value>
+  </data>
+  <data name="group540" xml:space="preserve">
+    <value>Command Ship</value>
+  </data>
+  <data name="group541" xml:space="preserve">
+    <value>Interdictor</value>
+  </data>
+  <data name="group543" xml:space="preserve">
+    <value>Exhumer</value>
+  </data>
+  <data name="group544" xml:space="preserve">
+    <value>Energy Neutralizer Drone</value>
+  </data>
+  <data name="group545" xml:space="preserve">
+    <value>Warp Scrambling Drone</value>
+  </data>
+  <data name="group546" xml:space="preserve">
+    <value>Mining Upgrade</value>
+  </data>
+  <data name="group547" xml:space="preserve">
+    <value>Carrier</value>
+  </data>
+  <data name="group548" xml:space="preserve">
+    <value>Interdiction Probe</value>
+  </data>
+  <data name="group549" xml:space="preserve">
+    <value>Fighter Drone</value>
+  </data>
+  <data name="group550" xml:space="preserve">
+    <value>Asteroid Angel Cartel Frigate</value>
+  </data>
+  <data name="group551" xml:space="preserve">
+    <value>Asteroid Angel Cartel Cruiser</value>
+  </data>
+  <data name="group552" xml:space="preserve">
+    <value>Asteroid Angel Cartel Battleship</value>
+  </data>
+  <data name="group553" xml:space="preserve">
+    <value>Asteroid Angel Cartel Officer</value>
+  </data>
+  <data name="group554" xml:space="preserve">
+    <value>Asteroid Angel Cartel Hauler</value>
+  </data>
+  <data name="group555" xml:space="preserve">
+    <value>Asteroid Blood Raiders Cruiser</value>
+  </data>
+  <data name="group556" xml:space="preserve">
+    <value>Asteroid Blood Raiders Battleship</value>
+  </data>
+  <data name="group557" xml:space="preserve">
+    <value>Asteroid Blood Raiders Frigate</value>
+  </data>
+  <data name="group558" xml:space="preserve">
+    <value>Asteroid Blood Raiders Hauler</value>
+  </data>
+  <data name="group559" xml:space="preserve">
+    <value>Asteroid Blood Raiders Officer</value>
+  </data>
+  <data name="group560" xml:space="preserve">
+    <value>Asteroid Guristas Battleship</value>
+  </data>
+  <data name="group561" xml:space="preserve">
+    <value>Asteroid Guristas Cruiser</value>
+  </data>
+  <data name="group562" xml:space="preserve">
+    <value>Asteroid Guristas Frigate</value>
+  </data>
+  <data name="group563" xml:space="preserve">
+    <value>Asteroid Guristas Hauler</value>
+  </data>
+  <data name="group564" xml:space="preserve">
+    <value>Asteroid Guristas Officer</value>
+  </data>
+  <data name="group565" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Battleship</value>
+  </data>
+  <data name="group566" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Cruiser</value>
+  </data>
+  <data name="group567" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Frigate</value>
+  </data>
+  <data name="group568" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Hauler</value>
+  </data>
+  <data name="group569" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Officer</value>
+  </data>
+  <data name="group570" xml:space="preserve">
+    <value>Asteroid Serpentis Battleship</value>
+  </data>
+  <data name="group571" xml:space="preserve">
+    <value>Asteroid Serpentis Cruiser</value>
+  </data>
+  <data name="group572" xml:space="preserve">
+    <value>Asteroid Serpentis Frigate</value>
+  </data>
+  <data name="group573" xml:space="preserve">
+    <value>Asteroid Serpentis Hauler</value>
+  </data>
+  <data name="group574" xml:space="preserve">
+    <value>Asteroid Serpentis Officer</value>
+  </data>
+  <data name="group575" xml:space="preserve">
+    <value>Asteroid Angel Cartel Destroyer</value>
+  </data>
+  <data name="group576" xml:space="preserve">
+    <value>Asteroid Angel Cartel BattleCruiser</value>
+  </data>
+  <data name="group577" xml:space="preserve">
+    <value>Asteroid Blood Raiders Destroyer</value>
+  </data>
+  <data name="group578" xml:space="preserve">
+    <value>Asteroid Blood Raiders BattleCruiser</value>
+  </data>
+  <data name="group579" xml:space="preserve">
+    <value>Asteroid Guristas Destroyer</value>
+  </data>
+  <data name="group580" xml:space="preserve">
+    <value>Asteroid Guristas BattleCruiser</value>
+  </data>
+  <data name="group581" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Destroyer</value>
+  </data>
+  <data name="group582" xml:space="preserve">
+    <value>Asteroid Sansha's Nation BattleCruiser</value>
+  </data>
+  <data name="group583" xml:space="preserve">
+    <value>Asteroid Serpentis Destroyer</value>
+  </data>
+  <data name="group584" xml:space="preserve">
+    <value>Asteroid Serpentis BattleCruiser</value>
+  </data>
+  <data name="group585" xml:space="preserve">
+    <value>Remote Hull Repairer</value>
+  </data>
+  <data name="group586" xml:space="preserve">
+    <value>Drone Modules</value>
+  </data>
+  <data name="group588" xml:space="preserve">
+    <value>Super Weapon</value>
+  </data>
+  <data name="group589" xml:space="preserve">
+    <value>Interdiction Sphere Launcher</value>
+  </data>
+  <data name="group590" xml:space="preserve">
+    <value>Jump Portal Generator</value>
+  </data>
+  <data name="group593" xml:space="preserve">
+    <value>Deadspace Angel Cartel BattleCruiser</value>
+  </data>
+  <data name="group594" xml:space="preserve">
+    <value>Deadspace Angel Cartel Battleship</value>
+  </data>
+  <data name="group595" xml:space="preserve">
+    <value>Deadspace Angel Cartel Cruiser</value>
+  </data>
+  <data name="group596" xml:space="preserve">
+    <value>Deadspace Angel Cartel Destroyer</value>
+  </data>
+  <data name="group597" xml:space="preserve">
+    <value>Deadspace Angel Cartel Frigate</value>
+  </data>
+  <data name="group602" xml:space="preserve">
+    <value>Deadspace Blood Raiders BattleCruiser</value>
+  </data>
+  <data name="group603" xml:space="preserve">
+    <value>Deadspace Blood Raiders Battleship</value>
+  </data>
+  <data name="group604" xml:space="preserve">
+    <value>Deadspace Blood Raiders Cruiser</value>
+  </data>
+  <data name="group605" xml:space="preserve">
+    <value>Deadspace Blood Raiders Destroyer</value>
+  </data>
+  <data name="group606" xml:space="preserve">
+    <value>Deadspace Blood Raiders Frigate</value>
+  </data>
+  <data name="group611" xml:space="preserve">
+    <value>Deadspace Guristas BattleCruiser</value>
+  </data>
+  <data name="group612" xml:space="preserve">
+    <value>Deadspace Guristas Battleship</value>
+  </data>
+  <data name="group613" xml:space="preserve">
+    <value>Deadspace Guristas Cruiser</value>
+  </data>
+  <data name="group614" xml:space="preserve">
+    <value>Deadspace Guristas Destroyer</value>
+  </data>
+  <data name="group615" xml:space="preserve">
+    <value>Deadspace Guristas Frigate</value>
+  </data>
+  <data name="group620" xml:space="preserve">
+    <value>Deadspace Sansha's Nation BattleCruiser</value>
+  </data>
+  <data name="group621" xml:space="preserve">
+    <value>Deadspace Sansha's Nation Battleship</value>
+  </data>
+  <data name="group622" xml:space="preserve">
+    <value>Deadspace Sansha's Nation Cruiser</value>
+  </data>
+  <data name="group623" xml:space="preserve">
+    <value>Deadspace Sansha's Nation Destroyer</value>
+  </data>
+  <data name="group624" xml:space="preserve">
+    <value>Deadspace Sansha's Nation Frigate</value>
+  </data>
+  <data name="group629" xml:space="preserve">
+    <value>Deadspace Serpentis BattleCruiser</value>
+  </data>
+  <data name="group630" xml:space="preserve">
+    <value>Deadspace Serpentis Battleship</value>
+  </data>
+  <data name="group631" xml:space="preserve">
+    <value>Deadspace Serpentis Cruiser</value>
+  </data>
+  <data name="group632" xml:space="preserve">
+    <value>Deadspace Serpentis Destroyer</value>
+  </data>
+  <data name="group633" xml:space="preserve">
+    <value>Deadspace Serpentis Frigate</value>
+  </data>
+  <data name="group638" xml:space="preserve">
+    <value>Navigation Computer</value>
+  </data>
+  <data name="group639" xml:space="preserve">
+    <value>Electronic Warfare Drone</value>
+  </data>
+  <data name="group640" xml:space="preserve">
+    <value>Logistic Drone</value>
+  </data>
+  <data name="group641" xml:space="preserve">
+    <value>Stasis Webifying Drone</value>
+  </data>
+  <data name="group642" xml:space="preserve">
+    <value>Super Gang Enhancer</value>
+  </data>
+  <data name="group643" xml:space="preserve">
+    <value>Carrier Blueprint</value>
+  </data>
+  <data name="group644" xml:space="preserve">
+    <value>Drone Navigation Computer</value>
+  </data>
+  <data name="group645" xml:space="preserve">
+    <value>Drone Damage Modules</value>
+  </data>
+  <data name="group646" xml:space="preserve">
+    <value>Drone Tracking Modules</value>
+  </data>
+  <data name="group647" xml:space="preserve">
+    <value>Drone Control Range Module</value>
+  </data>
+  <data name="group648" xml:space="preserve">
+    <value>Advanced Rocket</value>
+  </data>
+  <data name="group649" xml:space="preserve">
+    <value>Freight Container</value>
+  </data>
+  <data name="group650" xml:space="preserve">
+    <value>Tractor Beam</value>
+  </data>
+  <data name="group651" xml:space="preserve">
+    <value>Super Weapon Blueprint</value>
+  </data>
+  <data name="group652" xml:space="preserve">
+    <value>Lease</value>
+  </data>
+  <data name="group653" xml:space="preserve">
+    <value>Advanced Light Missile</value>
+  </data>
+  <data name="group654" xml:space="preserve">
+    <value>Advanced Heavy Assault Missile</value>
+  </data>
+  <data name="group655" xml:space="preserve">
+    <value>Advanced Heavy Missile</value>
+  </data>
+  <data name="group656" xml:space="preserve">
+    <value>Advanced Cruise Missile</value>
+  </data>
+  <data name="group657" xml:space="preserve">
+    <value>Advanced Torpedo</value>
+  </data>
+  <data name="group658" xml:space="preserve">
+    <value>Cynosural Field</value>
+  </data>
+  <data name="group659" xml:space="preserve">
+    <value>Supercarrier</value>
+  </data>
+  <data name="group660" xml:space="preserve">
+    <value>Energy Vampire Slayer</value>
+  </data>
+  <data name="group661" xml:space="preserve">
+    <value>Simple Biochemical Reactions</value>
+  </data>
+  <data name="group662" xml:space="preserve">
+    <value>Complex Biochemical Reactions</value>
+  </data>
+  <data name="group663" xml:space="preserve">
+    <value>Mercoxit Mining Crystal</value>
+  </data>
+  <data name="group665" xml:space="preserve">
+    <value>Mission Amarr Empire Frigate</value>
+  </data>
+  <data name="group666" xml:space="preserve">
+    <value>Mission Amarr Empire Battlecruiser</value>
+  </data>
+  <data name="group667" xml:space="preserve">
+    <value>Mission Amarr Empire Battleship</value>
+  </data>
+  <data name="group668" xml:space="preserve">
+    <value>Mission Amarr Empire Cruiser</value>
+  </data>
+  <data name="group669" xml:space="preserve">
+    <value>Mission Amarr Empire Destroyer</value>
+  </data>
+  <data name="group670" xml:space="preserve">
+    <value>Mission Amarr Empire Other</value>
+  </data>
+  <data name="group671" xml:space="preserve">
+    <value>Mission Caldari State Frigate</value>
+  </data>
+  <data name="group672" xml:space="preserve">
+    <value>Mission Caldari State Battlecruiser</value>
+  </data>
+  <data name="group673" xml:space="preserve">
+    <value>Mission Caldari State Cruiser</value>
+  </data>
+  <data name="group674" xml:space="preserve">
+    <value>Mission Caldari State Battleship</value>
+  </data>
+  <data name="group675" xml:space="preserve">
+    <value>Mission Caldari State Other</value>
+  </data>
+  <data name="group676" xml:space="preserve">
+    <value>Mission Caldari State Destroyer</value>
+  </data>
+  <data name="group677" xml:space="preserve">
+    <value>Mission Gallente Federation Frigate</value>
+  </data>
+  <data name="group678" xml:space="preserve">
+    <value>Mission Gallente Federation Cruiser</value>
+  </data>
+  <data name="group679" xml:space="preserve">
+    <value>Mission Gallente Federation Destroyer</value>
+  </data>
+  <data name="group680" xml:space="preserve">
+    <value>Mission Gallente Federation Battleship</value>
+  </data>
+  <data name="group681" xml:space="preserve">
+    <value>Mission Gallente Federation Battlecruiser</value>
+  </data>
+  <data name="group682" xml:space="preserve">
+    <value>Mission Gallente Federation Other</value>
+  </data>
+  <data name="group683" xml:space="preserve">
+    <value>Mission Minmatar Republic Frigate</value>
+  </data>
+  <data name="group684" xml:space="preserve">
+    <value>Mission Minmatar Republic Destroyer</value>
+  </data>
+  <data name="group685" xml:space="preserve">
+    <value>Mission Minmatar Republic Battlecruiser</value>
+  </data>
+  <data name="group686" xml:space="preserve">
+    <value>Mission Minmatar Republic Other</value>
+  </data>
+  <data name="group687" xml:space="preserve">
+    <value>Mission Khanid Frigate</value>
+  </data>
+  <data name="group688" xml:space="preserve">
+    <value>Mission Khanid Destroyer</value>
+  </data>
+  <data name="group689" xml:space="preserve">
+    <value>Mission Khanid Cruiser</value>
+  </data>
+  <data name="group690" xml:space="preserve">
+    <value>Mission Khanid Battlecruiser</value>
+  </data>
+  <data name="group691" xml:space="preserve">
+    <value>Mission Khanid Battleship</value>
+  </data>
+  <data name="group692" xml:space="preserve">
+    <value>Mission Khanid Other</value>
+  </data>
+  <data name="group693" xml:space="preserve">
+    <value>Mission CONCORD Frigate</value>
+  </data>
+  <data name="group694" xml:space="preserve">
+    <value>Mission CONCORD Destroyer</value>
+  </data>
+  <data name="group695" xml:space="preserve">
+    <value>Mission CONCORD Cruiser</value>
+  </data>
+  <data name="group696" xml:space="preserve">
+    <value>Mission CONCORD Battlecruiser</value>
+  </data>
+  <data name="group697" xml:space="preserve">
+    <value>Mission CONCORD Battleship</value>
+  </data>
+  <data name="group698" xml:space="preserve">
+    <value>Mission CONCORD Other</value>
+  </data>
+  <data name="group699" xml:space="preserve">
+    <value>Mission Mordu Frigate</value>
+  </data>
+  <data name="group700" xml:space="preserve">
+    <value>Mission Mordu Destroyer</value>
+  </data>
+  <data name="group701" xml:space="preserve">
+    <value>Mission Mordu Cruiser</value>
+  </data>
+  <data name="group702" xml:space="preserve">
+    <value>Mission Mordu Battlecruiser</value>
+  </data>
+  <data name="group703" xml:space="preserve">
+    <value>Mission Mordu Battleship</value>
+  </data>
+  <data name="group704" xml:space="preserve">
+    <value>Mission Mordu Other</value>
+  </data>
+  <data name="group705" xml:space="preserve">
+    <value>Mission Minmatar Republic Cruiser</value>
+  </data>
+  <data name="group706" xml:space="preserve">
+    <value>Mission Minmatar Republic Battleship</value>
+  </data>
+  <data name="group707" xml:space="preserve">
+    <value>Jump Portal Array</value>
+  </data>
+  <data name="group709" xml:space="preserve">
+    <value>Scanner Array</value>
+  </data>
+  <data name="group710" xml:space="preserve">
+    <value>Logistics Array</value>
+  </data>
+  <data name="group711" xml:space="preserve">
+    <value>Harvestable Cloud</value>
+  </data>
+  <data name="group712" xml:space="preserve">
+    <value>Biochemical Material</value>
+  </data>
+  <data name="group715" xml:space="preserve">
+    <value>Destructible Agents In Space</value>
+  </data>
+  <data name="group716" xml:space="preserve">
+    <value>Data Interfaces</value>
+  </data>
+  <data name="group718" xml:space="preserve">
+    <value>Booster Blueprints</value>
+  </data>
+  <data name="group721" xml:space="preserve">
+    <value>Temp</value>
+  </data>
+  <data name="group722" xml:space="preserve">
+    <value>Advanced Hybrid Charge Blueprint</value>
+  </data>
+  <data name="group723" xml:space="preserve">
+    <value>Tractor Beam Blueprint</value>
+  </data>
+  <data name="group724" xml:space="preserve">
+    <value>Implant Blueprints</value>
+  </data>
+  <data name="group725" xml:space="preserve">
+    <value>Advanced Projectile Ammo Blueprint</value>
+  </data>
+  <data name="group726" xml:space="preserve">
+    <value>Advanced Frequency Crystal Blueprint</value>
+  </data>
+  <data name="group727" xml:space="preserve">
+    <value>Mining Crystal Blueprint</value>
+  </data>
+  <data name="group728" xml:space="preserve">
+    <value>Decryptors - Amarr</value>
+  </data>
+  <data name="group729" xml:space="preserve">
+    <value>Decryptors - Minmatar</value>
+  </data>
+  <data name="group730" xml:space="preserve">
+    <value>Decryptors - Gallente</value>
+  </data>
+  <data name="group731" xml:space="preserve">
+    <value>Decryptors - Caldari</value>
+  </data>
+  <data name="group732" xml:space="preserve">
+    <value>Decryptors - Sleepers</value>
+  </data>
+  <data name="group733" xml:space="preserve">
+    <value>Decryptors - Yan Jung</value>
+  </data>
+  <data name="group734" xml:space="preserve">
+    <value>Decryptors - Takmahl</value>
+  </data>
+  <data name="group735" xml:space="preserve">
+    <value>Decryptors - Talocan</value>
+  </data>
+  <data name="group737" xml:space="preserve">
+    <value>Gas Cloud Harvester</value>
+  </data>
+  <data name="group738" xml:space="preserve">
+    <value>Cyber Armor</value>
+  </data>
+  <data name="group739" xml:space="preserve">
+    <value>Cyber Drones</value>
+  </data>
+  <data name="group740" xml:space="preserve">
+    <value>Cyber Electronic Systems</value>
+  </data>
+  <data name="group741" xml:space="preserve">
+    <value>Cyber Engineering</value>
+  </data>
+  <data name="group742" xml:space="preserve">
+    <value>Cyber Gunnery</value>
+  </data>
+  <data name="group743" xml:space="preserve">
+    <value>Cyber Production</value>
+  </data>
+  <data name="group744" xml:space="preserve">
+    <value>Cyber Leadership</value>
+  </data>
+  <data name="group745" xml:space="preserve">
+    <value>Cyber Learning</value>
+  </data>
+  <data name="group746" xml:space="preserve">
+    <value>Cyber Missile</value>
+  </data>
+  <data name="group747" xml:space="preserve">
+    <value>Cyber Navigation</value>
+  </data>
+  <data name="group748" xml:space="preserve">
+    <value>Cyber Science</value>
+  </data>
+  <data name="group749" xml:space="preserve">
+    <value>Cyber Shields</value>
+  </data>
+  <data name="group750" xml:space="preserve">
+    <value>Cyber Social</value>
+  </data>
+  <data name="group751" xml:space="preserve">
+    <value>Cyber Trade</value>
+  </data>
+  <data name="group753" xml:space="preserve">
+    <value>ECM Enhancer</value>
+  </data>
+  <data name="group754" xml:space="preserve">
+    <value>Salvaged Materials</value>
+  </data>
+  <data name="group755" xml:space="preserve">
+    <value>Asteroid Rogue Drone BattleCruiser</value>
+  </data>
+  <data name="group756" xml:space="preserve">
+    <value>Asteroid Rogue Drone Battleship</value>
+  </data>
+  <data name="group757" xml:space="preserve">
+    <value>Asteroid Rogue Drone Cruiser</value>
+  </data>
+  <data name="group758" xml:space="preserve">
+    <value>Asteroid Rogue Drone Destroyer</value>
+  </data>
+  <data name="group759" xml:space="preserve">
+    <value>Asteroid Rogue Drone Frigate</value>
+  </data>
+  <data name="group760" xml:space="preserve">
+    <value>Asteroid Rogue Drone Hauler</value>
+  </data>
+  <data name="group761" xml:space="preserve">
+    <value>Asteroid Rogue Drone Swarm</value>
+  </data>
+  <data name="group762" xml:space="preserve">
+    <value>Inertial Stabilizer</value>
+  </data>
+  <data name="group763" xml:space="preserve">
+    <value>Nanofiber Internal Structure</value>
+  </data>
+  <data name="group764" xml:space="preserve">
+    <value>Overdrive Injector System</value>
+  </data>
+  <data name="group765" xml:space="preserve">
+    <value>Expanded Cargohold</value>
+  </data>
+  <data name="group766" xml:space="preserve">
+    <value>Power Diagnostic System</value>
+  </data>
+  <data name="group767" xml:space="preserve">
+    <value>Capacitor Power Relay</value>
+  </data>
+  <data name="group768" xml:space="preserve">
+    <value>Capacitor Flux Coil</value>
+  </data>
+  <data name="group769" xml:space="preserve">
+    <value>Reactor Control Unit</value>
+  </data>
+  <data name="group770" xml:space="preserve">
+    <value>Shield Flux Coil</value>
+  </data>
+  <data name="group771" xml:space="preserve">
+    <value>Missile Launcher Heavy Assault</value>
+  </data>
+  <data name="group772" xml:space="preserve">
+    <value>Heavy Assault Missile</value>
+  </data>
+  <data name="group773" xml:space="preserve">
+    <value>Rig Armor</value>
+  </data>
+  <data name="group774" xml:space="preserve">
+    <value>Rig Shield</value>
+  </data>
+  <data name="group775" xml:space="preserve">
+    <value>Rig Energy Weapon</value>
+  </data>
+  <data name="group776" xml:space="preserve">
+    <value>Rig Hybrid Weapon</value>
+  </data>
+  <data name="group777" xml:space="preserve">
+    <value>Rig Projectile Weapon</value>
+  </data>
+  <data name="group778" xml:space="preserve">
+    <value>Rig Drones</value>
+  </data>
+  <data name="group779" xml:space="preserve">
+    <value>Rig Launcher</value>
+  </data>
+  <data name="group781" xml:space="preserve">
+    <value>Rig Core</value>
+  </data>
+  <data name="group782" xml:space="preserve">
+    <value>Rig Navigation</value>
+  </data>
+  <data name="group783" xml:space="preserve">
+    <value>Cyber X Specials</value>
+  </data>
+  <data name="group784" xml:space="preserve">
+    <value>Large Collidable Ship</value>
+  </data>
+  <data name="group786" xml:space="preserve">
+    <value>Rig Electronic Systems</value>
+  </data>
+  <data name="group787" xml:space="preserve">
+    <value>Rig Blueprint</value>
+  </data>
+  <data name="group789" xml:space="preserve">
+    <value>Asteroid Angel Cartel Commander Frigate</value>
+  </data>
+  <data name="group790" xml:space="preserve">
+    <value>Asteroid Angel Cartel Commander Cruiser</value>
+  </data>
+  <data name="group791" xml:space="preserve">
+    <value>Asteroid Blood Raiders Commander Cruiser</value>
+  </data>
+  <data name="group792" xml:space="preserve">
+    <value>Asteroid Blood Raiders Commander Frigate</value>
+  </data>
+  <data name="group793" xml:space="preserve">
+    <value>Asteroid Angel Cartel Commander BattleCruiser</value>
+  </data>
+  <data name="group794" xml:space="preserve">
+    <value>Asteroid Angel Cartel Commander Destroyer</value>
+  </data>
+  <data name="group795" xml:space="preserve">
+    <value>Asteroid Blood Raiders Commander BattleCruiser</value>
+  </data>
+  <data name="group796" xml:space="preserve">
+    <value>Asteroid Blood Raiders Commander Destroyer</value>
+  </data>
+  <data name="group797" xml:space="preserve">
+    <value>Asteroid Guristas Commander BattleCruiser</value>
+  </data>
+  <data name="group798" xml:space="preserve">
+    <value>Asteroid Guristas Commander Cruiser</value>
+  </data>
+  <data name="group799" xml:space="preserve">
+    <value>Asteroid Guristas Commander Destroyer</value>
+  </data>
+  <data name="group800" xml:space="preserve">
+    <value>Asteroid Guristas Commander Frigate</value>
+  </data>
+  <data name="group801" xml:space="preserve">
+    <value>Deadspace Rogue Drone BattleCruiser</value>
+  </data>
+  <data name="group802" xml:space="preserve">
+    <value>Deadspace Rogue Drone Battleship</value>
+  </data>
+  <data name="group803" xml:space="preserve">
+    <value>Deadspace Rogue Drone Cruiser</value>
+  </data>
+  <data name="group804" xml:space="preserve">
+    <value>Deadspace Rogue Drone Destroyer</value>
+  </data>
+  <data name="group805" xml:space="preserve">
+    <value>Deadspace Rogue Drone Frigate</value>
+  </data>
+  <data name="group806" xml:space="preserve">
+    <value>Deadspace Rogue Drone Swarm</value>
+  </data>
+  <data name="group807" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Commander BattleCruiser</value>
+  </data>
+  <data name="group808" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Commander Cruiser</value>
+  </data>
+  <data name="group809" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Commander Destroyer</value>
+  </data>
+  <data name="group810" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Commander Frigate</value>
+  </data>
+  <data name="group811" xml:space="preserve">
+    <value>Asteroid Serpentis Commander BattleCruiser</value>
+  </data>
+  <data name="group812" xml:space="preserve">
+    <value>Asteroid Serpentis Commander Cruiser</value>
+  </data>
+  <data name="group813" xml:space="preserve">
+    <value>Asteroid Serpentis Commander Destroyer</value>
+  </data>
+  <data name="group814" xml:space="preserve">
+    <value>Asteroid Serpentis Commander Frigate</value>
+  </data>
+  <data name="group815" xml:space="preserve">
+    <value>Clone Vat Bay</value>
+  </data>
+  <data name="group816" xml:space="preserve">
+    <value>Mission Generic Battleships</value>
+  </data>
+  <data name="group817" xml:space="preserve">
+    <value>Mission Generic Cruisers</value>
+  </data>
+  <data name="group818" xml:space="preserve">
+    <value>Mission Generic Frigates</value>
+  </data>
+  <data name="group819" xml:space="preserve">
+    <value>Deadspace Overseer Frigate</value>
+  </data>
+  <data name="group820" xml:space="preserve">
+    <value>Deadspace Overseer Cruiser</value>
+  </data>
+  <data name="group821" xml:space="preserve">
+    <value>Deadspace Overseer Battleship</value>
+  </data>
+  <data name="group822" xml:space="preserve">
+    <value>Mission Thukker Battlecruiser</value>
+  </data>
+  <data name="group823" xml:space="preserve">
+    <value>Mission Thukker Battleship</value>
+  </data>
+  <data name="group824" xml:space="preserve">
+    <value>Mission Thukker Cruiser</value>
+  </data>
+  <data name="group825" xml:space="preserve">
+    <value>Mission Thukker Destroyer</value>
+  </data>
+  <data name="group826" xml:space="preserve">
+    <value>Mission Thukker Frigate</value>
+  </data>
+  <data name="group827" xml:space="preserve">
+    <value>Mission Thukker Other</value>
+  </data>
+  <data name="group828" xml:space="preserve">
+    <value>Mission Generic Battle Cruisers</value>
+  </data>
+  <data name="group829" xml:space="preserve">
+    <value>Mission Generic Destroyers</value>
+  </data>
+  <data name="group830" xml:space="preserve">
+    <value>Covert Ops</value>
+  </data>
+  <data name="group831" xml:space="preserve">
+    <value>Interceptor</value>
+  </data>
+  <data name="group832" xml:space="preserve">
+    <value>Logistics</value>
+  </data>
+  <data name="group833" xml:space="preserve">
+    <value>Force Recon Ship</value>
+  </data>
+  <data name="group834" xml:space="preserve">
+    <value>Stealth Bomber</value>
+  </data>
+  <data name="group835" xml:space="preserve">
+    <value>Station Upgrade Platform</value>
+  </data>
+  <data name="group836" xml:space="preserve">
+    <value>Station Improvement Platform</value>
+  </data>
+  <data name="group837" xml:space="preserve">
+    <value>Energy Neutralizing Battery</value>
+  </data>
+  <data name="group838" xml:space="preserve">
+    <value>Cynosural Generator Array</value>
+  </data>
+  <data name="group839" xml:space="preserve">
+    <value>Cynosural System Jammer</value>
+  </data>
+  <data name="group840" xml:space="preserve">
+    <value>Structure Repair Array</value>
+  </data>
+  <data name="group841" xml:space="preserve">
+    <value>Starbase - Control Tower Blueprints</value>
+  </data>
+  <data name="group842" xml:space="preserve">
+    <value>Burst Projectors</value>
+  </data>
+  <data name="group843" xml:space="preserve">
+    <value>Asteroid Rogue Drone Commander BattleCruiser</value>
+  </data>
+  <data name="group844" xml:space="preserve">
+    <value>Asteroid Rogue Drone Commander Battleship</value>
+  </data>
+  <data name="group845" xml:space="preserve">
+    <value>Asteroid Rogue Drone Commander Cruiser</value>
+  </data>
+  <data name="group846" xml:space="preserve">
+    <value>Asteroid Rogue Drone Commander Destroyer</value>
+  </data>
+  <data name="group847" xml:space="preserve">
+    <value>Asteroid Rogue Drone Commander Frigate</value>
+  </data>
+  <data name="group848" xml:space="preserve">
+    <value>Asteroid Angel Cartel Commander Battleship</value>
+  </data>
+  <data name="group849" xml:space="preserve">
+    <value>Asteroid Blood Raiders Commander Battleship</value>
+  </data>
+  <data name="group850" xml:space="preserve">
+    <value>Asteroid Guristas Commander Battleship</value>
+  </data>
+  <data name="group851" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Commander Battleship</value>
+  </data>
+  <data name="group852" xml:space="preserve">
+    <value>Asteroid Serpentis Commander Battleship</value>
+  </data>
+  <data name="group853" xml:space="preserve">
+    <value>Starbase - Laser Battery Blueprints</value>
+  </data>
+  <data name="group854" xml:space="preserve">
+    <value>Starbase - Projectile Battery Blueprints</value>
+  </data>
+  <data name="group855" xml:space="preserve">
+    <value>Starbase - Hybrid Battery Blueprints</value>
+  </data>
+  <data name="group856" xml:space="preserve">
+    <value>Starbase - ECM Jamming Array Blueprints</value>
+  </data>
+  <data name="group857" xml:space="preserve">
+    <value>Starbase - Warp Scrambling Battery Blueprints</value>
+  </data>
+  <data name="group858" xml:space="preserve">
+    <value>Starbase - Stasis Webification Battery Blueprints</value>
+  </data>
+  <data name="group859" xml:space="preserve">
+    <value>Starbase - Sensor Dampening Array Blueprints</value>
+  </data>
+  <data name="group860" xml:space="preserve">
+    <value>Starbase - Energy Neutralizing Battery Blueprints</value>
+  </data>
+  <data name="group861" xml:space="preserve">
+    <value>Mission Fighter Drone</value>
+  </data>
+  <data name="group862" xml:space="preserve">
+    <value>Missile Launcher Bomb</value>
+  </data>
+  <data name="group863" xml:space="preserve">
+    <value>Bomb ECM</value>
+  </data>
+  <data name="group864" xml:space="preserve">
+    <value>Bomb Energy</value>
+  </data>
+  <data name="group865" xml:space="preserve">
+    <value>Mission Amarr Empire Carrier</value>
+  </data>
+  <data name="group866" xml:space="preserve">
+    <value>Mission Caldari State Carrier</value>
+  </data>
+  <data name="group867" xml:space="preserve">
+    <value>Mission Gallente Federation Carrier</value>
+  </data>
+  <data name="group868" xml:space="preserve">
+    <value>Mission Minmatar Republic Carrier</value>
+  </data>
+  <data name="group870" xml:space="preserve">
+    <value>Remote Hull Repairer Blueprint</value>
+  </data>
+  <data name="group871" xml:space="preserve">
+    <value>Starbase - Missile Battery Blueprints</value>
+  </data>
+  <data name="group872" xml:space="preserve">
+    <value>Outpost Improvements</value>
+  </data>
+  <data name="group873" xml:space="preserve">
+    <value>Capital Construction Components</value>
+  </data>
+  <data name="group874" xml:space="preserve">
+    <value>Disruptable Station Services</value>
+  </data>
+  <data name="group875" xml:space="preserve">
+    <value>Mission Faction Transports</value>
+  </data>
+  <data name="group876" xml:space="preserve">
+    <value>Outpost Upgrades</value>
+  </data>
+  <data name="group877" xml:space="preserve">
+    <value>Target Painting Battery</value>
+  </data>
+  <data name="group878" xml:space="preserve">
+    <value>Cloak Enhancements</value>
+  </data>
+  <data name="group879" xml:space="preserve">
+    <value>Slave Reception</value>
+  </data>
+  <data name="group880" xml:space="preserve">
+    <value>Sleeper Components</value>
+  </data>
+  <data name="group881" xml:space="preserve">
+    <value>Freedom Programs</value>
+  </data>
+  <data name="group882" xml:space="preserve">
+    <value>Enslavement Programs</value>
+  </data>
+  <data name="group883" xml:space="preserve">
+    <value>Capital Industrial Ship</value>
+  </data>
+  <data name="group884" xml:space="preserve">
+    <value>Test Compressed Ore</value>
+  </data>
+  <data name="group885" xml:space="preserve">
+    <value>Cosmic Anomaly</value>
+  </data>
+  <data name="group886" xml:space="preserve">
+    <value>Rogue Drone Components</value>
+  </data>
+  <data name="group888" xml:space="preserve">
+    <value>Ore Compression Blueprints</value>
+  </data>
+  <data name="group889" xml:space="preserve">
+    <value>Ore Enhancement Blueprints</value>
+  </data>
+  <data name="group890" xml:space="preserve">
+    <value>Ice Compression Blueprints</value>
+  </data>
+  <data name="group891" xml:space="preserve">
+    <value>Starbase - Mobile Laboratory Blueprints</value>
+  </data>
+  <data name="group892" xml:space="preserve">
+    <value>Planet Satellites</value>
+  </data>
+  <data name="group893" xml:space="preserve">
+    <value>Electronic Attack Ship</value>
+  </data>
+  <data name="group894" xml:space="preserve">
+    <value>Heavy Interdiction Cruiser</value>
+  </data>
+  <data name="group896" xml:space="preserve">
+    <value>Rig Security Transponder</value>
+  </data>
+  <data name="group897" xml:space="preserve">
+    <value>Covert Beacon</value>
+  </data>
+  <data name="group898" xml:space="preserve">
+    <value>Black Ops</value>
+  </data>
+  <data name="group899" xml:space="preserve">
+    <value>Warp Disrupt Field Generator</value>
+  </data>
+  <data name="group900" xml:space="preserve">
+    <value>Marauder</value>
+  </data>
+  <data name="group901" xml:space="preserve">
+    <value>Mining Enhancer</value>
+  </data>
+  <data name="group902" xml:space="preserve">
+    <value>Jump Freighter</value>
+  </data>
+  <data name="group903" xml:space="preserve">
+    <value>Ancient Compressed Ice</value>
+  </data>
+  <data name="group904" xml:space="preserve">
+    <value>Rig Mining</value>
+  </data>
+  <data name="group905" xml:space="preserve">
+    <value>Covert Cynosural Field Generator</value>
+  </data>
+  <data name="group906" xml:space="preserve">
+    <value>Combat Recon Ship</value>
+  </data>
+  <data name="group907" xml:space="preserve">
+    <value>Tracking Script</value>
+  </data>
+  <data name="group908" xml:space="preserve">
+    <value>Warp Disruption Script</value>
+  </data>
+  <data name="group909" xml:space="preserve">
+    <value>Tracking Disruption Script</value>
+  </data>
+  <data name="group910" xml:space="preserve">
+    <value>Sensor Booster Script</value>
+  </data>
+  <data name="group911" xml:space="preserve">
+    <value>Sensor Dampener Script</value>
+  </data>
+  <data name="group912" xml:space="preserve">
+    <value>Script Blueprint</value>
+  </data>
+  <data name="group913" xml:space="preserve">
+    <value>Advanced Capital Construction Components</value>
+  </data>
+  <data name="group914" xml:space="preserve">
+    <value>Advanced Capital Construction Component Blueprints</value>
+  </data>
+  <data name="group915" xml:space="preserve">
+    <value>Capital Construction Blueprints</value>
+  </data>
+  <data name="group916" xml:space="preserve">
+    <value>Nanite Repair Paste</value>
+  </data>
+  <data name="group917" xml:space="preserve">
+    <value>Data Miner Blueprint</value>
+  </data>
+  <data name="group918" xml:space="preserve">
+    <value>Scan Probe Launcher Blueprint</value>
+  </data>
+  <data name="group920" xml:space="preserve">
+    <value>Effect Beacon</value>
+  </data>
+  <data name="group922" xml:space="preserve">
+    <value>Capture Point</value>
+  </data>
+  <data name="group924" xml:space="preserve">
+    <value>Mission Faction Battleship</value>
+  </data>
+  <data name="group925" xml:space="preserve">
+    <value>FW Infrastructure Hub</value>
+  </data>
+  <data name="group927" xml:space="preserve">
+    <value>Mission Faction Industrials</value>
+  </data>
+  <data name="group934" xml:space="preserve">
+    <value>Zombie Entities</value>
+  </data>
+  <data name="group935" xml:space="preserve">
+    <value>WorldSpace</value>
+  </data>
+  <data name="group937" xml:space="preserve">
+    <value>Decorations</value>
+  </data>
+  <data name="group940" xml:space="preserve">
+    <value>Furniture</value>
+  </data>
+  <data name="group941" xml:space="preserve">
+    <value>Industrial Command Ship</value>
+  </data>
+  <data name="group943" xml:space="preserve">
+    <value>Legacy Currency</value>
+  </data>
+  <data name="group944" xml:space="preserve">
+    <value>Capital Industrial Ship Blueprint</value>
+  </data>
+  <data name="group945" xml:space="preserve">
+    <value>Industrial Command Ship Blueprint</value>
+  </data>
+  <data name="group952" xml:space="preserve">
+    <value>Mission Container</value>
+  </data>
+  <data name="group954" xml:space="preserve">
+    <value>Defensive Systems</value>
+  </data>
+  <data name="group955" xml:space="preserve">
+    <value>Depricated Subsystems</value>
+  </data>
+  <data name="group956" xml:space="preserve">
+    <value>Offensive Systems</value>
+  </data>
+  <data name="group957" xml:space="preserve">
+    <value>Propulsion Systems</value>
+  </data>
+  <data name="group958" xml:space="preserve">
+    <value>Core Systems</value>
+  </data>
+  <data name="group959" xml:space="preserve">
+    <value>Deadspace Sleeper Sleepless Sentinel</value>
+  </data>
+  <data name="group960" xml:space="preserve">
+    <value>Deadspace Sleeper Awakened Sentinel</value>
+  </data>
+  <data name="group961" xml:space="preserve">
+    <value>Deadspace Sleeper Emergent Sentinel</value>
+  </data>
+  <data name="group963" xml:space="preserve">
+    <value>Strategic Cruiser</value>
+  </data>
+  <data name="group964" xml:space="preserve">
+    <value>Hybrid Tech Components</value>
+  </data>
+  <data name="group965" xml:space="preserve">
+    <value>Hybrid Component Blueprints</value>
+  </data>
+  <data name="group966" xml:space="preserve">
+    <value>Ancient Salvage</value>
+  </data>
+  <data name="group967" xml:space="preserve">
+    <value>Wormhole Minerals</value>
+  </data>
+  <data name="group971" xml:space="preserve">
+    <value>Sleeper Propulsion Relics</value>
+  </data>
+  <data name="group972" xml:space="preserve">
+    <value>Obsolete Probes</value>
+  </data>
+  <data name="group973" xml:space="preserve">
+    <value>Subsystem Blueprints</value>
+  </data>
+  <data name="group974" xml:space="preserve">
+    <value>Hybrid Polymers</value>
+  </data>
+  <data name="group976" xml:space="preserve">
+    <value>Festival Charges Expired</value>
+  </data>
+  <data name="group977" xml:space="preserve">
+    <value>Hybrid Reactions</value>
+  </data>
+  <data name="group979" xml:space="preserve">
+    <value>Decryptors - Hybrid</value>
+  </data>
+  <data name="group982" xml:space="preserve">
+    <value>Deadspace Sleeper Sleepless Defender</value>
+  </data>
+  <data name="group983" xml:space="preserve">
+    <value>Deadspace Sleeper Sleepless Patroller</value>
+  </data>
+  <data name="group984" xml:space="preserve">
+    <value>Deadspace Sleeper Awakened Defender</value>
+  </data>
+  <data name="group985" xml:space="preserve">
+    <value>Deadspace Sleeper Awakened Patroller</value>
+  </data>
+  <data name="group986" xml:space="preserve">
+    <value>Deadspace Sleeper Emergent Defender</value>
+  </data>
+  <data name="group987" xml:space="preserve">
+    <value>Deadspace Sleeper Emergent Patroller</value>
+  </data>
+  <data name="group988" xml:space="preserve">
+    <value>Wormhole</value>
+  </data>
+  <data name="group990" xml:space="preserve">
+    <value>Sleeper Electronics Relics</value>
+  </data>
+  <data name="group991" xml:space="preserve">
+    <value>Sleeper Offensive Relics</value>
+  </data>
+  <data name="group992" xml:space="preserve">
+    <value>Sleeper Engineering Relics</value>
+  </data>
+  <data name="group993" xml:space="preserve">
+    <value>Sleeper Defensive Relics</value>
+  </data>
+  <data name="group995" xml:space="preserve">
+    <value>Secondary Sun</value>
+  </data>
+  <data name="group996" xml:space="preserve">
+    <value>Strategic Cruiser Blueprints</value>
+  </data>
+  <data name="group997" xml:space="preserve">
+    <value>Sleeper Hull Relics</value>
+  </data>
+  <data name="group1003" xml:space="preserve">
+    <value>Territorial Claim Unit</value>
+  </data>
+  <data name="group1004" xml:space="preserve">
+    <value>Defense Bunkers</value>
+  </data>
+  <data name="group1005" xml:space="preserve">
+    <value>Sovereignty Blockade Unit</value>
+  </data>
+  <data name="group1006" xml:space="preserve">
+    <value>Mission Faction Cruiser</value>
+  </data>
+  <data name="group1007" xml:space="preserve">
+    <value>Mission Faction Frigate</value>
+  </data>
+  <data name="group1010" xml:space="preserve">
+    <value>Compact XL Torpedo</value>
+  </data>
+  <data name="group1012" xml:space="preserve">
+    <value>Infrastructure Hub</value>
+  </data>
+  <data name="group1013" xml:space="preserve">
+    <value>Supercarrier Blueprints</value>
+  </data>
+  <data name="group1016" xml:space="preserve">
+    <value>Strategic Upgrades</value>
+  </data>
+  <data name="group1019" xml:space="preserve">
+    <value>XL Cruise Missile</value>
+  </data>
+  <data name="group1020" xml:space="preserve">
+    <value>Industrial Upgrades</value>
+  </data>
+  <data name="group1021" xml:space="preserve">
+    <value>Military Upgrades</value>
+  </data>
+  <data name="group1022" xml:space="preserve">
+    <value>Prototype Exploration Ship</value>
+  </data>
+  <data name="group1023" xml:space="preserve">
+    <value>Fighter Bomber</value>
+  </data>
+  <data name="group1025" xml:space="preserve">
+    <value>Orbital Infrastructure</value>
+  </data>
+  <data name="group1026" xml:space="preserve">
+    <value>Extractors</value>
+  </data>
+  <data name="group1027" xml:space="preserve">
+    <value>Command Centers</value>
+  </data>
+  <data name="group1028" xml:space="preserve">
+    <value>Processors</value>
+  </data>
+  <data name="group1029" xml:space="preserve">
+    <value>Storage Facilities</value>
+  </data>
+  <data name="group1030" xml:space="preserve">
+    <value>Spaceports</value>
+  </data>
+  <data name="group1031" xml:space="preserve">
+    <value>Planetary Resources</value>
+  </data>
+  <data name="group1032" xml:space="preserve">
+    <value>Planet Solid</value>
+  </data>
+  <data name="group1033" xml:space="preserve">
+    <value>Planet Liquid-Gas</value>
+  </data>
+  <data name="group1034" xml:space="preserve">
+    <value>Refined Commodities</value>
+  </data>
+  <data name="group1035" xml:space="preserve">
+    <value>Planet Organic</value>
+  </data>
+  <data name="group1036" xml:space="preserve">
+    <value>Planetary Links</value>
+  </data>
+  <data name="group1040" xml:space="preserve">
+    <value>Specialized Commodities</value>
+  </data>
+  <data name="group1041" xml:space="preserve">
+    <value>Advanced Commodities</value>
+  </data>
+  <data name="group1042" xml:space="preserve">
+    <value>Basic Commodities</value>
+  </data>
+  <data name="group1045" xml:space="preserve">
+    <value>Sovereignty Structure Blueprint</value>
+  </data>
+  <data name="group1046" xml:space="preserve">
+    <value>Nanite Repair Paste Blueprint</value>
+  </data>
+  <data name="group1048" xml:space="preserve">
+    <value>Starbase Blueprint</value>
+  </data>
+  <data name="group1051" xml:space="preserve">
+    <value>Incursion Sansha's Nation Industrial</value>
+  </data>
+  <data name="group1052" xml:space="preserve">
+    <value>Incursion Sansha's Nation Capital</value>
+  </data>
+  <data name="group1053" xml:space="preserve">
+    <value>Incursion Sansha's Nation Frigate</value>
+  </data>
+  <data name="group1054" xml:space="preserve">
+    <value>Incursion Sansha's Nation Cruiser</value>
+  </data>
+  <data name="group1056" xml:space="preserve">
+    <value>Incursion Sansha's Nation Battleship</value>
+  </data>
+  <data name="group1063" xml:space="preserve">
+    <value>Extractor Control Units</value>
+  </data>
+  <data name="group1067" xml:space="preserve">
+    <value>MaterialZone</value>
+  </data>
+  <data name="group1068" xml:space="preserve">
+    <value>DetailMesh</value>
+  </data>
+  <data name="group1071" xml:space="preserve">
+    <value>Flashpoint</value>
+  </data>
+  <data name="group1073" xml:space="preserve">
+    <value>Test Orbitals</value>
+  </data>
+  <data name="group1079" xml:space="preserve">
+    <value>Generic</value>
+  </data>
+  <data name="group1081" xml:space="preserve">
+    <value>Mercenary Bases</value>
+  </data>
+  <data name="group1082" xml:space="preserve">
+    <value>Capsuleer Bases</value>
+  </data>
+  <data name="group1083" xml:space="preserve">
+    <value>Eyewear</value>
+  </data>
+  <data name="group1084" xml:space="preserve">
+    <value>Tattoos</value>
+  </data>
+  <data name="group1085" xml:space="preserve">
+    <value>Piercings</value>
+  </data>
+  <data name="group1086" xml:space="preserve">
+    <value>Scars</value>
+  </data>
+  <data name="group1087" xml:space="preserve">
+    <value>Mid Layer</value>
+  </data>
+  <data name="group1088" xml:space="preserve">
+    <value>Outer</value>
+  </data>
+  <data name="group1089" xml:space="preserve">
+    <value>Tops</value>
+  </data>
+  <data name="group1090" xml:space="preserve">
+    <value>Bottoms</value>
+  </data>
+  <data name="group1091" xml:space="preserve">
+    <value>Footwear</value>
+  </data>
+  <data name="group1092" xml:space="preserve">
+    <value>Headwear</value>
+  </data>
+  <data name="group1093" xml:space="preserve">
+    <value>Makeup</value>
+  </data>
+  <data name="group1105" xml:space="preserve">
+    <value>Lens Flares</value>
+  </data>
+  <data name="group1106" xml:space="preserve">
+    <value>Orbital Construction Platform</value>
+  </data>
+  <data name="group1107" xml:space="preserve">
+    <value>Particle Systems</value>
+  </data>
+  <data name="group1108" xml:space="preserve">
+    <value>Animated Lights</value>
+  </data>
+  <data name="group1109" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="group1110" xml:space="preserve">
+    <value>Point Lights</value>
+  </data>
+  <data name="group1111" xml:space="preserve">
+    <value>Box Lights</value>
+  </data>
+  <data name="group1112" xml:space="preserve">
+    <value>Spot Lights</value>
+  </data>
+  <data name="group1118" xml:space="preserve">
+    <value>Surface Infrastructure Prefab Units</value>
+  </data>
+  <data name="group1121" xml:space="preserve">
+    <value>Perception Points</value>
+  </data>
+  <data name="group1122" xml:space="preserve">
+    <value>Salvager</value>
+  </data>
+  <data name="group1123" xml:space="preserve">
+    <value>Salvager Blueprint</value>
+  </data>
+  <data name="group1126" xml:space="preserve">
+    <value>PhysicalPortals</value>
+  </data>
+  <data name="group1136" xml:space="preserve">
+    <value>Fuel Block</value>
+  </data>
+  <data name="group1137" xml:space="preserve">
+    <value>Fuel Block Blueprint</value>
+  </data>
+  <data name="group1139" xml:space="preserve">
+    <value>Mining Laser Upgrade Blueprint</value>
+  </data>
+  <data name="group1141" xml:space="preserve">
+    <value>Research Data</value>
+  </data>
+  <data name="group1142" xml:space="preserve">
+    <value>Energy Neutralizer Drone Blueprint</value>
+  </data>
+  <data name="group1143" xml:space="preserve">
+    <value>Electronic Warfare Drone Blueprint</value>
+  </data>
+  <data name="group1144" xml:space="preserve">
+    <value>Logistic Drone Blueprint</value>
+  </data>
+  <data name="group1145" xml:space="preserve">
+    <value>Heavy Fighter Blueprint</value>
+  </data>
+  <data name="group1146" xml:space="preserve">
+    <value>Light Fighter Blueprint</value>
+  </data>
+  <data name="group1147" xml:space="preserve">
+    <value>Stasis Webifying Drone Blueprint</value>
+  </data>
+  <data name="group1149" xml:space="preserve">
+    <value>Mobile Jump Disruptor</value>
+  </data>
+  <data name="group1150" xml:space="preserve">
+    <value>Armor Resistance Shift Hardener</value>
+  </data>
+  <data name="group1151" xml:space="preserve">
+    <value>Armor Resistance Shift Hardener Blueprint</value>
+  </data>
+  <data name="group1152" xml:space="preserve">
+    <value>Drone Damage Module Blueprint</value>
+  </data>
+  <data name="group1153" xml:space="preserve">
+    <value>Shield Booster Script</value>
+  </data>
+  <data name="group1154" xml:space="preserve">
+    <value>Target Breaker</value>
+  </data>
+  <data name="group1155" xml:space="preserve">
+    <value>Target Breaker Blueprint</value>
+  </data>
+  <data name="group1156" xml:space="preserve">
+    <value>Ancillary Shield Booster</value>
+  </data>
+  <data name="group1157" xml:space="preserve">
+    <value>Fueled Shield Booster Blueprint</value>
+  </data>
+  <data name="group1158" xml:space="preserve">
+    <value>Heavy Defender Missile</value>
+  </data>
+  <data name="group1159" xml:space="preserve">
+    <value>Salvage Drone</value>
+  </data>
+  <data name="group1160" xml:space="preserve">
+    <value>Survey Probe Blueprints</value>
+  </data>
+  <data name="group1162" xml:space="preserve">
+    <value>Container Blueprints</value>
+  </data>
+  <data name="group1165" xml:space="preserve">
+    <value>Satellite</value>
+  </data>
+  <data name="group1166" xml:space="preserve">
+    <value>FW Minmatar Republic Frigate</value>
+  </data>
+  <data name="group1167" xml:space="preserve">
+    <value>FW Caldari State Frigate</value>
+  </data>
+  <data name="group1168" xml:space="preserve">
+    <value>FW Gallente Federation Frigate</value>
+  </data>
+  <data name="group1169" xml:space="preserve">
+    <value>FW Amarr Empire Frigate</value>
+  </data>
+  <data name="group1174" xml:space="preserve">
+    <value>Asteroid Rogue Drone Officer</value>
+  </data>
+  <data name="group1175" xml:space="preserve">
+    <value>FW Amarr Empire Destroyer</value>
+  </data>
+  <data name="group1176" xml:space="preserve">
+    <value>FW Caldari State Destroyer</value>
+  </data>
+  <data name="group1177" xml:space="preserve">
+    <value>FW Gallente Federation Destroyer</value>
+  </data>
+  <data name="group1178" xml:space="preserve">
+    <value>FW Minmatar Republic Destroyer</value>
+  </data>
+  <data name="group1179" xml:space="preserve">
+    <value>FW Amarr Empire Cruiser</value>
+  </data>
+  <data name="group1180" xml:space="preserve">
+    <value>FW Caldari State Cruiser</value>
+  </data>
+  <data name="group1181" xml:space="preserve">
+    <value>FW Gallente Federation Cruiser</value>
+  </data>
+  <data name="group1182" xml:space="preserve">
+    <value>FW Minmatar Republic Cruiser</value>
+  </data>
+  <data name="group1183" xml:space="preserve">
+    <value>FW Amarr Empire Battlecruiser</value>
+  </data>
+  <data name="group1184" xml:space="preserve">
+    <value>FW Caldari State Battlecruiser</value>
+  </data>
+  <data name="group1185" xml:space="preserve">
+    <value>FW Gallente Federation Battlecruiser</value>
+  </data>
+  <data name="group1186" xml:space="preserve">
+    <value>FW Minmatar Republic Battlecruiser</value>
+  </data>
+  <data name="group1189" xml:space="preserve">
+    <value>Micro Jump Drive</value>
+  </data>
+  <data name="group1190" xml:space="preserve">
+    <value>Salvage Drone Blueprint</value>
+  </data>
+  <data name="group1191" xml:space="preserve">
+    <value>Micro Jump Drive Blueprint</value>
+  </data>
+  <data name="group1194" xml:space="preserve">
+    <value>Special Edition Commodities</value>
+  </data>
+  <data name="group1195" xml:space="preserve">
+    <value>Tournament Cards: New Eden Open YC 114</value>
+  </data>
+  <data name="group1197" xml:space="preserve">
+    <value>Special Edition Commodity Blueprints</value>
+  </data>
+  <data name="group1198" xml:space="preserve">
+    <value>Orbital Target</value>
+  </data>
+  <data name="group1199" xml:space="preserve">
+    <value>Ancillary Armor Repairer</value>
+  </data>
+  <data name="group1200" xml:space="preserve">
+    <value>Fueled Armor Repairer Blueprint</value>
+  </data>
+  <data name="group1201" xml:space="preserve">
+    <value>Attack Battlecruiser</value>
+  </data>
+  <data name="group1202" xml:space="preserve">
+    <value>Blockade Runner</value>
+  </data>
+  <data name="group1206" xml:space="preserve">
+    <value>Security Tags</value>
+  </data>
+  <data name="group1207" xml:space="preserve">
+    <value>Scatter Container</value>
+  </data>
+  <data name="group1209" xml:space="preserve">
+    <value>Shields</value>
+  </data>
+  <data name="group1210" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="group1212" xml:space="preserve">
+    <value>Personal Hangar</value>
+  </data>
+  <data name="group1213" xml:space="preserve">
+    <value>Targeting</value>
+  </data>
+  <data name="group1216" xml:space="preserve">
+    <value>Engineering</value>
+  </data>
+  <data name="group1217" xml:space="preserve">
+    <value>Scanning</value>
+  </data>
+  <data name="group1218" xml:space="preserve">
+    <value>Resource Processing</value>
+  </data>
+  <data name="group1220" xml:space="preserve">
+    <value>Neural Enhancement</value>
+  </data>
+  <data name="group1222" xml:space="preserve">
+    <value>ECM Stabilizer Blueprint</value>
+  </data>
+  <data name="group1223" xml:space="preserve">
+    <value>Scanning Upgrade</value>
+  </data>
+  <data name="group1224" xml:space="preserve">
+    <value>Scanning Upgrade Blueprint</value>
+  </data>
+  <data name="group1225" xml:space="preserve">
+    <value>Tournament Cards: Alliance Tournament All Stars</value>
+  </data>
+  <data name="group1226" xml:space="preserve">
+    <value>Survey Probe Launcher</value>
+  </data>
+  <data name="group1227" xml:space="preserve">
+    <value>Survey Probe Launcher Blueprint</value>
+  </data>
+  <data name="group1228" xml:space="preserve">
+    <value>Cyber Targeting</value>
+  </data>
+  <data name="group1229" xml:space="preserve">
+    <value>Cyber Resource Processing</value>
+  </data>
+  <data name="group1230" xml:space="preserve">
+    <value>Cyber Scanning</value>
+  </data>
+  <data name="group1231" xml:space="preserve">
+    <value>Cyber Biology</value>
+  </data>
+  <data name="group1232" xml:space="preserve">
+    <value>Rig Resource Processing</value>
+  </data>
+  <data name="group1233" xml:space="preserve">
+    <value>Rig Scanning</value>
+  </data>
+  <data name="group1234" xml:space="preserve">
+    <value>Rig Targeting</value>
+  </data>
+  <data name="group1238" xml:space="preserve">
+    <value>Scanning Upgrade Time</value>
+  </data>
+  <data name="group1239" xml:space="preserve">
+    <value>Scanning Upgrade Time Blueprint</value>
+  </data>
+  <data name="group1240" xml:space="preserve">
+    <value>Subsystems</value>
+  </data>
+  <data name="group1241" xml:space="preserve">
+    <value>Planet Management</value>
+  </data>
+  <data name="group1245" xml:space="preserve">
+    <value>Missile Launcher Rapid Heavy</value>
+  </data>
+  <data name="group1246" xml:space="preserve">
+    <value>Mobile Depot</value>
+  </data>
+  <data name="group1247" xml:space="preserve">
+    <value>Mobile Siphon Unit</value>
+  </data>
+  <data name="group1248" xml:space="preserve">
+    <value>Empire Bounty Reimbursement Tags</value>
+  </data>
+  <data name="group1249" xml:space="preserve">
+    <value>Mobile Cyno Inhibitor</value>
+  </data>
+  <data name="group1250" xml:space="preserve">
+    <value>Mobile Tractor Unit</value>
+  </data>
+  <data name="group1252" xml:space="preserve">
+    <value>Ghost Sites Angel Cartel Cruiser</value>
+  </data>
+  <data name="group1255" xml:space="preserve">
+    <value>Ghost Sites Blood Raiders Cruiser</value>
+  </data>
+  <data name="group1259" xml:space="preserve">
+    <value>Ghost Sites Guristas Cruiser</value>
+  </data>
+  <data name="group1262" xml:space="preserve">
+    <value>Ghost Sites Serpentis Cruiser</value>
+  </data>
+  <data name="group1265" xml:space="preserve">
+    <value>Ghost Sites Sanshas Cruiser</value>
+  </data>
+  <data name="group1267" xml:space="preserve">
+    <value>Mobile Siphon Unit Blueprint</value>
+  </data>
+  <data name="group1268" xml:space="preserve">
+    <value>Mobile Cynosural Inhibitor Blueprint</value>
+  </data>
+  <data name="group1269" xml:space="preserve">
+    <value>Mobile Depot Blueprint</value>
+  </data>
+  <data name="group1270" xml:space="preserve">
+    <value>Mobile Tractor Unit Blueprint</value>
+  </data>
+  <data name="group1271" xml:space="preserve">
+    <value>Prosthetics</value>
+  </data>
+  <data name="group1273" xml:space="preserve">
+    <value>Encounter Surveillance System</value>
+  </data>
+  <data name="group1274" xml:space="preserve">
+    <value>Mobile Decoy Unit</value>
+  </data>
+  <data name="group1275" xml:space="preserve">
+    <value>Mobile Scan Inhibitor</value>
+  </data>
+  <data name="group1276" xml:space="preserve">
+    <value>Mobile Micro Jump Unit</value>
+  </data>
+  <data name="group1277" xml:space="preserve">
+    <value>Encounter Surveillance System Blueprint</value>
+  </data>
+  <data name="group1282" xml:space="preserve">
+    <value>Compression Array</value>
+  </data>
+  <data name="group1283" xml:space="preserve">
+    <value>Expedition Frigate</value>
+  </data>
+  <data name="group1285" xml:space="preserve">
+    <value>Asteroid Mordus Legion Commander Frigate</value>
+  </data>
+  <data name="group1286" xml:space="preserve">
+    <value>Asteroid Mordus Legion Commander Cruiser</value>
+  </data>
+  <data name="group1287" xml:space="preserve">
+    <value>Asteroid Mordus Legion Commander Battleship</value>
+  </data>
+  <data name="group1288" xml:space="preserve">
+    <value>Ghost Sites Mordu's Legion</value>
+  </data>
+  <data name="group1289" xml:space="preserve">
+    <value>Warp Accelerator</value>
+  </data>
+  <data name="group1292" xml:space="preserve">
+    <value>Drone Tracking Enhancer</value>
+  </data>
+  <data name="group1293" xml:space="preserve">
+    <value>Mobile Scan Inhibitor Blueprint</value>
+  </data>
+  <data name="group1294" xml:space="preserve">
+    <value>Mobile Micro Jump Unit Blueprint</value>
+  </data>
+  <data name="group1295" xml:space="preserve">
+    <value>Mobile Decoy Unit Blueprint</value>
+  </data>
+  <data name="group1297" xml:space="preserve">
+    <value>Mobile Vault</value>
+  </data>
+  <data name="group1299" xml:space="preserve">
+    <value>Jump Drive Economizer</value>
+  </data>
+  <data name="group1301" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="group1304" xml:space="preserve">
+    <value>Generic Decryptor</value>
+  </data>
+  <data name="group1305" xml:space="preserve">
+    <value>Tactical Destroyer</value>
+  </data>
+  <data name="group1306" xml:space="preserve">
+    <value>Ship Modifiers</value>
+  </data>
+  <data name="group1307" xml:space="preserve">
+    <value>Roaming Sleepers Cruiser</value>
+  </data>
+  <data name="group1308" xml:space="preserve">
+    <value>Rig Anchor</value>
+  </data>
+  <data name="group1309" xml:space="preserve">
+    <value>Tactical Destroyer Blueprint</value>
+  </data>
+  <data name="group1310" xml:space="preserve">
+    <value>Drifter Battleship</value>
+  </data>
+  <data name="group1312" xml:space="preserve">
+    <value>Observatory Structures</value>
+  </data>
+  <data name="group1313" xml:space="preserve">
+    <value>Entosis Link</value>
+  </data>
+  <data name="group1314" xml:space="preserve">
+    <value>Unknown Components</value>
+  </data>
+  <data name="group1316" xml:space="preserve">
+    <value>Entosis Command Node</value>
+  </data>
+  <data name="group1317" xml:space="preserve">
+    <value>Infrastructure Upgrade Blueprint</value>
+  </data>
+  <data name="group1318" xml:space="preserve">
+    <value>Entosis Link Blueprint</value>
+  </data>
+  <data name="group1319" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="group1321" xml:space="preserve">
+    <value>Structure Citadel Service Module</value>
+  </data>
+  <data name="group1322" xml:space="preserve">
+    <value>Structure Resource Processing Service Module</value>
+  </data>
+  <data name="group1323" xml:space="preserve">
+    <value>Structure Observatory Service Module</value>
+  </data>
+  <data name="group1324" xml:space="preserve">
+    <value>Structure Stargate Service Module</value>
+  </data>
+  <data name="group1325" xml:space="preserve">
+    <value>Structure Administration Service Module</value>
+  </data>
+  <data name="group1326" xml:space="preserve">
+    <value>Structure Advertisement Service Module</value>
+  </data>
+  <data name="group1327" xml:space="preserve">
+    <value>Structure XL Missile Launcher</value>
+  </data>
+  <data name="group1328" xml:space="preserve">
+    <value>Structure Guided Bomb Launcher</value>
+  </data>
+  <data name="group1329" xml:space="preserve">
+    <value>Structure Energy Neutralizer</value>
+  </data>
+  <data name="group1330" xml:space="preserve">
+    <value>Structure Area Denial Module</value>
+  </data>
+  <data name="group1331" xml:space="preserve">
+    <value>Structure Burst Projector</value>
+  </data>
+  <data name="group1332" xml:space="preserve">
+    <value>Structure ECM Battery</value>
+  </data>
+  <data name="group1333" xml:space="preserve">
+    <value>Structure Doomsday Weapon</value>
+  </data>
+  <data name="group1395" xml:space="preserve">
+    <value>Missile Guidance Enhancer</value>
+  </data>
+  <data name="group1396" xml:space="preserve">
+    <value>Missile Guidance Computer</value>
+  </data>
+  <data name="group1397" xml:space="preserve">
+    <value>Missile Guidance Enhancer Blueprint</value>
+  </data>
+  <data name="group1399" xml:space="preserve">
+    <value>Missile Guidance Computer Blueprint</value>
+  </data>
+  <data name="group1400" xml:space="preserve">
+    <value>Missile Guidance Script</value>
+  </data>
+  <data name="group1402" xml:space="preserve">
+    <value>Amarr Navy Roaming Battleship</value>
+  </data>
+  <data name="group1404" xml:space="preserve">
+    <value>Engineering Complex</value>
+  </data>
+  <data name="group1405" xml:space="preserve">
+    <value>Laboratory</value>
+  </data>
+  <data name="group1406" xml:space="preserve">
+    <value>Refinery</value>
+  </data>
+  <data name="group1407" xml:space="preserve">
+    <value>Observatory Array</value>
+  </data>
+  <data name="group1408" xml:space="preserve">
+    <value>Stargate</value>
+  </data>
+  <data name="group1409" xml:space="preserve">
+    <value>Administration Hub</value>
+  </data>
+  <data name="group1410" xml:space="preserve">
+    <value>Advertisement Center</value>
+  </data>
+  <data name="group1411" xml:space="preserve">
+    <value>Amarr Navy Roaming Cruiser</value>
+  </data>
+  <data name="group1412" xml:space="preserve">
+    <value>Amarr Navy Roaming Capital</value>
+  </data>
+  <data name="group1413" xml:space="preserve">
+    <value>Amarr Navy Roaming Logistics</value>
+  </data>
+  <data name="group1414" xml:space="preserve">
+    <value>Amarr Navy Roaming Frigate</value>
+  </data>
+  <data name="group1415" xml:space="preserve">
+    <value>Structure Engineering Service Module</value>
+  </data>
+  <data name="group1416" xml:space="preserve">
+    <value>Structure Research Service Module</value>
+  </data>
+  <data name="group1429" xml:space="preserve">
+    <value>Structure Weapon Upgrade</value>
+  </data>
+  <data name="group1430" xml:space="preserve">
+    <value>Structure Fitting Module</value>
+  </data>
+  <data name="group1441" xml:space="preserve">
+    <value>Structure Stasis Webifier</value>
+  </data>
+  <data name="group1442" xml:space="preserve">
+    <value>Structure Warp Scrambler</value>
+  </data>
+  <data name="group1452" xml:space="preserve">
+    <value>Irregular Drone</value>
+  </data>
+  <data name="group1453" xml:space="preserve">
+    <value>Irregular EW Drone</value>
+  </data>
+  <data name="group1454" xml:space="preserve">
+    <value>Irregular Fighter</value>
+  </data>
+  <data name="group1455" xml:space="preserve">
+    <value>Irregular Fighter Squadron</value>
+  </data>
+  <data name="group1461" xml:space="preserve">
+    <value>Unknown Blueprint</value>
+  </data>
+  <data name="group1462" xml:space="preserve">
+    <value>Structure Blueprints</value>
+  </data>
+  <data name="group1465" xml:space="preserve">
+    <value>Mission Generic Supercarrier</value>
+  </data>
+  <data name="group1527" xml:space="preserve">
+    <value>Logistics Frigate</value>
+  </data>
+  <data name="group1529" xml:space="preserve">
+    <value>Deadspace Sleeper Upgraded Avenger</value>
+  </data>
+  <data name="group1530" xml:space="preserve">
+    <value>Drifter Response Battleship</value>
+  </data>
+  <data name="group1533" xml:space="preserve">
+    <value>Micro Jump Field Generators</value>
+  </data>
+  <data name="group1534" xml:space="preserve">
+    <value>Command Destroyer</value>
+  </data>
+  <data name="group1535" xml:space="preserve">
+    <value>Structure Signal Amplifier</value>
+  </data>
+  <data name="group1537" xml:space="preserve">
+    <value>Support Fighter</value>
+  </data>
+  <data name="group1538" xml:space="preserve">
+    <value>Force Auxiliary</value>
+  </data>
+  <data name="group1542" xml:space="preserve">
+    <value>Command Destroyer Blueprint</value>
+  </data>
+  <data name="group1543" xml:space="preserve">
+    <value>Micro Jump Field Generator Blueprint</value>
+  </data>
+  <data name="group1545" xml:space="preserve">
+    <value>Structure Management</value>
+  </data>
+  <data name="group1546" xml:space="preserve">
+    <value>Structure Anti-Capital Missile</value>
+  </data>
+  <data name="group1547" xml:space="preserve">
+    <value>Structure Anti-Subcapital Missile</value>
+  </data>
+  <data name="group1548" xml:space="preserve">
+    <value>Structure Guided Bomb</value>
+  </data>
+  <data name="group1549" xml:space="preserve">
+    <value>Structure ECM script</value>
+  </data>
+  <data name="group1550" xml:space="preserve">
+    <value>Structure Stasis Webifier Script</value>
+  </data>
+  <data name="group1551" xml:space="preserve">
+    <value>Structure Warp Disruptor Script</value>
+  </data>
+  <data name="group1559" xml:space="preserve">
+    <value>Structure Resistance Switcher Script</value>
+  </data>
+  <data name="group1562" xml:space="preserve">
+    <value>Structure Multirole Missile Launcher</value>
+  </data>
+  <data name="group1566" xml:space="preserve">
+    <value>Irregular Shuttle</value>
+  </data>
+  <data name="group1567" xml:space="preserve">
+    <value>Irregular Corvette</value>
+  </data>
+  <data name="group1568" xml:space="preserve">
+    <value>Irregular Frigate</value>
+  </data>
+  <data name="group1569" xml:space="preserve">
+    <value>Guidance Disruption Script</value>
+  </data>
+  <data name="group1570" xml:space="preserve">
+    <value>Structure Assembly Rig M - Small Tech I Ship</value>
+  </data>
+  <data name="group1579" xml:space="preserve">
+    <value>Structure Assembly Rig M - Medium Tech I Ship</value>
+  </data>
+  <data name="group1580" xml:space="preserve">
+    <value>Structure Assembly Rig M - Large Tech I Ship</value>
+  </data>
+  <data name="group1581" xml:space="preserve">
+    <value>Structure Assembly Rig M - Small Tech II Ship</value>
+  </data>
+  <data name="group1582" xml:space="preserve">
+    <value>Structure Assembly Rig M - Medium Tech II Ship</value>
+  </data>
+  <data name="group1583" xml:space="preserve">
+    <value>Structure Assembly Rig M - Large Tech II Ship</value>
+  </data>
+  <data name="group1584" xml:space="preserve">
+    <value>Structure Assembly Rig M - Drone</value>
+  </data>
+  <data name="group1585" xml:space="preserve">
+    <value>Structure Assembly Rig M - Consumable</value>
+  </data>
+  <data name="group1586" xml:space="preserve">
+    <value>Structure Assembly Rig M - Module</value>
+  </data>
+  <data name="group1587" xml:space="preserve">
+    <value>Structure Assembly Rig L - Module, Consumable, Drone</value>
+  </data>
+  <data name="group1588" xml:space="preserve">
+    <value>Structure Assembly Rig L - Tech I Ship</value>
+  </data>
+  <data name="group1589" xml:space="preserve">
+    <value>Structure Assembly Rig L - Tech II Ship</value>
+  </data>
+  <data name="group1590" xml:space="preserve">
+    <value>Structure Assembly Rig L - Tech II Component</value>
+  </data>
+  <data name="group1591" xml:space="preserve">
+    <value>Structure Assembly Rig L - Tech I Capital Component</value>
+  </data>
+  <data name="group1592" xml:space="preserve">
+    <value>Structure Assembly Rig L - Structure Component</value>
+  </data>
+  <data name="group1593" xml:space="preserve">
+    <value>Structure Assembly Rig L - Subsystem</value>
+  </data>
+  <data name="group1594" xml:space="preserve">
+    <value>Structure Assembly Rig XL - Equipment</value>
+  </data>
+  <data name="group1595" xml:space="preserve">
+    <value>Structure Assembly Rig XL - Ship</value>
+  </data>
+  <data name="group1596" xml:space="preserve">
+    <value>Structure Assembly Rig XL - All Components</value>
+  </data>
+  <data name="group1598" xml:space="preserve">
+    <value>Structure Laboratory Rig M - Small Ship</value>
+  </data>
+  <data name="group1599" xml:space="preserve">
+    <value>Structure Laboratory Rig M - Medium Ship</value>
+  </data>
+  <data name="group1600" xml:space="preserve">
+    <value>Structure Laboratory Rig M - Large Ship</value>
+  </data>
+  <data name="group1601" xml:space="preserve">
+    <value>Structure Laboratory Rig M - Drone</value>
+  </data>
+  <data name="group1602" xml:space="preserve">
+    <value>Structure Laboratory Rig M - Consumable</value>
+  </data>
+  <data name="group1603" xml:space="preserve">
+    <value>Structure Laboratory Rig M - Module</value>
+  </data>
+  <data name="group1604" xml:space="preserve">
+    <value>Structure Laboratory Rig L - Module, Consumable, Drone</value>
+  </data>
+  <data name="group1605" xml:space="preserve">
+    <value>Structure Laboratory Rig L - Ship</value>
+  </data>
+  <data name="group1606" xml:space="preserve">
+    <value>Structure Laboratory Rig L - Component</value>
+  </data>
+  <data name="group1607" xml:space="preserve">
+    <value>Structure Laboratory Rig L - Capital Component</value>
+  </data>
+  <data name="group1608" xml:space="preserve">
+    <value>Structure Laboratory Rig L - Structure Component</value>
+  </data>
+  <data name="group1609" xml:space="preserve">
+    <value>Structure Laboratory Rig L - Subsystem</value>
+  </data>
+  <data name="group1610" xml:space="preserve">
+    <value>Structure Laboratory Rig XL - Equipment</value>
+  </data>
+  <data name="group1611" xml:space="preserve">
+    <value>Structure Laboratory Rig XL - Ship</value>
+  </data>
+  <data name="group1612" xml:space="preserve">
+    <value>Structure Laboratory Rig XL - All Components</value>
+  </data>
+  <data name="group1613" xml:space="preserve">
+    <value>Structure Combat Rig M - Missile Application</value>
+  </data>
+  <data name="group1614" xml:space="preserve">
+    <value>Structure Combat Rig M - Missile Projection</value>
+  </data>
+  <data name="group1615" xml:space="preserve">
+    <value>Structure Combat Rig M - Energy Neutralizer Projection</value>
+  </data>
+  <data name="group1616" xml:space="preserve">
+    <value>Structure Combat Rig M - Energy Neutralizer Cap Reduction</value>
+  </data>
+  <data name="group1617" xml:space="preserve">
+    <value>Structure Citadel Rig M - Drone Hitpoints</value>
+  </data>
+  <data name="group1618" xml:space="preserve">
+    <value>Structure Citadel Rig M - Drone Speed</value>
+  </data>
+  <data name="group1619" xml:space="preserve">
+    <value>Structure Combat Rig M - EW projection</value>
+  </data>
+  <data name="group1620" xml:space="preserve">
+    <value>Structure Combat Rig M - EW Cap Reduction</value>
+  </data>
+  <data name="group1621" xml:space="preserve">
+    <value>Structure Combat Rig M - Max Targets</value>
+  </data>
+  <data name="group1622" xml:space="preserve">
+    <value>Structure Combat Rig M - Boosted Sensors</value>
+  </data>
+  <data name="group1629" xml:space="preserve">
+    <value>Structure Combat Rig L - Missile Application and Projection</value>
+  </data>
+  <data name="group1630" xml:space="preserve">
+    <value>Structure Combat Rig L - Energy Neutralizer Projection and Cap Reduction</value>
+  </data>
+  <data name="group1631" xml:space="preserve">
+    <value>Structure Citadel Rig L - Drone Hitpoints and Speed</value>
+  </data>
+  <data name="group1632" xml:space="preserve">
+    <value>Structure Combat Rig L - EW Projection and Cap Reduction</value>
+  </data>
+  <data name="group1633" xml:space="preserve">
+    <value>Structure Combat Rig L - AoE Launcher Application and Projection</value>
+  </data>
+  <data name="group1634" xml:space="preserve">
+    <value>Structure Combat Rig L - Point Defense Battery Application and Projection</value>
+  </data>
+  <data name="group1635" xml:space="preserve">
+    <value>Structure Combat Rig L - Max Targets and Sensor Boosting</value>
+  </data>
+  <data name="group1639" xml:space="preserve">
+    <value>Structure Combat Rig XL - Missile and AoE Missile</value>
+  </data>
+  <data name="group1640" xml:space="preserve">
+    <value>Structure Citadel Rig XL - Drone and PDB</value>
+  </data>
+  <data name="group1641" xml:space="preserve">
+    <value>Structure Combat Rig XL - Energy Neutralizer and EW</value>
+  </data>
+  <data name="group1642" xml:space="preserve">
+    <value>Structure Combat Rig XL - Doomsday and Targeting</value>
+  </data>
+  <data name="group1647" xml:space="preserve">
+    <value>OLD Structure Resource Rig M - HS Ore Reprocessing</value>
+  </data>
+  <data name="group1648" xml:space="preserve">
+    <value>OLD Structure Resource Rig L - Ore Reprocessing</value>
+  </data>
+  <data name="group1649" xml:space="preserve">
+    <value>OLD Structure Resource Rig XL - Reprocessing</value>
+  </data>
+  <data name="group1652" xml:space="preserve">
+    <value>Light Fighter</value>
+  </data>
+  <data name="group1653" xml:space="preserve">
+    <value>Heavy Fighter</value>
+  </data>
+  <data name="group1657" xml:space="preserve">
+    <value>Citadel</value>
+  </data>
+  <data name="group1664" xml:space="preserve">
+    <value>Irregular Destroyer</value>
+  </data>
+  <data name="group1665" xml:space="preserve">
+    <value>Irregular Cruiser</value>
+  </data>
+  <data name="group1666" xml:space="preserve">
+    <value>Irregular Battlecruiser</value>
+  </data>
+  <data name="group1667" xml:space="preserve">
+    <value>Irregular Battleship</value>
+  </data>
+  <data name="group1670" xml:space="preserve">
+    <value>Augmentations</value>
+  </data>
+  <data name="group1672" xml:space="preserve">
+    <value>Stasis Grappler</value>
+  </data>
+  <data name="group1673" xml:space="preserve">
+    <value>Missile Launcher Rapid Torpedo</value>
+  </data>
+  <data name="group1674" xml:space="preserve">
+    <value>Missile Launcher XL Cruise</value>
+  </data>
+  <data name="group1676" xml:space="preserve">
+    <value>Named Components</value>
+  </data>
+  <data name="group1677" xml:space="preserve">
+    <value>Advanced XL Torpedo</value>
+  </data>
+  <data name="group1678" xml:space="preserve">
+    <value>Advanced XL Cruise Missile</value>
+  </data>
+  <data name="group1679" xml:space="preserve">
+    <value>Support Fighter Blueprint</value>
+  </data>
+  <data name="group1681" xml:space="preserve">
+    <value>Asteroid Angel Cartel Dreadnought</value>
+  </data>
+  <data name="group1682" xml:space="preserve">
+    <value>Asteroid Angel Cartel Titan</value>
+  </data>
+  <data name="group1683" xml:space="preserve">
+    <value>Asteroid Blood Raider Dreadnought</value>
+  </data>
+  <data name="group1684" xml:space="preserve">
+    <value>Asteroid Blood Raider Titan</value>
+  </data>
+  <data name="group1685" xml:space="preserve">
+    <value>Asteroid Guristas Dreadnought</value>
+  </data>
+  <data name="group1686" xml:space="preserve">
+    <value>Asteroid Guristas Titan</value>
+  </data>
+  <data name="group1687" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Dreadnought</value>
+  </data>
+  <data name="group1688" xml:space="preserve">
+    <value>Asteroid Sansha's Nation Supercarrier</value>
+  </data>
+  <data name="group1689" xml:space="preserve">
+    <value>Asteroid Serpentis Dreadnought</value>
+  </data>
+  <data name="group1690" xml:space="preserve">
+    <value>Asteroid Serpentis Titan</value>
+  </data>
+  <data name="group1691" xml:space="preserve">
+    <value>Asteroid Rogue Drone Carrier</value>
+  </data>
+  <data name="group1692" xml:space="preserve">
+    <value>Asteroid Rogue Drone Supercarrier</value>
+  </data>
+  <data name="group1693" xml:space="preserve">
+    <value>OLD Structure Resource Rig M - LNS Ore Reprocessing</value>
+  </data>
+  <data name="group1694" xml:space="preserve">
+    <value>OLD Structure Resource Rig M - Ice 1 Reprocessing</value>
+  </data>
+  <data name="group1695" xml:space="preserve">
+    <value>OLD Structure Resource Rig M - Ice 2 Reprocessing</value>
+  </data>
+  <data name="group1696" xml:space="preserve">
+    <value>OLD Structure Resource Rig L - Ice Reprocessing</value>
+  </data>
+  <data name="group1697" xml:space="preserve">
+    <value>Ancillary Remote Shield Booster</value>
+  </data>
+  <data name="group1698" xml:space="preserve">
+    <value>Ancillary Remote Armor Repairer</value>
+  </data>
+  <data name="group1699" xml:space="preserve">
+    <value>Flex Armor Hardener</value>
+  </data>
+  <data name="group1700" xml:space="preserve">
+    <value>Flex Shield Hardener</value>
+  </data>
+  <data name="group1701" xml:space="preserve">
+    <value>Flex Armor Hardener Script</value>
+  </data>
+  <data name="group1702" xml:space="preserve">
+    <value>Flex Shield Hardener Script</value>
+  </data>
+  <data name="group1703" xml:space="preserve">
+    <value>Burst Projector Blueprint</value>
+  </data>
+  <data name="group1704" xml:space="preserve">
+    <value>Super Weapon Beacon</value>
+  </data>
+  <data name="group1706" xml:space="preserve">
+    <value>Capital Sensor Array</value>
+  </data>
+  <data name="group1707" xml:space="preserve">
+    <value>Structure Module Blueprint</value>
+  </data>
+  <data name="group1708" xml:space="preserve">
+    <value>Structure Rig Blueprint</value>
+  </data>
+  <data name="group1709" xml:space="preserve">
+    <value>Unpublished Structure Module and Rig Blueprints</value>
+  </data>
+  <data name="group1717" xml:space="preserve">
+    <value>Unpublished Structure Modules</value>
+  </data>
+  <data name="group1718" xml:space="preserve">
+    <value>Force Auxiliary Blueprint</value>
+  </data>
+  <data name="group1719" xml:space="preserve">
+    <value>Structure Disruption Battery</value>
+  </data>
+  <data name="group1720" xml:space="preserve">
+    <value>Roaming Serpentis Battleship</value>
+  </data>
+  <data name="group1721" xml:space="preserve">
+    <value>Roaming Serpentis Cruiser</value>
+  </data>
+  <data name="group1722" xml:space="preserve">
+    <value>Roaming Serpentis Frigate</value>
+  </data>
+  <data name="group1723" xml:space="preserve">
+    <value>Shield Resistance Shift Hardener Blueprint</value>
+  </data>
+  <data name="group1724" xml:space="preserve">
+    <value>Irregular Dreadnought</value>
+  </data>
+  <data name="group1725" xml:space="preserve">
+    <value>Irregular Force Auxiliary</value>
+  </data>
+  <data name="group1726" xml:space="preserve">
+    <value>Irregular Carrier</value>
+  </data>
+  <data name="group1727" xml:space="preserve">
+    <value>Roaming Angel Cartel Battleship</value>
+  </data>
+  <data name="group1728" xml:space="preserve">
+    <value>Roaming Angel Cartel Cruiser</value>
+  </data>
+  <data name="group1729" xml:space="preserve">
+    <value>Roaming Angel Cartel Frigate</value>
+  </data>
+  <data name="group1730" xml:space="preserve">
+    <value>Special Edition Implant</value>
+  </data>
+  <data name="group1731" xml:space="preserve">
+    <value>Irregular Super Carrier</value>
+  </data>
+  <data name="group1734" xml:space="preserve">
+    <value>Roaming Blood Raider Frigate</value>
+  </data>
+  <data name="group1735" xml:space="preserve">
+    <value>Roaming Blood Raider Cruiser</value>
+  </data>
+  <data name="group1736" xml:space="preserve">
+    <value>Roaming Blood Raider Battlecruiser</value>
+  </data>
+  <data name="group1737" xml:space="preserve">
+    <value>Roaming Blood Raider Battleship</value>
+  </data>
+  <data name="group1739" xml:space="preserve">
+    <value>Skill Injectors</value>
+  </data>
+  <data name="group1759" xml:space="preserve">
+    <value>Irregular Titan</value>
+  </data>
+  <data name="group1761" xml:space="preserve">
+    <value>Irregular Mining Frigate</value>
+  </data>
+  <data name="group1762" xml:space="preserve">
+    <value>Irregular Mining Barge</value>
+  </data>
+  <data name="group1764" xml:space="preserve">
+    <value>♦ Mining Frigate</value>
+  </data>
+  <data name="group1765" xml:space="preserve">
+    <value>♦ Mining Barge</value>
+  </data>
+  <data name="group1766" xml:space="preserve">
+    <value>♦ Mining Exhumer</value>
+  </data>
+  <data name="group1767" xml:space="preserve">
+    <value>♦ Mining Hauler</value>
+  </data>
+  <data name="group1768" xml:space="preserve">
+    <value>Tutorial Seekers</value>
+  </data>
+  <data name="group1769" xml:space="preserve">
+    <value>Shield Command Burst Charges</value>
+  </data>
+  <data name="group1770" xml:space="preserve">
+    <value>Command Burst</value>
+  </data>
+  <data name="group1771" xml:space="preserve">
+    <value>Mining Foreman Burst Charges</value>
+  </data>
+  <data name="group1772" xml:space="preserve">
+    <value>Skirmish Command Burst Charges</value>
+  </data>
+  <data name="group1773" xml:space="preserve">
+    <value>Information Command Burst Charges</value>
+  </data>
+  <data name="group1774" xml:space="preserve">
+    <value>Armor Command Burst Charges</value>
+  </data>
+  <data name="group1788" xml:space="preserve">
+    <value>Hidden Zenith Drifters</value>
+  </data>
+  <data name="group1789" xml:space="preserve">
+    <value>Hidden Zenith Amarr Battleship</value>
+  </data>
+  <data name="group1790" xml:space="preserve">
+    <value>Hidden Zenith Amarr Cruiser</value>
+  </data>
+  <data name="group1791" xml:space="preserve">
+    <value>Hidden Zenith Amarr Frigate</value>
+  </data>
+  <data name="group1792" xml:space="preserve">
+    <value>Hidden Zenith Caldari Battleship </value>
+  </data>
+  <data name="group1793" xml:space="preserve">
+    <value>Hidden Zenith Caldari Cruiser</value>
+  </data>
+  <data name="group1794" xml:space="preserve">
+    <value>Hidden Zenith Caldari Frigate</value>
+  </data>
+  <data name="group1795" xml:space="preserve">
+    <value>Hidden Zenith Gallente Battleship</value>
+  </data>
+  <data name="group1796" xml:space="preserve">
+    <value>Hidden Zenith Gallente Cruiser</value>
+  </data>
+  <data name="group1797" xml:space="preserve">
+    <value>Hidden Zenith Gallente Frigate</value>
+  </data>
+  <data name="group1798" xml:space="preserve">
+    <value>Hidden Zenith Minmatar Battleship</value>
+  </data>
+  <data name="group1799" xml:space="preserve">
+    <value>Hidden Zenith Minmatar Cruiser</value>
+  </data>
+  <data name="group1800" xml:space="preserve">
+    <value>Hidden Zenith Minmatar Frigate</value>
+  </data>
+  <data name="group1803" xml:space="preserve">
+    <value>♦ Frigate</value>
+  </data>
+  <data name="group1804" xml:space="preserve">
+    <value>Hidden Zenith Amarr Capital</value>
+  </data>
+  <data name="group1805" xml:space="preserve">
+    <value>Hidden Zenith Caldari Capital</value>
+  </data>
+  <data name="group1806" xml:space="preserve">
+    <value>Hidden Zenith Gallente Capital</value>
+  </data>
+  <data name="group1807" xml:space="preserve">
+    <value>Hidden Zenith Minmatar Capital</value>
+  </data>
+  <data name="group1810" xml:space="preserve">
+    <value>Command Burst Charge Blueprint</value>
+  </data>
+  <data name="group1812" xml:space="preserve">
+    <value>Command Burst Blueprint</value>
+  </data>
+  <data name="group1813" xml:space="preserve">
+    <value>♦ Cruiser</value>
+  </data>
+  <data name="group1814" xml:space="preserve">
+    <value>♦ Battleship</value>
+  </data>
+  <data name="group1815" xml:space="preserve">
+    <value>Titan Phenomena Generator</value>
+  </data>
+  <data name="group1816" xml:space="preserve">
+    <value>Structure Engineering Rig M - Equipment ME</value>
+  </data>
+  <data name="group1818" xml:space="preserve">
+    <value>Strong Boxes</value>
+  </data>
+  <data name="group1819" xml:space="preserve">
+    <value>Structure Engineering Rig M - Equipment TE</value>
+  </data>
+  <data name="group1820" xml:space="preserve">
+    <value>Structure Engineering Rig M - Ammunition ME</value>
+  </data>
+  <data name="group1821" xml:space="preserve">
+    <value>Structure Engineering Rig M - Ammunition TE</value>
+  </data>
+  <data name="group1822" xml:space="preserve">
+    <value>Structure Engineering Rig M - Drone and Fighter ME</value>
+  </data>
+  <data name="group1823" xml:space="preserve">
+    <value>Structure Engineering Rig M - Drone and Fighter TE</value>
+  </data>
+  <data name="group1824" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Small Ship ME</value>
+  </data>
+  <data name="group1825" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Small Ship TE</value>
+  </data>
+  <data name="group1826" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Medium Ship ME</value>
+  </data>
+  <data name="group1827" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Medium Ship TE</value>
+  </data>
+  <data name="group1828" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Large Ship ME</value>
+  </data>
+  <data name="group1829" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Large Ship TE</value>
+  </data>
+  <data name="group1830" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Small Ship ME</value>
+  </data>
+  <data name="group1831" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Small Ship TE</value>
+  </data>
+  <data name="group1832" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Medium Ship ME</value>
+  </data>
+  <data name="group1833" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Medium Ship TE</value>
+  </data>
+  <data name="group1834" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Large Ship ME</value>
+  </data>
+  <data name="group1835" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Large Ship TE</value>
+  </data>
+  <data name="group1836" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Component ME</value>
+  </data>
+  <data name="group1837" xml:space="preserve">
+    <value>Structure Engineering Rig M - Advanced Component TE</value>
+  </data>
+  <data name="group1838" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Capital Component TE</value>
+  </data>
+  <data name="group1839" xml:space="preserve">
+    <value>Structure Engineering Rig M - Basic Capital Component ME</value>
+  </data>
+  <data name="group1840" xml:space="preserve">
+    <value>Structure Engineering Rig M - Structure ME</value>
+  </data>
+  <data name="group1841" xml:space="preserve">
+    <value>Structure Engineering Rig M - Structure TE</value>
+  </data>
+  <data name="group1842" xml:space="preserve">
+    <value>Structure Engineering Rig M - Invention Cost Optimization</value>
+  </data>
+  <data name="group1843" xml:space="preserve">
+    <value>Structure Engineering Rig M - Invention Accelerator</value>
+  </data>
+  <data name="group1844" xml:space="preserve">
+    <value>Structure Engineering Rig M - ME Research Cost Optimization</value>
+  </data>
+  <data name="group1845" xml:space="preserve">
+    <value>Structure Engineering Rig M - ME Research Accelerator</value>
+  </data>
+  <data name="group1846" xml:space="preserve">
+    <value>Structure Engineering Rig M - TE Research Cost Optimization</value>
+  </data>
+  <data name="group1847" xml:space="preserve">
+    <value>Structure Engineering Rig M - TE Research Accelerator</value>
+  </data>
+  <data name="group1848" xml:space="preserve">
+    <value>Structure Engineering Rig M - Blueprint Copy Cost Optimization</value>
+  </data>
+  <data name="group1849" xml:space="preserve">
+    <value>Structure Engineering Rig M - Blueprint Copy Accelerator</value>
+  </data>
+  <data name="group1850" xml:space="preserve">
+    <value>Structure Engineering Rig L - Equipment Efficiency</value>
+  </data>
+  <data name="group1851" xml:space="preserve">
+    <value>Structure Engineering Rig L - Ammunition Efficiency</value>
+  </data>
+  <data name="group1852" xml:space="preserve">
+    <value>Structure Engineering Rig L - Drone and Fighter Efficiency</value>
+  </data>
+  <data name="group1853" xml:space="preserve">
+    <value>Structure Engineering Rig L - Basic Small Ship Efficiency</value>
+  </data>
+  <data name="group1854" xml:space="preserve">
+    <value>Structure Engineering Rig L - Basic Medium Ship Efficiency</value>
+  </data>
+  <data name="group1855" xml:space="preserve">
+    <value>Structure Engineering Rig L - Basic Large Ship Efficiency</value>
+  </data>
+  <data name="group1856" xml:space="preserve">
+    <value>Structure Engineering Rig L - Advanced Small Ship Efficiency</value>
+  </data>
+  <data name="group1857" xml:space="preserve">
+    <value>Structure Engineering Rig L - Advanced Medium Ship Efficiency</value>
+  </data>
+  <data name="group1858" xml:space="preserve">
+    <value>Structure Engineering Rig L - Advanced Large Ship Efficiency</value>
+  </data>
+  <data name="group1859" xml:space="preserve">
+    <value>Structure Engineering Rig L - Capital Ship Efficiency</value>
+  </data>
+  <data name="group1860" xml:space="preserve">
+    <value>Structure Engineering Rig L - Advanced Component Efficiency</value>
+  </data>
+  <data name="group1861" xml:space="preserve">
+    <value>Structure Engineering Rig L - Basic Capital Component Efficiency</value>
+  </data>
+  <data name="group1862" xml:space="preserve">
+    <value>Structure Engineering Rig L - Structure Efficiency</value>
+  </data>
+  <data name="group1863" xml:space="preserve">
+    <value>Structure Engineering Rig L - Invention Optimization</value>
+  </data>
+  <data name="group1864" xml:space="preserve">
+    <value>Structure Engineering Rig L - ME Research Optimization</value>
+  </data>
+  <data name="group1865" xml:space="preserve">
+    <value>Structure Engineering Rig L - TE Research Optimization</value>
+  </data>
+  <data name="group1866" xml:space="preserve">
+    <value>Structure Engineering Rig L - Blueprint Copy Optimization</value>
+  </data>
+  <data name="group1867" xml:space="preserve">
+    <value>Structure Engineering Rig XL - Equipment and Consumable Efficiency</value>
+  </data>
+  <data name="group1868" xml:space="preserve">
+    <value>Structure Engineering Rig XL - Ship Efficiency</value>
+  </data>
+  <data name="group1869" xml:space="preserve">
+    <value>Structure Engineering Rig XL - Structure and Component Efficiency</value>
+  </data>
+  <data name="group1870" xml:space="preserve">
+    <value>Structure Engineering Rig XL - Laboratory Optimization</value>
+  </data>
+  <data name="group1872" xml:space="preserve">
+    <value>Structure Entities</value>
+  </data>
+  <data name="group1875" xml:space="preserve">
+    <value>PLEX</value>
+  </data>
+  <data name="group1876" xml:space="preserve">
+    <value>♦ Engineering Complex</value>
+  </data>
+  <data name="group1878" xml:space="preserve">
+    <value>♦ Titan</value>
+  </data>
+  <data name="group1879" xml:space="preserve">
+    <value>♦ Force Auxiliary</value>
+  </data>
+  <data name="group1880" xml:space="preserve">
+    <value>♦ Dreadnought</value>
+  </data>
+  <data name="group1882" xml:space="preserve">
+    <value>MassiveEnvironments</value>
+  </data>
+  <data name="group1884" xml:space="preserve">
+    <value>Ubiquitous Moon Asteroids</value>
+  </data>
+  <data name="group1886" xml:space="preserve">
+    <value>Technical Data Chips</value>
+  </data>
+  <data name="group1887" xml:space="preserve">
+    <value>Structure Moon Drilling Service Module</value>
+  </data>
+  <data name="group1888" xml:space="preserve">
+    <value>Composite Reaction Formulas</value>
+  </data>
+  <data name="group1889" xml:space="preserve">
+    <value>Polymer Reaction Formulas</value>
+  </data>
+  <data name="group1890" xml:space="preserve">
+    <value>Biochemical Reaction Formulas</value>
+  </data>
+  <data name="group1891" xml:space="preserve">
+    <value>Depricated Subsystem Blueprints</value>
+  </data>
+  <data name="group1894" xml:space="preserve">
+    <value>Non-Repeating Hardeners</value>
+  </data>
+  <data name="group1895" xml:space="preserve">
+    <value>Irregular Industrial</value>
+  </data>
+  <data name="group1896" xml:space="preserve">
+    <value>♦ Industrial Command </value>
+  </data>
+  <data name="group1909" xml:space="preserve">
+    <value>♦ Battlecruiser</value>
+  </data>
+  <data name="group1911" xml:space="preserve">
+    <value>Empire Asteroids</value>
+  </data>
+  <data name="group1912" xml:space="preserve">
+    <value>Structure Drilling Rig M - Efficiency</value>
+  </data>
+  <data name="group1913" xml:space="preserve">
+    <value>Structure Drilling Rig M - Stability</value>
+  </data>
+  <data name="group1914" xml:space="preserve">
+    <value>Structure Drilling Rig L - Proficiency</value>
+  </data>
+  <data name="group1915" xml:space="preserve">
+    <value>Moon Mining Beacon</value>
+  </data>
+  <data name="group1920" xml:space="preserve">
+    <value>Common Moon Asteroids</value>
+  </data>
+  <data name="group1921" xml:space="preserve">
+    <value>Uncommon Moon Asteroids</value>
+  </data>
+  <data name="group1922" xml:space="preserve">
+    <value>Rare Moon Asteroids</value>
+  </data>
+  <data name="group1923" xml:space="preserve">
+    <value>Exceptional Moon Asteroids</value>
+  </data>
+  <data name="group1924" xml:space="preserve">
+    <value>♦ Forward Operating Base</value>
+  </data>
+  <data name="group1925" xml:space="preserve">
+    <value>Irregular Industrial Command Ship</value>
+  </data>
+  <data name="group1926" xml:space="preserve">
+    <value>Irregular Freighter</value>
+  </data>
+  <data name="group1927" xml:space="preserve">
+    <value>Irregular Structure</value>
+  </data>
+  <data name="group1928" xml:space="preserve">
+    <value>Irregular Container</value>
+  </data>
+  <data name="group1929" xml:space="preserve">
+    <value>Irregular - Unidentified</value>
+  </data>
+  <data name="group1931" xml:space="preserve">
+    <value />
+  </data>
+  <data name="group1933" xml:space="preserve">
+    <value>Structure Composite Reactor Rig M - TE</value>
+  </data>
+  <data name="group1934" xml:space="preserve">
+    <value>Structure Composite Reactor Rig M - ME</value>
+  </data>
+  <data name="group1935" xml:space="preserve">
+    <value>Structure Hybrid Reactor Rig M - TE</value>
+  </data>
+  <data name="group1936" xml:space="preserve">
+    <value>Structure Hybrid Reactor Rig M - ME</value>
+  </data>
+  <data name="group1937" xml:space="preserve">
+    <value>Structure Biochemical Reactor Rig M - TE</value>
+  </data>
+  <data name="group1938" xml:space="preserve">
+    <value>Structure Biochemical Reactor Rig M - ME</value>
+  </data>
+  <data name="group1939" xml:space="preserve">
+    <value>Structure Reactor Rig L - Efficiency</value>
+  </data>
+  <data name="group1940" xml:space="preserve">
+    <value>Moon Chunk</value>
+  </data>
+  <data name="group1941" xml:space="preserve">
+    <value>Structure Resource Rig M - Asteroid Ore Reprocessing</value>
+  </data>
+  <data name="group1942" xml:space="preserve">
+    <value>Structure Resource Rig M - Ice Reprocessing</value>
+  </data>
+  <data name="group1943" xml:space="preserve">
+    <value>Structure Resource Rig M - Moon Ore Reprocessing</value>
+  </data>
+  <data name="group1944" xml:space="preserve">
+    <value>Structure Resource Rig L - Reprocessing</value>
+  </data>
+  <data name="group1945" xml:space="preserve">
+    <value>Structure Resource Rig XL - Reprocessing</value>
+  </data>
+  <data name="group1948" xml:space="preserve">
+    <value>Cyber Scanning Implant Blueprints</value>
+  </data>
+  <data name="group1950" xml:space="preserve">
+    <value>Permanent SKIN</value>
+  </data>
+  <data name="group1951" xml:space="preserve">
+    <value>Volatile SKIN</value>
+  </data>
+  <data name="group1952" xml:space="preserve">
+    <value>7-Day SKIN</value>
+  </data>
+  <data name="group1953" xml:space="preserve">
+    <value>30-Day SKIN</value>
+  </data>
+  <data name="group1954" xml:space="preserve">
+    <value>90-Day SKIN</value>
+  </data>
+  <data name="group1955" xml:space="preserve">
+    <value>1-Year SKIN</value>
+  </data>
+  <data name="group1956" xml:space="preserve">
+    <value>Drifter Reinforcements</value>
+  </data>
+  <data name="group1962" xml:space="preserve">
+    <value>Structure QA Modules</value>
+  </data>
+  <data name="group1964" xml:space="preserve">
+    <value>Kalli_PLACEHOLDER</value>
+  </data>
+  <data name="group1966" xml:space="preserve">
+    <value>Structure Capacitor Battery</value>
+  </data>
+  <data name="group1967" xml:space="preserve">
+    <value>Structure Capacitor Power Relay</value>
+  </data>
+  <data name="group1968" xml:space="preserve">
+    <value>Structure Armor Reinforcer</value>
+  </data>
+  <data name="group1969" xml:space="preserve">
+    <value>Dynamic_PLACEHOLDER</value>
+  </data>
+  <data name="group1971" xml:space="preserve">
+    <value>Localized Effect Beacon</value>
+  </data>
+  <data name="group1972" xml:space="preserve">
+    <value>Flag Cruiser</value>
+  </data>
+  <data name="group1973" xml:space="preserve">
+    <value>Locators</value>
+  </data>
+  <data name="group1974" xml:space="preserve">
+    <value>Structure Festival Launcher</value>
+  </data>
+  <data name="group1976" xml:space="preserve">
+    <value>Structure Festival Charges</value>
+  </data>
+  <data name="group1977" xml:space="preserve">
+    <value>Trinary Data Vaults</value>
+  </data>
+  <data name="group1978" xml:space="preserve">
+    <value>Industrial Support Facility</value>
+  </data>
+  <data name="group350858" xml:space="preserve">
+    <value>Infantry Weapons</value>
+  </data>
+  <data name="group351064" xml:space="preserve">
+    <value>Infantry Dropsuits</value>
+  </data>
+  <data name="group351121" xml:space="preserve">
+    <value>Infantry Modules</value>
+  </data>
+  <data name="group351210" xml:space="preserve">
+    <value>Infantry Vehicles</value>
+  </data>
+  <data name="group351648" xml:space="preserve">
+    <value>Infantry Skills</value>
+  </data>
+  <data name="group351844" xml:space="preserve">
+    <value>Infantry Equipment</value>
+  </data>
+  <data name="group354641" xml:space="preserve">
+    <value>Infantry Skill Enhancers</value>
+  </data>
+  <data name="group354753" xml:space="preserve">
+    <value>Infantry Installations</value>
+  </data>
+  <data name="group364204" xml:space="preserve">
+    <value>Surface Infrastructure</value>
+  </data>
+  <data name="group367487" xml:space="preserve">
+    <value>Services </value>
+  </data>
+  <data name="group367580" xml:space="preserve">
+    <value>Agents</value>
+  </data>
+  <data name="group367594" xml:space="preserve">
+    <value>Visual Customization</value>
+  </data>
+  <data name="group367774" xml:space="preserve">
+    <value>Salvage Containers</value>
+  </data>
+  <data name="group367776" xml:space="preserve">
+    <value>Salvage Decryptors</value>
+  </data>
+  <data name="group368656" xml:space="preserve">
+    <value>Battle Salvage</value>
+  </data>
+  <data name="group368666" xml:space="preserve">
+    <value>Warbarge</value>
+  </data>
+  <data name="group368726" xml:space="preserve">
+    <value>Infantry Color Skin</value>
+  </data>
+</root>

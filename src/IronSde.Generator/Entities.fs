@@ -2,6 +2,8 @@
 
 open IronSde.Universe
 
+type Name = { id: int; name: string }
+
 type internal Planet = { data: PlanetData;
                             moons: seq<MoonData>; 
                             stations: seq<StationData>; 

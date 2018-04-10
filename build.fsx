@@ -90,6 +90,11 @@ Target.Create "BuildNames"  (fun _ ->
                                             |> MsBuild.RunRelease buildNamesDir "Build"
                                             |> Trace.Log "AppBuild-Output: " )
                                         
+Target.Description "Build IronSde.Names.fsproj"
+Target.Create "BuildNamesProj"  (fun _ ->
+                                          !! ".\\src\\IronSde.Names\\IronSde.Names.fsproj"
+                                            |> MsBuild.RunRelease buildNamesDir "Build"
+                                            |> Trace.Log "AppBuild-Output: " )
 
 Target.Description "Build IronSde.Universe"
 Target.Create "BuildUniverse"  (fun _ ->

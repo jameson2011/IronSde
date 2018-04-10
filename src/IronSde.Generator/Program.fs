@@ -6,25 +6,38 @@ module Program=
     let private prefix msg = sprintf "%s %s" (System.DateTime.UtcNow.ToLongTimeString()) msg
     let private console = prefix >> System.Console.Out.WriteLine
     let private consoleError = prefix >> System.Console.Error.WriteLine
+    
+    let private writeNames source target =        
+        let writer = new NamesSourceWriter(target, 8)
+                
+        let typesReader = new TypesReader(source)
 
-    let private writeNames source target =
-        
-        console "Reading names..."
-        let names = NamesReader.names source
+        console "Writing category names..."
+        typesReader.CategoryNames() 
+            |> writer.WriteCategories 
+
+        console "Writing group names..."
+        typesReader.GroupNames()
+            |> writer.WriteGroups
+
+        console "Writing type names..."
+        typesReader.TypeNames()
+            |> writer.WriteTypes
 
         console "Writing names..."
-        NamesSourceWriter.write target 8 names
+        NamesReader.names source
+            |> writer.WriteNames
+        
+        console "Finishing names..."
+        writer.Close()
 
         console "Finished writing names."
 
-    let private writeUniverse source target = 
-        console "Reading universe..."
-        let regions = UniverseReader.regions source
-                        |> Seq.cache
-                        
-        
+    let private writeUniverse source target =         
         console "Writing universe..."
-        UniverseSourceWriter.write console target regions
+        UniverseReader.regions source
+                        |> Seq.cache
+                        |> UniverseSourceWriter.write console target
 
         console "Finished writing universe."
 
@@ -35,7 +48,7 @@ module Program=
             | [| "/sde"; sdeDir; "/names"; namesDir;  |] ->
                         console(sprintf "Static data source:   %s" sdeDir)
                         console(sprintf "Names directory:      %s" namesDir)
-                        
+
                         writeNames sdeDir namesDir
                         
             | [| "/sde"; sdeDir; "/universe"; universeDir |] ->

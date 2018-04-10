@@ -7,8 +7,7 @@ type ObjectMap = Dictionary<Object, Object>
 
 module ObjectMaps=
     
-    let find (key: string) (value: ObjectMap) =
-        // the value's comparer is an object equality comparer... :@
+    let find (key: string) (value: ObjectMap) =        
         value |> Seq.map (fun kvp -> (kvp.Key.ToString()), kvp.Value)
                         |> Seq.filter (fun (k,_) -> k = key)
                         |> Seq.map (fun (_,v) -> v)
@@ -18,11 +17,7 @@ module ObjectMaps=
         value |> find key |> Seq.tryHead
         
     let get (key: string) (value: ObjectMap) =
-        value |> find key |> Seq.head
-
-    // TODO: wrong style... this looks like a combinator
-    let (>->) (value: ObjectMap) (key: string) = get key value
-        
+        value |> find key |> Seq.head        
 
     let toMap (value: Object) =
         value :?> ObjectMap

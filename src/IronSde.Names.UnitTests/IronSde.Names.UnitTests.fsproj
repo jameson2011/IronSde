@@ -91,7 +91,10 @@
       <Link>GlobalAssemblyInfo.fs</Link>
     </Compile>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Tests.fs" />
+    <Compile Include="NamesTests.fs" />
+    <Compile Include="CategoryTests.fs" />
+    <Compile Include="GroupTests.fs" />
+    <Compile Include="ItemTypeTests.fs" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
