@@ -103,6 +103,7 @@
     <Compile Include="MapSearchTest.fs" />
     <Content Include="packages.config" />
     <Compile Include="ConstellationsTests.fs" />
+    <Compile Include="ItemTypesTests.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IronSde">

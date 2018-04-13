@@ -61,6 +61,7 @@
     <Compile Include="Utils.fs" />
     <Compile Include="Units.fs" />
     <Compile Include="Entities.fs" />
+    <Compile Include="ItemTypes.fs" />
     <Compile Include="Maps.fs" />
     <Compile Include="Regions.fs" />
     <Compile Include="Constellations.fs" />

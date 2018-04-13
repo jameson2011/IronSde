@@ -47,3 +47,6 @@ type Celestial =
     | Belt  of int * int * string * Position
     | Moon of int * int * string * Position
     | Station  of int * int * string * Position
+
+type ItemMetagroup = { id: int; name: string; }
+type ItemType = { id: int; name: string; meta: ItemMetagroup option }
