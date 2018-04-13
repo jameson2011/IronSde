@@ -13,9 +13,8 @@ module NamesReader=
             { Name.id = (value |> get "itemID" |> toInt);
                 name = (value |> get "itemName" |> toStr) }
                 
-        let serialiser = new SharpYaml.Serialization.Serializer()
-        use rdr = new System.IO.StreamReader(file)
-        serialiser.Deserialize(rdr) :?> List<Object>
+        file 
+            |> ObjectMaps.toObjectList
             |> Seq.map castObjectMap 
             |> Seq.map map            
 

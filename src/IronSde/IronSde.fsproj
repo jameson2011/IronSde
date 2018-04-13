@@ -69,6 +69,10 @@
     <Compile Include="MapSearch.fs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="IronSde.ItemTypes">
+      <HintPath>..\..\artifacts\Universe\IronSde.ItemTypes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="IronSde.Names">
       <HintPath>..\..\artifacts\Names\IronSde.Names.dll</HintPath>
       <Private>True</Private>

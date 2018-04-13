@@ -41,6 +41,16 @@ module Program=
 
         console "Finished writing universe."
 
+    let private writeTypes source target =         
+        console "Writing types..."
+
+        let rdr = new MetaTypesReader(source)
+        let writer = new MetaTypesWriter(target)
+        rdr.Groups()
+                        |> writer.Write
+        
+        console "Finished writing types."
+
     [<EntryPoint>]
     let main argv = 
         try            
@@ -57,13 +67,22 @@ module Program=
 
                         writeUniverse sdeDir universeDir
             
-            | [| "/sde"; sdeDir; "/names"; namesDir; "/universe"; universeDir |] ->
+            | [| "/sde"; sdeDir; "/types"; typesDir |] ->
+                        console(sprintf "Static data source:   %s" sdeDir)
+                        console(sprintf "Types directory:   %s" typesDir)
+
+                        writeTypes sdeDir typesDir
+
+            | [| "/sde"; sdeDir; "/names"; namesDir; "/universe"; universeDir; "/types"; typesDir |] ->
                         console(sprintf "Static data source:   %s" sdeDir)
                         console(sprintf "Names directory:      %s" namesDir)
                         console(sprintf "Universe directory:   %s" universeDir)
-                        
+                        console(sprintf "Types directory:   %s" typesDir)
+
                         writeNames sdeDir namesDir
                         writeUniverse sdeDir universeDir
+                        writeTypes sdeDir typesDir
+
             | _ -> failwith "Invalid arguments. Valid options are:\r\n
 /sde <sde root> /names <target names folder>\r\n
 /sde <sde root> /universe <target universe folder>"

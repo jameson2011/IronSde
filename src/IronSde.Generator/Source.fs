@@ -46,3 +46,11 @@ module internal Source=
 
     let stationsModuleName = "Stations"
     let declareStationsModule = sprintf "module internal %s=" stationsModuleName
+
+    let itemtypesNamespace = "IronSde.ItemTypes"
+    let declareItemtypesNamespace = sprintf "namespace %s" itemtypesNamespace
+    
+    let itemtypesModuleName = "ItemTypes"
+    let declareItemTypesModule = sprintf "module internal %s=" itemtypesModuleName
+
+    

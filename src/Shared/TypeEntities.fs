@@ -6,3 +6,4 @@ type internal GroupData =  { id: int; categoryId: int; }
 
 type internal ItemTypeData = { id: int; groupId: int; }
 
+type MetaGroupData = { id: int; name: string; typeIds: int [] }

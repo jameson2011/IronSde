@@ -18,11 +18,9 @@ type TypesReader(path)=
         { Name.id = id; name = name }
 
     let itemNames (file: string) =
-        let serialiser = new SharpYaml.Serialization.Serializer()
-        use rdr = new System.IO.StreamReader(file)
-        serialiser.Deserialize(rdr) |> castObjectMap
-            |> Seq.map castEntry
-            |> Seq.map name            
+        file    |> ObjectMaps.toObjectMap
+                |> Seq.map castEntry
+                |> Seq.map name            
 
     member __.CategoryNames()=
         IO.combine path """sde\\fsd\\categoryIDs.yaml"""

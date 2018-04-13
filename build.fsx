@@ -29,11 +29,13 @@ let sdeZipFile = downloadDir @@ "sde.zip"
 let sdeFolder = dataDir @@ "sde\\"
 
 let generatorSolution = ".\\src\\IronSde.Generator.sln"
-let namesSolution = ".\\src\\IronSde.Names.sln"
 let unitTestsSolution = ".\\src\\IronSde.UnitTests.sln"
+let namesSolution = ".\\src\\IronSde.Names.sln"
 let namesSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.Names\\"
 let universeSolution = ".\\src\\IronSde.Universe.sln"
 let universeSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.Universe\\"
+let itemtypesSolution = ".\\src\\IronSde.ItemTypes.sln"
+let itemtypesSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.ItemTypes\\"
 let frontSolution = ".\\src\\IronSde.sln"
 let generatorExe = buildGeneratorDir @@ "IronSde.Generator.exe"
 let assemblyInfo = @".\src\Shared\GlobalAssemblyInfo.fs"
@@ -77,6 +79,7 @@ Target.Create "RunGenerator"  (fun _ -> let shellParams = { defaultParams with P
                                                                                 Args = [    ("/sde", __SOURCE_DIRECTORY__ @@ sdeFolder); 
                                                                                             ("/names", namesSolutionDir);
                                                                                             ("/universe", universeSolutionDir);
+                                                                                            ("/types", itemtypesSolutionDir);
                                                                                         ] }
                                         match shellParams |> asyncShellExec |> Async.RunSynchronously with
                                         | 0 -> ignore 0
@@ -99,6 +102,14 @@ Target.Create "BuildNamesProj"  (fun _ ->
 Target.Description "Build IronSde.Universe"
 Target.Create "BuildUniverse"  (fun _ ->
                                           !! universeSolution
+                                            |> MsBuild.RunRelease buildUniverseDir "Build"
+                                            |> Trace.Log "AppBuild-Output: " )
+
+
+
+Target.Description "Build IronSde.ItemTypes"
+Target.Create "BuildItemTypes"  (fun _ ->
+                                          !! itemtypesSolution
                                             |> MsBuild.RunRelease buildUniverseDir "Build"
                                             |> Trace.Log "AppBuild-Output: " )
 
@@ -149,6 +160,7 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 ==> "RunGenerator"
 ==> "BuildNames"
 
+
 "BuildIronSde"
 ==> "BuildUnitTests"
 ==> "UnitTests"
@@ -159,6 +171,8 @@ Target.Create "All" (fun _ -> Trace.trace "All done" )
 "VerifySde"
 ==> "All"
 "BuildNames"
+==> "All"
+"BuildItemTypes"
 ==> "All"
 "BuildUniverse"
 ==> "All"

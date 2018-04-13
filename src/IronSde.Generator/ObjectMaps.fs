@@ -6,7 +6,12 @@ open System.Collections.Generic
 type ObjectMap = Dictionary<Object, Object>
 
 module ObjectMaps=
-    
+
+    let private ofFile (filePath: string) =
+        let serialiser = new SharpYaml.Serialization.Serializer()
+        use rdr = new System.IO.StreamReader(filePath)
+        serialiser.Deserialize(rdr)
+        
     let find (key: string) (value: ObjectMap) =        
         value |> Seq.map (fun kvp -> (kvp.Key.ToString()), kvp.Value)
                         |> Seq.filter (fun (k,_) -> k = key)
@@ -35,9 +40,11 @@ module ObjectMaps=
             value.ToString()
 
     let toObjectMap (filePath: string) =
-        let serialiser = new SharpYaml.Serialization.Serializer()
-        use rdr = new System.IO.StreamReader(filePath)
-        serialiser.Deserialize(rdr) :?> ObjectMap
+        filePath |> ofFile :?> ObjectMap
 
+    let toObjectList (filePath: string) =
+        filePath |> ofFile :?> List<Object>
+        
     let castObjectMap (o: Object)=
         o :?> ObjectMap
+    

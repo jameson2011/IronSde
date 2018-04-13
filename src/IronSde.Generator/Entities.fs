@@ -15,3 +15,4 @@ type internal SolarSystem = { data: SolarSystemData;
 
 type internal Constellation = { data: ConstellationData; solarSystems: seq<SolarSystem>}
 type internal Region = { data: RegionData; constellations: seq<Constellation> }
+

@@ -27,7 +27,7 @@
     <DocumentationFile>
     </DocumentationFile>
     <Prefer32Bit>true</Prefer32Bit>
-    <StartArguments>/sde "C:\Projects\GitRepos\IronSde\data\sde"  /names "C:\Projects\GitRepos\IronSde\src\IronSde.Names"</StartArguments>
+    <StartArguments>/sde "C:\Projects\GitRepos\IronSde\data\sde"  /types "C:\Projects\GitRepos\IronSde\src\IronSde.ItemTypes"</StartArguments>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -83,6 +83,8 @@
     </Compile>
     <Compile Include="Entities.fs" />
     <Compile Include="Source.fs" />
+    <Compile Include="MetaTypesReader.fs" />
+    <Compile Include="MetaTypesWriter.fs" />
     <Compile Include="TypesReader.fs" />
     <Compile Include="NamesReader.fs" />
     <Compile Include="NamesSourceWriter.fs" />
