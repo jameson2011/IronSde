@@ -22,7 +22,7 @@ module UniverseReader=
         | _ -> failwith "Unrecognised Position"
 
     let private id (name: string) (values: ObjectMap)=           
-        values >-> name |> toInt
+        values |> get name |> toInt
     let private regionId values = id "regionID" values
     let private constellationId values = id "constellationID"  values
     let private solarSystemId values = id "solarSystemID" values
@@ -30,10 +30,10 @@ module UniverseReader=
     let private toStargate solarSystemId (values: ObjectMap)=
         values |> Seq.map (fun k -> let key = (k.Key :?> int)
                                     let map = castObjectMap k.Value 
-                                    let pos = map >-> "position" |> toPosition
+                                    let pos = map |> get "position" |> toPosition
                                     { StargateData.id = key; 
                                                 solarSystemId = solarSystemId; 
-                                                destinationGateId = map >-> "destination" |> toInt; 
+                                                destinationGateId = map |> get "destination" |> toInt; 
                                                 x = pos.x; y = pos.y; z = pos.z; 
                                                  })
                 |> List.ofSeq
@@ -42,17 +42,17 @@ module UniverseReader=
         { StarData.id = values |> id "id"; x = 0.0; y = 0.0; z = 0.0; }
 
     let private toBelt solarSystemId planetId id (values: ObjectMap)=        
-        let pos = (values >-> "position" |> toPosition)
+        let pos = (values |> get "position" |> toPosition)
         { BeltData.id = id; solarSystemId = solarSystemId; planetId = planetId; x = pos.x; y = pos.y; z = pos.z}
 
     let private toMoon solarSystemId id planetId (values: ObjectMap)=
-        let pos = (values >-> "position" |> toPosition)
+        let pos = (values |> get "position" |> toPosition)
         { MoonData.id = id; solarSystemId = solarSystemId; planetId = planetId;
                     x = pos.x; y = pos.y; z = pos.z;
                     }
 
     let private toStation solarSystemId planetId moonId id (values: ObjectMap)=                
-        let pos = (values >-> "position" |> toPosition)
+        let pos = (values |> get "position" |> toPosition)
         { StationData.id = id; 
                         solarSystemId = solarSystemId;
                         planetId = planetId; 
@@ -94,14 +94,14 @@ module UniverseReader=
         
     let private toPlanet solarSystemId  id (values: ObjectMap) =
         let pairs = toMoons solarSystemId id values
-        let moons = pairs |> Seq.map (fun (m,_) -> m)    
-        let moonStations = pairs |> Seq.collect (fun (_,ss) -> ss) |> List.ofSeq
+        let moons = pairs |> Seq.map fst
+        let moonStations = pairs |> Seq.collect snd |> List.ofSeq
         let planetStations = toStations solarSystemId id None values
         
         let stations = List.append planetStations moonStations |> Array.ofSeq
         let belts = toBelts solarSystemId id values |> Array.ofSeq
 
-        let pos = values >-> "position" |> toPosition
+        let pos = values |> get "position" |> toPosition
         let data = { PlanetData.id = id; solarSystemId = solarSystemId;
                         x = pos.x; y = pos.y; z = pos.z; }
         { Planet.data = data;
@@ -115,18 +115,18 @@ module UniverseReader=
     
     let private toSolarSystem (securityRating: float -> SystemSecurity) regionId constellationId (values: ObjectMap) =        
         let solarSystemId = solarSystemId values
-        let security = values >-> "security" |> toFloat
-        let stargates = values >-> "stargates"  |> castObjectMap |> (toStargate solarSystemId) |> Array.ofSeq
-        let planets = values >-> "planets" |> castObjectMap |> toPlanets solarSystemId |> Seq.cache
+        let security = values |> get "security" |> toFloat
+        let stargates = values |> get "stargates"  |> castObjectMap |> (toStargate solarSystemId) |> Array.ofSeq
+        let planets = values |> get "planets" |> castObjectMap |> toPlanets solarSystemId |> Seq.cache
         let planetData = planets |> Seq.map (fun p -> p.data) |> Array.ofSeq
-        let pos = values >-> "center" |> toPosition
+        let pos = values |> get "center" |> toPosition
         let data = { SolarSystemData.id = solarSystemId; 
                         regionId = regionId; 
                         constellationId = constellationId;
                         security = security; 
                         securityRating = securityRating security;
                         x = pos.x; y = pos.y; z = pos.z; 
-                        star = values >-> "star" |> castObjectMap |> toStar; 
+                        star = values |> get "star" |> castObjectMap |> toStar; 
                         planets = planetData;
                         }
 
@@ -136,13 +136,13 @@ module UniverseReader=
                         stargates = stargates;}
 
     let private toConstellation regionId (values: ObjectMap) (solarSystems: seq<SolarSystem>)=
-        let pos = values >-> "center" |> toPosition; 
+        let pos = values |> get "center" |> toPosition; 
         let data = { ConstellationData.id = constellationId values; regionId = regionId; 
                             x = pos.x; y = pos.y; z = pos.z;}
         { Constellation.data = data; solarSystems = solarSystems |> Seq.cache  }
 
     let private toRegion (values: ObjectMap) (constellations: seq<Constellation>)=
-        let pos = values >-> "center" |> toPosition; 
+        let pos = values |> get "center" |> toPosition; 
         let data = { RegionData.id = regionId values;                 
                 x = pos.x; y = pos.y; z = pos.z;
                 }

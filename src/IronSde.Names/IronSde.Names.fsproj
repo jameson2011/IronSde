@@ -60,6 +60,9 @@
       <Link>ResourceUtils.fs</Link>
     </Compile>
     <Compile Include="ResourceUtils.fs" />
+    <EmbeddedResource Include="TypeNames.resx" />
+    <EmbeddedResource Include="GroupNames.resx" />
+    <EmbeddedResource Include="CategoryNames.resx" />
     <EmbeddedResource Include="Names0.resx" />
     <EmbeddedResource Include="Names1.resx" />
     <EmbeddedResource Include="Names2.resx" />

@@ -2,7 +2,7 @@
 
 open Xunit
 
-module Tests=
+module NamesTests=
     
     [<Fact>]
     let EnsureAssemblyLoads() = 
