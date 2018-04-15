@@ -2,6 +2,7 @@
 
 module ItemTypes=
 
+    [<CompiledName("GetById")>]
     let itemtype id = 
         let name = IronSde.Names.ResourceUtils.itemtype id
         let meta = IronSde.ItemTypes.ItemTypes.itemtypesMeta id
