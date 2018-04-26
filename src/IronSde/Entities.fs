@@ -49,4 +49,9 @@ type Celestial =
     | Station  of int * int * string * Position
 
 type ItemMetagroup = { id: int; name: string; }
-type ItemType = { id: int; name: string; meta: ItemMetagroup option }
+type ItemTypeAttribute = { key: AttributeTypes; value: float }
+type ItemType = {   id: int; 
+                    name: string; 
+                    group: ItemTypeGroups;
+                    attributes: ItemTypeAttribute [];
+                    meta: ItemMetagroup option }

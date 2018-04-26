@@ -60,6 +60,18 @@
     <Content Include="packages.config" />
     <Compile Include="Utils.fs" />
     <Compile Include="Units.fs" />
+    <Compile Include="..\Shared\AttributeTypesEnum.fs">
+      <Link>AttributeTypesEnum.fs</Link>
+    </Compile>
+    <Compile Include="..\Shared\ItemTypeCategoryEnum.fs">
+      <Link>ItemTypeCategoryEnum.fs</Link>
+    </Compile>
+    <Compile Include="..\Shared\AttributeCategoriesEnum.fs">
+      <Link>AttributeCategoriesEnum.fs</Link>
+    </Compile>
+    <Compile Include="..\Shared\ItemTypeGroupEnum.fs">
+      <Link>ItemTypeGroupEnum.fs</Link>
+    </Compile>
     <Compile Include="Entities.fs" />
     <Compile Include="ItemTypes.fs" />
     <Compile Include="Maps.fs" />
@@ -68,18 +80,6 @@
     <Compile Include="SolarSystems.fs" />
     <Compile Include="Celestials.fs" />
     <Compile Include="MapSearch.fs" />
-    <Compile Include="..\Shared\AttributeTypesEnum.fs" >
-      <Link>AttributeTypesEnum.fs</Link>
-    </Compile>
-    <Compile Include="..\Shared\ItemTypeCategoryEnum.fs" >
-      <Link>ItemTypeCategoryEnum.fs</Link>
-    </Compile>
-    <Compile Include="..\Shared\AttributeCategoriesEnum.fs" >
-      <Link>AttributeCategoriesEnum.fs</Link>
-    </Compile>
-    <Compile Include="..\Shared\ItemTypeGroupEnum.fs" >
-      <Link>ItemTypeGroupEnum.fs</Link>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="IronSde.ItemTypes">
