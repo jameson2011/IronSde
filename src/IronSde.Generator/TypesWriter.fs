@@ -65,7 +65,7 @@ type TypesWriter(targetPath: string) =
         writer.Flush()
         writer.Close()
 
-    member __.WriteItemTypeGroups(values: seq<ItemGroup>)=
+    member __.WriteItemTypeGroups(itemTypeGroups: seq<ItemGroup>) (itemTypes: seq<ItemType>)=
         let targetFilePath = IO.combine targetPath "ItemTypeGroups.fs"
         let headers = seq {
                             yield Source.declareItemtypesNamespace            
@@ -73,20 +73,34 @@ type TypesWriter(targetPath: string) =
                             yield Source.declareItemTypeGroupsModule
                         }
         
-        let groupsByCategory = values   |> Seq.map (fun ig -> ig.categoryId, ig.id)
+        let groupsByCategory = itemTypeGroups   
+                                        |> Seq.map (fun ig -> ig.categoryId, ig.id)
                                         |> Seq.groupBy (fun (c,i) -> c)
-                                        |> Seq.map (fun (catId,groupIds) -> catId, groupIds |> Seq.map snd |> Array.ofSeq )
+                                        |> Seq.map (fun (catId,groupIds) -> catId, groupIds |> Seq.map snd |> Seq.sort |> Array.ofSeq )
                                         |> Seq.map (fun (catId,groupIds) -> sprintf "| %i -> Some %s" catId (Source.toArrayOfInts groupIds) |> Source.indent2 )
         
         let groupsByCategoryFunc = 
             seq{
                     yield "let groupsByCategory = function" |> Source.indent
                     yield! groupsByCategory                    
-                    yield "| _  -> None" |> Source.indent2
+                    yield Source.defaultNoneCase |> Source.indent2
                 }
         
+        let itemTypesByGroup = itemTypes 
+                                |> Seq.groupBy (fun a -> a.groupId)
+                                |> Seq.map (fun (groupId, types) -> groupId, (types |> Seq.map (fun t -> t.id) |> Seq.sort |> Array.ofSeq) )
+        let itemTypesByGroupFunc =            
+            seq {
+                    yield "let itemTypesByGroup = function" |> Source.indent
+                    yield! itemTypesByGroup 
+                                |> Seq.map (fun (groupId, typeIds) -> sprintf "| %i -> Some %s" 
+                                                                            groupId (Source.toArrayOfInts typeIds) 
+                                                                            |> Source.indent2)
+                    yield Source.defaultNoneCase |> Source.indent2
+                }
+
         use writer = new System.IO.StreamWriter(targetFilePath)
-        Seq.concat [headers; groupsByCategoryFunc; ] |> Seq.iter writer.WriteLine 
+        Seq.concat [headers; groupsByCategoryFunc; itemTypesByGroupFunc; ] |> Seq.iter writer.WriteLine 
         writer.Flush()
         writer.Close()
 

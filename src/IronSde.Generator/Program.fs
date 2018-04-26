@@ -51,12 +51,7 @@ module Program=
         console "Writing item type categories..."
         let itemTypeCategories = typesReader.CategoryNames() 
         sharedTypesWriter.WriteItemTypeCategoryEnums itemTypeCategories
-
-        console "Writing item type groups..."
-        let itemTypeGroups = typesReader.Groups() |> Seq.sortBy (fun a -> (a.categoryId, a.id) ) |> Array.ofSeq
-        typesWriter.WriteItemTypeGroups itemTypeGroups
-        sharedTypesWriter.WriteItemTypeGroupEnums itemTypeGroups
-
+        
         console "Writing attribute categories..."        
         let attrCategories = typesReader.AttributeCategories()
                                 |> Seq.sortBy (fun a -> a.id)
@@ -72,11 +67,15 @@ module Program=
 
         
         console "Writing item types..."
-        let itemTypes = typesReader.Types()             
+        let itemTypes = typesReader.Types() |> Seq.cache
         let itemTypeAttrs = typesReader.ItemTypeAttributes()
         typesWriter.WriteItemTypes itemTypes itemTypeAttrs
-        // TODO: write groups -> item type IDs...
 
+        console "Writing item type groups..."
+        let itemTypeGroups = typesReader.Groups() |> Seq.sortBy (fun a -> (a.categoryId, a.id) ) |> Array.ofSeq
+        sharedTypesWriter.WriteItemTypeGroupEnums itemTypeGroups
+        typesWriter.WriteItemTypeGroups itemTypeGroups itemTypes
+        
         console "Writing meta types..."
         let metaTypesReader = new MetaTypesReader(source)
         let metaTypesWriter = new MetaTypesWriter(target)
