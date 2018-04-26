@@ -21,5 +21,5 @@ type AttributeType = { id: int; categoryId: int option; name: string; defaultVal
 type ItemTypeAttribute = { itemTypeId: int; attributeId: int; value: float option; }
 
 type ItemGroup = { id: int; categoryId: int; name: string }
-// TODO: attributes?
+
 type ItemType = { id: int; groupId: int }

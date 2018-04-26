@@ -72,14 +72,10 @@ module Program=
 
         
         console "Writing item types..."
-        let itemTypes = typesReader.Types()
-                            |> Seq.sortBy (fun a -> a.id)                            
-        typesWriter.WriteItemTypes itemTypes
-
-        console "Writing item type attributes..."
-        let itemAttrs = typesReader.ItemTypeAttributes()
-                            |> Seq.sortBy (fun a -> (a.itemTypeId, a.attributeId))                            
-        attributesWriter.WriteItemTypeAttributes itemAttrs        
+        let itemTypes = typesReader.Types()             
+        let itemTypeAttrs = typesReader.ItemTypeAttributes()
+        typesWriter.WriteItemTypes itemTypes itemTypeAttrs
+        // TODO: write groups -> item type IDs...
 
         console "Writing meta types..."
         let metaTypesReader = new MetaTypesReader(source)

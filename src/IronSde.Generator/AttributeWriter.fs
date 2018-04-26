@@ -72,11 +72,4 @@ type AttributeWriter(targetPath: string)=
         writer.Flush()
         writer.Close()
         
-    member __.WriteItemTypeAttributes(values: seq<ItemTypeAttribute>)=
-        // TODO: float over int!
-        let itemAttrGroups = values |> Seq.groupBy (fun a -> a.itemTypeId)
-                                    |> Array.ofSeq
-        
-        ignore 0
-
-
+    

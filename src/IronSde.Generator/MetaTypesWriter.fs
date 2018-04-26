@@ -42,7 +42,7 @@ type MetaTypesWriter(targetPath: string)=
                             yield Source.declareItemtypesNamespace
                             yield Source.importIronSdeNamespace
                             yield Source.importIronSdeTypesNamespace
-                            yield Source.declareItemTypesModule
+                            yield Source.declareMetaGroupsModule
                         }
         let factories = seq {
                             yield! metagroups |> dataFuncs

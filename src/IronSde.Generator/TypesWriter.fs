@@ -30,7 +30,6 @@ type TypesWriter(targetPath: string) =
 
     member __.WriteItemTypeGroupEnums(values: seq<ItemGroup>)=
         let targetFilePath = IO.combine targetPath "ItemTypeGroupEnum.fs"
-
         
         let name (value: ItemGroup) =
             match value.name with
@@ -91,7 +90,74 @@ type TypesWriter(targetPath: string) =
         writer.Flush()
         writer.Close()
 
-    member __.WriteItemTypes(values: seq<ItemType>)=
-        let values = values |> Array.ofSeq
-        // TODO:
-        ignore 0
+    member __.WriteItemTypes(itemTypes: seq<ItemType>) (itemTypeAttrs: seq<ItemTypeAttribute>)=
+        let targetFilePath = IO.combine targetPath "ItemTypes.fs"
+        
+        let toAttrData (attr: ItemTypeAttribute) : IronSde.Types.ItemTypeAttributeData = 
+                {IronSde.Types.ItemTypeAttributeData.attributeId = attr.attributeId; value = attr.value }
+
+        let itemAttrGroups = itemTypeAttrs  |> Seq.groupBy (fun a -> a.itemTypeId)
+                                            |> Seq.map (fun (id,xs) -> id, (xs |> Seq.map toAttrData |> Array.ofSeq ))
+                                            |> Map.ofSeq
+        
+        let toItemType (value: ItemType) : IronSde.Types.ItemTypeData= 
+            let attrs = itemAttrGroups |> Map.tryFind value.id
+                                        |> Option.defaultValue [||]
+            {IronSde.Types.ItemTypeData.id = value.id; 
+                                        groupId = value.groupId; 
+                                        attributes = attrs }
+        
+        
+        let itemTypes = itemTypes 
+                        |> Seq.sortBy (fun a -> a.id)
+                        |> Seq.map toItemType
+                        |> Array.ofSeq
+        
+        let itemTypeAttrSource (value: IronSde.Types.ItemTypeAttributeData) =
+            sprintf "{ ItemTypeAttributeData.attributeId=%i; value=%s }" value.attributeId (Source.ofFloatOption value.value)
+
+        let itemTypeFuncName (itemType: IronSde.Types.ItemTypeData) = sprintf "itemtype%i" itemType.id
+        let itemTypesFuncName (id) = sprintf "itemtypes%i" id
+        let itemTypeFunc (itemType: IronSde.Types.ItemTypeData) =            
+            sprintf "let private %s() = {ItemTypeData.id = %i; groupId = %i; attributes=%s}"
+                    (itemTypeFuncName itemType) itemType.id itemType.groupId (itemType.attributes |> Seq.map itemTypeAttrSource |> Source.toArrayOfStrings)
+        
+        let itemTypeFuncs = itemTypes |> Seq.map (itemTypeFunc >> Source.indent)                            
+        
+
+        let itemTypesMatchFunc (name: string, _, items: seq<IronSde.Types.ItemTypeData>)=
+            seq{
+                yield sprintf "let private %s id =" name |> Source.indent
+                yield "match id with " |> Source.indent2
+                yield! (items |> Seq.map (fun it -> sprintf "| %i -> %s() |> Some" it.id (itemTypeFuncName it) |> Source.indent2))
+                yield Source.defaultNoneCase |> Source.indent2
+            }
+            
+
+        let itemTypeChunks = itemTypes 
+                                |> Seq.splitInto 20
+                                |> Seq.map (fun items -> items |> Seq.map (fun x -> x.id) |> Seq.last, items )
+                                |> Seq.map (fun (lastId, items) -> itemTypesFuncName lastId, lastId, items)
+                                |> List.ofSeq
+
+        let itemTypeMatchFuncs = itemTypeChunks |> Seq.collect itemTypesMatchFunc
+
+        let itemTypeMatch = seq {
+                                    yield "let itemtype id = " |> Source.indent
+                                    yield "match id with " |> Source.indent2
+                                    yield! itemTypeChunks 
+                                                |> Seq.map (fun (funcName, lastId, _) -> sprintf "| x when x <= %i -> %s x" lastId funcName |> Source.indent2)
+                                    yield Source.defaultNoneCase |> Source.indent2
+                                }                                                                
+
+        let headers = seq {
+                            yield Source.declareItemtypesNamespace
+                            yield Source.importIronSdeTypesNamespace
+                            yield Source.declareItemTypesModule
+                        }
+        
+        
+        use writer = new System.IO.StreamWriter(targetFilePath)
+        Seq.concat [headers; itemTypeFuncs; itemTypeMatchFuncs; itemTypeMatch; ] |> Seq.iter writer.WriteLine 
+        writer.Flush()
+        writer.Close()

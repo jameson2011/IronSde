@@ -63,6 +63,7 @@
     <Compile Include="Metagroups.fs" />
     <Compile Include="ItemTypeGroups.fs" />    
     <Compile Include="AttributeTypes.fs" />    
+    <Compile Include="ItemTypes.fs" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

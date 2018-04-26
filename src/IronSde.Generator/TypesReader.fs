@@ -35,10 +35,9 @@ type TypesReader(path)=
                             name = values |> getStr "categoryName" }
 
     let itemAttribute(values: ObjectMap) =
-        let value = match values |> tryGetIntOption "valueInt" with
-                    | Some v -> float v |> Some
-                    | _ ->      values |> tryGetFloatOption "valueFloat" 
-
+        let value = match values |> tryGetFloatOption "valueFloat"  with
+                    | Some v -> Some v
+                    | _ ->      values |> tryGetIntOption "valueInt" |> Option.map float
                     
         { ItemTypeAttribute.itemTypeId =    values |> getInt "typeID";
                             attributeId =   values |> getInt "attributeID";
@@ -106,21 +105,7 @@ type TypesReader(path)=
         IO.combine path """sde\\bsd\\dgmTypeAttributes.yaml"""
             |> itemAttributes
 
-
-    // TODO: WIP
     member __.Types()=
-
-        // For slots: dgmAttributeTypes: lists the types of attributes...
-        // "lowSlots": attrId: 12
-        // "hiSlots" attrId: 14
-        // "medSlots": attrId: 13
-        // "rigSlots" attrID 1137
-
-        // dgmTypeAttributes.yaml ties item type with dgmAttributeTypes
-        // links item types to dgmAttributeTypes
-        // has int and float - steve takes int over float
-
-        // need the types with groups, so read:
         IO.combine path """sde\\fsd\\typeIDs.yaml"""
             |> itemTypes
             
