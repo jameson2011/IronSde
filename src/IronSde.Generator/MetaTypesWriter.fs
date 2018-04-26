@@ -40,8 +40,8 @@ type MetaTypesWriter(targetPath: string)=
     let writeData metagroups = 
         let headers = seq {
                             yield Source.declareItemtypesNamespace
-                            yield "open IronSde"
-                            yield "open IronSde.Types"
+                            yield Source.importIronSdeNamespace
+                            yield Source.importIronSdeTypesNamespace
                             yield Source.declareItemTypesModule
                         }
         let factories = seq {

@@ -30,8 +30,14 @@ module ObjectMaps=
     let toInt (value: Object)=
         value :?> int
 
+    let toIntOption (value: Object option)=
+        value |> Option.map (fun v -> v :?> int)
+
     let toFloat (value: Object)=
         value :?> float
+
+    let toFloatOption (value: Object option)=
+        value |> Option.map (fun v -> v :?> float)
 
     let toStr (value: Object)=
         if value = null then
@@ -48,3 +54,14 @@ module ObjectMaps=
     let castObjectMap (o: Object)=
         o :?> ObjectMap
     
+    let getInt (key: string)  =
+        get key >> toInt
+
+    let getStr key =
+        get key >> toStr
+
+    let tryGetFloatOption (key: string)  =
+        tryGet key >> toFloatOption
+
+    let tryGetIntOption (key: string)  =
+        tryGet key >> toIntOption
