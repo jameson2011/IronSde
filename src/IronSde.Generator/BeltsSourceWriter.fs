@@ -24,7 +24,7 @@ module internal BeltsSourceWriter=
 
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareBeltsModule
                         }
         let lines = seq {                            

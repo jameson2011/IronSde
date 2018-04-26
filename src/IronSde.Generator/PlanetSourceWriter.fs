@@ -34,7 +34,7 @@ module internal PlanetSourceWriter=
 
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declarePlanetsModule
                         }
         let lines = seq {
