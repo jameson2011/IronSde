@@ -24,6 +24,8 @@ module internal Source=
 
     let defaultNoneCase = "| _ -> None"
 
+    let defaultEmptyArrayCase = "| _ -> [||]"
+
     let formatPosition (value: Position) =
         sprintf " { Position.x = %.20E; y = %.20E; z = %.20E } " value.x value.y value.z
     

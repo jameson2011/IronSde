@@ -10,13 +10,12 @@ module ItemTypes=
     [<CompiledName("GetCategories")>]
     let categories() =
         System.Enum.GetValues(typeof<ItemTypeCategories>).OfType<ItemTypeCategories>()
-            
+        
     [<CompiledName("GetGroups")>]
     let groups (category: ItemTypeCategories)=
         category    |> LanguagePrimitives.EnumToValue 
                     |> IronSde.ItemTypes.ItemTypeGroups.groupsByCategory 
-                    |> Option.map (fun gs -> gs |> Seq.map (fun g -> LanguagePrimitives.EnumOfValue<int, ItemTypeGroups> g))
-                    |> Option.defaultValue Seq.empty        
+                    |> Seq.map (fun g -> LanguagePrimitives.EnumOfValue<int, ItemTypeGroups> g)                    
 
     [<CompiledName("GetItemType")>]
     let itemtype id = 
@@ -36,7 +35,5 @@ module ItemTypes=
     let itemTypes (group: ItemTypeGroups)=
         group   |> LanguagePrimitives.EnumToValue 
                 |> IronSde.ItemTypes.ItemTypeGroups.itemTypesByGroup 
-                |> Option.map (fun ids -> ids 
-                                            |> Seq.map (itemtype >> Option.get))
-                |> Option.defaultValue Seq.empty
+                |> Seq.map (itemtype >> Option.get)                
     

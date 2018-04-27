@@ -77,13 +77,13 @@ type TypesWriter(targetPath: string) =
                                         |> Seq.map (fun ig -> ig.categoryId, ig.id)
                                         |> Seq.groupBy (fun (c,i) -> c)
                                         |> Seq.map (fun (catId,groupIds) -> catId, groupIds |> Seq.map snd |> Seq.sort |> Array.ofSeq )
-                                        |> Seq.map (fun (catId,groupIds) -> sprintf "| %i -> Some %s" catId (Source.toArrayOfInts groupIds) |> Source.indent2 )
+                                        |> Seq.map (fun (catId,groupIds) -> sprintf "| %i -> %s" catId (Source.toArrayOfInts groupIds) |> Source.indent2 )
         
         let groupsByCategoryFunc = 
             seq{
                     yield "let groupsByCategory = function" |> Source.indent
                     yield! groupsByCategory                    
-                    yield Source.defaultNoneCase |> Source.indent2
+                    yield Source.defaultEmptyArrayCase |> Source.indent2
                 }
         
         let itemTypesByGroup = itemTypes 
@@ -93,10 +93,10 @@ type TypesWriter(targetPath: string) =
             seq {
                     yield "let itemTypesByGroup = function" |> Source.indent
                     yield! itemTypesByGroup 
-                                |> Seq.map (fun (groupId, typeIds) -> sprintf "| %i -> Some %s" 
+                                |> Seq.map (fun (groupId, typeIds) -> sprintf "| %i -> %s" 
                                                                             groupId (Source.toArrayOfInts typeIds) 
                                                                             |> Source.indent2)
-                    yield Source.defaultNoneCase |> Source.indent2
+                    yield Source.defaultEmptyArrayCase |> Source.indent2
                 }
 
         use writer = new System.IO.StreamWriter(targetFilePath)
