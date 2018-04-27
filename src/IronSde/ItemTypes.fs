@@ -26,7 +26,8 @@ module ItemTypes=
     let itemtype id = 
         let name = IronSde.Names.ResourceUtils.itemtype id
         let meta = IronSde.ItemTypes.MetaGroups.itemtypesMeta id
-                    |> Option.map (fun m -> { ItemMetagroup.id = m.id; name = m.name } )
+                    |> Option.map (fun m -> let key = LanguagePrimitives.EnumOfValue m.id
+                                            { ItemMetagroup.key = key; name = m.name } )
         let data = IronSde.ItemTypes.ItemTypes.itemtype id
         match name, data, meta with
         | Some n, Some d, m -> Some { ItemType.id = id; 

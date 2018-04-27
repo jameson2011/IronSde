@@ -92,6 +92,9 @@ module internal Source=
     let metaGroupsModuleName = "MetaGroups"
     let declareMetaGroupsModule = sprintf "module internal %s=" metaGroupsModuleName
 
+    let metaGroupsEnumName = "MetaGroups"
+    let declareMetaGroupsEnum = sprintf "type %s=" metaGroupsEnumName
+
 
     let itemTypeGroupsModuleName = "ItemTypeGroups"
     let declareItemTypeGroupsModule = sprintf "module internal %s=" itemTypeGroupsModuleName

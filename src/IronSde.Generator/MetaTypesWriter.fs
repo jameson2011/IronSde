@@ -20,6 +20,8 @@ type MetaTypesWriter(targetPath: string)=
     let dataFuncs values =
         values |> Seq.map dataFactory 
         
+    let enums values =
+        values |> Seq.map (fun v -> sprintf "| %s = %i" (Source.toEnumName v.name) v.id)
     
     let typeGroupCaseGroups count (values: MetaGroupData list)=
         let ids = values |> Seq.collect (fun mg -> mg.typeIds |> Seq.map (fun i -> i, mg.id) )
@@ -72,6 +74,26 @@ type MetaTypesWriter(targetPath: string)=
         writer.Flush()    
         writer.Close()
 
+    let writeEnums metagroups = 
+        let headers = seq {
+                            yield Source.declareIronSdeNamespace
+                            yield Source.declareMetaGroupsEnum
+                        }
+
+        let enums = seq {
+                            yield! metagroups |> enums
+                            } |> Seq.map Source.indent
+
+        use writer = new System.IO.StreamWriter(dataFilePath)
+
+        Seq.concat [headers; enums; ] 
+            |> Seq.iter writer.WriteLine            
+
+        writer.Flush()    
+        writer.Close()
+
     member __.Write(metagroups: MetaGroupData list)=
         metagroups |> writeData
         
+    member __.WriteEnums(metagroups: MetaGroupData list)=
+        metagroups |> writeEnums

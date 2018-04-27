@@ -72,6 +72,9 @@
     <Compile Include="..\Shared\ItemTypeGroupEnum.fs">
       <Link>ItemTypeGroupEnum.fs</Link>
     </Compile>
+    <Compile Include="..\Shared\Metagroups.fs">
+      <Link>Metagroups.fs</Link>
+    </Compile>
     <Compile Include="Entities.fs" />
     <Compile Include="ItemTypes.fs" />
     <Compile Include="Maps.fs" />

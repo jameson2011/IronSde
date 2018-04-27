@@ -89,6 +89,7 @@ module ItemTypesTests=
     [<InlineData(371027, "X-MS16 Snowball Launcher", false)>]
     [<InlineData(2889, "200mm AutoCannon II", true)>]
     [<InlineData(19191, "Pithum A-Type Medium Shield Booster", true)>]    
+    [<InlineData(14666, "Hakim's Modified Heavy Warp Scrambler", true)>]
     let ItemTypeReturned(id: int, name: string, hasMeta: bool)=
         let result = IronSde.ItemTypes.itemtype id
         match result with

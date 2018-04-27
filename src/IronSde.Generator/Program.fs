@@ -79,7 +79,10 @@ module Program=
         console "Writing meta types..."
         let metaTypesReader = new MetaTypesReader(source)
         let metaTypesWriter = new MetaTypesWriter(target)
-        metaTypesReader.Groups() |> metaTypesWriter.Write
+        let sharedMetaTypesWriter = new MetaTypesWriter(sharedTarget)
+        let groups = metaTypesReader.Groups() 
+        groups |> metaTypesWriter.Write
+        groups |> sharedMetaTypesWriter.WriteEnums
         
         console "Finished writing types."
 
