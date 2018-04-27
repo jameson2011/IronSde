@@ -36,6 +36,7 @@ let universeSolution = ".\\src\\IronSde.Universe.sln"
 let universeSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.Universe\\"
 let itemtypesSolution = ".\\src\\IronSde.ItemTypes.sln"
 let itemtypesSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\IronSde.ItemTypes\\"
+let sharedSourceSolutionDir = __SOURCE_DIRECTORY__ @@ ".\\src\\Shared\\"
 let frontSolution = ".\\src\\IronSde.sln"
 let generatorExe = buildGeneratorDir @@ "IronSde.Generator.exe"
 let assemblyInfo = @".\src\Shared\GlobalAssemblyInfo.fs"
@@ -80,6 +81,7 @@ Target.Create "RunGenerator"  (fun _ -> let shellParams = { defaultParams with P
                                                                                             ("/names", namesSolutionDir);
                                                                                             ("/universe", universeSolutionDir);
                                                                                             ("/types", itemtypesSolutionDir);
+                                                                                            ("/shared", sharedSourceSolutionDir);
                                                                                         ] }
                                         match shellParams |> asyncShellExec |> Async.RunSynchronously with
                                         | 0 -> ignore 0
