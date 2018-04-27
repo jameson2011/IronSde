@@ -1,6 +1,6 @@
 ﻿namespace IronSde.UnitTests
 
-open System
+open System.Linq
 open Xunit
 
 module ItemTypesTests=
@@ -35,6 +35,42 @@ module ItemTypesTests=
         
         Assert.NotEqual(0, itemType.attributes.Length)
 
+    [<Theory>]
+    [<InlineData(587, IronSde.AttributeTypes.hiSlots, true, 3.0)>]
+    [<InlineData(670, IronSde.AttributeTypes.hiSlots, false, 0)>]
+    [<InlineData(672, IronSde.AttributeTypes.hiSlots, true, 0)>]
+    [<InlineData(672, IronSde.AttributeTypes.lowSlots, true, 0)>]
+    [<InlineData(672, IronSde.AttributeTypes.medSlots, true, 0)>]
+    [<InlineData(672, IronSde.AttributeTypes.rigSlots, false, 0)>]
+    let ItemTypeAttributeReturnsMinimalAmount(id, attr: IronSde.AttributeTypes, isSome, count: float)=
+        let value = id  |> IronSde.ItemTypes.itemtype 
+                        |> Option.get
+                        |> IronSde.ItemTypes.attribute attr
+        
+        Assert.Equal(isSome, value.IsSome)
+        if isSome then
+            Assert.True(value.Value.value >= count)
+
+    [<Fact>]
+    let AllAttributeKeysReturnValues()=
+        let keys = System.Enum.GetValues(typeof<IronSde.AttributeTypes>)
+                                .OfType<IronSde.AttributeTypes>()
+                                .ToArray()
+        let values = keys   |> Seq.map IronSde.ItemTypes.defaultAttribute
+                            |> Array.ofSeq
+        
+        Assert.NotEqual(0, keys.Length)
+        Assert.Equal(keys.Length, values.Length)
+
+
+    [<Theory>]
+    [<InlineData(IronSde.AttributeTypes.hiSlots, true, 0.0)>]
+    let DefaultAttribute(key, isSome, count)=
+        let value = IronSde.ItemTypes.defaultAttribute key
+
+        Assert.Equal(isSome, value.IsSome)
+        if isSome then
+            Assert.True(value.Value.value >= count)
 
     [<Fact>]
     let ItemTypesBySpecificGroupReturnsAtLeastOne()=        

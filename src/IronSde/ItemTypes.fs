@@ -3,9 +3,14 @@
 module ItemTypes=
     open System.Linq
     
-    let private toAttr (value: IronSde.Types.ItemTypeAttributeData) =
+    let private ofItemTypeAttributeData (value: IronSde.Types.ItemTypeAttributeData) =
         { ItemTypeAttribute.key = LanguagePrimitives.EnumOfValue<int, AttributeTypes> value.attributeId;
                             value = value.value |> Option.defaultValue 0. }
+
+    let private ofAttrTypeData (value: IronSde.Types.AttributeTypeData) =
+        { ItemTypeAttribute.key = LanguagePrimitives.EnumOfValue<int, AttributeTypes> value.id;
+                            value = value.defaultValue |> Option.defaultValue 0. }
+
 
     [<CompiledName("GetCategories")>]
     let categories() =
@@ -27,7 +32,7 @@ module ItemTypes=
         | Some n, Some d, m -> Some { ItemType.id = id; 
                                                 name = n; 
                                                 group = LanguagePrimitives.EnumOfValue d.groupId;
-                                                attributes = d.attributes |> Array.map toAttr;
+                                                attributes = d.attributes |> Array.map ofItemTypeAttributeData;
                                                 meta = m }
         | _ -> None         
 
@@ -37,3 +42,15 @@ module ItemTypes=
                 |> IronSde.ItemTypes.ItemTypeGroups.itemTypesByGroup 
                 |> Seq.map (itemtype >> Option.get)                
     
+    [<CompiledName("GetAttributeValue")>]
+    let attribute (key: AttributeTypes) (itemType: ItemType) =
+        itemType.attributes 
+            |> Seq.filter (fun a -> a.key = key)
+            |> Seq.tryHead
+        
+    [<CompiledName("GetDefaultAttributeValue")>]
+    let defaultAttribute (key: AttributeTypes) =
+        key |> LanguagePrimitives.EnumToValue
+            |> IronSde.ItemTypes.AttributeTypes.attributeType
+            |> Option.map ofAttrTypeData
+        
