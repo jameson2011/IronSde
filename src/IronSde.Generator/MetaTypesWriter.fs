@@ -3,8 +3,7 @@
 open System
 open IronSde.Types
 
-
-type MetaTypesWriter(targetPath: string)=
+type internal MetaTypesWriter(targetPath: string)=
 
     let dataFilePath = IO.combine targetPath "Metagroups.fs"
 

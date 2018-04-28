@@ -6,4 +6,4 @@ type internal ItemTypeAttributeData = { attributeId: int; value: float option; }
 
 type internal ItemTypeData = { id: int; groupId: int; attributes: ItemTypeAttributeData []; }
 
-type MetaGroupData = { id: int; name: string; typeIds: int [] }
+type internal MetaGroupData = { id: int; name: string; typeIds: int [] }

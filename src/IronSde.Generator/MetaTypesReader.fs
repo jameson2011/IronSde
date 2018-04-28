@@ -4,7 +4,7 @@ open System
 open IronSde.Generator.ObjectMaps
 open IronSde.Types
 
-type MetaTypesReader(path)=
+type internal MetaTypesReader(path)=
     
     let groups (typeMaps: Map<int, int []>) (file: string)= 
         let map value = 
