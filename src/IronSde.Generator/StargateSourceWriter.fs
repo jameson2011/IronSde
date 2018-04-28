@@ -35,7 +35,7 @@ module internal StargateSourceWriter=
 
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareStargatesModule
                         }
         let lines = seq {

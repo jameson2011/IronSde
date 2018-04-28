@@ -28,7 +28,7 @@ module internal MoonSourceWriter=
         
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareMoonChunksModule idx 
                         }
         let lines = seq {
@@ -56,7 +56,7 @@ module internal MoonSourceWriter=
         use writer = new System.IO.StreamWriter(path)
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareMoonsModule
                         }
         let lines = seq {                            

@@ -30,7 +30,7 @@ module internal ConstellationSourceWriter=
 
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareConstellationsModule
                         }
         let lines = seq {

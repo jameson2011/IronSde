@@ -48,5 +48,11 @@ type Celestial =
     | Moon of int * int * string * Position
     | Station  of int * int * string * Position
 
-type ItemMetagroup = { id: int; name: string; }
-type ItemType = { id: int; name: string; meta: ItemMetagroup option }
+type ItemTypeGroup = { id: int; key: ItemTypeGroups; category: ItemTypeCategories; name: string; }
+type ItemMetagroup = { key: MetaGroups; name: string; }
+type ItemTypeAttribute = { key: AttributeTypes; value: float }
+type ItemType = {   id: int; 
+                    name: string; 
+                    group: ItemTypeGroup;
+                    meta: ItemMetagroup option;
+                    attributes: ItemTypeAttribute [];}

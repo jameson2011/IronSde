@@ -41,13 +41,48 @@ module Program=
 
         console "Finished writing universe."
 
-    let private writeTypes source target =         
-        console "Writing types..."
+    let private writeTypes source target sharedTarget =         
+        let typesReader = new TypesReader(source)
+        let typesWriter = new TypesWriter(target)
+        let sharedTypesWriter = (new TypesWriter(sharedTarget))
+        let attributesWriter = new AttributeWriter(target)
+        let sharedAttributeWriter = new AttributeWriter(sharedTarget)
 
-        let rdr = new MetaTypesReader(source)
-        let writer = new MetaTypesWriter(target)
-        rdr.Groups()
-                        |> writer.Write
+        console "Writing item type categories..."
+        let itemTypeCategories = typesReader.CategoryNames() 
+        sharedTypesWriter.WriteItemTypeCategoryEnums itemTypeCategories
+        
+        console "Writing attribute categories..."        
+        let attrCategories = typesReader.AttributeCategories()
+                                |> Seq.sortBy (fun a -> a.id)
+        sharedAttributeWriter.WriteAttributeCategoryEnums attrCategories
+        
+
+        console "Writing attribute types..."
+        let attrTypes = typesReader.AttributeTypes() 
+                            |> Seq.sortBy (fun a -> a.id)
+                            |> Array.ofSeq
+        attributesWriter.WriteAttributeTypes attrTypes
+        sharedAttributeWriter.WriteAttributeTypeEnums attrTypes
+
+        
+        console "Writing item types..."
+        let itemTypes = typesReader.Types() |> Seq.cache
+        let itemTypeAttrs = typesReader.ItemTypeAttributes()
+        typesWriter.WriteItemTypes itemTypes itemTypeAttrs
+
+        console "Writing item type groups..."
+        let itemTypeGroups = typesReader.Groups() |> Seq.sortBy (fun a -> (a.categoryId, a.id) ) |> Array.ofSeq
+        sharedTypesWriter.WriteItemTypeGroupEnums itemTypeGroups
+        typesWriter.WriteItemTypeGroups itemTypeGroups itemTypes
+        
+        console "Writing meta types..."
+        let metaTypesReader = new MetaTypesReader(source)
+        let metaTypesWriter = new MetaTypesWriter(target)
+        let sharedMetaTypesWriter = new MetaTypesWriter(sharedTarget)
+        let groups = metaTypesReader.Groups() 
+        groups |> metaTypesWriter.Write
+        groups |> sharedMetaTypesWriter.WriteEnums
         
         console "Finished writing types."
 
@@ -67,21 +102,23 @@ module Program=
 
                         writeUniverse sdeDir universeDir
             
-            | [| "/sde"; sdeDir; "/types"; typesDir |] ->
+            | [| "/sde"; sdeDir; "/types"; typesDir; "/shared"; sharedDir |] ->
                         console(sprintf "Static data source:   %s" sdeDir)
-                        console(sprintf "Types directory:   %s" typesDir)
+                        console(sprintf "Types directory:      %s" typesDir)
+                        console(sprintf "Shared directory:     %s" sharedDir)
 
-                        writeTypes sdeDir typesDir
+                        writeTypes sdeDir typesDir sharedDir
 
-            | [| "/sde"; sdeDir; "/names"; namesDir; "/universe"; universeDir; "/types"; typesDir |] ->
+            | [| "/sde"; sdeDir; "/names"; namesDir; "/universe"; universeDir; "/types"; typesDir; "/shared"; sharedDir |] ->
                         console(sprintf "Static data source:   %s" sdeDir)
                         console(sprintf "Names directory:      %s" namesDir)
                         console(sprintf "Universe directory:   %s" universeDir)
-                        console(sprintf "Types directory:   %s" typesDir)
+                        console(sprintf "Types directory:      %s" typesDir)
+                        console(sprintf "Shared directory:     %s" sharedDir)
 
                         writeNames sdeDir namesDir
                         writeUniverse sdeDir universeDir
-                        writeTypes sdeDir typesDir
+                        writeTypes sdeDir typesDir sharedDir
 
             | _ -> failwith "Invalid arguments. Valid options are:\r\n
 /sde <sde root> /names <target names folder>\r\n

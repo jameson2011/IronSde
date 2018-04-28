@@ -25,7 +25,7 @@ module internal StationsSourceWriter=
 
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareStationsModule
                         }
         let lines = seq {

@@ -42,7 +42,7 @@ module internal SystemSourceWriter=
 
         let headers = seq {
                             yield Source.declareUniverseNamespace
-                            yield "open IronSde"
+                            yield Source.importIronSdeNamespace
                             yield Source.declareSystemsModule
                         }
         let lines = seq {

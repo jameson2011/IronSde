@@ -21,7 +21,7 @@ type MapSearchTest(output: Xunit.Abstractions.ITestOutputHelper)=
         Assert.Equal(Units.toMetres expected, result)
 
     [<RealFloatsProperty(Verbose = true)>]
-    member __.DifferenceIsCummutative(x1, y1, z1, x2, y2, z2) =
+    member __.DifferenceIsCommutative(x1, y1, z1, x2, y2, z2) =
         let p1 = Position.ofCoordinates (x1, y1, z1)
         let p2 = Position.ofCoordinates (x2, y2, z2)
         
