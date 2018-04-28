@@ -3,6 +3,9 @@
 open System
 
 type TypesWriter(targetPath: string) =
+
+    let toItemTypeGroupSource(value: ItemGroup) =
+        sprintf "{ ItemTypeGroupData.id = %i; categoryId = %i }" value.id value.categoryId
     
     member __.WriteItemTypeCategoryEnums(values: seq<Name>) =
         let targetFilePath = IO.combine targetPath "ItemTypeCategoryEnum.fs"
@@ -17,7 +20,7 @@ type TypesWriter(targetPath: string) =
 
         let enums = values                      
                     |> Seq.map (fun at -> sprintf "| %s = %i" (at.name |> toEnum) at.id)
-                    |> Seq.map Source.indent
+                    |> Source.indentMany
 
         let headers = seq {
                             yield Source.declareIronSdeNamespace
@@ -53,7 +56,7 @@ type TypesWriter(targetPath: string) =
 
         let enums = values                      
                     |> Seq.map (fun at -> sprintf "| %s = %i" (at |> toName) at.id)
-                    |> Seq.map Source.indent
+                    |> Source.indentMany
 
         let headers = seq {
                             yield Source.declareIronSdeNamespace
@@ -72,35 +75,45 @@ type TypesWriter(targetPath: string) =
                             yield Source.importIronSdeTypesNamespace
                             yield Source.declareItemTypeGroupsModule
                         }
-        
+
+        let groupCases = itemTypeGroups   
+                            |> Seq.map (fun g -> g.id, (toItemTypeGroupSource g))
+                            |> Seq.map (fun (id,s) -> sprintf "| %i -> Some %s" id s)
+        let groupFunc = seq {
+                                yield "let group = function" 
+                                yield! groupCases |> Source.indentMany
+                                yield Source.defaultNoneCase |> Source.indent
+                            } |> Source.indentMany
+
         let groupsByCategory = itemTypeGroups   
                                         |> Seq.map (fun ig -> ig.categoryId, ig.id)
                                         |> Seq.groupBy (fun (c,i) -> c)
                                         |> Seq.map (fun (catId,groupIds) -> catId, groupIds |> Seq.map snd |> Seq.sort |> Array.ofSeq )
-                                        |> Seq.map (fun (catId,groupIds) -> sprintf "| %i -> %s" catId (Source.toArrayOfInts groupIds) |> Source.indent2 )
+                                        |> Seq.map (fun (catId,groupIds) -> sprintf "| %i -> %s" catId (Source.toArrayOfInts groupIds)  )
         
         let groupsByCategoryFunc = 
             seq{
-                    yield "let groupsByCategory = function" |> Source.indent
-                    yield! groupsByCategory                    
-                    yield Source.defaultEmptyArrayCase |> Source.indent2
-                }
+                    yield "let groupsByCategory = function" 
+                    yield! groupsByCategory |> Source.indentMany
+                    yield Source.defaultEmptyArrayCase |> Source.indent
+                } |> Source.indentMany
         
         let itemTypesByGroup = itemTypes 
                                 |> Seq.groupBy (fun a -> a.groupId)
                                 |> Seq.map (fun (groupId, types) -> groupId, (types |> Seq.map (fun t -> t.id) |> Seq.sort |> Array.ofSeq) )
         let itemTypesByGroupFunc =            
             seq {
-                    yield "let itemTypesByGroup = function" |> Source.indent
+                    yield "let itemTypesByGroup = function" 
                     yield! itemTypesByGroup 
                                 |> Seq.map (fun (groupId, typeIds) -> sprintf "| %i -> %s" 
                                                                             groupId (Source.toArrayOfInts typeIds) 
-                                                                            |> Source.indent2)
-                    yield Source.defaultEmptyArrayCase |> Source.indent2
-                }
+                                                                            |> Source.indent)
+                    yield Source.defaultEmptyArrayCase |> Source.indent
+                } |> Source.indentMany
 
         use writer = new System.IO.StreamWriter(targetFilePath)
-        Seq.concat [headers; groupsByCategoryFunc; itemTypesByGroupFunc; ] |> Seq.iter writer.WriteLine 
+        
+        Seq.concat [headers; groupFunc; groupsByCategoryFunc; itemTypesByGroupFunc; ] |> Seq.iter writer.WriteLine 
         writer.Flush()
         writer.Close()
 
@@ -115,12 +128,11 @@ type TypesWriter(targetPath: string) =
                                             |> Map.ofSeq
         
         let toItemType (value: ItemType) : IronSde.Types.ItemTypeData= 
-            let attrs = itemAttrGroups |> Map.tryFind value.id
+            let attrs = itemAttrGroups  |> Map.tryFind value.id
                                         |> Option.defaultValue [||]
             {IronSde.Types.ItemTypeData.id = value.id; 
                                         groupId = value.groupId; 
                                         attributes = attrs }
-        
         
         let itemTypes = itemTypes 
                         |> Seq.sortBy (fun a -> a.id)
@@ -141,11 +153,11 @@ type TypesWriter(targetPath: string) =
 
         let itemTypesMatchFunc (name: string, _, items: seq<IronSde.Types.ItemTypeData>)=
             seq{
-                yield sprintf "let private %s id =" name |> Source.indent
-                yield "match id with " |> Source.indent2
-                yield! (items |> Seq.map (fun it -> sprintf "| %i -> %s() |> Some" it.id (itemTypeFuncName it) |> Source.indent2))
-                yield Source.defaultNoneCase |> Source.indent2
-            }
+                yield sprintf "let private %s id =" name 
+                yield "match id with " |> Source.indent
+                yield! (items |> Seq.map (fun it -> sprintf "| %i -> %s() |> Some" it.id (itemTypeFuncName it) |> Source.indent))
+                yield Source.defaultNoneCase |> Source.indent
+            } |> Source.indentMany
             
 
         let itemTypeChunks = itemTypes 
@@ -157,12 +169,13 @@ type TypesWriter(targetPath: string) =
         let itemTypeMatchFuncs = itemTypeChunks |> Seq.collect itemTypesMatchFunc
 
         let itemTypeMatch = seq {
-                                    yield "let itemtype id = " |> Source.indent
-                                    yield "match id with " |> Source.indent2
+                                    yield "let itemtype id = "
+                                    yield "match id with " |> Source.indent
                                     yield! itemTypeChunks 
-                                                |> Seq.map (fun (funcName, lastId, _) -> sprintf "| x when x <= %i -> %s x" lastId funcName |> Source.indent2)
-                                    yield Source.defaultNoneCase |> Source.indent2
-                                }                                                                
+                                                |> Seq.map (fun (funcName, lastId, _) -> sprintf "| x when x <= %i -> %s x" lastId funcName )
+                                                |> Source.indentMany
+                                    yield Source.defaultNoneCase |> Source.indent
+                                } |> Source.indentMany                
 
         let headers = seq {
                             yield Source.declareItemtypesNamespace

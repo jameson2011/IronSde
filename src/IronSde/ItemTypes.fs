@@ -16,11 +16,24 @@ module ItemTypes=
     let categories() =
         System.Enum.GetValues(typeof<ItemTypeCategories>).OfType<ItemTypeCategories>()
         
+    [<CompiledName("GetGroup")>]
+    let group (key: ItemTypeGroups)=        
+        let map (value: Types.ItemTypeGroupData)=
+            IronSde.Names.ResourceUtils.group value.id
+                |> Option.map (fun n -> { ItemTypeGroup.id = value.id; name = n; key = key;
+                                                    category = LanguagePrimitives.EnumOfValue value.categoryId; })
+
+        key |> LanguagePrimitives.EnumToValue 
+            |> IronSde.ItemTypes.ItemTypeGroups.group 
+            |> Option.bind map
+
     [<CompiledName("GetGroups")>]
     let groups (category: ItemTypeCategories)=
         category    |> LanguagePrimitives.EnumToValue 
                     |> IronSde.ItemTypes.ItemTypeGroups.groupsByCategory 
                     |> Seq.map (fun g -> LanguagePrimitives.EnumOfValue<int, ItemTypeGroups> g)                    
+                    |> Seq.map group
+                    |> Seq.mapToSomes
 
     [<CompiledName("GetItemType")>]
     let itemtype id = 
@@ -32,16 +45,15 @@ module ItemTypes=
         match name, data, meta with
         | Some n, Some d, m -> Some { ItemType.id = id; 
                                                 name = n; 
-                                                group = LanguagePrimitives.EnumOfValue d.groupId;
+                                                group = d.groupId |> LanguagePrimitives.EnumOfValue |> group |> Option.get;
                                                 attributes = d.attributes |> Array.map ofItemTypeAttributeData;
                                                 meta = m }
         | _ -> None         
 
     [<CompiledName("GetItemTypes")>]
-    let itemTypes (group: ItemTypeGroups)=
-        group   |> LanguagePrimitives.EnumToValue 
-                |> IronSde.ItemTypes.ItemTypeGroups.itemTypesByGroup 
-                |> Seq.map (itemtype >> Option.get)                
+    let itemTypes (group: ItemTypeGroup)=
+        group.id    |> IronSde.ItemTypes.ItemTypeGroups.itemTypesByGroup 
+                    |> Seq.map (itemtype >> Option.get)                
     
     [<CompiledName("GetAttributeValue")>]
     let attribute (key: AttributeTypes) (itemType: ItemType) =

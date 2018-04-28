@@ -7,6 +7,7 @@ module internal Source=
     
     let indent = sprintf "    %s"
     let indent2 = indent >> indent
+    let indentMany values = values |> Seq.map indent
 
     let toArrayOfStrings values = values |> (Strings.join ";" >> sprintf "[| %s |]")
     let toArrayOfInts values = values |> Seq.map (sprintf "%i") |> toArrayOfStrings

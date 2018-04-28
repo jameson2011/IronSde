@@ -50,14 +50,11 @@ type TypesReader(path)=
 
     let itemNames (file: string) =
         file    |> ObjectMaps.toObjectMap
-                |> Seq.map castEntry
-                |> Seq.map name            
+                |> Seq.map (castEntry >> name)
 
     let itemTypeGroups file = 
         file    |> ObjectMaps.toObjectMap
-                |> Seq.map castEntry
-                |> Seq.map itemTypeGroup
-                
+                |> Seq.map (castEntry >> itemTypeGroup)                
 
     let attributeCategories (file: string)=
         file    |> ObjectMaps.toObjectList

@@ -20,6 +20,18 @@ module ItemTypesTests=
         Assert.NotEqual(0, groups.Length)
 
     [<Fact>]
+    let GroupsEnumeratedAndFetched()=
+        let keys = System.Enum.GetValues(typeof<IronSde.ItemTypeGroups>)
+                                .OfType<IronSde.ItemTypeGroups>()
+                                .ToArray()
+        let groups = keys
+                        |> Seq.map IronSde.ItemTypes.group 
+                        |> Array.ofSeq
+
+        Assert.NotEqual(0, groups.Length)
+
+
+    [<Fact>]
     let ItemTypesByGroupsReturnsAtLeastOne()=
         let itemTypes = IronSde.ItemTypes.categories() 
                                 |> Seq.collect IronSde.ItemTypes.groups 
@@ -27,6 +39,16 @@ module ItemTypesTests=
                                 |> Array.ofSeq
         
         Assert.NotEqual(0, itemTypes.Length)
+
+    [<Fact>]
+    let ItemTypesHaveGroup()=
+        let groups = IronSde.ItemTypes.categories() 
+                                |> Seq.collect IronSde.ItemTypes.groups 
+                                |> Seq.collect IronSde.ItemTypes.itemTypes 
+                                |> Seq.map (fun it -> it.group)
+                                |> Array.ofSeq
+        
+        Assert.NotEqual(0, groups.Length)
 
     [<Theory>]
     [<InlineData(587)>]
