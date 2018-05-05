@@ -36,7 +36,7 @@ module ItemTypes=
                     |> Seq.mapToSomes
 
     [<CompiledName("GetItemType")>]
-    let itemtype id = 
+    let itemType id = 
         let name = IronSde.Names.ResourceUtils.itemtype id
         let meta = IronSde.ItemTypes.MetaGroups.itemtypesMeta id
                     |> Option.map (fun m -> let key = LanguagePrimitives.EnumOfValue m.id
@@ -53,7 +53,7 @@ module ItemTypes=
     [<CompiledName("GetItemTypes")>]
     let itemTypes (group: ItemTypeGroup)=
         group.id    |> IronSde.ItemTypes.ItemTypeGroups.itemTypesByGroup 
-                    |> Seq.map (itemtype >> Option.get)                
+                    |> Seq.map (itemType >> Option.get)                
     
     [<CompiledName("GetAttributeValue")>]
     let attribute (key: AttributeTypes) (itemType: ItemType) =

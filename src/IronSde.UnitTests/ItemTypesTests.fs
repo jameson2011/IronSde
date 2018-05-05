@@ -53,7 +53,7 @@ module ItemTypesTests=
     [<Theory>]
     [<InlineData(587)>]
     let ItemTypeByIdReturnsAttributes(id)=
-        let itemType = IronSde.ItemTypes.itemtype id |> Option.get
+        let itemType = IronSde.ItemTypes.itemType id |> Option.get
         
         Assert.NotEqual(0, itemType.attributes.Length)
 
@@ -65,7 +65,7 @@ module ItemTypesTests=
     [<InlineData(672, IronSde.AttributeTypes.medSlots, true, 0)>]
     [<InlineData(672, IronSde.AttributeTypes.rigSlots, false, 0)>]
     let ItemTypeAttributeReturnsMinimalAmount(id, attr: IronSde.AttributeTypes, isSome, count: float)=
-        let value = id  |> IronSde.ItemTypes.itemtype 
+        let value = id  |> IronSde.ItemTypes.itemType 
                         |> Option.get
                         |> IronSde.ItemTypes.attribute attr
         
@@ -113,7 +113,7 @@ module ItemTypesTests=
     [<InlineData(19191, "Pithum A-Type Medium Shield Booster", true)>]    
     [<InlineData(14666, "Hakim's Modified Heavy Warp Scrambler", true)>]
     let ItemTypeReturned(id: int, name: string, hasMeta: bool)=
-        let result = IronSde.ItemTypes.itemtype id
+        let result = IronSde.ItemTypes.itemType id
         match result with
         | Some r -> Assert.Equal(id, r.id)
                     Assert.Equal(name, r.name)
