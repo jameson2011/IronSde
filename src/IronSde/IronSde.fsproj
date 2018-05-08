@@ -31,9 +31,8 @@
     <Tailcalls>true</Tailcalls>
     <OutputPath>..\..\artifacts\Universe\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
-    <WarningLevel>3</WarningLevel>
-    <DocumentationFile>
-    </DocumentationFile>
+    <WarningLevel>2</WarningLevel>
+    <DocumentationFile>..\..\artifacts\Universe\IronSde.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
