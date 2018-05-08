@@ -41,13 +41,17 @@ module ItemTypes=
         let meta = IronSde.ItemTypes.MetaGroups.itemtypesMeta id
                     |> Option.map (fun m -> let key = LanguagePrimitives.EnumOfValue m.id
                                             { ItemMetagroup.key = key; name = m.name } )
-        let data = IronSde.ItemTypes.ItemTypes.itemtype id
+        let data = IronSde.ItemTypes.ItemTypes.itemType id
         match name, data, meta with
         | Some n, Some d, m -> Some { ItemType.id = id; 
                                                 name = n; 
                                                 group = d.groupId |> LanguagePrimitives.EnumOfValue |> group |> Option.get;
                                                 attributes = d.attributes |> Array.map ofItemTypeAttributeData;
-                                                meta = m }
+                                                meta = m;
+                                                capacity = d.capacity; 
+                                                volume = d.volume;
+                                                radius = d.radius;
+                                                mass = d.mass}
         | _ -> None         
 
     [<CompiledName("GetItemTypes")>]

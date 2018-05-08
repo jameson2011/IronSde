@@ -55,4 +55,8 @@ type ItemType = {   id: int;
                     name: string; 
                     group: ItemTypeGroup;
                     meta: ItemMetagroup option;
+                    capacity: float option;
+                    mass: float option;
+                    radius: float option;
+                    volume: float option;
                     attributes: ItemTypeAttribute [];}

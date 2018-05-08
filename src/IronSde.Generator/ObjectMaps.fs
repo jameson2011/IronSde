@@ -36,6 +36,33 @@ module ObjectMaps=
     let toFloat (value: Object)=
         value :?> float
 
+    let castToInt (x: Object) = 
+        try
+            Some (x :?> int)
+        with
+        | :? InvalidCastException -> None
+
+    let castToFloat (x: Object) = 
+        try
+            Some (x :?> float)
+        with
+        | :? InvalidCastException -> None
+    
+    let castToLong (x: Object) = 
+        try
+            Some (x :?> int64)
+        with
+        | :? InvalidCastException -> None
+    
+    let coerceToFloat (x: Object) =
+        match castToFloat x with
+        | Some f -> Some f
+        | _ -> match castToInt x with
+                | Some i -> float i |> Some
+                | _ -> match castToLong x with
+                        | Some l -> float l |> Some
+                        | _ -> None
+
     let toFloatOption (value: Object option)=
         value |> Option.map (fun v -> v :?> float)
 
@@ -62,6 +89,9 @@ module ObjectMaps=
 
     let tryGetFloatOption (key: string)  =
         tryGet key >> toFloatOption
+        
+    let tryCoerceFloatOption (key: string)  =
+        tryGet key >> Option.bind coerceToFloat 
 
     let tryGetIntOption (key: string)  =
         tryGet key >> toIntOption
