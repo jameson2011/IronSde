@@ -45,7 +45,11 @@ type TypesReader(path)=
 
     let itemType(id, values: ObjectMap) =
         { ItemType.id =         id;
-                    groupId =   values |> getInt "groupID" }
+                    groupId =   values |> getInt "groupID";
+                    capacity =  values |> tryCoerceFloatOption "capacity";
+                    radius =    values |> tryCoerceFloatOption "radius";
+                    volume =    values |> tryCoerceFloatOption "volume";
+                    mass =      values |> tryCoerceFloatOption "mass";}
 
 
     let itemNames (file: string) =

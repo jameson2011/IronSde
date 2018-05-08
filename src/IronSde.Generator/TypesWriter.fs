@@ -132,6 +132,10 @@ type TypesWriter(targetPath: string) =
                                         |> Option.defaultValue [||]
             {IronSde.Types.ItemTypeData.id = value.id; 
                                         groupId = value.groupId; 
+                                        capacity = value.capacity;
+                                        mass = value.mass;
+                                        volume = value.volume;
+                                        radius = value.radius;
                                         attributes = attrs }
         
         let itemTypes = itemTypes 
@@ -145,8 +149,9 @@ type TypesWriter(targetPath: string) =
         let itemTypeFuncName (itemType: IronSde.Types.ItemTypeData) = sprintf "itemtype%i" itemType.id
         let itemTypesFuncName (id) = sprintf "itemtypes%i" id
         let itemTypeFunc (itemType: IronSde.Types.ItemTypeData) =            
-            sprintf "let private %s() = {ItemTypeData.id = %i; groupId = %i; attributes=%s}"
+            sprintf "let private %s() = {ItemTypeData.id = %i; groupId = %i; attributes=%s; capacity=%s; mass=%s; radius=%s; volume=%s}"
                     (itemTypeFuncName itemType) itemType.id itemType.groupId (itemType.attributes |> Seq.map itemTypeAttrSource |> Source.toArrayOfStrings)
+                   (Source.ofFloatOption itemType.capacity) (Source.ofFloatOption itemType.mass) (Source.ofFloatOption itemType.radius) (Source.ofFloatOption itemType.volume) 
         
         let itemTypeFuncs = itemTypes |> Seq.map (itemTypeFunc >> Source.indent)                            
         
@@ -169,7 +174,7 @@ type TypesWriter(targetPath: string) =
         let itemTypeMatchFuncs = itemTypeChunks |> Seq.collect itemTypesMatchFunc
 
         let itemTypeMatch = seq {
-                                    yield "let itemtype id = "
+                                    yield "let itemType id = "
                                     yield "match id with " |> Source.indent
                                     yield! itemTypeChunks 
                                                 |> Seq.map (fun (funcName, lastId, _) -> sprintf "| x when x <= %i -> %s x" lastId funcName )
