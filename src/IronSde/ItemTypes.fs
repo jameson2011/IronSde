@@ -11,11 +11,12 @@ module ItemTypes=
         { ItemTypeAttribute.key = LanguagePrimitives.EnumOfValue<int, AttributeTypes> value.id;
                             value = value.defaultValue |> Option.defaultValue 0. }
 
-
+    /// Get all ItemType Categories
     [<CompiledName("GetCategories")>]
     let categories() =
         System.Enum.GetValues(typeof<ItemTypeCategories>).OfType<ItemTypeCategories>()
         
+    /// Get an ItemTypeGroup given its key
     [<CompiledName("GetGroup")>]
     let group (key: ItemTypeGroups)=        
         let map (value: Types.ItemTypeGroupData)=
@@ -27,6 +28,7 @@ module ItemTypes=
             |> IronSde.ItemTypes.ItemTypeGroups.group 
             |> Option.bind map
 
+    /// Get all ItemTypeGroups for a given ItemType category
     [<CompiledName("GetGroups")>]
     let groups (category: ItemTypeCategories)=
         category    |> LanguagePrimitives.EnumToValue 
@@ -35,6 +37,7 @@ module ItemTypes=
                     |> Seq.map group
                     |> Seq.mapToSomes
 
+    /// Get an ItemType by its ID
     [<CompiledName("GetItemType")>]
     let itemType id = 
         let name = IronSde.Names.ResourceUtils.itemtype id
@@ -54,17 +57,20 @@ module ItemTypes=
                                                 mass = d.mass}
         | _ -> None         
 
+    /// Get all ItemTypes for a given ItemTypeGroup
     [<CompiledName("GetItemTypes")>]
     let itemTypes (group: ItemTypeGroup)=
         group.id    |> IronSde.ItemTypes.ItemTypeGroups.itemTypesByGroup 
                     |> Seq.map (itemType >> Option.get)                
     
+    /// Get an ItemTypeAttribute for a given ItemType and AttributeType
     [<CompiledName("GetAttributeValue")>]
     let attribute (key: AttributeTypes) (itemType: ItemType) =
         itemType.attributes 
             |> Seq.filter (fun a -> a.key = key)
             |> Seq.tryHead
         
+    /// Get the default value for a given AttributeType
     [<CompiledName("GetDefaultAttributeValue")>]
     let defaultAttribute (key: AttributeTypes) =
         key |> LanguagePrimitives.EnumToValue

@@ -5,6 +5,7 @@ module MapSearch=
     
     let private sq (x: float) = x * x
 
+    /// Get a Euclidean distance between 2 Positions
     [<CompiledName("GetDistance")>]
     let distance (p1: Position) (p2: Position) =
         [ p1.x - p2.x; p1.y - p2.y; p1.z - p2.z ]
@@ -13,6 +14,7 @@ module MapSearch=
             |> sqrt
             |> Units.toMetres
     
+    /// Get distances bwetween Celestials
     [<CompiledName("GetCelestialDistances")>]    
     let getCelestialDistances pos (celestials: seq<Celestial>)=
         celestials 
@@ -20,6 +22,7 @@ module MapSearch=
                                 c,d)
         |> Seq.sortBy (fun (_,d) -> d)        
     
+    /// Find the closest Celestial, given a SolarSystem ID & an arbitrary Position
     [<CompiledName("FindClosestCelestial")>]
     let findClosestCelestial solarSystemId (position: Position) =        
         

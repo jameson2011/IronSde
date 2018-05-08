@@ -2,6 +2,7 @@
 
 module Celestials=
     
+    /// Get a Celestial's name
     [<CompiledName("GetName")>]
     let name (value: Celestial)=
         match value with
@@ -12,6 +13,7 @@ module Celestials=
         | Belt (_,_,n,_) -> n
         | Station (_,_,n,_) -> n
     
+    /// Get a Celestial's ID
     [<CompiledName("GetId")>]
     let id celestial =
         match celestial with
@@ -22,6 +24,7 @@ module Celestials=
         | Belt (id,_,_,_) -> id
         | Station (id,_,_,_) -> id
 
+    /// Get a Celestial's Position
     [<CompiledName("GetPosition")>]
     let position celestial =
         match celestial with
