@@ -13,6 +13,6 @@ open System.Reflection
 
 [<assembly: AssemblyVersion("0.0.0.0")>]
 [<assembly: AssemblyFileVersion("0.0.0.0")>]
-[<assembly: AssemblyInformationalVersion("sde-20180323-TRANQUILITY")>]
+[<assembly: AssemblyInformationalVersion("sde-20180508-TRANQUILITY")>]
 do
     ()

@@ -93835,13 +93835,13 @@
     <value>white_1_PLACEHOLDER</value>
   </data>
   <data name="itemtype47395" xml:space="preserve">
-    <value>Standard 'Guri Hivaa' Cerebral Accelerator</value>
+    <value>Expired Standard 'Guri Hivaa' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47396" xml:space="preserve">
-    <value>Advanced 'Guri Hivaa' Cerebral Accelerator</value>
+    <value>Expired Advanced 'Guri Hivaa' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47397" xml:space="preserve">
-    <value>Extended 'Guri Hivaa' Cerebral Accelerator</value>
+    <value>Expired Extended 'Guri Hivaa' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47398" xml:space="preserve">
     <value>The Hunt - Easy Trash Spawner</value>
@@ -94570,16 +94570,16 @@
     <value>Dominix IGC Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype47705" xml:space="preserve">
-    <value>Weak Capsuleer Cerebral Accelerator</value>
+    <value>Basic X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47706" xml:space="preserve">
-    <value>Standard Capsuleer Cerebral Accelerator</value>
+    <value>Improved X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47707" xml:space="preserve">
-    <value>Advanced Capsuleer Cerebral Accelerator</value>
+    <value>Advanced X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47708" xml:space="preserve">
-    <value>Extended Capsuleer Cerebral Accelerator</value>
+    <value>Extended X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47710" xml:space="preserve">
     <value>Upwell General Industrial Support Facility</value>
@@ -94591,37 +94591,61 @@
     <value>Upwell Advanced Research Support Facility</value>
   </data>
   <data name="itemtype47715" xml:space="preserve">
-    <value>Sleeper Normal Frigate</value>
+    <value>Noumenal Impeder</value>
   </data>
   <data name="itemtype47716" xml:space="preserve">
     <value>Praxis Blueprint</value>
   </data>
   <data name="itemtype47717" xml:space="preserve">
-    <value>Sleeper Elite Frigate</value>
+    <value>Noumenal Obstructor</value>
   </data>
   <data name="itemtype47718" xml:space="preserve">
-    <value>Sleeper Destroyer</value>
+    <value>Noumenal Divider</value>
   </data>
   <data name="itemtype47719" xml:space="preserve">
-    <value>Sleeper Normal Cruiser</value>
+    <value>Noumenal Silencer</value>
   </data>
   <data name="itemtype47720" xml:space="preserve">
-    <value>Sleeper Elite Cruiser</value>
+    <value>Noumenal Suppressor</value>
   </data>
   <data name="itemtype47721" xml:space="preserve">
-    <value>Sleeper Battlecruiser</value>
+    <value>Noumenal Interruptor</value>
   </data>
   <data name="itemtype47722" xml:space="preserve">
-    <value>Drifter Cruiser</value>
+    <value>Drifter Strike Cruiser</value>
   </data>
   <data name="itemtype47723" xml:space="preserve">
-    <value>Drifter Normal Battleship</value>
+    <value>Drifter Strike Battleship</value>
   </data>
   <data name="itemtype47724" xml:space="preserve">
-    <value>Drifter Elite Battleship</value>
+    <value>Drifter Strike Commander</value>
   </data>
   <data name="itemtype47758" xml:space="preserve">
     <value>Sleeper Small Wreck</value>
+  </data>
+  <data name="itemtype47861" xml:space="preserve">
+    <value>Capsuleer Day - Dungeon Spawner</value>
+  </data>
+  <data name="itemtype47881" xml:space="preserve">
+    <value>Outpost Conversion Rig 1</value>
+  </data>
+  <data name="itemtype47882" xml:space="preserve">
+    <value>Outpost Conversion Rig 2</value>
+  </data>
+  <data name="itemtype47883" xml:space="preserve">
+    <value>Outpost Conversion Rig 3</value>
+  </data>
+  <data name="itemtype47884" xml:space="preserve">
+    <value>Outpost Conversion Rig 4</value>
+  </data>
+  <data name="itemtype47961" xml:space="preserve">
+    <value>Genolution CA-X </value>
+  </data>
+  <data name="itemtype47962" xml:space="preserve">
+    <value>XV Anniversary Gift Box (Alpha)</value>
+  </data>
+  <data name="itemtype47963" xml:space="preserve">
+    <value>XV Anniversary Gift Box (Omega)</value>
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>
