@@ -1324,6 +1324,7 @@ type ItemTypeGroups=
     | StructureCapacitorPowerRelay = 1967
     | StructureArmorReinforcer = 1968
     | StructureFestivalLauncher = 1974
+    | OutpostConversionRigs = 1984
     | SupportFighter = 1537
     | LightFighter = 1652
     | HeavyFighter = 1653
