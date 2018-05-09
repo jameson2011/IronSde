@@ -2,14 +2,25 @@
 
 open System.Linq
 open Xunit
+open FsCheck.Xunit
+open IronSde
 
 module ItemTypesTests=
-
+    
     [<Fact>]
     let CategoriesReturnsAtLeastOne() =
         let cats = IronSde.ItemTypes.categories() |> Array.ofSeq
 
         Assert.NotEqual(0, cats.Length)
+
+
+    [<Property(Verbose = true, MaxTest = 1000)>]
+    let ItemTypeCategoriesYieldGroups(category: ItemTypeCategories) =
+        let result = category 
+                        |> IronSde.ItemTypes.groups 
+                        |> Array.ofSeq
+
+        result.Length > 0
 
     [<Fact>]
     let GroupsByCategoryReturnsAtLeastOne()=

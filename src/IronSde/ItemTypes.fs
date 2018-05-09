@@ -11,6 +11,12 @@ module ItemTypes=
         { ItemTypeAttribute.key = LanguagePrimitives.EnumOfValue<int, AttributeTypes> value.id;
                             value = value.defaultValue |> Option.defaultValue 0. }
 
+    let private ofItemTypeGroupData (key: ItemTypeGroups) (value: Types.ItemTypeGroupData)=
+        IronSde.Names.ResourceUtils.group value.id
+            |> Option.get
+            |> (fun n -> { ItemTypeGroup.id = value.id; name = n; key = key;
+                                                category = LanguagePrimitives.EnumOfValue value.categoryId; })
+
     /// Get all ItemType Categories
     [<CompiledName("GetCategories")>]
     let categories() =
@@ -19,15 +25,11 @@ module ItemTypes=
     /// Get an ItemTypeGroup given its key
     [<CompiledName("GetGroup")>]
     let group (key: ItemTypeGroups)=        
-        let map (value: Types.ItemTypeGroupData)=
-            IronSde.Names.ResourceUtils.group value.id
-                |> Option.map (fun n -> { ItemTypeGroup.id = value.id; name = n; key = key;
-                                                    category = LanguagePrimitives.EnumOfValue value.categoryId; })
-
         key |> LanguagePrimitives.EnumToValue 
             |> IronSde.ItemTypes.ItemTypeGroups.group 
-            |> Option.bind map
-
+            |> Option.get
+            |> ofItemTypeGroupData key
+            
     /// Get all ItemTypeGroups for a given ItemType category
     [<CompiledName("GetGroups")>]
     let groups (category: ItemTypeCategories)=
@@ -35,8 +37,7 @@ module ItemTypes=
                     |> IronSde.ItemTypes.ItemTypeGroups.groupsByCategory 
                     |> Seq.map (fun g -> LanguagePrimitives.EnumOfValue<int, ItemTypeGroups> g)                    
                     |> Seq.map group
-                    |> Seq.mapToSomes
-
+                    
     /// Get an ItemType by its ID
     [<CompiledName("GetItemType")>]
     let itemType id = 
@@ -48,7 +49,7 @@ module ItemTypes=
         match name, data, meta with
         | Some n, Some d, m -> Some { ItemType.id = id; 
                                                 name = n; 
-                                                group = d.groupId |> LanguagePrimitives.EnumOfValue |> group |> Option.get;
+                                                group = d.groupId |> LanguagePrimitives.EnumOfValue |> group;
                                                 attributes = d.attributes |> Array.map ofItemTypeAttributeData;
                                                 meta = m;
                                                 capacity = d.capacity; 
