@@ -133,6 +133,7 @@ type TypesWriter(targetPath: string) =
             {IronSde.Types.ItemTypeData.id = value.id; 
                                         groupId = value.groupId; 
                                         capacity = value.capacity;
+                                        marketGroupId = value.marketGroupId;
                                         mass = value.mass;
                                         volume = value.volume;
                                         radius = value.radius;
@@ -149,8 +150,8 @@ type TypesWriter(targetPath: string) =
         let itemTypeFuncName (itemType: IronSde.Types.ItemTypeData) = sprintf "itemtype%i" itemType.id
         let itemTypesFuncName (id) = sprintf "itemtypes%i" id
         let itemTypeFunc (itemType: IronSde.Types.ItemTypeData) =            
-            sprintf "let private %s() = {ItemTypeData.id = %i; groupId = %i; attributes=%s; capacity=%s; mass=%s; radius=%s; volume=%s}"
-                    (itemTypeFuncName itemType) itemType.id itemType.groupId (itemType.attributes |> Seq.map itemTypeAttrSource |> Source.toArrayOfStrings)
+            sprintf "let private %s() = {ItemTypeData.id = %i; groupId = %i; marketGroupId = %s; attributes=%s; capacity=%s; mass=%s; radius=%s; volume=%s}"
+                    (itemTypeFuncName itemType) itemType.id itemType.groupId (Source.ofInt32Option itemType.marketGroupId) (itemType.attributes |> Seq.map itemTypeAttrSource |> Source.toArrayOfStrings)
                    (Source.ofFloatOption itemType.capacity) (Source.ofFloatOption itemType.mass) (Source.ofFloatOption itemType.radius) (Source.ofFloatOption itemType.volume) 
         
         let itemTypeFuncs = itemTypes |> Seq.map (itemTypeFunc >> Source.indent)                            

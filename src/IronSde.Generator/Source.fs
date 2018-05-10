@@ -90,6 +90,9 @@ module internal Source=
     let itemtypesModuleName = "ItemTypes"
     let declareItemTypesModule = sprintf "module internal %s=" itemtypesModuleName
 
+    let marketGroupsModuleName = "MarketGroups"
+    let declareMarketGroupsModule = sprintf "module internal %s=" marketGroupsModuleName
+    
     let metaGroupsModuleName = "MetaGroups"
     let declareMetaGroupsModule = sprintf "module internal %s=" metaGroupsModuleName
 

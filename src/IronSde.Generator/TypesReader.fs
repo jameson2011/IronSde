@@ -44,12 +44,13 @@ type TypesReader(path)=
                             value =         value}
 
     let itemType(id, values: ObjectMap) =
-        { ItemType.id =         id;
-                    groupId =   values |> getInt "groupID";
-                    capacity =  values |> tryCoerceFloatOption "capacity";
-                    radius =    values |> tryCoerceFloatOption "radius";
-                    volume =    values |> tryCoerceFloatOption "volume";
-                    mass =      values |> tryCoerceFloatOption "mass";}
+        { ItemType.id =             id;
+                    groupId =       values |> getInt "groupID";
+                    marketGroupId = values |> tryGet "marketGroupID" |> toIntOption;
+                    capacity =      values |> tryCoerceFloatOption "capacity";
+                    radius =        values |> tryCoerceFloatOption "radius";
+                    volume =        values |> tryCoerceFloatOption "volume";
+                    mass =          values |> tryCoerceFloatOption "mass";}
 
 
     let itemNames (file: string) =
