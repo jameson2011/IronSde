@@ -85,6 +85,8 @@
     <Compile Include="Source.fs" />
     <Compile Include="MetaTypesReader.fs" />
     <Compile Include="MetaTypesWriter.fs" />
+    <Compile Include="MarketGroupsReader.fs" />
+    <Compile Include="MarketGroupsWriter.fs" />
     <Compile Include="TypesReader.fs" />
     <Compile Include="TypesWriter.fs" />
     <Compile Include="AttributeWriter.fs" />

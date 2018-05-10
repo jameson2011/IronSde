@@ -61,9 +61,10 @@
       <Link>TypeEntities.fs</Link>
     </Compile>
     <Compile Include="Metagroups.fs" />
-    <Compile Include="ItemTypeGroups.fs" />    
-    <Compile Include="AttributeTypes.fs" />    
+    <Compile Include="ItemTypeGroups.fs" />
+    <Compile Include="AttributeTypes.fs" />
     <Compile Include="ItemTypes.fs" />
+    <Compile Include="MarketGroups.fs" />
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

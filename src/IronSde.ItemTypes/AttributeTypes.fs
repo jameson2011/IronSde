@@ -2381,7 +2381,7 @@ module internal AttributeTypes=
         | 2723 -> Some { IronSde.Types.AttributeTypeData.id = 2723; categoryId = Some 42; name = "BehaviorShieldBoosterAmount"; defaultValue = Some 0.000000}
         | 2724 -> Some { IronSde.Types.AttributeTypeData.id = 2724; categoryId = Some 42; name = "BehaviorShieldBoosterDischarge"; defaultValue = Some 0.000000}
         | 2725 -> Some { IronSde.Types.AttributeTypeData.id = 2725; categoryId = Some 42; name = "BehaviorShieldBoosterDuration"; defaultValue = Some 0.000000}
-        | 2727 -> Some { IronSde.Types.AttributeTypeData.id = 2727; categoryId = Some 31; name = "asteroidMaxRadius "; defaultValue = Some 16255.000000}
+        | 2727 -> Some { IronSde.Types.AttributeTypeData.id = 2727; categoryId = Some 31; name = "asteroidMaxRadius"; defaultValue = Some 16255.000000}
         | 2728 -> Some { IronSde.Types.AttributeTypeData.id = 2728; categoryId = Some 4; name = "moonAsteroidDecayDisplayValue"; defaultValue = Some 48.000000}
         | 2729 -> Some { IronSde.Types.AttributeTypeData.id = 2729; categoryId = Some 7; name = "nextActivationTime"; defaultValue = Some 0.000000}
         | 2730 -> Some { IronSde.Types.AttributeTypeData.id = 2730; categoryId = Some 42; name = "BehaviorSiegeMissileDamageModifier"; defaultValue = Some 0.000000}

@@ -23,7 +23,13 @@ type ItemTypeAttribute = { itemTypeId: int; attributeId: int; value: float optio
 type ItemGroup = { id: int; categoryId: int; name: string }
 
 type ItemType = { id: int; groupId: int; 
+                    marketGroupId: int option;
                     capacity: float option;
                     radius: float option;
                     mass: float option;
                     volume: float option; }
+
+type MarketGroup = { id: int;
+                     parentId: int option;
+                     name: string;
+                     }

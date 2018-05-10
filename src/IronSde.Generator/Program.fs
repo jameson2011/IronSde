@@ -42,11 +42,20 @@ module Program=
         console "Finished writing universe."
 
     let private writeTypes source target sharedTarget =         
+        let marketGroupsReader = new MarketGroupsReader(source)
         let typesReader = new TypesReader(source)
+
+        let marketGroupsWriter = new MarketGroupsWriter(target)
+        let sharedMarketGroupsWriter = new MarketGroupsWriter(sharedTarget)
         let typesWriter = new TypesWriter(target)
         let sharedTypesWriter = (new TypesWriter(sharedTarget))
         let attributesWriter = new AttributeWriter(target)
         let sharedAttributeWriter = new AttributeWriter(sharedTarget)
+        
+        console "Writing market groups..."
+        let marketGroups = marketGroupsReader.MarketGroups() |> Seq.cache
+        marketGroupsWriter.WriteData marketGroups
+        sharedMarketGroupsWriter.WriteEnums marketGroups
 
         console "Writing item type categories..."
         let itemTypeCategories = typesReader.CategoryNames() 

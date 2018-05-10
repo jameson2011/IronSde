@@ -2,14 +2,25 @@
 
 open System.Linq
 open Xunit
+open FsCheck.Xunit
+open IronSde
 
 module ItemTypesTests=
-
+    
     [<Fact>]
     let CategoriesReturnsAtLeastOne() =
         let cats = IronSde.ItemTypes.categories() |> Array.ofSeq
 
         Assert.NotEqual(0, cats.Length)
+
+
+    [<Property(Verbose = true, MaxTest = 1000)>]
+    let ItemTypeCategoriesYieldGroups(category: ItemTypeCategories) =
+        let result = category 
+                        |> IronSde.ItemTypes.groups 
+                        |> Array.ofSeq
+
+        result.Length > 0
 
     [<Fact>]
     let GroupsByCategoryReturnsAtLeastOne()=
@@ -105,14 +116,14 @@ module ItemTypesTests=
 
 
     [<Theory>]
-    [<InlineData(2, "Corporation", false)>]    
-    [<InlineData(587, "Rifter", false)>]
-    [<InlineData(671, "Erebus", false)>]
-    [<InlineData(371027, "X-MS16 Snowball Launcher", false)>]
-    [<InlineData(2889, "200mm AutoCannon II", true)>]
-    [<InlineData(19191, "Pithum A-Type Medium Shield Booster", true)>]    
-    [<InlineData(14666, "Hakim's Modified Heavy Warp Scrambler", true)>]
-    let ItemTypeReturned(id: int, name: string, hasMeta: bool)=
+    [<InlineData(2, "Corporation", false, false)>]    
+    [<InlineData(587, "Rifter", false, true)>]
+    [<InlineData(671, "Erebus", false, true)>]
+    [<InlineData(33526, "High-grade Ascendancy Delta", false, true)>]
+    [<InlineData(2889, "200mm AutoCannon II", true, true)>]
+    [<InlineData(19191, "Pithum A-Type Medium Shield Booster", true, true)>]    
+    [<InlineData(14666, "Hakim's Modified Heavy Warp Scrambler", true, true)>]
+    let ItemTypeReturned(id: int, name: string, hasMeta: bool, hasMarket: bool)=
         let result = IronSde.ItemTypes.itemType id
         match result with
         | Some r -> Assert.Equal(id, r.id)
@@ -121,5 +132,56 @@ module ItemTypesTests=
                         Assert.NotNull(r.meta)
                     else
                         Assert.Null(r.meta)
+                    if hasMarket then
+                        Assert.NotNull(r.marketGroup)
+                    else    
+                        Assert.Null(r.marketGroup)
         | _ -> failwith "Not found"
+     
+     
+    [<Fact>]
+    let MarketGroupRootsReturnsNonEmptyList()=
+        let mgs = IronSde.ItemTypes.marketGroupRoots() |> Array.ofSeq
+
+        Assert.NotEqual(0, mgs.Length)
+
+    
+    [<Theory>]
+    [<InlineData(IronSde.MarketGroups.Ships)>]
+    let MarketGroupReturnsNonEmptyValue(id)=
+        let entity = IronSde.ItemTypes.marketGroup id
         
+        Assert.NotNull(entity)
+
+    [<Theory>]
+    [<InlineData(1366)>]
+    let MarketGroupByIdReturnsNonEmptyValue(id)=
+        let entity = IronSde.ItemTypes.marketGroupById id |> Option.get
+        
+        Assert.NotNull(entity)
+
+    [<Theory>]
+    [<InlineData(0)>]
+    [<InlineData(-10)>]
+    let MarketGroupByIdReturnsNullValue(id)=
+        let entity = IronSde.ItemTypes.marketGroupById id
+        
+        Assert.Null(entity)
+
+
+    [<Theory>]
+    [<InlineData(IronSde.MarketGroups.Ships)>]
+    let MarketGroupChildrenReturnsNonEmptyList(id)=
+        let root = IronSde.ItemTypes.marketGroup id
+        let mgs = IronSde.ItemTypes.marketGroupChildren(root) |> Array.ofSeq
+
+        Assert.NotEqual(0, mgs.Length)
+
+
+    [<Theory>]
+    [<InlineData(IronSde.MarketGroups.Ships_Frigates_AdvancedFrigates_AssaultFrigates_Gallente)>]
+    let MarketGroupPathReturnsNonEmptyList(id) =
+        let mg = IronSde.ItemTypes.marketGroup id
+        let path = IronSde.ItemTypes.marketGroupPath mg
+
+        Assert.NotEqual(0, path.Length)

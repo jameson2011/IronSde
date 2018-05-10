@@ -67,6 +67,9 @@
     <Compile Include="..\Shared\AttributeCategoriesEnum.fs">
       <Link>AttributeCategoriesEnum.fs</Link>
     </Compile>
+    <Compile Include="..\Shared\MarketGroupEnum.fs">
+      <Link>MarketGroupEnum.fs</Link>
+    </Compile>
     <Compile Include="..\Shared\ItemTypeGroupEnum.fs">
       <Link>ItemTypeGroupEnum.fs</Link>
     </Compile>

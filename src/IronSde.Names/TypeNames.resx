@@ -265,7 +265,7 @@
     <value>Gallente Military Station</value>
   </data>
   <data name="itemtype57" xml:space="preserve">
-    <value>Gallente Station Hub </value>
+    <value>Gallente Station Hub</value>
   </data>
   <data name="itemtype58" xml:space="preserve">
     <value>C-O-1</value>
@@ -3115,10 +3115,10 @@
     <value>Crate of Environmentally-friendly Mining Equipment</value>
   </data>
   <data name="itemtype2199" xml:space="preserve">
-    <value>Prototype Body Armor Fabric </value>
+    <value>Prototype Body Armor Fabric</value>
   </data>
   <data name="itemtype2200" xml:space="preserve">
-    <value>Crate of Prototype Body Armor Fabric </value>
+    <value>Crate of Prototype Body Armor Fabric</value>
   </data>
   <data name="itemtype2201" xml:space="preserve">
     <value>Riot Interdiction Team</value>
@@ -3163,7 +3163,7 @@
     <value>Guard Post</value>
   </data>
   <data name="itemtype2215" xml:space="preserve">
-    <value>Amarr TIL-1A Nexus Chips </value>
+    <value>Amarr TIL-1A Nexus Chips</value>
   </data>
   <data name="itemtype2216" xml:space="preserve">
     <value>Crate of Amarr TIL-1A Nexus Chips</value>
@@ -3181,7 +3181,7 @@
     <value>Civilian Workers and Dependents</value>
   </data>
   <data name="itemtype2221" xml:space="preserve">
-    <value>Manportable Electromagnetic Pulse Weapons </value>
+    <value>Manportable Electromagnetic Pulse Weapons</value>
   </data>
   <data name="itemtype2222" xml:space="preserve">
     <value>Scions of the Superior Gene</value>
@@ -4795,7 +4795,7 @@
     <value>Crate of Manportable Electromagnetic Pulse Weapons</value>
   </data>
   <data name="itemtype2862" xml:space="preserve">
-    <value>Special Forces Weapons and Equipment </value>
+    <value>Special Forces Weapons and Equipment</value>
   </data>
   <data name="itemtype2863" xml:space="preserve">
     <value>Primae</value>
@@ -6580,7 +6580,7 @@
     <value>Sansha's Nation Commander</value>
   </data>
   <data name="itemtype3493" xml:space="preserve">
-    <value>Incursion ship attributes effects Assault </value>
+    <value>Incursion ship attributes effects Assault</value>
   </data>
   <data name="itemtype3494" xml:space="preserve">
     <value>Incursion ship attributes effects HQ</value>
@@ -6856,7 +6856,7 @@
     <value>True Slave Decryption Node</value>
   </data>
   <data name="itemtype3585" xml:space="preserve">
-    <value>Mangled Sansha Data Analyzer </value>
+    <value>Mangled Sansha Data Analyzer</value>
   </data>
   <data name="itemtype3586" xml:space="preserve">
     <value>Small Remote Shield Booster I</value>
@@ -6877,7 +6877,7 @@
     <value>Angel Control Tower</value>
   </data>
   <data name="itemtype3592" xml:space="preserve">
-    <value>Caldari Wyvern Carrier </value>
+    <value>Caldari Wyvern Carrier</value>
   </data>
   <data name="itemtype3593" xml:space="preserve">
     <value>Caldari Phoenix Dreadnought</value>
@@ -7162,7 +7162,7 @@
     <value>Mechanical Parts</value>
   </data>
   <data name="itemtype3690" xml:space="preserve">
-    <value>Caldari Scorpion Battleship </value>
+    <value>Caldari Scorpion Battleship</value>
   </data>
   <data name="itemtype3691" xml:space="preserve">
     <value>Synthetic Oil</value>
@@ -7450,7 +7450,7 @@
     <value>Minmatar Fenrir Freighter</value>
   </data>
   <data name="itemtype3792" xml:space="preserve">
-    <value>Caldari Academy Office  </value>
+    <value>Caldari Academy Office</value>
   </data>
   <data name="itemtype3793" xml:space="preserve">
     <value>Data Subverter I</value>
@@ -7663,7 +7663,7 @@
     <value>Ruined Monument</value>
   </data>
   <data name="itemtype3882" xml:space="preserve">
-    <value>Exsanguinator </value>
+    <value>Exsanguinator</value>
   </data>
   <data name="itemtype3883" xml:space="preserve">
     <value>DED Army Officer</value>
@@ -27700,7 +27700,7 @@
     <value>Datacore - Electronic Subsystems Engineering</value>
   </data>
   <data name="itemtype20117" xml:space="preserve">
-    <value>Datacore - Advanced Starship Engineering </value>
+    <value>Datacore - Advanced Starship Engineering</value>
   </data>
   <data name="itemtype20121" xml:space="preserve">
     <value>High-grade Crystal Alpha</value>
@@ -37891,7 +37891,7 @@
     <value>Stargate - Caldari 1</value>
   </data>
   <data name="itemtype24566" xml:space="preserve">
-    <value>Stargate - Caldari </value>
+    <value>Stargate - Caldari</value>
   </data>
   <data name="itemtype24567" xml:space="preserve">
     <value>Experimental Laboratory</value>
@@ -45922,7 +45922,7 @@
     <value>Republic Tribal Kinai</value>
   </data>
   <data name="itemtype28182" xml:space="preserve">
-    <value>Republic Tribal Akila </value>
+    <value>Republic Tribal Akila</value>
   </data>
   <data name="itemtype28183" xml:space="preserve">
     <value>Rank 1 Upgrade</value>
@@ -46243,7 +46243,7 @@
     <value>Vitoc Injection Center</value>
   </data>
   <data name="itemtype28320" xml:space="preserve">
-    <value>Basic Freedom Program </value>
+    <value>Basic Freedom Program</value>
   </data>
   <data name="itemtype28324" xml:space="preserve">
     <value>Republic Fleet Carbonized Lead L</value>
@@ -47581,25 +47581,25 @@
     <value>Angel Narcotics Storage Facility</value>
   </data>
   <data name="itemtype28872" xml:space="preserve">
-    <value>Angel Chemical Laboratory </value>
+    <value>Angel Chemical Laboratory</value>
   </data>
   <data name="itemtype28873" xml:space="preserve">
     <value>Guristas Narcotics Storage Facility</value>
   </data>
   <data name="itemtype28874" xml:space="preserve">
-    <value>Guristas Chemical Laboratory </value>
+    <value>Guristas Chemical Laboratory</value>
   </data>
   <data name="itemtype28875" xml:space="preserve">
     <value>Serpentis Narcotics Storage Facility</value>
   </data>
   <data name="itemtype28876" xml:space="preserve">
-    <value>Serpentis Chemical Laboratory </value>
+    <value>Serpentis Chemical Laboratory</value>
   </data>
   <data name="itemtype28877" xml:space="preserve">
     <value>Sansha Narcotics Storage Facility</value>
   </data>
   <data name="itemtype28878" xml:space="preserve">
-    <value>Blood Raider Chemical Laboratory </value>
+    <value>Blood Raider Chemical Laboratory</value>
   </data>
   <data name="itemtype28879" xml:space="preserve">
     <value>Nanite Operation</value>
@@ -48748,7 +48748,7 @@
     <value>Repaired Amarr Station Hub</value>
   </data>
   <data name="itemtype29388" xml:space="preserve">
-    <value>Repaired Amarr Military Station </value>
+    <value>Repaired Amarr Military Station</value>
   </data>
   <data name="itemtype29389" xml:space="preserve">
     <value>Repaired Amarr Trading Post</value>
@@ -48793,7 +48793,7 @@
     <value>Disabled Badger</value>
   </data>
   <data name="itemtype29439" xml:space="preserve">
-    <value>Admiral Meledier </value>
+    <value>Admiral Meledier</value>
   </data>
   <data name="itemtype29445" xml:space="preserve">
     <value>Cargo Container - Physical Samples</value>
@@ -49033,7 +49033,7 @@
     <value>Fortified Guristas Wall</value>
   </data>
   <data name="itemtype29580" xml:space="preserve">
-    <value>Fortified Guristas Lookout </value>
+    <value>Fortified Guristas Lookout</value>
   </data>
   <data name="itemtype29581" xml:space="preserve">
     <value>Fortified Guristas Junction</value>
@@ -49216,13 +49216,13 @@
     <value>30 Day Pilot's License Extension (PLEX)</value>
   </data>
   <data name="itemtype29671" xml:space="preserve">
-    <value>Independent Green-Crewed Abaddon </value>
+    <value>Independent Green-Crewed Abaddon</value>
   </data>
   <data name="itemtype29673" xml:space="preserve">
-    <value>Independent Armageddon </value>
+    <value>Independent Armageddon</value>
   </data>
   <data name="itemtype29674" xml:space="preserve">
-    <value>Independent Apocalypse </value>
+    <value>Independent Apocalypse</value>
   </data>
   <data name="itemtype29675" xml:space="preserve">
     <value>Independent Abaddon</value>
@@ -49486,7 +49486,7 @@
     <value>Independent Green-Crewed Celestis</value>
   </data>
   <data name="itemtype29777" xml:space="preserve">
-    <value>Independent Green-Crewed Thorax </value>
+    <value>Independent Green-Crewed Thorax</value>
   </data>
   <data name="itemtype29778" xml:space="preserve">
     <value>Independent Green-Crewed Vexor</value>
@@ -55312,7 +55312,7 @@
     <value>Kidnapping Evidence</value>
   </data>
   <data name="itemtype32224" xml:space="preserve">
-    <value>Conference Center </value>
+    <value>Conference Center</value>
   </data>
   <data name="itemtype32225" xml:space="preserve">
     <value>Encoded Message</value>
@@ -55393,7 +55393,7 @@
     <value>Report R:081-9560</value>
   </data>
   <data name="itemtype32258" xml:space="preserve">
-    <value>Report R:081-9568 </value>
+    <value>Report R:081-9568</value>
   </data>
   <data name="itemtype32259" xml:space="preserve">
     <value>Operation Stillwater: Synopsis</value>
@@ -55447,7 +55447,7 @@
     <value>Hiva Shesha's Shuttle</value>
   </data>
   <data name="itemtype32279" xml:space="preserve">
-    <value>Chapel of the Obsidian </value>
+    <value>Chapel of the Obsidian</value>
   </data>
   <data name="itemtype32280" xml:space="preserve">
     <value>Blood Obsidian Orb</value>
@@ -57028,7 +57028,7 @@
     <value>Assault on Caldari Prime Ribbon</value>
   </data>
   <data name="itemtype33132" xml:space="preserve">
-    <value>Angel Clone Soldier Trainer </value>
+    <value>Angel Clone Soldier Trainer</value>
   </data>
   <data name="itemtype33134" xml:space="preserve">
     <value>Guristas Clone Soldier Trainer</value>
@@ -57061,13 +57061,13 @@
     <value>Angel Clone Soldier Recruiter</value>
   </data>
   <data name="itemtype33144" xml:space="preserve">
-    <value>Blood Clone Soldier Recruiter </value>
+    <value>Blood Clone Soldier Recruiter</value>
   </data>
   <data name="itemtype33145" xml:space="preserve">
     <value>Guristas Clone Soldier Recruiter</value>
   </data>
   <data name="itemtype33146" xml:space="preserve">
-    <value>Serpentis Clone Soldier Recruiter </value>
+    <value>Serpentis Clone Soldier Recruiter</value>
   </data>
   <data name="itemtype33147" xml:space="preserve">
     <value>Angel Remains</value>
@@ -57811,7 +57811,7 @@
     <value>Caldari 10M Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33484" xml:space="preserve">
-    <value>Amarr 1M Bounty Reimbursement Tag </value>
+    <value>Amarr 1M Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33485" xml:space="preserve">
     <value>Gallente 1M Bounty Reimbursement Tag</value>
@@ -58105,7 +58105,7 @@
     <value>Caldari Encounter Surveillance System Blueprint</value>
   </data>
   <data name="itemtype33597" xml:space="preserve">
-    <value>Amarr 100K Bounty Reimbursement Tag </value>
+    <value>Amarr 100K Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33598" xml:space="preserve">
     <value>Caldari 100K Bounty Reimbursement Tag</value>
@@ -58117,7 +58117,7 @@
     <value>Minmatar 100K Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33601" xml:space="preserve">
-    <value>Amarr 10K Bounty Reimbursement Tag </value>
+    <value>Amarr 10K Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33602" xml:space="preserve">
     <value>Caldari 10K Bounty Reimbursement Tag</value>
@@ -58129,7 +58129,7 @@
     <value>Minmatar 10K Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33605" xml:space="preserve">
-    <value>Amarr 10M Bounty Reimbursement Tag </value>
+    <value>Amarr 10M Bounty Reimbursement Tag</value>
   </data>
   <data name="itemtype33606" xml:space="preserve">
     <value>Gallente 10M Bounty Reimbursement Tag</value>
@@ -58507,7 +58507,7 @@
     <value>Women's 'Rocket' Dress (dark grey)</value>
   </data>
   <data name="itemtype33738" xml:space="preserve">
-    <value>Women's 'Rocket' Dress (metal) </value>
+    <value>Women's 'Rocket' Dress (metal)</value>
   </data>
   <data name="itemtype33739" xml:space="preserve">
     <value>Women's 'Rocket' Dress (green)</value>
@@ -60358,7 +60358,7 @@
     <value>Wormhole A009</value>
   </data>
   <data name="itemtype34440" xml:space="preserve">
-    <value>Sleeper Medium Wreck </value>
+    <value>Sleeper Medium Wreck</value>
   </data>
   <data name="itemtype34441" xml:space="preserve">
     <value>Dominix Quafe Edition</value>
@@ -61264,7 +61264,7 @@
     <value>Drifter Battleship Wreck</value>
   </data>
   <data name="itemtype34769" xml:space="preserve">
-    <value>CSM 1 Electee Archive Script </value>
+    <value>CSM 1 Electee Archive Script</value>
   </data>
   <data name="itemtype34770" xml:space="preserve">
     <value>CSM 2 Electee Archive Script</value>
@@ -61291,7 +61291,7 @@
     <value>CSM 9 Electee Archive Script</value>
   </data>
   <data name="itemtype34778" xml:space="preserve">
-    <value>CSM 10 Electee Archive Script </value>
+    <value>CSM 10 Electee Archive Script</value>
   </data>
   <data name="itemtype34779" xml:space="preserve">
     <value>Megathron Quafe SKIN (7 Days)</value>
@@ -67303,7 +67303,7 @@
     <value>Catmageddon</value>
   </data>
   <data name="itemtype37475" xml:space="preserve">
-    <value> Medium Tech I Large Ship Research II</value>
+    <value>Medium Tech I Large Ship Research II</value>
   </data>
   <data name="itemtype37479" xml:space="preserve">
     <value>Micro Jump Field Generator</value>
@@ -68257,7 +68257,7 @@
     <value>Men's Genolution Combat Suit</value>
   </data>
   <data name="itemtype37811" xml:space="preserve">
-    <value>ArmorSuitMM01_Copper.type </value>
+    <value>ArmorSuitMM01_Copper.type</value>
   </data>
   <data name="itemtype37815" xml:space="preserve">
     <value>Men's Sisters of EVE Advanced Combat Suit</value>
@@ -78472,7 +78472,7 @@
     <value>Emergent Retainer</value>
   </data>
   <data name="itemtype41339" xml:space="preserve">
-    <value>Small CONCORD Billboard </value>
+    <value>Small CONCORD Billboard</value>
   </data>
   <data name="itemtype41340" xml:space="preserve">
     <value>Medium CONCORD Billboard</value>
@@ -79069,7 +79069,7 @@
     <value>Astrahus Citadel</value>
   </data>
   <data name="itemtype41575" xml:space="preserve">
-    <value>Women's “Mirelle” Upwell Executive Spectacles </value>
+    <value>Women's “Mirelle” Upwell Executive Spectacles</value>
   </data>
   <data name="itemtype41576" xml:space="preserve">
     <value>Men's “Mirelle” Upwell Executive Spectacles</value>
@@ -85393,7 +85393,7 @@
     <value>Gallente Inception Package</value>
   </data>
   <data name="itemtype43933" xml:space="preserve">
-    <value>Minmatar Inception Package </value>
+    <value>Minmatar Inception Package</value>
   </data>
   <data name="itemtype43934" xml:space="preserve">
     <value>Harvester Mining Drone Blueprint</value>
@@ -91180,7 +91180,7 @@
     <value>Ninazu Kopis Edge SKIN (Permanent)</value>
   </data>
   <data name="itemtype46444" xml:space="preserve">
-    <value>Punisher Imperial War Reserves Pack </value>
+    <value>Punisher Imperial War Reserves Pack</value>
   </data>
   <data name="itemtype46445" xml:space="preserve">
     <value>Merlin State Military Stockpile Pack</value>
@@ -91210,7 +91210,7 @@
     <value>Coercer Destroyer Battle Pack</value>
   </data>
   <data name="itemtype46454" xml:space="preserve">
-    <value>Cormorant Destroyer Battle Pack </value>
+    <value>Cormorant Destroyer Battle Pack</value>
   </data>
   <data name="itemtype46455" xml:space="preserve">
     <value>Catalyst Destroyer Battle Pack</value>
@@ -91654,7 +91654,7 @@
     <value>Guristas Komodo Blueprint Armored Cache</value>
   </data>
   <data name="itemtype46604" xml:space="preserve">
-    <value>Sleeper Medium Wreck </value>
+    <value>Sleeper Medium Wreck</value>
   </data>
   <data name="itemtype46605" xml:space="preserve">
     <value>Guristas Forward Operating Base Wreck</value>
@@ -92032,7 +92032,7 @@
     <value>Pashanai Bombing Monument</value>
   </data>
   <data name="itemtype46771" xml:space="preserve">
-    <value>Arms Race Battlecruiser Assembler </value>
+    <value>Arms Race Battlecruiser Assembler</value>
   </data>
   <data name="itemtype46772" xml:space="preserve">
     <value>Arms Race Battleship Assembler</value>
@@ -93856,10 +93856,10 @@
     <value>Sleeper Bunker</value>
   </data>
   <data name="itemtype47402" xml:space="preserve">
-    <value>Small asteroid environment </value>
+    <value>Small asteroid environment</value>
   </data>
   <data name="itemtype47403" xml:space="preserve">
-    <value>Small asteroid environment </value>
+    <value>Small asteroid environment</value>
   </data>
   <data name="itemtype47404" xml:space="preserve">
     <value>Small asteroid environment</value>
@@ -94639,7 +94639,7 @@
     <value>Outpost Conversion Rig 4</value>
   </data>
   <data name="itemtype47961" xml:space="preserve">
-    <value>Genolution CA-X </value>
+    <value>Genolution CA-X</value>
   </data>
   <data name="itemtype47962" xml:space="preserve">
     <value>XV Anniversary Gift Box (Alpha)</value>
@@ -94927,7 +94927,7 @@
     <value>Type-G Powergrid Expansion System</value>
   </data>
   <data name="itemtype352076" xml:space="preserve">
-    <value>Power Diagnostic System I </value>
+    <value>Power Diagnostic System I</value>
   </data>
   <data name="itemtype352077" xml:space="preserve">
     <value>Beta Power Diagnostic System</value>
@@ -95812,13 +95812,13 @@
     <value>'Vapor' Core Locus Grenade</value>
   </data>
   <data name="itemtype353701" xml:space="preserve">
-    <value>Small CA Railgun Installation </value>
+    <value>Small CA Railgun Installation</value>
   </data>
   <data name="itemtype353702" xml:space="preserve">
     <value>Small Rocket Installation</value>
   </data>
   <data name="itemtype353705" xml:space="preserve">
-    <value>Small Blaster Installation </value>
+    <value>Small Blaster Installation</value>
   </data>
   <data name="itemtype353730" xml:space="preserve">
     <value>Sleek AV Grenade</value>
@@ -96217,7 +96217,7 @@
     <value>Modified P-Type Nanofiber</value>
   </data>
   <data name="itemtype354187" xml:space="preserve">
-    <value>Altered M-Type Nanofiber </value>
+    <value>Altered M-Type Nanofiber</value>
   </data>
   <data name="itemtype354188" xml:space="preserve">
     <value>Type-G Nanofibre Internal Structure</value>
@@ -96313,7 +96313,7 @@
     <value>Command Node</value>
   </data>
   <data name="itemtype354765" xml:space="preserve">
-    <value>Command Node </value>
+    <value>Command Node</value>
   </data>
   <data name="itemtype354767" xml:space="preserve">
     <value>Clone Reanimation Unit</value>
@@ -96343,7 +96343,7 @@
     <value>Large GA Railgun Installation</value>
   </data>
   <data name="itemtype354794" xml:space="preserve">
-    <value>Small GA Railgun Installation </value>
+    <value>Small GA Railgun Installation</value>
   </data>
   <data name="itemtype354796" xml:space="preserve">
     <value>Large Missile Installation</value>
@@ -96361,25 +96361,25 @@
     <value>Anti-MCC Turret Console</value>
   </data>
   <data name="itemtype354850" xml:space="preserve">
-    <value>Clone Reanimation Unit </value>
+    <value>Clone Reanimation Unit</value>
   </data>
   <data name="itemtype354851" xml:space="preserve">
-    <value>Defense Relay </value>
+    <value>Defense Relay</value>
   </data>
   <data name="itemtype354852" xml:space="preserve">
-    <value>Supply Depot </value>
+    <value>Supply Depot</value>
   </data>
   <data name="itemtype354856" xml:space="preserve">
-    <value>Small Missile Installation </value>
+    <value>Small Missile Installation</value>
   </data>
   <data name="itemtype354857" xml:space="preserve">
-    <value>Small GA Railgun Installation </value>
+    <value>Small GA Railgun Installation</value>
   </data>
   <data name="itemtype354858" xml:space="preserve">
-    <value>Small CA Railgun Installation </value>
+    <value>Small CA Railgun Installation</value>
   </data>
   <data name="itemtype354859" xml:space="preserve">
-    <value>Small Blaster Installation </value>
+    <value>Small Blaster Installation</value>
   </data>
   <data name="itemtype354867" xml:space="preserve">
     <value>Squad - Armor Bonus Test</value>
@@ -96607,10 +96607,10 @@
     <value>Passive Booster (7-Day)</value>
   </data>
   <data name="itemtype355249" xml:space="preserve">
-    <value>Cestus </value>
+    <value>Cestus</value>
   </data>
   <data name="itemtype355250" xml:space="preserve">
-    <value>Charron </value>
+    <value>Charron</value>
   </data>
   <data name="itemtype355254" xml:space="preserve">
     <value>Boundless Breach Submachine Gun</value>
@@ -96733,7 +96733,7 @@
     <value>Militia Power Diagnostic System</value>
   </data>
   <data name="itemtype355413" xml:space="preserve">
-    <value>Militia Light Shield Extender </value>
+    <value>Militia Light Shield Extender</value>
   </data>
   <data name="itemtype355414" xml:space="preserve">
     <value>Militia Heavy Shield Extender</value>

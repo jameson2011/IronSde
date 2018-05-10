@@ -70,7 +70,7 @@ module ObjectMaps=
         if value = null then
             ""
         else
-            value.ToString()
+            value.ToString().Trim()
 
     let toObjectMap (filePath: string) =
         filePath |> ofFile :?> ObjectMap
