@@ -4949,3 +4949,4 @@ module internal MarketGroups=
         | Some 2416 -> [| 2417 |]
         | Some 2418 -> [| 2419 |]
         | Some 2420 -> [| 2421 |]
+        | _ -> [||]

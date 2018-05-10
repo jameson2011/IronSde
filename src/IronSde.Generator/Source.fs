@@ -36,8 +36,18 @@ module internal Source=
                 |> Array.ofSeq
                 |> String
 
-    let isValidStart (value: string) = (value.Chars 0 |> System.Char.IsLetter)
+    let isValidStart (value: string) = 
+        let start = value.Chars 0 
+        
+        start |> System.Char.IsLetter || start = '_' 
+
     let isNpcStart (value: string) = value.Chars 0 = '♦'
+
+    let makeValidEnum (value: string) =
+        if not (isValidStart value) then    
+            "_" + value
+        else    
+            value
 
     let toEnumName (value: string) =        
         if not (isValidStart value) then
@@ -92,6 +102,7 @@ module internal Source=
 
     let marketGroupsModuleName = "MarketGroups"
     let declareMarketGroupsModule = sprintf "module internal %s=" marketGroupsModuleName
+    let declareMarketGroupsEnum = sprintf "type %s=" marketGroupsModuleName
     
     let metaGroupsModuleName = "MetaGroups"
     let declareMetaGroupsModule = sprintf "module internal %s=" metaGroupsModuleName

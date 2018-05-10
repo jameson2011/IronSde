@@ -21,7 +21,12 @@ type MarketGroupsWriter(targetPath: string)=
                             yield Source.importIronSdeTypesNamespace
                             yield Source.declareMarketGroupsModule
                         }
-    
+
+    let enumHeaders = seq {
+                            yield Source.declareIronSdeNamespace
+                            yield Source.declareMarketGroupsEnum
+                        }
+
     let marketGroupDataFuncs (marketGroups: seq<MarketGroupData>) =
         let factories = seq {
                             yield! marketGroups |> Seq.map toMarketGroupDataFunc
@@ -48,8 +53,29 @@ type MarketGroupsWriter(targetPath: string)=
         seq {
                 yield "let marketGroupChildren = function"
                 yield! cases |> Seq.map Source.indent
+                yield Source.defaultEmptyArrayCase |> Source.indent
                 } |> Seq.map Source.indent
     
+    let marketGroupEnums (marketGroups: seq<MarketGroupData>) =
+        let mgDict = marketGroups |> Seq.map (fun v -> v.id, v) |> Map.ofSeq
+        
+        let toEnumName = Source.makeValidEnum >> Source.toEnumName
+        
+        let getParents value = 
+            let rec parents (value: MarketGroupData) result = 
+                match value.parentId with
+                | None -> result
+                | Some id -> let mg = mgDict.[id] 
+                             parents mg (mg::result)
+            parents value [ value ]
+
+        let fullPaths = marketGroups    |> Seq.map (fun mg -> mg, getParents mg 
+                                                                    |> Seq.map (fun x -> toEnumName x.name)
+                                                                    |> Strings.join "_")
+                                        
+        fullPaths |> Seq.map (fun (mg,n) -> sprintf "| %s = %i" n mg.id)
+        
+
     member __.WriteData(marketGroups: seq<MarketGroup>)=
         let data = marketGroups |> Seq.map toMarketGroupData
 
@@ -67,3 +93,18 @@ type MarketGroupsWriter(targetPath: string)=
         writer.Flush()    
         writer.Close()
         
+    member __.WriteEnums(marketGroups: seq<MarketGroup>)=
+        let data = marketGroups |> Seq.map toMarketGroupData
+
+        let dataFilePath = IO.combine targetPath "MarketGroupEnum.fs"
+
+        use writer = new System.IO.StreamWriter(dataFilePath)
+        
+        let enumLines = data |> marketGroupEnums |> Seq.map Source.indent
+        
+        let lines = Seq.concat [ enumHeaders; enumLines; ]
+                
+        lines |> Seq.iter writer.WriteLine            
+
+        writer.Flush()    
+        writer.Close()

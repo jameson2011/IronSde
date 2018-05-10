@@ -46,6 +46,7 @@ module Program=
         let typesReader = new TypesReader(source)
 
         let marketGroupsWriter = new MarketGroupsWriter(target)
+        let sharedMarketGroupsWriter = new MarketGroupsWriter(sharedTarget)
         let typesWriter = new TypesWriter(target)
         let sharedTypesWriter = (new TypesWriter(sharedTarget))
         let attributesWriter = new AttributeWriter(target)
@@ -54,7 +55,7 @@ module Program=
         console "Writing market groups..."
         let marketGroups = marketGroupsReader.MarketGroups() |> Seq.cache
         marketGroupsWriter.WriteData marketGroups
-        
+        sharedMarketGroupsWriter.WriteEnums marketGroups
 
         console "Writing item type categories..."
         let itemTypeCategories = typesReader.CategoryNames() 
