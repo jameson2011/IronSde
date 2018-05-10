@@ -48,12 +48,15 @@ type Celestial =
     | Moon of int * int * string * Position
     | Station  of int * int * string * Position
 
+type MarketGroup = { id: int; key: MarketGroups; parentId: int option; name: string }
+
 type ItemTypeGroup = { id: int; key: ItemTypeGroups; category: ItemTypeCategories; name: string; }
 type ItemMetagroup = { key: MetaGroups; name: string; }
 type ItemTypeAttribute = { key: AttributeTypes; value: float }
 type ItemType = {   id: int; 
                     name: string; 
                     group: ItemTypeGroup;
+                    marketGroup: MarketGroup option;
                     meta: ItemMetagroup option;
                     capacity: float option;
                     mass: float option;
