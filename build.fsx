@@ -12,7 +12,7 @@ open Fake.DotNet.Testing.XUnit2
 open Http
 
 
-let sdeVersion = "sde-20180508-TRANQUILITY"
+let sdeVersion = "sde-20180529-TRANQUILITY"
 let latestSdeUri = sprintf "https://cdn1.eveonline.com/data/sde/tranquility/%s.zip" sdeVersion
 
 let buildDir = ".\\artifacts\\"
