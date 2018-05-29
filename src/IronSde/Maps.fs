@@ -12,7 +12,8 @@ module internal Maps=
         | Wormhole -> SecurityLevel.Wormhole
         | Lowsec -> SecurityLevel.Lowsec
         | Nullsec -> SecurityLevel.Nullsec
-        | _ -> SecurityLevel.Highsec
+        | Abyssal -> SecurityLevel.Abyssal
+        | Highsec -> SecurityLevel.Highsec
 
     let ofPlanet (planet: PlanetData)= 
         Planet (planet.id, entityName planet.id, Position.ofCoordinates (planet.x, planet.y, planet.z) )

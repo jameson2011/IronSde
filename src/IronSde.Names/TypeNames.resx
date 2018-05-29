@@ -93238,10 +93238,10 @@
     <value>Women's Minmatar 'Liberator' T-Shirt</value>
   </data>
   <data name="itemtype47188" xml:space="preserve">
-    <value>Women's Caldari 'Patriot' T-Shirt</value>
+    <value>Men's Caldari 'Patriot' T-Shirt</value>
   </data>
   <data name="itemtype47189" xml:space="preserve">
-    <value>Men's Caldari 'Patriot' T-Shirt</value>
+    <value>Women's Caldari 'Patriot' T-Shirt</value>
   </data>
   <data name="itemtype47190" xml:space="preserve">
     <value>Men's Capsuleer Elite XV T-Shirt</value>
@@ -93478,22 +93478,22 @@
     <value>Expired Serpentis Inquest 'Dripfeed' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47269" xml:space="preserve">
-    <value>Trig Small</value>
+    <value>Damavik</value>
   </data>
   <data name="itemtype47270" xml:space="preserve">
-    <value>Trig Medium</value>
+    <value>Vedmak</value>
   </data>
   <data name="itemtype47271" xml:space="preserve">
-    <value>Trig Large</value>
+    <value>Leshak</value>
   </data>
   <data name="itemtype47272" xml:space="preserve">
-    <value>ABC Small</value>
+    <value>Light Entropic Disintegrator I</value>
   </data>
   <data name="itemtype47273" xml:space="preserve">
-    <value>ABC Medium</value>
+    <value>Heavy Entropic Disintegrator I</value>
   </data>
   <data name="itemtype47274" xml:space="preserve">
-    <value>ABC Large</value>
+    <value>Supratidal Entropic Disintegrator I</value>
   </data>
   <data name="itemtype47275" xml:space="preserve">
     <value>Guardian Angels Barachael</value>
@@ -93550,13 +93550,13 @@
     <value>Machariel Eros Blossom SKIN (Permanent)</value>
   </data>
   <data name="itemtype47297" xml:space="preserve">
-    <value>KalliType</value>
+    <value>Unstable 50MN Microwarpdrive Mutaplasmid</value>
   </data>
   <data name="itemtype47298" xml:space="preserve">
     <value>Standup Multirole Missile Launcher II</value>
   </data>
   <data name="itemtype47299" xml:space="preserve">
-    <value>KalliType2</value>
+    <value>Decayed 500MN Microwarpdrive Mutaplasmid</value>
   </data>
   <data name="itemtype47300" xml:space="preserve">
     <value>Capsuleer Dawn Firework (Large)</value>
@@ -93787,52 +93787,52 @@
     <value>Nestor One Eden SKIN (Permanent)</value>
   </data>
   <data name="itemtype47378" xml:space="preserve">
-    <value>red_1_PLACEHOLDER</value>
+    <value>darkness_weather_1</value>
   </data>
   <data name="itemtype47379" xml:space="preserve">
-    <value>red_2_PLACEHOLDER</value>
+    <value>darkness_weather_2</value>
   </data>
   <data name="itemtype47380" xml:space="preserve">
-    <value>red_3_PLACEHOLDER</value>
+    <value>darkness_weather_3</value>
   </data>
   <data name="itemtype47381" xml:space="preserve">
-    <value>blue_1_PLACEHOLDER</value>
+    <value>electric_storm_weather_1</value>
   </data>
   <data name="itemtype47382" xml:space="preserve">
-    <value>blue_2_PLACEHOLDER</value>
+    <value>electric_storm_weather_2</value>
   </data>
   <data name="itemtype47383" xml:space="preserve">
-    <value>blue_3_PLACEHOLDER</value>
+    <value>electric_storm_weather_3</value>
   </data>
   <data name="itemtype47384" xml:space="preserve">
-    <value>green_1_PLACEHOLDER</value>
+    <value>caustic_toxin_weather_1</value>
   </data>
   <data name="itemtype47385" xml:space="preserve">
-    <value>green_2_PLACEHOLDER</value>
+    <value>caustic_toxin_weather_2</value>
   </data>
   <data name="itemtype47386" xml:space="preserve">
-    <value>green_3_PLACEHOLDER</value>
+    <value>caustic_toxin_weather_3</value>
   </data>
   <data name="itemtype47387" xml:space="preserve">
-    <value>yellow_1_PLACEHOLDER</value>
+    <value>xenon_gas_weather_1</value>
   </data>
   <data name="itemtype47388" xml:space="preserve">
-    <value>yellow_2_PLACEHOLDER</value>
+    <value>xenon_gas_weather_2</value>
   </data>
   <data name="itemtype47389" xml:space="preserve">
-    <value>yellow_3_PLACEHOLDER</value>
+    <value>xenon_gas_weather_3</value>
   </data>
   <data name="itemtype47390" xml:space="preserve">
-    <value>orange_1_PLACEHOLDER</value>
+    <value>infernal_weather_1</value>
   </data>
   <data name="itemtype47391" xml:space="preserve">
-    <value>orange_2_PLACEHOLDER</value>
+    <value>infernal_weather_2</value>
   </data>
   <data name="itemtype47392" xml:space="preserve">
-    <value>orange_3_PLACEHOLDER</value>
+    <value>infernal_weather_3</value>
   </data>
   <data name="itemtype47393" xml:space="preserve">
-    <value>white_1_PLACEHOLDER</value>
+    <value>basic_weather</value>
   </data>
   <data name="itemtype47395" xml:space="preserve">
     <value>Expired Standard 'Guri Hivaa' Cerebral Accelerator</value>
@@ -93853,7 +93853,7 @@
     <value>The Hunt - Boss Spawner</value>
   </data>
   <data name="itemtype47401" xml:space="preserve">
-    <value>Sleeper Bunker</value>
+    <value>Seeker Bunker</value>
   </data>
   <data name="itemtype47402" xml:space="preserve">
     <value>Small asteroid environment</value>
@@ -93874,7 +93874,7 @@
     <value>Medium asteroid environment</value>
   </data>
   <data name="itemtype47408" xml:space="preserve">
-    <value>DynamicKalli</value>
+    <value>50MN Abyssal Microwarpdrive</value>
   </data>
   <data name="itemtype47409" xml:space="preserve">
     <value>Medium asteroid environment</value>
@@ -93952,22 +93952,22 @@
     <value>A_35</value>
   </data>
   <data name="itemtype47436" xml:space="preserve">
-    <value>small_PD_PLACEHOLDER</value>
+    <value>Small Caustic Cloud</value>
   </data>
   <data name="itemtype47437" xml:space="preserve">
-    <value>medium_PD_PLACEHOLDER</value>
+    <value>Short-Range Deviant Automata Suppressor</value>
   </data>
   <data name="itemtype47438" xml:space="preserve">
-    <value>large_PD_PLACEHOLDER</value>
+    <value>Medium-Range Deviant Automata Suppressor</value>
   </data>
   <data name="itemtype47439" xml:space="preserve">
-    <value>small_biocloud_PLACEHOLDER</value>
+    <value>Small Bioluminescence Cloud</value>
   </data>
   <data name="itemtype47440" xml:space="preserve">
-    <value>medium_biocloud_PLACEHOLDER</value>
+    <value>Medium Bioluminescence Cloud</value>
   </data>
   <data name="itemtype47441" xml:space="preserve">
-    <value>large_biocloud_PLACEHOLDER</value>
+    <value>Large Bioluminescence Cloud</value>
   </data>
   <data name="itemtype47442" xml:space="preserve">
     <value>small_stretch_PLACEHOLDER</value>
@@ -94017,6 +94017,9 @@
   <data name="itemtype47457" xml:space="preserve">
     <value>Secured Guristas Cache</value>
   </data>
+  <data name="itemtype47458" xml:space="preserve">
+    <value>Abyssal Trace</value>
+  </data>
   <data name="itemtype47459" xml:space="preserve">
     <value>Drifter Cruiser</value>
   </data>
@@ -94035,8 +94038,29 @@
   <data name="itemtype47464" xml:space="preserve">
     <value>exit_locator</value>
   </data>
+  <data name="itemtype47465" xml:space="preserve">
+    <value>Unstable Abyssal Depths</value>
+  </data>
   <data name="itemtype47466" xml:space="preserve">
     <value>Praxis</value>
+  </data>
+  <data name="itemtype47467" xml:space="preserve">
+    <value>Medium Caustic Cloud</value>
+  </data>
+  <data name="itemtype47468" xml:space="preserve">
+    <value>Large Caustic Cloud</value>
+  </data>
+  <data name="itemtype47469" xml:space="preserve">
+    <value>Short-Range Multibody Tracking Pylon</value>
+  </data>
+  <data name="itemtype47470" xml:space="preserve">
+    <value>Medium-Range Multibody Tracking Pylon</value>
+  </data>
+  <data name="itemtype47472" xml:space="preserve">
+    <value>Medium Filament Cloud</value>
+  </data>
+  <data name="itemtype47473" xml:space="preserve">
+    <value>Large Filament Cloud</value>
   </data>
   <data name="itemtype47475" xml:space="preserve">
     <value>Women's Capsuleer Networker XV Suit</value>
@@ -94057,10 +94081,25 @@
     <value>Men's Capsuleer Networker XV T-Shirt</value>
   </data>
   <data name="itemtype47481" xml:space="preserve">
-    <value>CDIA SPACE Cerebral Accelerator</value>
+    <value>Expired CDIA SPACE Cerebral Accelerator</value>
   </data>
   <data name="itemtype47482" xml:space="preserve">
     <value>CDIA Training Exercise Supply Crate</value>
+  </data>
+  <data name="itemtype47488" xml:space="preserve">
+    <value>Tower Structure</value>
+  </data>
+  <data name="itemtype47489" xml:space="preserve">
+    <value>NPC (Tracking)</value>
+  </data>
+  <data name="itemtype47490" xml:space="preserve">
+    <value>NPC (Resist1)</value>
+  </data>
+  <data name="itemtype47491" xml:space="preserve">
+    <value>NPC (Resist2)</value>
+  </data>
+  <data name="itemtype47492" xml:space="preserve">
+    <value>NPC (Speed)</value>
   </data>
   <data name="itemtype47493" xml:space="preserve">
     <value>Armageddon Hunter's Quiver SKIN (Permanent)</value>
@@ -94120,34 +94159,34 @@
     <value>Rattlesnake Ace of Podhunters SKIN (Permanent)</value>
   </data>
   <data name="itemtype47512" xml:space="preserve">
-    <value>Immensea Faction Citadel</value>
+    <value>'Moreau' Fortizar</value>
   </data>
   <data name="itemtype47513" xml:space="preserve">
-    <value>Amarr Faction Citadel</value>
+    <value>'Draccous' Fortizar</value>
   </data>
   <data name="itemtype47514" xml:space="preserve">
-    <value>Caldari Faction Citadel</value>
+    <value>'Horizon' Fortizar</value>
   </data>
   <data name="itemtype47515" xml:space="preserve">
-    <value>Gallente Faction Citadel</value>
+    <value>'Marginis' Fortizar</value>
   </data>
   <data name="itemtype47516" xml:space="preserve">
-    <value>Minmatar Faction Citadel</value>
+    <value>'Prometheus' Fortizar</value>
   </data>
   <data name="itemtype47517" xml:space="preserve">
-    <value>Immensea Faction Citadel Wreck</value>
+    <value>'Moreau' Fortizar Wreck</value>
   </data>
   <data name="itemtype47518" xml:space="preserve">
-    <value>Amarr Faction Citadel Wreck</value>
+    <value>'Draccous' Fortizar Wreck</value>
   </data>
   <data name="itemtype47519" xml:space="preserve">
-    <value>Caldari Faction Citadel Wreck</value>
+    <value>'Horizon' Fortizar Wreck</value>
   </data>
   <data name="itemtype47520" xml:space="preserve">
-    <value>Gallente Faction Citadel Wreck</value>
+    <value>'Marginis' Fortizar Wreck</value>
   </data>
   <data name="itemtype47521" xml:space="preserve">
-    <value>Minmatar Faction Citadel Wreck</value>
+    <value>'Prometheus' Fortizar Wreck</value>
   </data>
   <data name="itemtype47522" xml:space="preserve">
     <value>Incursus Glittering Dream SKIN (Permanent)</value>
@@ -94205,6 +94244,12 @@
   </data>
   <data name="itemtype47541" xml:space="preserve">
     <value>Dramiel Sariel's Flames SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype47542" xml:space="preserve">
+    <value>NPC (Resist3)</value>
+  </data>
+  <data name="itemtype47543" xml:space="preserve">
+    <value>NPC (Resist4)</value>
   </data>
   <data name="itemtype47544" xml:space="preserve">
     <value>Apotheosis Versus Redforce SKIN (Permanent)</value>
@@ -94416,6 +94461,9 @@
   <data name="itemtype47619" xml:space="preserve">
     <value>Golem Octopus Orange Flight SKIN (Permanent)</value>
   </data>
+  <data name="itemtype47620" xml:space="preserve">
+    <value>Small Filament Cloud</value>
+  </data>
   <data name="itemtype47621" xml:space="preserve">
     <value>Malediction Capsuleer Day XV SKIN (Permanent)</value>
   </data>
@@ -94521,6 +94569,78 @@
   <data name="itemtype47655" xml:space="preserve">
     <value>Praxis Capsuleer Networker XV SKIN (Permanent)</value>
   </data>
+  <data name="itemtype47656" xml:space="preserve">
+    <value>Asteroid Dungeon Cloud 5810</value>
+  </data>
+  <data name="itemtype47657" xml:space="preserve">
+    <value>Asteroid Dungeon Cloud 6047</value>
+  </data>
+  <data name="itemtype47658" xml:space="preserve">
+    <value>Asteroid Dungeon Cloud 6200</value>
+  </data>
+  <data name="itemtype47659" xml:space="preserve">
+    <value>Asteroid Dungeon Cloud 6201</value>
+  </data>
+  <data name="itemtype47660" xml:space="preserve">
+    <value>Asteroid Dungeon Cloud 6202</value>
+  </data>
+  <data name="itemtype47661" xml:space="preserve">
+    <value>Pillar Dungeon Cloud 6048</value>
+  </data>
+  <data name="itemtype47662" xml:space="preserve">
+    <value>Pillar Dungeon Cloud 6049</value>
+  </data>
+  <data name="itemtype47663" xml:space="preserve">
+    <value>Pillar Dungeon Cloud 6050</value>
+  </data>
+  <data name="itemtype47664" xml:space="preserve">
+    <value>Pillar Dungeon Cloud 6051</value>
+  </data>
+  <data name="itemtype47665" xml:space="preserve">
+    <value>Pillar Dungeon Cloud 6052</value>
+  </data>
+  <data name="itemtype47666" xml:space="preserve">
+    <value>Crystal Dungeon Cloud 6203</value>
+  </data>
+  <data name="itemtype47667" xml:space="preserve">
+    <value>Crystal Dungeon Cloud 6204</value>
+  </data>
+  <data name="itemtype47668" xml:space="preserve">
+    <value>Crystal Dungeon Cloud 6205</value>
+  </data>
+  <data name="itemtype47669" xml:space="preserve">
+    <value>Crystal Dungeon Cloud 6206</value>
+  </data>
+  <data name="itemtype47670" xml:space="preserve">
+    <value>Crystal Dungeon Cloud 6207</value>
+  </data>
+  <data name="itemtype47671" xml:space="preserve">
+    <value>Asteroid debris cloud 01</value>
+  </data>
+  <data name="itemtype47672" xml:space="preserve">
+    <value>Asteroid debris cloud 02</value>
+  </data>
+  <data name="itemtype47673" xml:space="preserve">
+    <value>Asteroid debris cloud 03</value>
+  </data>
+  <data name="itemtype47674" xml:space="preserve">
+    <value>Pillar debris cloud 01</value>
+  </data>
+  <data name="itemtype47675" xml:space="preserve">
+    <value>Pillar debris cloud 02</value>
+  </data>
+  <data name="itemtype47676" xml:space="preserve">
+    <value>Pillar debris cloud 03</value>
+  </data>
+  <data name="itemtype47677" xml:space="preserve">
+    <value>Crystal debris cloud 01</value>
+  </data>
+  <data name="itemtype47678" xml:space="preserve">
+    <value>Crystal debris cloud 02</value>
+  </data>
+  <data name="itemtype47679" xml:space="preserve">
+    <value>Crystal debris cloud 03</value>
+  </data>
   <data name="itemtype47680" xml:space="preserve">
     <value>Pacifier SARO 'Black Troop' SKIN (Permanent)</value>
   </data>
@@ -94535,6 +94655,12 @@
   </data>
   <data name="itemtype47684" xml:space="preserve">
     <value>Monitor Firewatch SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype47685" xml:space="preserve">
+    <value>Triglavian Transfer Conduit</value>
+  </data>
+  <data name="itemtype47686" xml:space="preserve">
+    <value>Triglavian Origin Conduit</value>
   </data>
   <data name="itemtype47688" xml:space="preserve">
     <value>Corrupted Trinary Data Vault</value>
@@ -94569,6 +94695,18 @@
   <data name="itemtype47698" xml:space="preserve">
     <value>Dominix IGC Victory SKIN (Permanent)</value>
   </data>
+  <data name="itemtype47699" xml:space="preserve">
+    <value>Decayed Stasis Webifier Mutaplasmid</value>
+  </data>
+  <data name="itemtype47700" xml:space="preserve">
+    <value>Unstable Stasis Webifier Mutaplasmid</value>
+  </data>
+  <data name="itemtype47701" xml:space="preserve">
+    <value>Gravid Stasis Webifier Mutaplasmid</value>
+  </data>
+  <data name="itemtype47702" xml:space="preserve">
+    <value>Abyssal Stasis Webifier</value>
+  </data>
   <data name="itemtype47705" xml:space="preserve">
     <value>Basic X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
@@ -94583,6 +94721,9 @@
   </data>
   <data name="itemtype47710" xml:space="preserve">
     <value>Upwell General Industrial Support Facility</value>
+  </data>
+  <data name="itemtype47711" xml:space="preserve">
+    <value>basic_key_placeholder</value>
   </data>
   <data name="itemtype47712" xml:space="preserve">
     <value>Upwell Advanced Manufacturing Support Facility</value>
@@ -94620,23 +94761,692 @@
   <data name="itemtype47724" xml:space="preserve">
     <value>Drifter Strike Commander</value>
   </data>
+  <data name="itemtype47727" xml:space="preserve">
+    <value>GFX Test Vargur 1/2</value>
+  </data>
+  <data name="itemtype47728" xml:space="preserve">
+    <value>GFX Test Vargur 2/2</value>
+  </data>
+  <data name="itemtype47729" xml:space="preserve">
+    <value>Decayed Warp Scrambler Mutaplasmid</value>
+  </data>
+  <data name="itemtype47730" xml:space="preserve">
+    <value>Unstable Warp Scrambler Mutaplasmid</value>
+  </data>
+  <data name="itemtype47731" xml:space="preserve">
+    <value>Gravid Warp Scrambler Mutaplasmid</value>
+  </data>
+  <data name="itemtype47732" xml:space="preserve">
+    <value>Abyssal Warp Scrambler</value>
+  </data>
+  <data name="itemtype47733" xml:space="preserve">
+    <value>Decayed Warp Disruptor Mutaplasmid</value>
+  </data>
+  <data name="itemtype47734" xml:space="preserve">
+    <value>Unstable Warp Disruptor Mutaplasmid</value>
+  </data>
+  <data name="itemtype47735" xml:space="preserve">
+    <value>Gravid Warp Disruptor Mutaplasmid</value>
+  </data>
+  <data name="itemtype47736" xml:space="preserve">
+    <value>Abyssal Warp Disruptor</value>
+  </data>
+  <data name="itemtype47737" xml:space="preserve">
+    <value>Decayed 5MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47738" xml:space="preserve">
+    <value>Unstable 5MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47739" xml:space="preserve">
+    <value>Gravid 5MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47740" xml:space="preserve">
+    <value>5mn Abyssal Microwarpdrive</value>
+  </data>
+  <data name="itemtype47741" xml:space="preserve">
+    <value>Gravid 50MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47742" xml:space="preserve">
+    <value>Decayed 50MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47743" xml:space="preserve">
+    <value>Unstable 500MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47744" xml:space="preserve">
+    <value>Gravid 500MN Microwarpdrive Mutaplasmid</value>
+  </data>
+  <data name="itemtype47745" xml:space="preserve">
+    <value>500MN Abyssal Microwarpdrive</value>
+  </data>
+  <data name="itemtype47746" xml:space="preserve">
+    <value>Decayed 1MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47747" xml:space="preserve">
+    <value>Unstable 1MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47748" xml:space="preserve">
+    <value>Gravid 1MN Afterburner MutaPlasmid</value>
+  </data>
+  <data name="itemtype47749" xml:space="preserve">
+    <value>1MN Abyssal Afterburner</value>
+  </data>
+  <data name="itemtype47750" xml:space="preserve">
+    <value>Decayed 10MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47751" xml:space="preserve">
+    <value>Unstable 10MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47752" xml:space="preserve">
+    <value>Gravid 10MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47753" xml:space="preserve">
+    <value>10MN Abyssal Afterburner</value>
+  </data>
+  <data name="itemtype47754" xml:space="preserve">
+    <value>Decayed 100MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47755" xml:space="preserve">
+    <value>Unstable 100MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47756" xml:space="preserve">
+    <value>Gravid 100MN Afterburner Mutaplasmid</value>
+  </data>
+  <data name="itemtype47757" xml:space="preserve">
+    <value>100MN Abyssal Afterburner</value>
+  </data>
   <data name="itemtype47758" xml:space="preserve">
     <value>Sleeper Small Wreck</value>
+  </data>
+  <data name="itemtype47760" xml:space="preserve">
+    <value>A_36</value>
+  </data>
+  <data name="itemtype47761" xml:space="preserve">
+    <value>Calm Exotic Filament</value>
+  </data>
+  <data name="itemtype47762" xml:space="preserve">
+    <value>Calm Dark Filament</value>
+  </data>
+  <data name="itemtype47763" xml:space="preserve">
+    <value>Calm Firestorm Filament</value>
+  </data>
+  <data name="itemtype47764" xml:space="preserve">
+    <value>Calm Gamma Filament</value>
+  </data>
+  <data name="itemtype47765" xml:space="preserve">
+    <value>Calm Electrical Filament</value>
+  </data>
+  <data name="itemtype47766" xml:space="preserve">
+    <value>Decayed Small Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47767" xml:space="preserve">
+    <value>Unstable Small Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47768" xml:space="preserve">
+    <value>Gravid Small Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47769" xml:space="preserve">
+    <value>Small Abyssal Armor Repairer</value>
+  </data>
+  <data name="itemtype47770" xml:space="preserve">
+    <value>Decayed Medium Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47771" xml:space="preserve">
+    <value>Unstable Medium Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47772" xml:space="preserve">
+    <value>Gravid Medium Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47773" xml:space="preserve">
+    <value>Medium Abyssal Armor Repairer</value>
+  </data>
+  <data name="itemtype47774" xml:space="preserve">
+    <value>Decayed Large Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47775" xml:space="preserve">
+    <value>Unstable Large Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47776" xml:space="preserve">
+    <value>Gravid Large Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47777" xml:space="preserve">
+    <value>Large Abyssal Armor Repairer</value>
+  </data>
+  <data name="itemtype47778" xml:space="preserve">
+    <value>Decayed Small Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47779" xml:space="preserve">
+    <value>Unstable Small Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47780" xml:space="preserve">
+    <value>Gravid Small Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47781" xml:space="preserve">
+    <value>Small Abyssal Shield Booster</value>
+  </data>
+  <data name="itemtype47782" xml:space="preserve">
+    <value>Decayed Medium Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47783" xml:space="preserve">
+    <value>Unstable Medium Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47784" xml:space="preserve">
+    <value>Gravid Medium Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47785" xml:space="preserve">
+    <value>Medium Abyssal Shield Booster</value>
+  </data>
+  <data name="itemtype47786" xml:space="preserve">
+    <value>Decayed Large Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47787" xml:space="preserve">
+    <value>Unstable Large Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47788" xml:space="preserve">
+    <value>Gravid Large Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47789" xml:space="preserve">
+    <value>Large Abyssal Shield Booster</value>
+  </data>
+  <data name="itemtype47790" xml:space="preserve">
+    <value>Decayed X-Large Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47791" xml:space="preserve">
+    <value>Unstable X-Large Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47792" xml:space="preserve">
+    <value>Gravid X-Large Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47793" xml:space="preserve">
+    <value>X-Large Abyssal Shield Booster</value>
+  </data>
+  <data name="itemtype47795" xml:space="preserve">
+    <value>Triglavian Support Pylon Wreck</value>
+  </data>
+  <data name="itemtype47797" xml:space="preserve">
+    <value>Decayed Small Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47798" xml:space="preserve">
+    <value>Unstable Small Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47799" xml:space="preserve">
+    <value>Gravid Small Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47800" xml:space="preserve">
+    <value>Small Abyssal Shield Extender</value>
+  </data>
+  <data name="itemtype47801" xml:space="preserve">
+    <value>Decayed Medium Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47802" xml:space="preserve">
+    <value>Unstable Medium Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47803" xml:space="preserve">
+    <value>Gravid Medium Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47804" xml:space="preserve">
+    <value>Medium Abyssal Shield Extender</value>
+  </data>
+  <data name="itemtype47805" xml:space="preserve">
+    <value>Decayed Large Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47806" xml:space="preserve">
+    <value>Unstable Large Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47807" xml:space="preserve">
+    <value>Gravid Large Shield Extender Mutaplasmid</value>
+  </data>
+  <data name="itemtype47808" xml:space="preserve">
+    <value>Large Abyssal Shield Extender</value>
+  </data>
+  <data name="itemtype47809" xml:space="preserve">
+    <value>Decayed Small Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47810" xml:space="preserve">
+    <value>Unstable Small Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47811" xml:space="preserve">
+    <value>Gravid Small Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47812" xml:space="preserve">
+    <value>Small Abyssal Armor Plates</value>
+  </data>
+  <data name="itemtype47813" xml:space="preserve">
+    <value>Decayed Medium Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47814" xml:space="preserve">
+    <value>Unstable Medium Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47815" xml:space="preserve">
+    <value>Gravid Medium Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47816" xml:space="preserve">
+    <value>Decayed Large Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47817" xml:space="preserve">
+    <value>Medium Abyssal Armor Plates</value>
+  </data>
+  <data name="itemtype47818" xml:space="preserve">
+    <value>Unstable Large Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47819" xml:space="preserve">
+    <value>Gravid Large Armor Plate Mutaplasmid</value>
+  </data>
+  <data name="itemtype47820" xml:space="preserve">
+    <value>Large Abyssal Armor Plates</value>
+  </data>
+  <data name="itemtype47821" xml:space="preserve">
+    <value>Decayed Small Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47822" xml:space="preserve">
+    <value>Unstable Small Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47823" xml:space="preserve">
+    <value>Gravid Small Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47824" xml:space="preserve">
+    <value>Small Abyssal Energy Neutralizer</value>
+  </data>
+  <data name="itemtype47825" xml:space="preserve">
+    <value>Decayed Medium Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47826" xml:space="preserve">
+    <value>Unstable Medium Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47827" xml:space="preserve">
+    <value>Gravid Medium Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47828" xml:space="preserve">
+    <value>Medium Abyssal Energy Neutralizer</value>
+  </data>
+  <data name="itemtype47829" xml:space="preserve">
+    <value>Decayed Large Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47830" xml:space="preserve">
+    <value>Unstable Large Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47831" xml:space="preserve">
+    <value>Gravid Large Energy Neutralizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47832" xml:space="preserve">
+    <value>Large Abyssal Energy Neutralizer</value>
+  </data>
+  <data name="itemtype47833" xml:space="preserve">
+    <value>Abyssal Trace</value>
+  </data>
+  <data name="itemtype47834" xml:space="preserve">
+    <value>Abyssal Trace</value>
+  </data>
+  <data name="itemtype47835" xml:space="preserve">
+    <value>Abnormal Medium Ancillary Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47836" xml:space="preserve">
+    <value>Medium Abyssal Ancillary Shield Booster</value>
+  </data>
+  <data name="itemtype47837" xml:space="preserve">
+    <value>Abnormal Large Ancillary Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47838" xml:space="preserve">
+    <value>Large Abyssal Ancillary Shield Booster</value>
+  </data>
+  <data name="itemtype47839" xml:space="preserve">
+    <value>Abnormal X-Large Ancillary Shield Booster Mutaplasmid</value>
+  </data>
+  <data name="itemtype47840" xml:space="preserve">
+    <value>X-Large Abyssal Ancillary Shield Booster</value>
+  </data>
+  <data name="itemtype47841" xml:space="preserve">
+    <value>Abnormal Small Ancillary Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47842" xml:space="preserve">
+    <value>Small Abyssal Ancillary Armor Repairer</value>
+  </data>
+  <data name="itemtype47843" xml:space="preserve">
+    <value>Abnormal Medium Ancillary Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47844" xml:space="preserve">
+    <value>Medium Abyssal Ancillary Armor Repairer</value>
+  </data>
+  <data name="itemtype47845" xml:space="preserve">
+    <value>Abnormal Large Ancillary Armor Repairer Mutaplasmid</value>
+  </data>
+  <data name="itemtype47846" xml:space="preserve">
+    <value>Large Abyssal Ancillary Armor Repairer</value>
+  </data>
+  <data name="itemtype47847" xml:space="preserve">
+    <value>Sparkneedle Tessella</value>
+  </data>
+  <data name="itemtype47848" xml:space="preserve">
+    <value>Emberneedle Tessella</value>
+  </data>
+  <data name="itemtype47849" xml:space="preserve">
+    <value>Strikeneedle Tessella</value>
+  </data>
+  <data name="itemtype47850" xml:space="preserve">
+    <value>Fieldweaver Tessella</value>
+  </data>
+  <data name="itemtype47851" xml:space="preserve">
+    <value>Snarecaster Tessella</value>
+  </data>
+  <data name="itemtype47852" xml:space="preserve">
+    <value>Fogcaster Tessella</value>
+  </data>
+  <data name="itemtype47853" xml:space="preserve">
+    <value>Gazedimmer Tessella</value>
+  </data>
+  <data name="itemtype47854" xml:space="preserve">
+    <value>Spotlighter Tessella</value>
+  </data>
+  <data name="itemtype47855" xml:space="preserve">
+    <value>Blastneedle Tessella</value>
+  </data>
+  <data name="itemtype47856" xml:space="preserve">
+    <value>Sparklance Tessella</value>
+  </data>
+  <data name="itemtype47857" xml:space="preserve">
+    <value>Emberlance Tessella</value>
+  </data>
+  <data name="itemtype47858" xml:space="preserve">
+    <value>Strikelance Tessella</value>
+  </data>
+  <data name="itemtype47859" xml:space="preserve">
+    <value>Blastlance Tessella</value>
+  </data>
+  <data name="itemtype47860" xml:space="preserve">
+    <value>Plateforger Tessella</value>
   </data>
   <data name="itemtype47861" xml:space="preserve">
     <value>Capsuleer Day - Dungeon Spawner</value>
   </data>
+  <data name="itemtype47862" xml:space="preserve">
+    <value>Exotic Particle Storm</value>
+  </data>
+  <data name="itemtype47863" xml:space="preserve">
+    <value>Dark Matter Field</value>
+  </data>
+  <data name="itemtype47864" xml:space="preserve">
+    <value>Plasma Firestorm</value>
+  </data>
+  <data name="itemtype47865" xml:space="preserve">
+    <value>Electrical Storm</value>
+  </data>
+  <data name="itemtype47866" xml:space="preserve">
+    <value>Gamma-Ray Afterglow</value>
+  </data>
+  <data name="itemtype47867" xml:space="preserve">
+    <value>Precursor Frigate</value>
+  </data>
+  <data name="itemtype47868" xml:space="preserve">
+    <value>Precursor Cruiser</value>
+  </data>
+  <data name="itemtype47869" xml:space="preserve">
+    <value>Precursor Battleship</value>
+  </data>
+  <data name="itemtype47870" xml:space="preserve">
+    <value>Small Precursor Weapon</value>
+  </data>
+  <data name="itemtype47871" xml:space="preserve">
+    <value>Medium Precursor Weapon</value>
+  </data>
+  <data name="itemtype47872" xml:space="preserve">
+    <value>Large Precursor Weapon</value>
+  </data>
+  <data name="itemtype47873" xml:space="preserve">
+    <value>Small Disintegrator Specialization</value>
+  </data>
+  <data name="itemtype47874" xml:space="preserve">
+    <value>Medium Disintegrator Specialization</value>
+  </data>
+  <data name="itemtype47875" xml:space="preserve">
+    <value>Large Disintegrator Specialization</value>
+  </data>
+  <data name="itemtype47876" xml:space="preserve">
+    <value>Photic Abyssal Overmind</value>
+  </data>
+  <data name="itemtype47877" xml:space="preserve">
+    <value>Twilit Abyssal Overmind</value>
+  </data>
+  <data name="itemtype47878" xml:space="preserve">
+    <value>Bathyic Abyssal Overmind</value>
+  </data>
+  <data name="itemtype47879" xml:space="preserve">
+    <value>Hadal Abyssal Overmind</value>
+  </data>
+  <data name="itemtype47880" xml:space="preserve">
+    <value>Benthic Abyssal Overmind</value>
+  </data>
   <data name="itemtype47881" xml:space="preserve">
-    <value>Outpost Conversion Rig 1</value>
+    <value>Upwell Standard Outpost Rig</value>
   </data>
   <data name="itemtype47882" xml:space="preserve">
-    <value>Outpost Conversion Rig 2</value>
+    <value>Upwell M1R Outpost Rig</value>
   </data>
   <data name="itemtype47883" xml:space="preserve">
-    <value>Outpost Conversion Rig 3</value>
+    <value>Upwell A1F Outpost Rig</value>
   </data>
   <data name="itemtype47884" xml:space="preserve">
-    <value>Outpost Conversion Rig 4</value>
+    <value>Upwell M2R- Outpost Rig</value>
+  </data>
+  <data name="itemtype47885" xml:space="preserve">
+    <value>Tetryon Exotic Plasma S</value>
+  </data>
+  <data name="itemtype47886" xml:space="preserve">
+    <value>Tetryon Exotic Plasma M</value>
+  </data>
+  <data name="itemtype47887" xml:space="preserve">
+    <value>Tetryon Exotic Plasma L</value>
+  </data>
+  <data name="itemtype47888" xml:space="preserve">
+    <value>Agitated Exotic Filament</value>
+  </data>
+  <data name="itemtype47889" xml:space="preserve">
+    <value>Fierce Exotic Filament</value>
+  </data>
+  <data name="itemtype47890" xml:space="preserve">
+    <value>Raging Exotic Filament</value>
+  </data>
+  <data name="itemtype47891" xml:space="preserve">
+    <value>Chaotic Exotic Filament</value>
+  </data>
+  <data name="itemtype47892" xml:space="preserve">
+    <value>Agitated Dark Filament</value>
+  </data>
+  <data name="itemtype47893" xml:space="preserve">
+    <value>Fierce Dark Filament</value>
+  </data>
+  <data name="itemtype47894" xml:space="preserve">
+    <value>Raging Dark Filament</value>
+  </data>
+  <data name="itemtype47895" xml:space="preserve">
+    <value>Chaotic Dark Filament</value>
+  </data>
+  <data name="itemtype47896" xml:space="preserve">
+    <value>Agitated Firestorm Filament</value>
+  </data>
+  <data name="itemtype47897" xml:space="preserve">
+    <value>Fierce Firestorm Filament</value>
+  </data>
+  <data name="itemtype47898" xml:space="preserve">
+    <value>Raging Firestorm Filament</value>
+  </data>
+  <data name="itemtype47899" xml:space="preserve">
+    <value>Chaotic Firestorm Filament</value>
+  </data>
+  <data name="itemtype47900" xml:space="preserve">
+    <value>Agitated Gamma Filament</value>
+  </data>
+  <data name="itemtype47901" xml:space="preserve">
+    <value>Fierce Gamma Filament</value>
+  </data>
+  <data name="itemtype47902" xml:space="preserve">
+    <value>Raging Gamma Filament</value>
+  </data>
+  <data name="itemtype47903" xml:space="preserve">
+    <value>Chaotic Gamma Filament</value>
+  </data>
+  <data name="itemtype47904" xml:space="preserve">
+    <value>Agitated Electrical Filament</value>
+  </data>
+  <data name="itemtype47905" xml:space="preserve">
+    <value>Fierce Electrical Filament</value>
+  </data>
+  <data name="itemtype47906" xml:space="preserve">
+    <value>Raging Electrical Filament</value>
+  </data>
+  <data name="itemtype47907" xml:space="preserve">
+    <value>Chaotic Electrical Filament</value>
+  </data>
+  <data name="itemtype47908" xml:space="preserve">
+    <value>Entropic Radiation Sink I</value>
+  </data>
+  <data name="itemtype47909" xml:space="preserve">
+    <value>Compact Entropic Radiation Sink</value>
+  </data>
+  <data name="itemtype47911" xml:space="preserve">
+    <value>Entropic Radiation Sink II</value>
+  </data>
+  <data name="itemtype47912" xml:space="preserve">
+    <value>Light Compact Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47913" xml:space="preserve">
+    <value>Light Scoped Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47914" xml:space="preserve">
+    <value>Light Entropic Disintegrator II</value>
+  </data>
+  <data name="itemtype47915" xml:space="preserve">
+    <value>Light Veles Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47916" xml:space="preserve">
+    <value>Heavy Compact Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47917" xml:space="preserve">
+    <value>Heavy Scoped Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47918" xml:space="preserve">
+    <value>Heavy Entropic Disintegrator II</value>
+  </data>
+  <data name="itemtype47919" xml:space="preserve">
+    <value>Heavy Veles Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47920" xml:space="preserve">
+    <value>Supratidal Compact Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47921" xml:space="preserve">
+    <value>Supratidal Scoped Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47922" xml:space="preserve">
+    <value>Supratidal Entropic Disintegrator II</value>
+  </data>
+  <data name="itemtype47923" xml:space="preserve">
+    <value>Supratidal Veles Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype47924" xml:space="preserve">
+    <value>Baryon Exotic Plasma S</value>
+  </data>
+  <data name="itemtype47925" xml:space="preserve">
+    <value>Meson Exotic Plasma S</value>
+  </data>
+  <data name="itemtype47926" xml:space="preserve">
+    <value>Occult S</value>
+  </data>
+  <data name="itemtype47927" xml:space="preserve">
+    <value>Mystic S</value>
+  </data>
+  <data name="itemtype47928" xml:space="preserve">
+    <value>Baryon Exotic Plasma M</value>
+  </data>
+  <data name="itemtype47929" xml:space="preserve">
+    <value>Meson Exotic Plasma M</value>
+  </data>
+  <data name="itemtype47930" xml:space="preserve">
+    <value>Occult M</value>
+  </data>
+  <data name="itemtype47931" xml:space="preserve">
+    <value>Mystic M</value>
+  </data>
+  <data name="itemtype47932" xml:space="preserve">
+    <value>Baryon Exotic Plasma L</value>
+  </data>
+  <data name="itemtype47933" xml:space="preserve">
+    <value>Meson Exotic Plasma L</value>
+  </data>
+  <data name="itemtype47934" xml:space="preserve">
+    <value>Occult L</value>
+  </data>
+  <data name="itemtype47935" xml:space="preserve">
+    <value>Mystic L</value>
+  </data>
+  <data name="itemtype47936" xml:space="preserve">
+    <value>Small Crystal Environment 1</value>
+  </data>
+  <data name="itemtype47937" xml:space="preserve">
+    <value>Small Crystal Environment 2</value>
+  </data>
+  <data name="itemtype47938" xml:space="preserve">
+    <value>Small Crystal Environment 3</value>
+  </data>
+  <data name="itemtype47939" xml:space="preserve">
+    <value>Small Crystal Environment 5</value>
+  </data>
+  <data name="itemtype47940" xml:space="preserve">
+    <value>Small Crystal Environment 4</value>
+  </data>
+  <data name="itemtype47941" xml:space="preserve">
+    <value>Medium Crystal Environment 1</value>
+  </data>
+  <data name="itemtype47942" xml:space="preserve">
+    <value>Medium Crystal Environment 2</value>
+  </data>
+  <data name="itemtype47943" xml:space="preserve">
+    <value>Medium Crystal Environment 3</value>
+  </data>
+  <data name="itemtype47944" xml:space="preserve">
+    <value>Medium Crystal Environment 4</value>
+  </data>
+  <data name="itemtype47945" xml:space="preserve">
+    <value>Large Crystal Environment 1</value>
+  </data>
+  <data name="itemtype47946" xml:space="preserve">
+    <value>Large Crystal Environment 2</value>
+  </data>
+  <data name="itemtype47947" xml:space="preserve">
+    <value>Large Crystal Environment 3</value>
+  </data>
+  <data name="itemtype47948" xml:space="preserve">
+    <value>Extra Large Crystal Environment</value>
+  </data>
+  <data name="itemtype47949" xml:space="preserve">
+    <value>Background planet Plasma Blood</value>
+  </data>
+  <data name="itemtype47950" xml:space="preserve">
+    <value>Background planet Sandstorm Yellow</value>
+  </data>
+  <data name="itemtype47951" xml:space="preserve">
+    <value>Triglavian Bioadaptive Cache</value>
+  </data>
+  <data name="itemtype47953" xml:space="preserve">
+    <value>Drifter Foothold Battleship</value>
+  </data>
+  <data name="itemtype47954" xml:space="preserve">
+    <value>Drifter Rearguard Battleship</value>
+  </data>
+  <data name="itemtype47955" xml:space="preserve">
+    <value>Drifter Frontline Battleship</value>
+  </data>
+  <data name="itemtype47956" xml:space="preserve">
+    <value>Drifter Vanguard Battleship</value>
+  </data>
+  <data name="itemtype47957" xml:space="preserve">
+    <value>Drifter Assault Battleship</value>
+  </data>
+  <data name="itemtype47958" xml:space="preserve">
+    <value>Drifter Entanglement Cruiser</value>
+  </data>
+  <data name="itemtype47959" xml:space="preserve">
+    <value>Drifter Nullwarp Cruiser</value>
+  </data>
+  <data name="itemtype47960" xml:space="preserve">
+    <value>Drifter Nullcharge Cruiser</value>
   </data>
   <data name="itemtype47961" xml:space="preserve">
     <value>Genolution CA-X</value>
@@ -94646,6 +95456,1221 @@
   </data>
   <data name="itemtype47963" xml:space="preserve">
     <value>XV Anniversary Gift Box (Omega)</value>
+  </data>
+  <data name="itemtype47964" xml:space="preserve">
+    <value>Small Crystal Environment 6</value>
+  </data>
+  <data name="itemtype47965" xml:space="preserve">
+    <value>Medium Crystal Environment 5</value>
+  </data>
+  <data name="itemtype47966" xml:space="preserve">
+    <value>Damavik Blueprint</value>
+  </data>
+  <data name="itemtype47967" xml:space="preserve">
+    <value>Vedmak Blueprint</value>
+  </data>
+  <data name="itemtype47968" xml:space="preserve">
+    <value>Leshak Blueprint</value>
+  </data>
+  <data name="itemtype47969" xml:space="preserve">
+    <value>Light Entropic Disintegrator I Blueprint</value>
+  </data>
+  <data name="itemtype47970" xml:space="preserve">
+    <value>Light Entropic Disintegrator II Blueprint</value>
+  </data>
+  <data name="itemtype47971" xml:space="preserve">
+    <value>Heavy Entropic Disintegrator I Blueprint</value>
+  </data>
+  <data name="itemtype47972" xml:space="preserve">
+    <value>Heavy Entropic Disintegrator II Blueprint</value>
+  </data>
+  <data name="itemtype47973" xml:space="preserve">
+    <value>Supratidal Entropic Disintegrator I Blueprint</value>
+  </data>
+  <data name="itemtype47974" xml:space="preserve">
+    <value>Supratidal Entropic Disintegrator II Blueprint</value>
+  </data>
+  <data name="itemtype47975" xml:space="preserve">
+    <value>Crystalline Isogen-10</value>
+  </data>
+  <data name="itemtype47977" xml:space="preserve">
+    <value>Triglavian Battleship Wreck</value>
+  </data>
+  <data name="itemtype47978" xml:space="preserve">
+    <value>Large Wreck</value>
+  </data>
+  <data name="itemtype47979" xml:space="preserve">
+    <value>Upwell M3R-- Outpost Rig</value>
+  </data>
+  <data name="itemtype47980" xml:space="preserve">
+    <value>Upwell M2RO Outpost Rig</value>
+  </data>
+  <data name="itemtype47981" xml:space="preserve">
+    <value>Upwell A2FP Outpost Rig</value>
+  </data>
+  <data name="itemtype47982" xml:space="preserve">
+    <value>Upwell A3PFO Outpost Rig</value>
+  </data>
+  <data name="itemtype47983" xml:space="preserve">
+    <value>Upwell A1O Outpost Rig</value>
+  </data>
+  <data name="itemtype47984" xml:space="preserve">
+    <value>Upwell C1L Outpost Rig</value>
+  </data>
+  <data name="itemtype47985" xml:space="preserve">
+    <value>Upwell A1P Outpost Rig</value>
+  </data>
+  <data name="itemtype47986" xml:space="preserve">
+    <value>Upwell A3FPO Outpost Rig</value>
+  </data>
+  <data name="itemtype47987" xml:space="preserve">
+    <value>Upwell A2PF Outpost Rig</value>
+  </data>
+  <data name="itemtype47988" xml:space="preserve">
+    <value>Upwell G1O Outpost Rig</value>
+  </data>
+  <data name="itemtype47989" xml:space="preserve">
+    <value>Upwell M3R-O Outpost Rig</value>
+  </data>
+  <data name="itemtype47990" xml:space="preserve">
+    <value>Upwell A3FP- Outpost Rig</value>
+  </data>
+  <data name="itemtype47991" xml:space="preserve">
+    <value>Upwell A2F- Outpost Rig</value>
+  </data>
+  <data name="itemtype47992" xml:space="preserve">
+    <value>Upwell G1F Outpost Rig</value>
+  </data>
+  <data name="itemtype47993" xml:space="preserve">
+    <value>Upwell M3RPO Outpost Rig</value>
+  </data>
+  <data name="itemtype47994" xml:space="preserve">
+    <value>Upwell M3RO- Outpost Rig</value>
+  </data>
+  <data name="itemtype47995" xml:space="preserve">
+    <value>Upwell G1R Outpost Rig</value>
+  </data>
+  <data name="itemtype47996" xml:space="preserve">
+    <value>Upwell A1R Outpost Rig</value>
+  </data>
+  <data name="itemtype47997" xml:space="preserve">
+    <value>Upwell M2RL Outpost Rig</value>
+  </data>
+  <data name="itemtype47998" xml:space="preserve">
+    <value>Upwell M2PR Outpost Rig</value>
+  </data>
+  <data name="itemtype47999" xml:space="preserve">
+    <value>Upwell C1I Outpost Rig</value>
+  </data>
+  <data name="itemtype48000" xml:space="preserve">
+    <value>Upwell M1O Outpost Rig</value>
+  </data>
+  <data name="itemtype48001" xml:space="preserve">
+    <value>Upwell C2LI Outpost Rig</value>
+  </data>
+  <data name="itemtype48002" xml:space="preserve">
+    <value>Upwell M3R-LO Outpost Rig</value>
+  </data>
+  <data name="itemtype48003" xml:space="preserve">
+    <value>Upwell M1L Outpost Rig</value>
+  </data>
+  <data name="itemtype48004" xml:space="preserve">
+    <value>Upwell C1R Outpost Rig</value>
+  </data>
+  <data name="itemtype48005" xml:space="preserve">
+    <value>Upwell M2-RO Outpost Rig</value>
+  </data>
+  <data name="itemtype48006" xml:space="preserve">
+    <value>Upwell M2OR Outpost Rig</value>
+  </data>
+  <data name="itemtype48007" xml:space="preserve">
+    <value>Upwell G1P Outpost Rig</value>
+  </data>
+  <data name="itemtype48008" xml:space="preserve">
+    <value>Upwell G2FP Outpost Rig</value>
+  </data>
+  <data name="itemtype48009" xml:space="preserve">
+    <value>Upwell M2-RP Outpost Rig</value>
+  </data>
+  <data name="itemtype48010" xml:space="preserve">
+    <value>Upwell M2RP Outpost Rig</value>
+  </data>
+  <data name="itemtype48011" xml:space="preserve">
+    <value>Upwell G2PF Outpost Rig</value>
+  </data>
+  <data name="itemtype48012" xml:space="preserve">
+    <value>Upwell A3PF- Outpost Rig</value>
+  </data>
+  <data name="itemtype48013" xml:space="preserve">
+    <value>Upwell C3LIO Outpost Rig</value>
+  </data>
+  <data name="itemtype48014" xml:space="preserve">
+    <value>Upwell C2L- Outpost Rig</value>
+  </data>
+  <data name="itemtype48015" xml:space="preserve">
+    <value>Upwell C2IL Outpost Rig</value>
+  </data>
+  <data name="itemtype48016" xml:space="preserve">
+    <value>Upwell C3L-IO Outpost Rig</value>
+  </data>
+  <data name="itemtype48017" xml:space="preserve">
+    <value>Upwell C3LI- Outpost Rig</value>
+  </data>
+  <data name="itemtype48018" xml:space="preserve">
+    <value>Upwell C2IR Outpost Rig</value>
+  </data>
+  <data name="itemtype48019" xml:space="preserve">
+    <value>Upwell G1L Outpost Rig</value>
+  </data>
+  <data name="itemtype48020" xml:space="preserve">
+    <value>Upwell M3ROL Outpost Rig</value>
+  </data>
+  <data name="itemtype48021" xml:space="preserve">
+    <value>Upwell G2O- Outpost Rig</value>
+  </data>
+  <data name="itemtype48022" xml:space="preserve">
+    <value>Upwell M3RPF Outpost Rig</value>
+  </data>
+  <data name="itemtype48023" xml:space="preserve">
+    <value>Upwell M3P-RF Outpost Rig</value>
+  </data>
+  <data name="itemtype48024" xml:space="preserve">
+    <value>Upwell M3R-F Outpost Rig</value>
+  </data>
+  <data name="itemtype48025" xml:space="preserve">
+    <value>Upwell M3ROF Outpost Rig</value>
+  </data>
+  <data name="itemtype48026" xml:space="preserve">
+    <value>Upwell C3FIL Outpost Rig</value>
+  </data>
+  <data name="itemtype48027" xml:space="preserve">
+    <value>Upwell A3FPL Outpost Rig</value>
+  </data>
+  <data name="itemtype48028" xml:space="preserve">
+    <value>Upwell A2-FP Outpost Rig</value>
+  </data>
+  <data name="itemtype48029" xml:space="preserve">
+    <value>Upwell A2-FR Outpost Rig</value>
+  </data>
+  <data name="itemtype48030" xml:space="preserve">
+    <value>Upwell A2OF Outpost Rig</value>
+  </data>
+  <data name="itemtype48031" xml:space="preserve">
+    <value>Upwell A3FOP Outpost Rig</value>
+  </data>
+  <data name="itemtype48032" xml:space="preserve">
+    <value>Upwell M3ROP Outpost Rig</value>
+  </data>
+  <data name="itemtype48033" xml:space="preserve">
+    <value>Upwell A2L- Outpost Rig</value>
+  </data>
+  <data name="itemtype48034" xml:space="preserve">
+    <value>Upwell G2OP Outpost Rig</value>
+  </data>
+  <data name="itemtype48035" xml:space="preserve">
+    <value>Upwell M1P Outpost Rig</value>
+  </data>
+  <data name="itemtype48036" xml:space="preserve">
+    <value>Upwell M3PR- Outpost Rig</value>
+  </data>
+  <data name="itemtype48037" xml:space="preserve">
+    <value>Upwell G3FLP Outpost Rig</value>
+  </data>
+  <data name="itemtype48038" xml:space="preserve">
+    <value>Upwell M3RFO Outpost Rig</value>
+  </data>
+  <data name="itemtype48039" xml:space="preserve">
+    <value>Upwell G2PR Outpost Rig</value>
+  </data>
+  <data name="itemtype48040" xml:space="preserve">
+    <value>Upwell M3-RPL Outpost Rig</value>
+  </data>
+  <data name="itemtype48041" xml:space="preserve">
+    <value>Upwell M3LPR Outpost Rig</value>
+  </data>
+  <data name="itemtype48042" xml:space="preserve">
+    <value>Upwell A2PO Outpost Rig</value>
+  </data>
+  <data name="itemtype48043" xml:space="preserve">
+    <value>Upwell A2FO Outpost Rig</value>
+  </data>
+  <data name="itemtype48044" xml:space="preserve">
+    <value>Upwell C2LF Outpost Rig</value>
+  </data>
+  <data name="itemtype48045" xml:space="preserve">
+    <value>Upwell C3L-- Outpost Rig</value>
+  </data>
+  <data name="itemtype48046" xml:space="preserve">
+    <value>Upwell A3F-- Outpost Rig</value>
+  </data>
+  <data name="itemtype48047" xml:space="preserve">
+    <value>Upwell C3LIF Outpost Rig</value>
+  </data>
+  <data name="itemtype48048" xml:space="preserve">
+    <value>Upwell M3L-R Outpost Rig</value>
+  </data>
+  <data name="itemtype48049" xml:space="preserve">
+    <value>Upwell C3L-I Outpost Rig</value>
+  </data>
+  <data name="itemtype48050" xml:space="preserve">
+    <value>Upwell M3RP- Outpost Rig</value>
+  </data>
+  <data name="itemtype48051" xml:space="preserve">
+    <value>Upwell M3R-P Outpost Rig</value>
+  </data>
+  <data name="itemtype48052" xml:space="preserve">
+    <value>Upwell M3R-L Outpost Rig</value>
+  </data>
+  <data name="itemtype48053" xml:space="preserve">
+    <value>Upwell A2P- Outpost Rig</value>
+  </data>
+  <data name="itemtype48054" xml:space="preserve">
+    <value>Upwell G3FP- Outpost Rig</value>
+  </data>
+  <data name="itemtype48055" xml:space="preserve">
+    <value>Upwell M3RPL Outpost Rig</value>
+  </data>
+  <data name="itemtype48056" xml:space="preserve">
+    <value>Upwell A3PFL Outpost Rig</value>
+  </data>
+  <data name="itemtype48057" xml:space="preserve">
+    <value>Upwell M3RL- Outpost Rig</value>
+  </data>
+  <data name="itemtype48058" xml:space="preserve">
+    <value>Upwell M3L-- Outpost Rig</value>
+  </data>
+  <data name="itemtype48059" xml:space="preserve">
+    <value>Upwell G3L-- Outpost Rig</value>
+  </data>
+  <data name="itemtype48060" xml:space="preserve">
+    <value>Upwell M3LRP Outpost Rig</value>
+  </data>
+  <data name="itemtype48061" xml:space="preserve">
+    <value>Upwell C3LF- Outpost Rig</value>
+  </data>
+  <data name="itemtype48062" xml:space="preserve">
+    <value>Upwell C3LFI Outpost Rig</value>
+  </data>
+  <data name="itemtype48063" xml:space="preserve">
+    <value>Upwell C3FLI Outpost Rig</value>
+  </data>
+  <data name="itemtype48064" xml:space="preserve">
+    <value>Upwell A3L-P Outpost Rig</value>
+  </data>
+  <data name="itemtype48065" xml:space="preserve">
+    <value>Upwell G3LFP Outpost Rig</value>
+  </data>
+  <data name="itemtype48066" xml:space="preserve">
+    <value>Upwell G2F- Outpost Rig</value>
+  </data>
+  <data name="itemtype48067" xml:space="preserve">
+    <value>Upwell G3FPO Outpost Rig</value>
+  </data>
+  <data name="itemtype48068" xml:space="preserve">
+    <value>Upwell C3L-F Outpost Rig</value>
+  </data>
+  <data name="itemtype48069" xml:space="preserve">
+    <value>Upwell A3P-F Outpost Rig</value>
+  </data>
+  <data name="itemtype48070" xml:space="preserve">
+    <value>Upwell A3FPR Outpost Rig</value>
+  </data>
+  <data name="itemtype48071" xml:space="preserve">
+    <value>Upwell M2-RL Outpost Rig</value>
+  </data>
+  <data name="itemtype48072" xml:space="preserve">
+    <value>Upwell M2LR Outpost Rig</value>
+  </data>
+  <data name="itemtype48073" xml:space="preserve">
+    <value>Upwell C3-LI- Outpost Rig</value>
+  </data>
+  <data name="itemtype48074" xml:space="preserve">
+    <value>Upwell C3ILR Outpost Rig</value>
+  </data>
+  <data name="itemtype48075" xml:space="preserve">
+    <value>Upwell C3L-R Outpost Rig</value>
+  </data>
+  <data name="itemtype48076" xml:space="preserve">
+    <value>Upwell G2L- Outpost Rig</value>
+  </data>
+  <data name="itemtype48077" xml:space="preserve">
+    <value>Upwell A3L-- Outpost Rig</value>
+  </data>
+  <data name="itemtype48078" xml:space="preserve">
+    <value>Upwell M3RLP Outpost Rig</value>
+  </data>
+  <data name="itemtype48079" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48080" xml:space="preserve">
+    <value>Mutaplasmid Residue</value>
+  </data>
+  <data name="itemtype48081" xml:space="preserve">
+    <value>Women's Triglavian Survival Suit (Bioadaptive)</value>
+  </data>
+  <data name="itemtype48082" xml:space="preserve">
+    <value>Men's Triglavian Survival Suit (Bioadaptive)</value>
+  </data>
+  <data name="itemtype48083" xml:space="preserve">
+    <value>PantsEngM01_silver.type</value>
+  </data>
+  <data name="itemtype48084" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48085" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48086" xml:space="preserve">
+    <value>Ghosting Damavik</value>
+  </data>
+  <data name="itemtype48087" xml:space="preserve">
+    <value>Starving Vedmak</value>
+  </data>
+  <data name="itemtype48088" xml:space="preserve">
+    <value>Tangling Damavik</value>
+  </data>
+  <data name="itemtype48089" xml:space="preserve">
+    <value>Anchoring Damavik</value>
+  </data>
+  <data name="itemtype48090" xml:space="preserve">
+    <value>Starving Damavik</value>
+  </data>
+  <data name="itemtype48091" xml:space="preserve">
+    <value>Harrowing Vedmak</value>
+  </data>
+  <data name="itemtype48092" xml:space="preserve">
+    <value>Striking Damavik</value>
+  </data>
+  <data name="itemtype48093" xml:space="preserve">
+    <value>AOE_structure_30k_locator</value>
+  </data>
+  <data name="itemtype48094" xml:space="preserve">
+    <value>AOE_structure_80k_locator</value>
+  </data>
+  <data name="itemtype48095" xml:space="preserve">
+    <value>Entropic Radiation Sink I Blueprint</value>
+  </data>
+  <data name="itemtype48096" xml:space="preserve">
+    <value>Entropic Radiation Sink II Blueprint</value>
+  </data>
+  <data name="itemtype48097" xml:space="preserve">
+    <value>Tetryon Exotic Plasma S Blueprint</value>
+  </data>
+  <data name="itemtype48098" xml:space="preserve">
+    <value>Baryon Exotic Plasma S Blueprint</value>
+  </data>
+  <data name="itemtype48099" xml:space="preserve">
+    <value>Meson Exotic Plasma S Blueprint</value>
+  </data>
+  <data name="itemtype48100" xml:space="preserve">
+    <value>Occult S Blueprint</value>
+  </data>
+  <data name="itemtype48101" xml:space="preserve">
+    <value>Mystic S Blueprint</value>
+  </data>
+  <data name="itemtype48102" xml:space="preserve">
+    <value>Tetryon Exotic Plasma M Blueprint</value>
+  </data>
+  <data name="itemtype48103" xml:space="preserve">
+    <value>Baryon Exotic Plasma M Blueprint</value>
+  </data>
+  <data name="itemtype48104" xml:space="preserve">
+    <value>Meson Exotic Plasma M Blueprint</value>
+  </data>
+  <data name="itemtype48105" xml:space="preserve">
+    <value>Occult M Blueprint</value>
+  </data>
+  <data name="itemtype48106" xml:space="preserve">
+    <value>Mystic M Blueprint</value>
+  </data>
+  <data name="itemtype48107" xml:space="preserve">
+    <value>Tetryon Exotic Plasma L Blueprint</value>
+  </data>
+  <data name="itemtype48108" xml:space="preserve">
+    <value>Baryon Exotic Plasma L Blueprint</value>
+  </data>
+  <data name="itemtype48109" xml:space="preserve">
+    <value>Meson Exotic Plasma L Blueprint</value>
+  </data>
+  <data name="itemtype48110" xml:space="preserve">
+    <value>Occult L Blueprint</value>
+  </data>
+  <data name="itemtype48111" xml:space="preserve">
+    <value>Mystic L Blueprint</value>
+  </data>
+  <data name="itemtype48112" xml:space="preserve">
+    <value>Zero-Point Condensate</value>
+  </data>
+  <data name="itemtype48113" xml:space="preserve">
+    <value>Agency 'Hardshell' TB9 Dose IV</value>
+  </data>
+  <data name="itemtype48114" xml:space="preserve">
+    <value>Agency 'Overclocker' SB9 Dose IV</value>
+  </data>
+  <data name="itemtype48115" xml:space="preserve">
+    <value>Agency 'Pyrolancea' DB9 Dose IV</value>
+  </data>
+  <data name="itemtype48116" xml:space="preserve">
+    <value>Standard 'Liberty' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48117" xml:space="preserve">
+    <value>Advanced 'Liberty' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48118" xml:space="preserve">
+    <value>Extended 'Liberty' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48119" xml:space="preserve">
+    <value>GalFed_NPC1</value>
+  </data>
+  <data name="itemtype48120" xml:space="preserve">
+    <value>Triglavian Bioadaptive Cache Wreck</value>
+  </data>
+  <data name="itemtype48121" xml:space="preserve">
+    <value>Triglavian Survey Database</value>
+  </data>
+  <data name="itemtype48122" xml:space="preserve">
+    <value>Striking Leshak</value>
+  </data>
+  <data name="itemtype48123" xml:space="preserve">
+    <value>Renewing Leshak</value>
+  </data>
+  <data name="itemtype48124" xml:space="preserve">
+    <value>Tangling Leshak</value>
+  </data>
+  <data name="itemtype48125" xml:space="preserve">
+    <value>Starving Leshak</value>
+  </data>
+  <data name="itemtype48126" xml:space="preserve">
+    <value>Warding Leshak</value>
+  </data>
+  <data name="itemtype48127" xml:space="preserve">
+    <value>Blinding Leshak</value>
+  </data>
+  <data name="itemtype48128" xml:space="preserve">
+    <value>GalFed_NPC2</value>
+  </data>
+  <data name="itemtype48129" xml:space="preserve">
+    <value>GalFed_NPC3</value>
+  </data>
+  <data name="itemtype48130" xml:space="preserve">
+    <value>GalFed_NPC4</value>
+  </data>
+  <data name="itemtype48131" xml:space="preserve">
+    <value>GalFed_Boss1</value>
+  </data>
+  <data name="itemtype48132" xml:space="preserve">
+    <value>GalFed_Boss2</value>
+  </data>
+  <data name="itemtype48133" xml:space="preserve">
+    <value>GalFed_Boss3</value>
+  </data>
+  <data name="itemtype48134" xml:space="preserve">
+    <value>GalFed_Boss4</value>
+  </data>
+  <data name="itemtype48135" xml:space="preserve">
+    <value>GalFed_Trinket1</value>
+  </data>
+  <data name="itemtype48136" xml:space="preserve">
+    <value>GalFed_Trinket2</value>
+  </data>
+  <data name="itemtype48137" xml:space="preserve">
+    <value>GalFed_Trinket3</value>
+  </data>
+  <data name="itemtype48138" xml:space="preserve">
+    <value>GalFed_Trinket4</value>
+  </data>
+  <data name="itemtype48139" xml:space="preserve">
+    <value>GalFed_Trinket5</value>
+  </data>
+  <data name="itemtype48140" xml:space="preserve">
+    <value>GalFed_Trinket6</value>
+  </data>
+  <data name="itemtype48141" xml:space="preserve">
+    <value>GalFed_Trinket7</value>
+  </data>
+  <data name="itemtype48142" xml:space="preserve">
+    <value>GalFed_Trinket8</value>
+  </data>
+  <data name="itemtype48143" xml:space="preserve">
+    <value>GalFed_Trinket9</value>
+  </data>
+  <data name="itemtype48144" xml:space="preserve">
+    <value>GalFed_Trinket10</value>
+  </data>
+  <data name="itemtype48146" xml:space="preserve">
+    <value>Vindicator Sarpati's Revenge - Igil SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48147" xml:space="preserve">
+    <value>Vindicator Sarpati's Revenge - Virge SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48148" xml:space="preserve">
+    <value>Drone_Implant1</value>
+  </data>
+  <data name="itemtype48149" xml:space="preserve">
+    <value>Drone_Implant2</value>
+  </data>
+  <data name="itemtype48150" xml:space="preserve">
+    <value>Drone_Implant3</value>
+  </data>
+  <data name="itemtype48151" xml:space="preserve">
+    <value>Drone_Implant4</value>
+  </data>
+  <data name="itemtype48152" xml:space="preserve">
+    <value>Drone_Implant5</value>
+  </data>
+  <data name="itemtype48153" xml:space="preserve">
+    <value>Drone_Implant6</value>
+  </data>
+  <data name="itemtype48155" xml:space="preserve">
+    <value>Bantam Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48156" xml:space="preserve">
+    <value>Condor Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48157" xml:space="preserve">
+    <value>Griffin Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48158" xml:space="preserve">
+    <value>Heron Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48159" xml:space="preserve">
+    <value>Kestrel Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48160" xml:space="preserve">
+    <value>Merlin Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48161" xml:space="preserve">
+    <value>Harpy Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48162" xml:space="preserve">
+    <value>Hawk Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48163" xml:space="preserve">
+    <value>Buzzard Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48164" xml:space="preserve">
+    <value>Manticore Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48165" xml:space="preserve">
+    <value>Kitsune Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48166" xml:space="preserve">
+    <value>Crow Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48167" xml:space="preserve">
+    <value>Raptor Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48168" xml:space="preserve">
+    <value>Kirin Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48169" xml:space="preserve">
+    <value>Caldari Navy Hookbill Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48170" xml:space="preserve">
+    <value>Griffin Navy Issue Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48171" xml:space="preserve">
+    <value>Corax Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48172" xml:space="preserve">
+    <value>Cormorant Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48173" xml:space="preserve">
+    <value>Stork Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48174" xml:space="preserve">
+    <value>Flycatcher Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48175" xml:space="preserve">
+    <value>Jackdaw Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48176" xml:space="preserve">
+    <value>Blackbird Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48177" xml:space="preserve">
+    <value>Caracal Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48178" xml:space="preserve">
+    <value>Moa Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48179" xml:space="preserve">
+    <value>Osprey Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48180" xml:space="preserve">
+    <value>Cerberus Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48181" xml:space="preserve">
+    <value>Eagle Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48182" xml:space="preserve">
+    <value>Onyx Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48183" xml:space="preserve">
+    <value>Basilisk Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48184" xml:space="preserve">
+    <value>Falcon Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48185" xml:space="preserve">
+    <value>Rook Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48186" xml:space="preserve">
+    <value>Tengu Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48187" xml:space="preserve">
+    <value>Caracal Navy Issue Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48188" xml:space="preserve">
+    <value>Osprey Navy Issue Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48189" xml:space="preserve">
+    <value>Drake Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48190" xml:space="preserve">
+    <value>Ferox Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48191" xml:space="preserve">
+    <value>Naga Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48192" xml:space="preserve">
+    <value>Nighthawk Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48193" xml:space="preserve">
+    <value>Vulture Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48194" xml:space="preserve">
+    <value>Drake Navy Issue Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48195" xml:space="preserve">
+    <value>Raven Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48196" xml:space="preserve">
+    <value>Rokh Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48197" xml:space="preserve">
+    <value>Scorpion Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48198" xml:space="preserve">
+    <value>Widow Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48199" xml:space="preserve">
+    <value>Golem Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48200" xml:space="preserve">
+    <value>Raven Navy Issue Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48201" xml:space="preserve">
+    <value>Scorpion Navy Issue Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48202" xml:space="preserve">
+    <value>Phoenix Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48203" xml:space="preserve">
+    <value>Chimera Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48204" xml:space="preserve">
+    <value>Wyvern Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48205" xml:space="preserve">
+    <value>Leviathan Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48206" xml:space="preserve">
+    <value>Badger Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48207" xml:space="preserve">
+    <value>Tayra Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48208" xml:space="preserve">
+    <value>Crane Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48209" xml:space="preserve">
+    <value>Bustard Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48210" xml:space="preserve">
+    <value>Charon Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48211" xml:space="preserve">
+    <value>Rhea Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48212" xml:space="preserve">
+    <value>Minokawa Ghostbird SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48213" xml:space="preserve">
+    <value>Nyx Dos Rouvenor's Bequest SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48214" xml:space="preserve">
+    <value>Paladin Luminaire Rising SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48215" xml:space="preserve">
+    <value>Vexor Navy Issue Luminaire Rising SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48216" xml:space="preserve">
+    <value>Panther Luminaire Rising SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48217" xml:space="preserve">
+    <value>Ferox Luminaire Rising SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48218" xml:space="preserve">
+    <value>Inquisitor Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48219" xml:space="preserve">
+    <value>Coercer Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48220" xml:space="preserve">
+    <value>Arbitrator Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48221" xml:space="preserve">
+    <value>Prophecy Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48222" xml:space="preserve">
+    <value>Griffin Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48223" xml:space="preserve">
+    <value>Corax Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48224" xml:space="preserve">
+    <value>Blackbird Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48225" xml:space="preserve">
+    <value>Naga Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48226" xml:space="preserve">
+    <value>Atron Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48227" xml:space="preserve">
+    <value>Algos Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48228" xml:space="preserve">
+    <value>Thorax Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48229" xml:space="preserve">
+    <value>Talos Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48230" xml:space="preserve">
+    <value>Slasher Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48231" xml:space="preserve">
+    <value>Thrasher Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48232" xml:space="preserve">
+    <value>Stabber Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48233" xml:space="preserve">
+    <value>Cyclone Luminaire Zenith SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48234" xml:space="preserve">
+    <value>Ephialtes Lancer</value>
+  </data>
+  <data name="itemtype48235" xml:space="preserve">
+    <value>Ephialtes Entangler</value>
+  </data>
+  <data name="itemtype48236" xml:space="preserve">
+    <value>Ephialtes Spearfisher</value>
+  </data>
+  <data name="itemtype48237" xml:space="preserve">
+    <value>Ephialtes Illuminator</value>
+  </data>
+  <data name="itemtype48238" xml:space="preserve">
+    <value>Ephialtes Dissipator</value>
+  </data>
+  <data name="itemtype48239" xml:space="preserve">
+    <value>Ephialtes Obfuscator</value>
+  </data>
+  <data name="itemtype48240" xml:space="preserve">
+    <value>Ephialtes Confuser</value>
+  </data>
+  <data name="itemtype48241" xml:space="preserve">
+    <value>Lucid Escort</value>
+  </data>
+  <data name="itemtype48242" xml:space="preserve">
+    <value>Guardian Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48243" xml:space="preserve">
+    <value>Absolution Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48244" xml:space="preserve">
+    <value>Damnation Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48245" xml:space="preserve">
+    <value>Lucid Aegis</value>
+  </data>
+  <data name="itemtype48246" xml:space="preserve">
+    <value>Lucid Warden</value>
+  </data>
+  <data name="itemtype48247" xml:space="preserve">
+    <value>Lucid Firewatcher</value>
+  </data>
+  <data name="itemtype48248" xml:space="preserve">
+    <value>Lucid Watchman</value>
+  </data>
+  <data name="itemtype48249" xml:space="preserve">
+    <value>Lucid Upholder</value>
+  </data>
+  <data name="itemtype48250" xml:space="preserve">
+    <value>Lucid Sentinel</value>
+  </data>
+  <data name="itemtype48251" xml:space="preserve">
+    <value>Lucid Preserver</value>
+  </data>
+  <data name="itemtype48252" xml:space="preserve">
+    <value>Lucid Deepwatcher</value>
+  </data>
+  <data name="itemtype48253" xml:space="preserve">
+    <value>Vila Swarmer</value>
+  </data>
+  <data name="itemtype48254" xml:space="preserve">
+    <value>Wide-Area Automata Command Pylon</value>
+  </data>
+  <data name="itemtype48255" xml:space="preserve">
+    <value>Harrowing Vila Vedmak</value>
+  </data>
+  <data name="itemtype48256" xml:space="preserve">
+    <value>Striking Vila Damavik</value>
+  </data>
+  <data name="itemtype48257" xml:space="preserve">
+    <value>Tangling Vila Damavik</value>
+  </data>
+  <data name="itemtype48258" xml:space="preserve">
+    <value>Anchoring Vila Damavik</value>
+  </data>
+  <data name="itemtype48259" xml:space="preserve">
+    <value>Shining Vila Damavik</value>
+  </data>
+  <data name="itemtype48260" xml:space="preserve">
+    <value>Blinding Vila Damavik</value>
+  </data>
+  <data name="itemtype48261" xml:space="preserve">
+    <value>Ghosting Vila Damavik</value>
+  </data>
+  <data name="itemtype48262" xml:space="preserve">
+    <value>Sparkgrip Tessera</value>
+  </data>
+  <data name="itemtype48263" xml:space="preserve">
+    <value>Embergrip Tessera</value>
+  </data>
+  <data name="itemtype48264" xml:space="preserve">
+    <value>Strikegrip Tessera</value>
+  </data>
+  <data name="itemtype48265" xml:space="preserve">
+    <value>Blastgrip Tessera</value>
+  </data>
+  <data name="itemtype48266" xml:space="preserve">
+    <value>Preserved Caldari Outpost Platform</value>
+  </data>
+  <data name="itemtype48267" xml:space="preserve">
+    <value>Preserved Amarr Outpost Platform</value>
+  </data>
+  <data name="itemtype48268" xml:space="preserve">
+    <value>Preserved Gallente Outpost Platform</value>
+  </data>
+  <data name="itemtype48269" xml:space="preserve">
+    <value>Preserved Minmatar Outpost Platform</value>
+  </data>
+  <data name="itemtype48270" xml:space="preserve">
+    <value>BKG-Q2 Station Monument</value>
+  </data>
+  <data name="itemtype48271" xml:space="preserve">
+    <value>K-8SQS Station Monument</value>
+  </data>
+  <data name="itemtype48272" xml:space="preserve">
+    <value>D4R-H7 Station Monument</value>
+  </data>
+  <data name="itemtype48273" xml:space="preserve">
+    <value>995-3G Station Monument</value>
+  </data>
+  <data name="itemtype48274" xml:space="preserve">
+    <value>M53-1V Station Monument</value>
+  </data>
+  <data name="itemtype48275" xml:space="preserve">
+    <value>P7-45V Station Monument</value>
+  </data>
+  <data name="itemtype48276" xml:space="preserve">
+    <value>V2-VC2 Station Monument</value>
+  </data>
+  <data name="itemtype48277" xml:space="preserve">
+    <value>5-N2EY Station Monument</value>
+  </data>
+  <data name="itemtype48278" xml:space="preserve">
+    <value>FAT-6P Station Monument</value>
+  </data>
+  <data name="itemtype48279" xml:space="preserve">
+    <value>9-4RP2 Station Monument</value>
+  </data>
+  <data name="itemtype48280" xml:space="preserve">
+    <value>G8AD-C Station Monument</value>
+  </data>
+  <data name="itemtype48281" xml:space="preserve">
+    <value>XZH-4X Station Monument</value>
+  </data>
+  <data name="itemtype48282" xml:space="preserve">
+    <value>VFK-IV Station Monument</value>
+  </data>
+  <data name="itemtype48283" xml:space="preserve">
+    <value>3JN9-Q Station Monument</value>
+  </data>
+  <data name="itemtype48284" xml:space="preserve">
+    <value>CZDJ-1 Station Monument</value>
+  </data>
+  <data name="itemtype48285" xml:space="preserve">
+    <value>NOL-M9 Station Monument</value>
+  </data>
+  <data name="itemtype48286" xml:space="preserve">
+    <value>MO-GZ5 Station Monument</value>
+  </data>
+  <data name="itemtype48287" xml:space="preserve">
+    <value>5-6QW7 Station Monument</value>
+  </data>
+  <data name="itemtype48288" xml:space="preserve">
+    <value>0-W778 Station Monument</value>
+  </data>
+  <data name="itemtype48289" xml:space="preserve">
+    <value>DG-8VJ Station Monument</value>
+  </data>
+  <data name="itemtype48290" xml:space="preserve">
+    <value>0-G8NO Station Monument</value>
+  </data>
+  <data name="itemtype48291" xml:space="preserve">
+    <value>C9N-CC Station Monument</value>
+  </data>
+  <data name="itemtype48292" xml:space="preserve">
+    <value>BZ-0GW Station Monument</value>
+  </data>
+  <data name="itemtype48293" xml:space="preserve">
+    <value>111-F1 Station Monument</value>
+  </data>
+  <data name="itemtype48294" xml:space="preserve">
+    <value>L-C3O7 Station Monument</value>
+  </data>
+  <data name="itemtype48295" xml:space="preserve">
+    <value>C4C-Z4 Station Monument</value>
+  </data>
+  <data name="itemtype48296" xml:space="preserve">
+    <value>I-UUI5 Station Monument</value>
+  </data>
+  <data name="itemtype48297" xml:space="preserve">
+    <value>VNGJ-U Station Monument</value>
+  </data>
+  <data name="itemtype48298" xml:space="preserve">
+    <value>UB5Z-3 Station Monument</value>
+  </data>
+  <data name="itemtype48299" xml:space="preserve">
+    <value>2-RSC7 Station Monument</value>
+  </data>
+  <data name="itemtype48300" xml:space="preserve">
+    <value>Z-H2MA Station Monument</value>
+  </data>
+  <data name="itemtype48301" xml:space="preserve">
+    <value>E8-YS9 Station Monument</value>
+  </data>
+  <data name="itemtype48302" xml:space="preserve">
+    <value>2O-EEW Station Monument</value>
+  </data>
+  <data name="itemtype48303" xml:space="preserve">
+    <value>68FT-6 Station Monument</value>
+  </data>
+  <data name="itemtype48304" xml:space="preserve">
+    <value>Z-N9IP Station Monument</value>
+  </data>
+  <data name="itemtype48305" xml:space="preserve">
+    <value>FR-B1H Station Monument</value>
+  </data>
+  <data name="itemtype48306" xml:space="preserve">
+    <value>C-J6MT Station Monument</value>
+  </data>
+  <data name="itemtype48307" xml:space="preserve">
+    <value>F2A-GX Station Monument</value>
+  </data>
+  <data name="itemtype48308" xml:space="preserve">
+    <value>N7-BIY Station Monument</value>
+  </data>
+  <data name="itemtype48309" xml:space="preserve">
+    <value>D2EZ-X Station Monument</value>
+  </data>
+  <data name="itemtype48310" xml:space="preserve">
+    <value>6T3I-L Station Monument</value>
+  </data>
+  <data name="itemtype48311" xml:space="preserve">
+    <value>Z-7OK1 Station Monument</value>
+  </data>
+  <data name="itemtype48312" xml:space="preserve">
+    <value>H8-ZTO Station Monument</value>
+  </data>
+  <data name="itemtype48313" xml:space="preserve">
+    <value>GQ2S-8 Station Monument</value>
+  </data>
+  <data name="itemtype48314" xml:space="preserve">
+    <value>MP5-KR Station Monument</value>
+  </data>
+  <data name="itemtype48315" xml:space="preserve">
+    <value>TPAR-G Station Monument</value>
+  </data>
+  <data name="itemtype48316" xml:space="preserve">
+    <value>G-Q5JU Station Monument</value>
+  </data>
+  <data name="itemtype48317" xml:space="preserve">
+    <value>9CG6-H Station Monument</value>
+  </data>
+  <data name="itemtype48318" xml:space="preserve">
+    <value>3BK-O7 Station Monument</value>
+  </data>
+  <data name="itemtype48319" xml:space="preserve">
+    <value>H74-B0 Station Monument</value>
+  </data>
+  <data name="itemtype48320" xml:space="preserve">
+    <value>1V-LI2 Station Monument</value>
+  </data>
+  <data name="itemtype48321" xml:space="preserve">
+    <value>JLO-Z3 Station Monument</value>
+  </data>
+  <data name="itemtype48322" xml:space="preserve">
+    <value>28Y9-P Station Monument</value>
+  </data>
+  <data name="itemtype48323" xml:space="preserve">
+    <value>S-EVIQ Station Monument</value>
+  </data>
+  <data name="itemtype48324" xml:space="preserve">
+    <value>6OYQ-Z Station Monument</value>
+  </data>
+  <data name="itemtype48325" xml:space="preserve">
+    <value>V7-MID Station Monument</value>
+  </data>
+  <data name="itemtype48326" xml:space="preserve">
+    <value>DZ6-I5 Station Monument</value>
+  </data>
+  <data name="itemtype48327" xml:space="preserve">
+    <value>NZW-ZO Station Monument</value>
+  </data>
+  <data name="itemtype48328" xml:space="preserve">
+    <value>JV1V-O Station Monument</value>
+  </data>
+  <data name="itemtype48329" xml:space="preserve">
+    <value>H-W9TY Station Monument</value>
+  </data>
+  <data name="itemtype48330" xml:space="preserve">
+    <value>D7-ZAC Station Monument</value>
+  </data>
+  <data name="itemtype48331" xml:space="preserve">
+    <value>IMK-K1 Station Monument</value>
+  </data>
+  <data name="itemtype48332" xml:space="preserve">
+    <value>ZLZ-1Z Station Monument</value>
+  </data>
+  <data name="itemtype48333" xml:space="preserve">
+    <value>LS-JEP Station Monument</value>
+  </data>
+  <data name="itemtype48334" xml:space="preserve">
+    <value>JZV-F4 Station Monument</value>
+  </data>
+  <data name="itemtype48335" xml:space="preserve">
+    <value>4-EFLU Station Monument</value>
+  </data>
+  <data name="itemtype48336" xml:space="preserve">
+    <value>F-EM4Q Station Monument</value>
+  </data>
+  <data name="itemtype48337" xml:space="preserve">
+    <value>Q-GQHN Station Monument</value>
+  </data>
+  <data name="itemtype48338" xml:space="preserve">
+    <value>5P-AIP Outpost Monument</value>
+  </data>
+  <data name="itemtype48339" xml:space="preserve">
+    <value>KDF-GY Outpost Monument</value>
+  </data>
+  <data name="itemtype48340" xml:space="preserve">
+    <value>0OYZ-G Outpost Monument</value>
+  </data>
+  <data name="itemtype48341" xml:space="preserve">
+    <value>EC-P8R Outpost Monument</value>
+  </data>
+  <data name="itemtype48342" xml:space="preserve">
+    <value>BWF-ZZ Outpost Monument</value>
+  </data>
+  <data name="itemtype48343" xml:space="preserve">
+    <value>GHZ-SJ Outpost Monument</value>
+  </data>
+  <data name="itemtype48344" xml:space="preserve">
+    <value>9UY4-H Outpost Monument</value>
+  </data>
+  <data name="itemtype48345" xml:space="preserve">
+    <value>GE-8JV Outpost Monument</value>
+  </data>
+  <data name="itemtype48346" xml:space="preserve">
+    <value>X-R3NM Outpost Monument</value>
+  </data>
+  <data name="itemtype48347" xml:space="preserve">
+    <value>P-2TTL Outpost Monument</value>
+  </data>
+  <data name="itemtype48348" xml:space="preserve">
+    <value>TVN-FM Outpost Monument</value>
+  </data>
+  <data name="itemtype48349" xml:space="preserve">
+    <value>6VDT-H Outpost Monument</value>
+  </data>
+  <data name="itemtype48350" xml:space="preserve">
+    <value>M-OEE8 Outpost Monument</value>
+  </data>
+  <data name="itemtype48351" xml:space="preserve">
+    <value>HED-GP Outpost Monument</value>
+  </data>
+  <data name="itemtype48352" xml:space="preserve">
+    <value>LXQ2-T Outpost Monument</value>
+  </data>
+  <data name="itemtype48353" xml:space="preserve">
+    <value>Y-CWQY Outpost Monument</value>
+  </data>
+  <data name="itemtype48354" xml:space="preserve">
+    <value>S-E6ES Outpost Monument</value>
+  </data>
+  <data name="itemtype48355" xml:space="preserve">
+    <value>JU-OWQ Outpost Monument</value>
+  </data>
+  <data name="itemtype48356" xml:space="preserve">
+    <value>77S8-E Outpost Monument</value>
+  </data>
+  <data name="itemtype48357" xml:space="preserve">
+    <value>B-R5RB Outpost Monument</value>
+  </data>
+  <data name="itemtype48358" xml:space="preserve">
+    <value>J-LPX7 Outpost Monument</value>
+  </data>
+  <data name="itemtype48359" xml:space="preserve">
+    <value>16P-PX Outpost Monument</value>
+  </data>
+  <data name="itemtype48360" xml:space="preserve">
+    <value>LX5K-W Outpost Monument</value>
+  </data>
+  <data name="itemtype48361" xml:space="preserve">
+    <value>9-980U Outpost Monument</value>
+  </data>
+  <data name="itemtype48362" xml:space="preserve">
+    <value>N-I024 Outpost Monument</value>
+  </data>
+  <data name="itemtype48363" xml:space="preserve">
+    <value>1A8-6G Outpost Monument</value>
+  </data>
+  <data name="itemtype48364" xml:space="preserve">
+    <value>QYZM-W Outpost Monument</value>
+  </data>
+  <data name="itemtype48365" xml:space="preserve">
+    <value>Revelation Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48366" xml:space="preserve">
+    <value>Aeon Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48367" xml:space="preserve">
+    <value>Avatar Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48368" xml:space="preserve">
+    <value>Ark Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48369" xml:space="preserve">
+    <value>Providence Star Captain SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48372" xml:space="preserve">
+    <value>Triglavian Cruiser Wreck</value>
+  </data>
+  <data name="itemtype48373" xml:space="preserve">
+    <value>Triglavian Frigate Wreck</value>
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>
@@ -95272,7 +97297,7 @@
     <value>Roden Sniper Rifle</value>
   </data>
   <data name="itemtype353172" xml:space="preserve">
-    <value>'Horizon' Kaalakiota Sniper Rifle</value>
+    <value>DUST 'Horizon' Kaalakiota Sniper Rifle</value>
   </data>
   <data name="itemtype353173" xml:space="preserve">
     <value>'Corona' Ishukone Sniper Rifle</value>
@@ -95932,7 +97957,7 @@
     <value>Eryx</value>
   </data>
   <data name="itemtype353881" xml:space="preserve">
-    <value>Prometheus</value>
+    <value>DUST Prometheus</value>
   </data>
   <data name="itemtype353884" xml:space="preserve">
     <value>Python</value>

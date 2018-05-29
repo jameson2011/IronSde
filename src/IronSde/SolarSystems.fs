@@ -50,7 +50,9 @@ module SolarSystems=
     [<CompiledName("GetCelestials")>]
     let celestials id =
         match Universe.Systems.solarSystem id with
-        | Some x ->     let stars = [ Maps.ofStar x.star ]
+        | Some x ->     let stars = match x.star with
+                                    | Some s -> [ Maps.ofStar s ]
+                                    | _ -> []
                         let planets = x.planets |> Seq.map Maps.ofPlanet
                         let stargates = stargates id                  
                         

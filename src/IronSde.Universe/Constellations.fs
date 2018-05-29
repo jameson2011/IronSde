@@ -1121,6 +1121,31 @@ module internal Constellations=
     let private constellation21000332() = { ConstellationData.id = 21000332; regionId = 11000032;  x = 7.59645636882649700000E+018; y = 1.55921560438108240000E+018; z = -9.77810288815423490000E+018; }
     let private constellation21000333() = { ConstellationData.id = 21000333; regionId = 11000032;  x = 7.63912740299257240000E+018; y = 1.66973339416200320000E+018; z = -9.89326940540180890000E+018; }
     let private constellation21000334() = { ConstellationData.id = 21000334; regionId = 11000033;  x = 6.82780419215875890000E+018; y = 1.68692115960526340000E+018; z = -9.79553321166369180000E+018; }
+    let private constellation22000001() = { ConstellationData.id = 22000001; regionId = 12000001;  x = 5.44482476584211150000E+018; y = 6.03234734590002380000E+018; z = -8.34767612936144180000E+018; }
+    let private constellation22000002() = { ConstellationData.id = 22000002; regionId = 12000001;  x = 3.34523908135836980000E+018; y = 5.07386896623349450000E+018; z = -5.42163795979308130000E+018; }
+    let private constellation22000003() = { ConstellationData.id = 22000003; regionId = 12000001;  x = 3.31257632765941300000E+018; y = 4.96424021491098620000E+018; z = -5.63014953725552740000E+018; }
+    let private constellation22000004() = { ConstellationData.id = 22000004; regionId = 12000001;  x = 3.19146918119368350000E+018; y = 4.93729261850341070000E+018; z = -5.56211427965944830000E+018; }
+    let private constellation22000005() = { ConstellationData.id = 22000005; regionId = 12000001;  x = 3.23292444992792580000E+018; y = 5.18993567540231370000E+018; z = -5.51703246751967230000E+018; }
+    let private constellation22000006() = { ConstellationData.id = 22000006; regionId = 12000002;  x = 4.66886337144170700000E+018; y = 4.47075370290995350000E+018; z = -5.45224279660704360000E+018; }
+    let private constellation22000007() = { ConstellationData.id = 22000007; regionId = 12000002;  x = 4.80070246056292760000E+018; y = 4.52842292459308240000E+018; z = -5.50219161515106710000E+018; }
+    let private constellation22000008() = { ConstellationData.id = 22000008; regionId = 12000002;  x = 4.51520316825185020000E+018; y = 4.51530480126551760000E+018; z = -5.42351923594001920000E+018; }
+    let private constellation22000009() = { ConstellationData.id = 22000009; regionId = 12000002;  x = 4.69255802625052470000E+018; y = 4.38642186045238430000E+018; z = -5.34120316058267440000E+018; }
+    let private constellation22000010() = { ConstellationData.id = 22000010; regionId = 12000002;  x = 4.79370505800352770000E+018; y = 4.50714013379051570000E+018; z = -5.51083862857541220000E+018; }
+    let private constellation22000011() = { ConstellationData.id = 22000011; regionId = 12000003;  x = 4.28330762495150490000E+018; y = 5.02708715940297520000E+018; z = -7.57906653966919070000E+018; }
+    let private constellation22000012() = { ConstellationData.id = 22000012; regionId = 12000003;  x = 4.10385379523714100000E+018; y = 4.87764413222481000000E+018; z = -7.60035808484190620000E+018; }
+    let private constellation22000013() = { ConstellationData.id = 22000013; regionId = 12000003;  x = 4.13044490596591050000E+018; y = 4.91117381020185500000E+018; z = -7.79257128903774000000E+018; }
+    let private constellation22000014() = { ConstellationData.id = 22000014; regionId = 12000003;  x = 4.32085287223239480000E+018; y = 5.03326467590765880000E+018; z = -7.71168224088605080000E+018; }
+    let private constellation22000015() = { ConstellationData.id = 22000015; regionId = 12000003;  x = 4.19922992694031560000E+018; y = 5.01308723574504140000E+018; z = -7.67577838005310870000E+018; }
+    let private constellation22000016() = { ConstellationData.id = 22000016; regionId = 12000004;  x = 4.34605881011778460000E+018; y = 5.14929492663209060000E+018; z = -6.08607122408825960000E+018; }
+    let private constellation22000017() = { ConstellationData.id = 22000017; regionId = 12000004;  x = 4.34267001089332990000E+018; y = 5.31223680647853470000E+018; z = -6.25097291412272130000E+018; }
+    let private constellation22000018() = { ConstellationData.id = 22000018; regionId = 12000004;  x = 4.33032431759139120000E+018; y = 5.31647959094018150000E+018; z = -5.99827771034951070000E+018; }
+    let private constellation22000019() = { ConstellationData.id = 22000019; regionId = 12000004;  x = 4.23050654357628520000E+018; y = 5.13413959599522820000E+018; z = -6.16834002204756480000E+018; }
+    let private constellation22000020() = { ConstellationData.id = 22000020; regionId = 12000004;  x = 4.32400110622370460000E+018; y = 5.19706006721352290000E+018; z = -6.01264630667475350000E+018; }
+    let private constellation22000021() = { ConstellationData.id = 22000021; regionId = 12000005;  x = 4.94072741920717310000E+018; y = 5.58577068875740770000E+018; z = -8.91498417284330800000E+018; }
+    let private constellation22000022() = { ConstellationData.id = 22000022; regionId = 12000005;  x = 5.07177338930922290000E+018; y = 5.51793656681296900000E+018; z = -9.03338606944929080000E+018; }
+    let private constellation22000023() = { ConstellationData.id = 22000023; regionId = 12000005;  x = 5.10845477530668440000E+018; y = 5.76948001449874740000E+018; z = -9.04454488551482980000E+018; }
+    let private constellation22000024() = { ConstellationData.id = 22000024; regionId = 12000005;  x = 4.94725864880978230000E+018; y = 5.59888229801221430000E+018; z = -8.84679077350504140000E+018; }
+    let private constellation22000025() = { ConstellationData.id = 22000025; regionId = 12000005;  x = 5.08858793432583780000E+018; y = 5.65764978420070300000E+018; z = -8.81733607490419300000E+018; }
     let constellation id = 
         match id with
         | 20000239 -> constellation20000239() |> Some
@@ -2243,6 +2268,31 @@ module internal Constellations=
         | 21000332 -> constellation21000332() |> Some
         | 21000333 -> constellation21000333() |> Some
         | 21000334 -> constellation21000334() |> Some
+        | 22000001 -> constellation22000001() |> Some
+        | 22000002 -> constellation22000002() |> Some
+        | 22000003 -> constellation22000003() |> Some
+        | 22000004 -> constellation22000004() |> Some
+        | 22000005 -> constellation22000005() |> Some
+        | 22000006 -> constellation22000006() |> Some
+        | 22000007 -> constellation22000007() |> Some
+        | 22000008 -> constellation22000008() |> Some
+        | 22000009 -> constellation22000009() |> Some
+        | 22000010 -> constellation22000010() |> Some
+        | 22000011 -> constellation22000011() |> Some
+        | 22000012 -> constellation22000012() |> Some
+        | 22000013 -> constellation22000013() |> Some
+        | 22000014 -> constellation22000014() |> Some
+        | 22000015 -> constellation22000015() |> Some
+        | 22000016 -> constellation22000016() |> Some
+        | 22000017 -> constellation22000017() |> Some
+        | 22000018 -> constellation22000018() |> Some
+        | 22000019 -> constellation22000019() |> Some
+        | 22000020 -> constellation22000020() |> Some
+        | 22000021 -> constellation22000021() |> Some
+        | 22000022 -> constellation22000022() |> Some
+        | 22000023 -> constellation22000023() |> Some
+        | 22000024 -> constellation22000024() |> Some
+        | 22000025 -> constellation22000025() |> Some
         | _ -> None
     let regionConstellations id = 
         match id with
@@ -2346,4 +2396,9 @@ module internal Constellations=
         | 11000031 -> [| 21000324 |]
         | 11000032 -> [| 21000331;21000332;21000333 |]
         | 11000033 -> [| 21000334 |]
+        | 12000001 -> [| 22000001;22000002;22000003;22000004;22000005 |]
+        | 12000002 -> [| 22000006;22000007;22000008;22000009;22000010 |]
+        | 12000003 -> [| 22000011;22000012;22000013;22000014;22000015 |]
+        | 12000004 -> [| 22000016;22000017;22000018;22000019;22000020 |]
+        | 12000005 -> [| 22000021;22000022;22000023;22000024;22000025 |]
         | _ -> [||]

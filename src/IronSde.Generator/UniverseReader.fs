@@ -14,6 +14,7 @@ module UniverseReader=
         | _ -> SystemSecurity.Nullsec
 
     let private toWormholeSecurityRating _ = SystemSecurity.Wormhole
+    let private toAbyssalSecurityRating _ = SystemSecurity.Abyssal
 
     let private toPosition (value: Object) =
         let values = value :?> seq<Object>
@@ -120,13 +121,21 @@ module UniverseReader=
         let planets = values |> get "planets" |> castObjectMap |> toPlanets solarSystemId |> Seq.cache
         let planetData = planets |> Seq.map (fun p -> p.data) |> Array.ofSeq
         let pos = values |> get "center" |> toPosition
+        let star = values |> tryGet "star" 
+                            |> Option.map (castObjectMap >> toStar)
+        (*
+        let star = match star with     
+                    | Some s -> s
+                    // TODO: no stars in abyssal space?
+                    | None -> { StarData.id = 0; x = 0.0; y = 0.0; z = 0.0; }
+                *)
         let data = { SolarSystemData.id = solarSystemId; 
                         regionId = regionId; 
                         constellationId = constellationId;
                         security = security; 
                         securityRating = securityRating security;
                         x = pos.x; y = pos.y; z = pos.z; 
-                        star = values |> get "star" |> castObjectMap |> toStar; 
+                        star = star; 
                         planets = planetData;
                         }
 
@@ -172,4 +181,5 @@ module UniverseReader=
             [ 
                 "sde\\fsd\\universe\\eve" |> root path |> getRegions toSecurityRating; 
                 "sde\\fsd\\universe\\wormhole" |> root path |> getRegions toWormholeSecurityRating;
+                "sde\\fsd\\universe\\abyssal" |> root path |> getRegions toAbyssalSecurityRating;
             ]
