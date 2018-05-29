@@ -14,3 +14,4 @@ type MetaGroups=
     | EliteCruiser = 12
     | CommanderCruiser = 13
     | TechIII = 14
+    | Abyssal = 15

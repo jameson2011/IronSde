@@ -7,6 +7,11 @@ module internal SystemSourceWriter=
     
     let systemFactoryName id = sprintf "system%i" id
     
+    let private star (value: StarData option)=
+        match value with
+        | Some s -> sprintf "(Some { StarData.id = %i; x = %.20E; y = %.20E; z = %.20E })" s.id s.x s.y s.z
+        | _ -> "None"
+
     let private systemFactory (value: SolarSystemData) = 
         let name = value.id |> systemFactoryName
         let planets = value.planets |> Seq.map PlanetSourceWriter.formatPlanet
@@ -16,14 +21,13 @@ module internal SystemSourceWriter=
                                             regionId = %i; constellationId = %i;
                                             security= %f; securityRating = %A; 
                                             x = %.20E; y = %.20E; z = %.20E;
-                                            star = { StarData.id = %i; x = %.20E; y = %.20E; z = %.20E };
+                                            star = %s;
                                             planets = %s;
                                             }" 
                                                 name value.id value.regionId value.constellationId 
                                                 value.security value.securityRating
                                                 value.x value.y value.z
-                                                value.star.id
-                                                value.star.x value.star.y value.star.z
+                                                (star value.star)
                                                 planets
 
     let private solarSystemCase (value: SolarSystemData) = 

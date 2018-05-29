@@ -31,14 +31,16 @@ type MapSearchTest(output: Xunit.Abstractions.ITestOutputHelper)=
     [<SolarSystemsProperty(Verbose=true)>]
     member __.StarAlwaysFoundOnZeroCoordSearch(solarSystem: SolarSystem)=        
         let pos = Position.empty
-
+        
         let best = MapSearch.findClosestCelestial solarSystem.id pos
-
-        match best with
-        | Some (x,_) -> match x with     
-                        | Star (_,_,_) -> true
-                        | _ -> failwith "Star not returned"
-        | _ -> failwith "Nothing returned"
+        let expected = solarSystem.level <> SecurityLevel.Abyssal
+        let result = match best with
+                        | Some (x,_) -> match x with     
+                                        | Star (_,_,_) -> true
+                                        | _ -> false
+                        | _ -> false
+        if result <> expected then  
+            failwith "Star not returned"
     
     [<SolarSystemCelestialsPropertyAttribute(Verbose = true, MaxTest = 100)>]
     member __.CelestialsAlwaysFoundInSystem(solarSystem: SolarSystem, celestial: Celestial)=        

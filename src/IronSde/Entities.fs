@@ -16,6 +16,7 @@ type SecurityLevel =
     | Lowsec
     | Nullsec
     | Wormhole
+    | Abyssal
 
 type Region = {
         id: int;

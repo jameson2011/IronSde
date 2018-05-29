@@ -2551,28 +2551,28 @@
     <value>Planetary Resources</value>
   </data>
   <data name="group1032" xml:space="preserve">
-    <value>Planet Solid</value>
+    <value>Planet Solid - Raw Resource</value>
   </data>
   <data name="group1033" xml:space="preserve">
-    <value>Planet Liquid-Gas</value>
+    <value>Planet Liquid-Gas - Raw Resource</value>
   </data>
   <data name="group1034" xml:space="preserve">
-    <value>Refined Commodities</value>
+    <value>Refined Commodities - Tier 2</value>
   </data>
   <data name="group1035" xml:space="preserve">
-    <value>Planet Organic</value>
+    <value>Planet Organic - Raw Resource</value>
   </data>
   <data name="group1036" xml:space="preserve">
     <value>Planetary Links</value>
   </data>
   <data name="group1040" xml:space="preserve">
-    <value>Specialized Commodities</value>
+    <value>Specialized Commodities - Tier 3</value>
   </data>
   <data name="group1041" xml:space="preserve">
-    <value>Advanced Commodities</value>
+    <value>Advanced Commodities - Tier 4</value>
   </data>
   <data name="group1042" xml:space="preserve">
-    <value>Basic Commodities</value>
+    <value>Basic Commodities - Tier 1</value>
   </data>
   <data name="group1045" xml:space="preserve">
     <value>Sovereignty Structure Blueprint</value>
@@ -4011,9 +4011,6 @@
   <data name="group1929" xml:space="preserve">
     <value>Irregular - Unidentified</value>
   </data>
-  <data name="group1931" xml:space="preserve">
-    <value />
-  </data>
   <data name="group1933" xml:space="preserve">
     <value>Structure Composite Reactor Rig M - TE</value>
   </data>
@@ -4081,7 +4078,7 @@
     <value>Structure QA Modules</value>
   </data>
   <data name="group1964" xml:space="preserve">
-    <value>Kalli_PLACEHOLDER</value>
+    <value>Mutaplasmids</value>
   </data>
   <data name="group1966" xml:space="preserve">
     <value>Structure Capacitor Battery</value>
@@ -4093,10 +4090,10 @@
     <value>Structure Armor Reinforcer</value>
   </data>
   <data name="group1969" xml:space="preserve">
-    <value>Dynamic_PLACEHOLDER</value>
+    <value />
   </data>
   <data name="group1971" xml:space="preserve">
-    <value>Localized Effect Beacon</value>
+    <value>Uninteractable Localized Effect Beacon</value>
   </data>
   <data name="group1972" xml:space="preserve">
     <value>Flag Cruiser</value>
@@ -4107,6 +4104,9 @@
   <data name="group1974" xml:space="preserve">
     <value>Structure Festival Launcher</value>
   </data>
+  <data name="group1975" xml:space="preserve">
+    <value>Non-Interactable Object</value>
+  </data>
   <data name="group1976" xml:space="preserve">
     <value>Structure Festival Charges</value>
   </data>
@@ -4116,8 +4116,62 @@
   <data name="group1978" xml:space="preserve">
     <value>Industrial Support Facility</value>
   </data>
+  <data name="group1979" xml:space="preserve">
+    <value>Abyssal Filaments</value>
+  </data>
+  <data name="group1980" xml:space="preserve">
+    <value>Non-Scalable Clouds</value>
+  </data>
+  <data name="group1981" xml:space="preserve">
+    <value>Triglavian Support Pylons</value>
+  </data>
+  <data name="group1982" xml:space="preserve">
+    <value>Abyssal Spaceship Entities</value>
+  </data>
+  <data name="group1983" xml:space="preserve">
+    <value>Abyssal Environment</value>
+  </data>
   <data name="group1984" xml:space="preserve">
     <value>Outpost Conversion Rigs</value>
+  </data>
+  <data name="group1986" xml:space="preserve">
+    <value>Precursor Weapon</value>
+  </data>
+  <data name="group1987" xml:space="preserve">
+    <value>Exotic Plasma Charge</value>
+  </data>
+  <data name="group1988" xml:space="preserve">
+    <value>Entropic Radiation Sink</value>
+  </data>
+  <data name="group1989" xml:space="preserve">
+    <value>Advanced Exotic Plasma Charge</value>
+  </data>
+  <data name="group1990" xml:space="preserve">
+    <value>Precursor Weapon Blueprint</value>
+  </data>
+  <data name="group1991" xml:space="preserve">
+    <value>Abyssal Trace</value>
+  </data>
+  <data name="group1992" xml:space="preserve">
+    <value>Entropic Radiation Sink Blueprint</value>
+  </data>
+  <data name="group1993" xml:space="preserve">
+    <value>Exotic Plasma Charge Blueprint</value>
+  </data>
+  <data name="group1994" xml:space="preserve">
+    <value>Advanced Exotic Plasma Charge Blueprint</value>
+  </data>
+  <data name="group1995" xml:space="preserve">
+    <value>Triglavian Data</value>
+  </data>
+  <data name="group1996" xml:space="preserve">
+    <value>Abyssal Materials</value>
+  </data>
+  <data name="group1997" xml:space="preserve">
+    <value>Abyssal Drone Entities</value>
+  </data>
+  <data name="group1998" xml:space="preserve">
+    <value>Station Conversion Monuments</value>
   </data>
   <data name="group350858" xml:space="preserve">
     <value>Infantry Weapons</value>

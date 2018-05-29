@@ -5,6 +5,7 @@ type SystemSecurity =
     |Lowsec
     |Nullsec
     |Wormhole
+    |Abyssal
 
 // all positions are metres, in and out of solar systems.
 type Position = 
@@ -32,7 +33,7 @@ type internal PlanetData =  { id: int; x: float; y: float; z: float; solarSystem
 type internal SolarSystemData = { id: int; regionId: int; constellationId: int; 
                                 security: float; securityRating: SystemSecurity; 
                                 x: float; y: float; z: float;
-                                star: StarData;
+                                star: StarData option;
                                 planets: PlanetData [];
                                 }
 

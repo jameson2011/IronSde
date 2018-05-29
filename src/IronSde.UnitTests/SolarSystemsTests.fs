@@ -132,15 +132,14 @@ type SolarSystemsTests(output: Xunit.Abstractions.ITestOutputHelper)=
 
     [<SolarSystemsProperty>]
     member __.SolarSystemStarAlwaysAStar(solarSystem: SolarSystem)=        
-        
         let stars = IronSde.SolarSystems.celestials solarSystem.id
                             |> Seq.filter (function
                                             | Star (_,_,_) -> true
                                             | _ -> false)
                             |> Array.ofSeq
         match stars with
-        | [| s |] -> true
-        | _ -> false
+        | [| s |] -> solarSystem.level <> SecurityLevel.Abyssal
+        | _ -> solarSystem.level = SecurityLevel.Abyssal
     
     [<Fact>]
     member __.TakeSolarSystemFetchTimeSamples() =

@@ -967,7 +967,7 @@ module internal AttributeTypes=
         | 1130 -> Some { IronSde.Types.AttributeTypeData.id = 1130; categoryId = Some 7; name = "ecmStrengthBonusPercent"; defaultValue = Some 0.000000}
         | 1131 -> Some { IronSde.Types.AttributeTypeData.id = 1131; categoryId = Some 7; name = "massBonusPercentage"; defaultValue = Some 0.000000}
         | 1132 -> Some { IronSde.Types.AttributeTypeData.id = 1132; categoryId = Some 7; name = "upgradeCapacity"; defaultValue = Some 0.000000}
-        | 1133 -> Some { IronSde.Types.AttributeTypeData.id = 1133; categoryId = Some 9; name = "entityMaxVelocitySignatureRadiusMultiplier"; defaultValue = Some 6.000000}
+        | 1133 -> Some { IronSde.Types.AttributeTypeData.id = 1133; categoryId = Some 17; name = "entityMaxVelocitySignatureRadiusMultiplier"; defaultValue = Some 6.000000}
         | 1134 -> Some { IronSde.Types.AttributeTypeData.id = 1134; categoryId = Some 9; name = "maxTargetRangeMultiplierSet"; defaultValue = Some 0.000000}
         | 1135 -> Some { IronSde.Types.AttributeTypeData.id = 1135; categoryId = Some 9; name = "scanResolutionMultiplierSet"; defaultValue = Some 0.000000}
         | 1136 -> Some { IronSde.Types.AttributeTypeData.id = 1136; categoryId = Some 9; name = "scanAllStrength"; defaultValue = Some 0.000000}
@@ -2182,8 +2182,8 @@ module internal AttributeTypes=
         | 2512 -> Some { IronSde.Types.AttributeTypeData.id = 2512; categoryId = Some 42; name = "npcGuidanceDisruptorRange"; defaultValue = Some 0.000000}
         | 2513 -> Some { IronSde.Types.AttributeTypeData.id = 2513; categoryId = Some 42; name = "npcGuidanceDisruptorFalloff"; defaultValue = Some 0.000000}
         | 2514 -> Some { IronSde.Types.AttributeTypeData.id = 2514; categoryId = Some 42; name = "npcGuidanceDisruptorDischarge"; defaultValue = Some 0.000000}
-        | 2515 -> Some { IronSde.Types.AttributeTypeData.id = 2515; categoryId = Some 26; name = "npcTrackingDisruptorDuration"; defaultValue = Some 0.000000}
-        | 2516 -> Some { IronSde.Types.AttributeTypeData.id = 2516; categoryId = Some 26; name = "npcTrackingDisruptorRange"; defaultValue = Some 0.000000}
+        | 2515 -> Some { IronSde.Types.AttributeTypeData.id = 2515; categoryId = Some 42; name = "npcTrackingDisruptorDuration"; defaultValue = Some 0.000000}
+        | 2516 -> Some { IronSde.Types.AttributeTypeData.id = 2516; categoryId = Some 42; name = "npcTrackingDisruptorRange"; defaultValue = Some 0.000000}
         | 2517 -> Some { IronSde.Types.AttributeTypeData.id = 2517; categoryId = Some 42; name = "npcTrackingDisruptorFalloff"; defaultValue = Some 0.000000}
         | 2518 -> Some { IronSde.Types.AttributeTypeData.id = 2518; categoryId = Some 42; name = "npcTrackingDisruptorDischarge"; defaultValue = Some 0.000000}
         | 2519 -> Some { IronSde.Types.AttributeTypeData.id = 2519; categoryId = Some 42; name = "behaviorEnergyNeutralizerDuration"; defaultValue = Some 0.000000}
@@ -2387,6 +2387,8 @@ module internal AttributeTypes=
         | 2730 -> Some { IronSde.Types.AttributeTypeData.id = 2730; categoryId = Some 42; name = "BehaviorSiegeMissileDamageModifier"; defaultValue = Some 0.000000}
         | 2731 -> Some { IronSde.Types.AttributeTypeData.id = 2731; categoryId = Some 9; name = "eliteBonusCovertOps4"; defaultValue = Some 0.000000}
         | 2732 -> Some { IronSde.Types.AttributeTypeData.id = 2732; categoryId = Some 9; name = "stealthBomberLauncherCPU"; defaultValue = Some 1.000000}
+        | 2733 -> Some { IronSde.Types.AttributeTypeData.id = 2733; categoryId = Some 29; name = "damageMultiplierBonusPerCycle"; defaultValue = Some 0.000000}
+        | 2734 -> Some { IronSde.Types.AttributeTypeData.id = 2734; categoryId = Some 29; name = "damageMultiplierBonusMax"; defaultValue = Some 0.500000}
         | 2735 -> Some { IronSde.Types.AttributeTypeData.id = 2735; categoryId = Some 42; name = "npcStructureStasisWebificationBonus"; defaultValue = Some 1.000000}
         | 2736 -> Some { IronSde.Types.AttributeTypeData.id = 2736; categoryId = Some 42; name = "npcStructureEnergyWarfareBonus"; defaultValue = Some 1.000000}
         | 2737 -> Some { IronSde.Types.AttributeTypeData.id = 2737; categoryId = Some 38; name = "fighterStandupLightSlots"; defaultValue = Some 0.000000}
@@ -2411,4 +2413,32 @@ module internal AttributeTypes=
         | 2756 -> Some { IronSde.Types.AttributeTypeData.id = 2756; categoryId = Some 37; name = "targetPainterRangeModifierFlagCruisers"; defaultValue = Some 0.000000}
         | 2757 -> Some { IronSde.Types.AttributeTypeData.id = 2757; categoryId = Some 37; name = "flagCruiserFittingBonusPainterProbes"; defaultValue = Some 0.000000}
         | 2758 -> Some { IronSde.Types.AttributeTypeData.id = 2758; categoryId = Some 1; name = "canFitShipType11"; defaultValue = Some 0.000000}
+        | 2759 -> Some { IronSde.Types.AttributeTypeData.id = 2759; categoryId = Some 7; name = "typeListId"; defaultValue = Some -1.000000}
+        | 2760 -> Some { IronSde.Types.AttributeTypeData.id = 2760; categoryId = Some 7; name = "weatherID"; defaultValue = Some 0.000000}
+        | 2761 -> Some { IronSde.Types.AttributeTypeData.id = 2761; categoryId = Some 7; name = "difficultyTier"; defaultValue = Some 1.000000}
+        | 2762 -> Some { IronSde.Types.AttributeTypeData.id = 2762; categoryId = Some 9; name = "shipBonusPF1"; defaultValue = Some 0.000000}
+        | 2763 -> Some { IronSde.Types.AttributeTypeData.id = 2763; categoryId = Some 9; name = "shipBonusPF2"; defaultValue = Some 0.000000}
+        | 2764 -> Some { IronSde.Types.AttributeTypeData.id = 2764; categoryId = Some 9; name = "shipBonusPC1"; defaultValue = Some 0.000000}
+        | 2765 -> Some { IronSde.Types.AttributeTypeData.id = 2765; categoryId = Some 9; name = "shipBonusPC2"; defaultValue = Some 0.000000}
+        | 2766 -> Some { IronSde.Types.AttributeTypeData.id = 2766; categoryId = Some 9; name = "shipBonusPBS1"; defaultValue = Some 0.000000}
+        | 2767 -> Some { IronSde.Types.AttributeTypeData.id = 2767; categoryId = Some 9; name = "shipBonusPBS2"; defaultValue = Some 0.000000}
+        | 2768 -> Some { IronSde.Types.AttributeTypeData.id = 2768; categoryId = Some 4; name = "emDamageResonanceMax"; defaultValue = Some 1.000000}
+        | 2769 -> Some { IronSde.Types.AttributeTypeData.id = 2769; categoryId = Some 4; name = "thermalDamageResonanceMax"; defaultValue = Some 1.000000}
+        | 2770 -> Some { IronSde.Types.AttributeTypeData.id = 2770; categoryId = Some 4; name = "kineticDamageResonanceMax"; defaultValue = Some 1.000000}
+        | 2771 -> Some { IronSde.Types.AttributeTypeData.id = 2771; categoryId = Some 4; name = "explosiveDamageResonanceMax"; defaultValue = Some 1.000000}
+        | 2772 -> Some { IronSde.Types.AttributeTypeData.id = 2772; categoryId = Some 37; name = "conversionRigHPCapBonus"; defaultValue = Some 0.000000}
+        | 2773 -> Some { IronSde.Types.AttributeTypeData.id = 2773; categoryId = Some 4; name = "attributeT1ShipManufactureTime"; defaultValue = Some 0.000000}
+        | 2774 -> Some { IronSde.Types.AttributeTypeData.id = 2774; categoryId = Some 4; name = "attributeT2ShipManufactureTime"; defaultValue = Some 0.000000}
+        | 2775 -> Some { IronSde.Types.AttributeTypeData.id = 2775; categoryId = Some 4; name = "attributeAdvCompManufactureTime"; defaultValue = Some 0.000000}
+        | 2776 -> Some { IronSde.Types.AttributeTypeData.id = 2776; categoryId = Some 4; name = "attributeCapCompManufactureTime"; defaultValue = Some 0.000000}
+        | 2777 -> Some { IronSde.Types.AttributeTypeData.id = 2777; categoryId = Some 4; name = "attributeEquipmentManufactureTime"; defaultValue = Some 0.000000}
+        | 2778 -> Some { IronSde.Types.AttributeTypeData.id = 2778; categoryId = Some 4; name = "attributeMEResearchTime"; defaultValue = Some 0.000000}
+        | 2779 -> Some { IronSde.Types.AttributeTypeData.id = 2779; categoryId = Some 4; name = "attributeTEResearchTime"; defaultValue = Some 0.000000}
+        | 2780 -> Some { IronSde.Types.AttributeTypeData.id = 2780; categoryId = Some 4; name = "attributeCopyTime"; defaultValue = Some 0.000000}
+        | 2781 -> Some { IronSde.Types.AttributeTypeData.id = 2781; categoryId = Some 4; name = "attributeInventionTime"; defaultValue = Some 0.000000}
+        | 2782 -> Some { IronSde.Types.AttributeTypeData.id = 2782; categoryId = Some 4; name = "attributeResearchCosts"; defaultValue = Some 0.000000}
+        | 2783 -> Some { IronSde.Types.AttributeTypeData.id = 2783; categoryId = Some 4; name = "attributeInventionCosts"; defaultValue = Some 0.000000}
+        | 2784 -> Some { IronSde.Types.AttributeTypeData.id = 2784; categoryId = Some 42; name = "npcDroneCapacity"; defaultValue = Some 0.000000}
+        | 2785 -> Some { IronSde.Types.AttributeTypeData.id = 2785; categoryId = Some 42; name = "npcDroneBandwidth"; defaultValue = Some 0.000000}
+        | 2786 -> Some { IronSde.Types.AttributeTypeData.id = 2786; categoryId = Some 42; name = "npcBehaviorMaximumCombatOrbitRange"; defaultValue = Some 0.000000}
         | _ -> None
