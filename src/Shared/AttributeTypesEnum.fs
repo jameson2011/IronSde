@@ -2439,3 +2439,4 @@ type AttributeTypes=
     | npcDroneCapacity = 2784
     | npcDroneBandwidth = 2785
     | npcBehaviorMaximumCombatOrbitRange = 2786
+    | monumentAllianceID = 2787

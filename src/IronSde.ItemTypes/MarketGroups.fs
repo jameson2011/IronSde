@@ -940,7 +940,6 @@ module internal MarketGroups=
     let private marketGroup1030()= {MarketGroupData.id = 1030; parentId = Some 357; name = "Logistic Drones"; }
     let private marketGroup1586()= {MarketGroupData.id = 1586; parentId = Some 357; name = "Combat Utility Drones"; }
     let private marketGroup1643()= {MarketGroupData.id = 1643; parentId = Some 357; name = "Salvage Drones"; }
-    let private marketGroup977()= {MarketGroupData.id = 977; parentId = Some 24; name = "Booster"; }
     let private marketGroup618()= {MarketGroupData.id = 618; parentId = Some 532; name = "Implant Slot 01"; }
     let private marketGroup619()= {MarketGroupData.id = 619; parentId = Some 532; name = "Implant Slot 02"; }
     let private marketGroup620()= {MarketGroupData.id = 620; parentId = Some 532; name = "Implant Slot 03"; }
@@ -2261,6 +2260,33 @@ module internal MarketGroups=
     let private marketGroup2428()= {MarketGroupData.id = 2428; parentId = Some 2427; name = "Triglavian"; }
     let private marketGroup2429()= {MarketGroupData.id = 2429; parentId = Some 1376; name = "Precursor Battleships"; }
     let private marketGroup2430()= {MarketGroupData.id = 2430; parentId = Some 2429; name = "Triglavian"; }
+    let private marketGroup2481()= {MarketGroupData.id = 2481; parentId = Some 1960; name = "Precursor Battleships"; }
+    let private marketGroup2482()= {MarketGroupData.id = 2482; parentId = Some 2481; name = "Triglavian"; }
+    let private marketGroup2483()= {MarketGroupData.id = 2483; parentId = Some 1988; name = "Precursor Cruisers"; }
+    let private marketGroup2484()= {MarketGroupData.id = 2484; parentId = Some 1998; name = "Precursor Frigates"; }
+    let private marketGroup2485()= {MarketGroupData.id = 2485; parentId = Some 2483; name = "Triglavian"; }
+    let private marketGroup2486()= {MarketGroupData.id = 2486; parentId = Some 2484; name = "Triglavian"; }
+    let private marketGroup2488()= {MarketGroupData.id = 2488; parentId = Some 977; name = "Booster Slot 01"; }
+    let private marketGroup2489()= {MarketGroupData.id = 2489; parentId = Some 977; name = "Booster Slot 02"; }
+    let private marketGroup2490()= {MarketGroupData.id = 2490; parentId = Some 977; name = "Booster Slot 03"; }
+    let private marketGroup2492()= {MarketGroupData.id = 2492; parentId = Some 2488; name = "Exile"; }
+    let private marketGroup2495()= {MarketGroupData.id = 2495; parentId = Some 2488; name = "Antipharmakon"; }
+    let private marketGroup2499()= {MarketGroupData.id = 2499; parentId = Some 2489; name = "Antipharmakon"; }
+    let private marketGroup2501()= {MarketGroupData.id = 2501; parentId = Some 2490; name = "Antipharmakon"; }
+    let private marketGroup2502()= {MarketGroupData.id = 2502; parentId = Some 977; name = "Booster Slot 11"; }
+    let private marketGroup2506()= {MarketGroupData.id = 2506; parentId = Some 2488; name = "Other"; }
+    let private marketGroup977()= {MarketGroupData.id = 977; parentId = Some 24; name = "Booster"; }
+    let private marketGroup2496()= {MarketGroupData.id = 2496; parentId = Some 2489; name = "Drop"; }
+    let private marketGroup2491()= {MarketGroupData.id = 2491; parentId = Some 2488; name = "Blue Pill"; }
+    let private marketGroup2493()= {MarketGroupData.id = 2493; parentId = Some 2488; name = "Mindflood"; }
+    let private marketGroup2494()= {MarketGroupData.id = 2494; parentId = Some 2488; name = "X-Instinct"; }
+    let private marketGroup2497()= {MarketGroupData.id = 2497; parentId = Some 2489; name = "Frentix"; }
+    let private marketGroup2498()= {MarketGroupData.id = 2498; parentId = Some 2489; name = "Sooth Sayer"; }
+    let private marketGroup2500()= {MarketGroupData.id = 2500; parentId = Some 2490; name = "Crash"; }
+    let private marketGroup2503()= {MarketGroupData.id = 2503; parentId = Some 2502; name = "Hardshell"; }
+    let private marketGroup2504()= {MarketGroupData.id = 2504; parentId = Some 2502; name = "Overclocker"; }
+    let private marketGroup2505()= {MarketGroupData.id = 2505; parentId = Some 2502; name = "Pyrolancea"; }
+    let private marketGroup2487()= {MarketGroupData.id = 2487; parentId = Some 24; name = "Cerebral Accelerators"; }
     let marketgroup = 
         function
         | 2 -> marketGroup2() |> Some
@@ -3201,7 +3227,6 @@ module internal MarketGroups=
         | 1030 -> marketGroup1030() |> Some
         | 1586 -> marketGroup1586() |> Some
         | 1643 -> marketGroup1643() |> Some
-        | 977 -> marketGroup977() |> Some
         | 618 -> marketGroup618() |> Some
         | 619 -> marketGroup619() |> Some
         | 620 -> marketGroup620() |> Some
@@ -4522,11 +4547,38 @@ module internal MarketGroups=
         | 2428 -> marketGroup2428() |> Some
         | 2429 -> marketGroup2429() |> Some
         | 2430 -> marketGroup2430() |> Some
+        | 2481 -> marketGroup2481() |> Some
+        | 2482 -> marketGroup2482() |> Some
+        | 2483 -> marketGroup2483() |> Some
+        | 2484 -> marketGroup2484() |> Some
+        | 2485 -> marketGroup2485() |> Some
+        | 2486 -> marketGroup2486() |> Some
+        | 2488 -> marketGroup2488() |> Some
+        | 2489 -> marketGroup2489() |> Some
+        | 2490 -> marketGroup2490() |> Some
+        | 2492 -> marketGroup2492() |> Some
+        | 2495 -> marketGroup2495() |> Some
+        | 2499 -> marketGroup2499() |> Some
+        | 2501 -> marketGroup2501() |> Some
+        | 2502 -> marketGroup2502() |> Some
+        | 2506 -> marketGroup2506() |> Some
+        | 977 -> marketGroup977() |> Some
+        | 2496 -> marketGroup2496() |> Some
+        | 2491 -> marketGroup2491() |> Some
+        | 2493 -> marketGroup2493() |> Some
+        | 2494 -> marketGroup2494() |> Some
+        | 2497 -> marketGroup2497() |> Some
+        | 2498 -> marketGroup2498() |> Some
+        | 2500 -> marketGroup2500() |> Some
+        | 2503 -> marketGroup2503() |> Some
+        | 2504 -> marketGroup2504() |> Some
+        | 2505 -> marketGroup2505() |> Some
+        | 2487 -> marketGroup2487() |> Some
         | _ -> None
     let marketGroupChildren = function
         | None -> [| 2;4;9;11;19;24;150;157;475;477;955;1320;1396;1659;1922;1954;2202;2203;350001 |]
         | Some 9 -> [| 10;14;52;141;554;655;656;657;779;938;1708;1713 |]
-        | Some 24 -> [| 27;977 |]
+        | Some 24 -> [| 27;977;2487 |]
         | Some 1031 -> [| 54;1855;1856;2395;2479 |]
         | Some 10 -> [| 86;87;88;140;143;912;1014;2431 |]
         | Some 11 -> [| 99;100;101;114;120;139;593;1015;1094;1103;2198;2297;2462 |]
@@ -4950,9 +5002,9 @@ module internal MarketGroups=
         | Some 1972 -> [| 1984;1985;1986;1987;2318 |]
         | Some 2001 -> [| 2002;2003;2004;2005;2321 |]
         | Some 1954 -> [| 1955;1960;1968;1988;1989;1998;2006;2011;2119;2283;2306;2315 |]
-        | Some 1960 -> [| 1961;1962;2022;2420 |]
+        | Some 1960 -> [| 1961;1962;2022;2420;2481 |]
         | Some 1968 -> [| 1970;1971;1972;1973;2094;2114;2277 |]
-        | Some 1998 -> [| 1999;2001;2042 |]
+        | Some 1998 -> [| 1999;2001;2042;2484 |]
         | Some 1999 -> [| 2000;2031 |]
         | Some 2011 -> [| 2012;2319 |]
         | Some 1961 -> [| 1963;2108 |]
@@ -4966,7 +5018,7 @@ module internal MarketGroups=
         | Some 369226 -> [| 369227 |]
         | Some 369234 -> [| 353633;354534;367570 |]
         | Some 2023 -> [| 2024;2025;2026;2027 |]
-        | Some 1988 -> [| 2028;2029;2064 |]
+        | Some 1988 -> [| 2028;2029;2064;2483 |]
         | Some 2029 -> [| 2030;2063 |]
         | Some 2028 -> [| 1990;1991;1992;1993 |]
         | Some 2022 -> [| 2023;2109 |]
@@ -5074,4 +5126,12 @@ module internal MarketGroups=
         | Some 2425 -> [| 2426 |]
         | Some 2427 -> [| 2428 |]
         | Some 2429 -> [| 2430 |]
+        | Some 2481 -> [| 2482 |]
+        | Some 2483 -> [| 2485 |]
+        | Some 2484 -> [| 2486 |]
+        | Some 977 -> [| 2488;2489;2490;2502 |]
+        | Some 2488 -> [| 2491;2492;2493;2494;2495;2506 |]
+        | Some 2489 -> [| 2496;2497;2498;2499 |]
+        | Some 2490 -> [| 2500;2501 |]
+        | Some 2502 -> [| 2503;2504;2505 |]
         | _ -> [||]
