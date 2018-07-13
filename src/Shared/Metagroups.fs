@@ -15,3 +15,5 @@ type MetaGroups=
     | CommanderCruiser = 13
     | TechIII = 14
     | Abyssal = 15
+    | Premium = 17
+    | Limited = 19

@@ -17,6 +17,8 @@ module internal MetaGroups=
     let private metagroup13()= { MetaGroupData.id = 13; name = "Commander Cruiser"; typeIds = [|  |] }
     let private metagroup14()= { MetaGroupData.id = 14; name = "Tech III"; typeIds = [| 29965;29966;29967;29970;29971;29972;29975;29976;29977;29980;29981;29982;30038;30040;30042;30048;30050;30052;30058;30060;30062;30068;30070;30072;30078;30080;30082;30088;30090;30092;30098;30100;30102;30108;30110;30112;30118;30119;30120;30123;30124;30125;30128;30129;30130;30133;30134;30135;30141;30143;30145;30151;30153;30155;30161;30163;30165;30171;30173;30175;45587;45588;45590;45591;45593;45594;45596;45597;45598;45600;45602;45603;45604;45606;45607;45609;45610;45612;45613;45615;45616;45618;45619;45621;45622;45624;45625;45627;45628;45630;45631;45633 |] }
     let private metagroup15()= { MetaGroupData.id = 15; name = "Abyssal"; typeIds = [|  |] }
+    let private metagroup17()= { MetaGroupData.id = 17; name = "Premium"; typeIds = [|  |] }
+    let private metagroup19()= { MetaGroupData.id = 19; name = "Limited"; typeIds = [|  |] }
     let private itemtypesMeta0 = 
         function
         | 380 -> metagroup2() |> Some

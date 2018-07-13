@@ -2441,4 +2441,5 @@ module internal AttributeTypes=
         | 2784 -> Some { IronSde.Types.AttributeTypeData.id = 2784; categoryId = Some 42; name = "npcDroneCapacity"; defaultValue = Some 0.000000}
         | 2785 -> Some { IronSde.Types.AttributeTypeData.id = 2785; categoryId = Some 42; name = "npcDroneBandwidth"; defaultValue = Some 0.000000}
         | 2786 -> Some { IronSde.Types.AttributeTypeData.id = 2786; categoryId = Some 42; name = "npcBehaviorMaximumCombatOrbitRange"; defaultValue = Some 0.000000}
+        | 2787 -> Some { IronSde.Types.AttributeTypeData.id = 2787; categoryId = Some 7; name = "monumentAllianceID"; defaultValue = Some 0.000000}
         | _ -> None

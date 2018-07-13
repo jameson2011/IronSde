@@ -82138,7 +82138,7 @@
     <value>Women's ‘Defender’ Beret (Gallente Federation)</value>
   </data>
   <data name="itemtype42710" xml:space="preserve">
-    <value>Gallente Cap Male</value>
+    <value>Men's Federation Grand Prix 'Pit Stop' Cap</value>
   </data>
   <data name="itemtype42711" xml:space="preserve">
     <value>Cap Male Green</value>
@@ -82243,7 +82243,7 @@
     <value>Women's 'Crusader' Beret (Amarr Empire)</value>
   </data>
   <data name="itemtype42745" xml:space="preserve">
-    <value>Cap Female Gallente</value>
+    <value>Women's Federation Grand Prix 'Pit Stop' Cap</value>
   </data>
   <data name="itemtype42746" xml:space="preserve">
     <value>Crucifier Cold Iron SKIN (Permanent)</value>
@@ -94708,16 +94708,16 @@
     <value>Abyssal Stasis Webifier</value>
   </data>
   <data name="itemtype47705" xml:space="preserve">
-    <value>Basic X-Sense 'Consciousness' Cerebral Accelerator</value>
+    <value>Expired Basic X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47706" xml:space="preserve">
-    <value>Improved X-Sense 'Consciousness' Cerebral Accelerator</value>
+    <value>Expired Improved X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47707" xml:space="preserve">
-    <value>Advanced X-Sense 'Consciousness' Cerebral Accelerator</value>
+    <value>Expired Advanced X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47708" xml:space="preserve">
-    <value>Extended X-Sense 'Consciousness' Cerebral Accelerator</value>
+    <value>Expired Extended X-Sense 'Consciousness' Cerebral Accelerator</value>
   </data>
   <data name="itemtype47710" xml:space="preserve">
     <value>Upwell General Industrial Support Facility</value>
@@ -95059,16 +95059,16 @@
     <value>Medium Abyssal Energy Neutralizer</value>
   </data>
   <data name="itemtype47829" xml:space="preserve">
-    <value>Decayed Large Energy Neutralizer Mutaplasmid</value>
+    <value>Decayed Heavy Energy Neutralizer Mutaplasmid</value>
   </data>
   <data name="itemtype47830" xml:space="preserve">
-    <value>Unstable Large Energy Neutralizer Mutaplasmid</value>
+    <value>Unstable Heavy Energy Neutralizer Mutaplasmid</value>
   </data>
   <data name="itemtype47831" xml:space="preserve">
-    <value>Gravid Large Energy Neutralizer Mutaplasmid</value>
+    <value>Gravid Heavy Energy Neutralizer Mutaplasmid</value>
   </data>
   <data name="itemtype47832" xml:space="preserve">
-    <value>Large Abyssal Energy Neutralizer</value>
+    <value>Heavy Abyssal Energy Neutralizer</value>
   </data>
   <data name="itemtype47833" xml:space="preserve">
     <value>Abyssal Trace</value>
@@ -95920,7 +95920,7 @@
     <value>Extended 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48119" xml:space="preserve">
-    <value>GalFed_NPC1</value>
+    <value>Official Federation Grand Prix Transport Ship</value>
   </data>
   <data name="itemtype48120" xml:space="preserve">
     <value>Triglavian Bioadaptive Cache Wreck</value>
@@ -95947,7 +95947,7 @@
     <value>Blinding Leshak</value>
   </data>
   <data name="itemtype48128" xml:space="preserve">
-    <value>GalFed_NPC2</value>
+    <value>Official Federation Grand Prix Passenger Yacht</value>
   </data>
   <data name="itemtype48129" xml:space="preserve">
     <value>GalFed_NPC3</value>
@@ -95968,34 +95968,34 @@
     <value>GalFed_Boss4</value>
   </data>
   <data name="itemtype48135" xml:space="preserve">
-    <value>GalFed_Trinket1</value>
+    <value>Copy of the Gallente Federation Constitution</value>
   </data>
   <data name="itemtype48136" xml:space="preserve">
-    <value>GalFed_Trinket2</value>
+    <value>Replica Mister Federation Trophy</value>
   </data>
   <data name="itemtype48137" xml:space="preserve">
-    <value>GalFed_Trinket3</value>
+    <value>Replica Miss Federation Trophy</value>
   </data>
   <data name="itemtype48138" xml:space="preserve">
-    <value>GalFed_Trinket4</value>
+    <value>Impetus Trading Cards</value>
   </data>
   <data name="itemtype48139" xml:space="preserve">
-    <value>GalFed_Trinket5</value>
+    <value>Mannar Hair Gel</value>
   </data>
   <data name="itemtype48140" xml:space="preserve">
-    <value>GalFed_Trinket6</value>
+    <value>Intaki Cycle of Ida Bracelet</value>
   </data>
   <data name="itemtype48141" xml:space="preserve">
-    <value>GalFed_Trinket7</value>
+    <value>Raata Wind Chimes</value>
   </data>
   <data name="itemtype48142" xml:space="preserve">
-    <value>GalFed_Trinket8</value>
+    <value>Jin-Mei Silk Cord</value>
   </data>
   <data name="itemtype48143" xml:space="preserve">
-    <value>GalFed_Trinket9</value>
+    <value>Intaki Spiced Tea</value>
   </data>
   <data name="itemtype48144" xml:space="preserve">
-    <value>GalFed_Trinket10</value>
+    <value>Replica of the ISCSS Venture</value>
   </data>
   <data name="itemtype48146" xml:space="preserve">
     <value>Vindicator Sarpati's Revenge - Igil SKIN (Permanent)</value>
@@ -96004,10 +96004,10 @@
     <value>Vindicator Sarpati's Revenge - Virge SKIN (Permanent)</value>
   </data>
   <data name="itemtype48148" xml:space="preserve">
-    <value>Drone_Implant1</value>
+    <value>CreoDron 'Yellowjacket' Drone Tuner D5-10T</value>
   </data>
   <data name="itemtype48149" xml:space="preserve">
-    <value>Drone_Implant2</value>
+    <value>CreoDron 'Bumblebee' Drone Tuner T10-5D</value>
   </data>
   <data name="itemtype48150" xml:space="preserve">
     <value>Drone_Implant3</value>
@@ -96671,6 +96671,417 @@
   </data>
   <data name="itemtype48373" xml:space="preserve">
     <value>Triglavian Frigate Wreck</value>
+  </data>
+  <data name="itemtype48374" xml:space="preserve">
+    <value>Federation Grand Prix Impetus Package</value>
+  </data>
+  <data name="itemtype48375" xml:space="preserve">
+    <value>Federation Grand Prix Bronze Package</value>
+  </data>
+  <data name="itemtype48376" xml:space="preserve">
+    <value>Federation Grand Prix CreoDron Package</value>
+  </data>
+  <data name="itemtype48377" xml:space="preserve">
+    <value>Federation Grand Prix Silver Package</value>
+  </data>
+  <data name="itemtype48378" xml:space="preserve">
+    <value>Federation Grand Prix Quafe Package</value>
+  </data>
+  <data name="itemtype48379" xml:space="preserve">
+    <value>Federation Grand Prix Gold Package</value>
+  </data>
+  <data name="itemtype48380" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48381" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48382" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48383" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48384" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48385" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48386" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48387" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48416" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48417" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48418" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48419" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48420" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48421" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48422" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48423" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48424" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48425" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48426" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48427" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48428" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48429" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48430" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48431" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48432" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48433" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48434" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48435" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48436" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48437" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48438" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48439" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48463" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48469" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48470" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48471" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48472" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48473" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48474" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48485" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48486" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48487" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48488" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48489" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48490" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48491" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48492" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48493" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48494" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48495" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48496" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48497" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48498" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48499" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48500" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48501" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48502" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48503" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48504" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48505" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48506" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48507" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48508" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48509" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48510" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48511" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48512" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48513" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48514" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48515" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48516" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48517" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48518" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48519" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48520" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48521" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48522" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48523" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48524" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48525" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48526" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48527" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48528" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48529" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48530" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48531" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48532" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48533" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48534" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48535" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48536" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48543" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48544" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48546" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48547" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48548" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48549" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48550" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48551" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48552" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48553" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48554" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48555" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48556" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48557" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48558" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48559" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48560" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48561" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48562" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48563" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48564" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48565" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48566" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48576" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48577" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48578" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48579" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48580" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48581" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48582" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48584" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48585" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48586" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48587" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48588" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48589" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48590" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48591" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48592" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48593" xml:space="preserve">
+    <value />
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>
