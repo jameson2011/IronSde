@@ -156,18 +156,33 @@ Target.create "All" (fun _ -> Trace.trace "All done" )
 ==> "DownloadSde"
 ==> "UnzipSde"
 ==> "VerifySde"
-==> "CleanArtifacts"
+
+?=> "CleanArtifacts"
 ==> "PatchAssemblyInfo"
 ==> "BuildGenerator"
 ==> "RunGenerator"
-==> "BuildNames"
+
+?=> "BuildNames"
 ==> "BuildItemTypes"
 ==> "BuildUniverse"
 ==> "BuildIronSde"
-==> "BuildUnitTests"
+
+?=> "BuildUnitTests"
 ==> "UnitTests"
-==> "CreatePackageDir"
+
+?=> "CreatePackageDir"
 ==> "CopyPackageFiles"
+
+
+"VerifySde"
+==> "All"
+"RunGenerator"
+==> "All"
+"BuildIronSde"
+==> "All"
+"UnitTests"
+==> "All"
+"CopyPackageFiles"
 ==> "All"
 
 Target.runOrDefault "All"
