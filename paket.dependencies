@@ -1,8 +1,9 @@
 source https://www.nuget.org/api/v2
-nuget FAKE 5.0.0-beta024 beta
+nuget FAKE 5.3.0
+nuget Fake.IO.FileSystem 5.3.0
 nuget FsCheck
 nuget FsCheck.Xunit
-nuget fsharp.core 4.3.3
+nuget fsharp.core 4.3.4
 nuget sharpyaml 1.6.2
 nuget xunit
 nuget xunit.runner.console
