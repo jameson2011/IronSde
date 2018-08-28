@@ -19,9 +19,12 @@ type TypesReader(path)=
         { Name.id = id; name = name }
 
     let itemTypeGroup  (id, values: ObjectMap) =
+        let name = match id with
+                    | 2002 -> "Triglavian Datastreams"
+                    | _ -> values |> get "name" |> castObjectMap |> getName
         { ItemGroup.id = id; 
                     categoryId = values |> getInt "categoryID";
-                    name = values |> get "name" |> castObjectMap |> getName }
+                    name = name }
 
 
     let attributeType (values: ObjectMap) =                 

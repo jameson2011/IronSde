@@ -983,6 +983,7 @@ type ItemTypeGroups=
     | TrinaryDataVaults = 1977
     | AbyssalFilaments = 1979
     | TriglavianData = 1995
+    | TriglavianDatastreams = 2002
     | ProximityDrone = 97
     | CombatDrone = 100
     | MiningDrone = 101

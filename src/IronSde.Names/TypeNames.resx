@@ -82153,7 +82153,7 @@
     <value>Cap Male White/Black</value>
   </data>
   <data name="itemtype42715" xml:space="preserve">
-    <value>Cap Female Minmatar</value>
+    <value>Women's ‘Liberator’ Cap (Minmatar Republic)</value>
   </data>
   <data name="itemtype42716" xml:space="preserve">
     <value>Cap Female Black/White</value>
@@ -82198,7 +82198,7 @@
     <value>Women's 'Boarder' Cap (Digital Camo)</value>
   </data>
   <data name="itemtype42730" xml:space="preserve">
-    <value>Cap Male Minmatar</value>
+    <value>Men's ‘Liberator’ Cap (Minmatar Republic)</value>
   </data>
   <data name="itemtype42731" xml:space="preserve">
     <value>Cap Male Caldari</value>
@@ -94801,7 +94801,7 @@
     <value>Gravid 5MN Microwarpdrive Mutaplasmid</value>
   </data>
   <data name="itemtype47740" xml:space="preserve">
-    <value>5mn Abyssal Microwarpdrive</value>
+    <value>5MN Abyssal Microwarpdrive</value>
   </data>
   <data name="itemtype47741" xml:space="preserve">
     <value>Gravid 50MN Microwarpdrive Mutaplasmid</value>
@@ -95911,13 +95911,13 @@
     <value>Agency 'Pyrolancea' DB9 Dose IV</value>
   </data>
   <data name="itemtype48116" xml:space="preserve">
-    <value>Standard 'Liberty' Cerebral Accelerator</value>
+    <value>Expired Standard 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48117" xml:space="preserve">
-    <value>Advanced 'Liberty' Cerebral Accelerator</value>
+    <value>Expired Advanced 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48118" xml:space="preserve">
-    <value>Extended 'Liberty' Cerebral Accelerator</value>
+    <value>Expired Extended 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48119" xml:space="preserve">
     <value>Official Federation Grand Prix Transport Ship</value>
@@ -95950,22 +95950,22 @@
     <value>Official Federation Grand Prix Passenger Yacht</value>
   </data>
   <data name="itemtype48129" xml:space="preserve">
-    <value>GalFed_NPC3</value>
+    <value>Excoriator Slaver</value>
   </data>
   <data name="itemtype48130" xml:space="preserve">
-    <value>GalFed_NPC4</value>
+    <value>Auspex Slaver</value>
   </data>
   <data name="itemtype48131" xml:space="preserve">
-    <value>GalFed_Boss1</value>
+    <value>Manuzivar Slaver</value>
   </data>
   <data name="itemtype48132" xml:space="preserve">
-    <value>GalFed_Boss2</value>
+    <value>Bestower Livestock Transport</value>
   </data>
   <data name="itemtype48133" xml:space="preserve">
-    <value>GalFed_Boss3</value>
+    <value>Human Containment Facility</value>
   </data>
   <data name="itemtype48134" xml:space="preserve">
-    <value>GalFed_Boss4</value>
+    <value>Justice Liberator</value>
   </data>
   <data name="itemtype48135" xml:space="preserve">
     <value>Copy of the Gallente Federation Constitution</value>
@@ -96010,16 +96010,16 @@
     <value>CreoDron 'Bumblebee' Drone Tuner T10-5D</value>
   </data>
   <data name="itemtype48150" xml:space="preserve">
-    <value>Drone_Implant3</value>
+    <value>Expired Basic 'Conditioning' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48151" xml:space="preserve">
-    <value>Drone_Implant4</value>
+    <value>Expired Improved 'Conditioning' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48152" xml:space="preserve">
-    <value>Drone_Implant5</value>
+    <value>Expired Advanced 'Reconditioning' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48153" xml:space="preserve">
-    <value>Drone_Implant6</value>
+    <value>Expired Extended 'Rehabilitation' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48155" xml:space="preserve">
     <value>Bantam Ghostbird SKIN (Permanent)</value>
@@ -96691,396 +96691,693 @@
     <value>Federation Grand Prix Gold Package</value>
   </data>
   <data name="itemtype48380" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Veles)</value>
   </data>
   <data name="itemtype48381" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Svarog)</value>
   </data>
   <data name="itemtype48382" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Perun)</value>
   </data>
   <data name="itemtype48383" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Veles)</value>
   </data>
   <data name="itemtype48384" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Svarog)</value>
   </data>
   <data name="itemtype48385" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Perun)</value>
   </data>
   <data name="itemtype48386" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Encounter)</value>
   </data>
   <data name="itemtype48387" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Encounter)</value>
   </data>
   <data name="itemtype48416" xml:space="preserve">
-    <value />
+    <value>Decayed Small Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48417" xml:space="preserve">
-    <value />
+    <value>Gravid Small Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48418" xml:space="preserve">
-    <value />
+    <value>Unstable Small Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48419" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype48420" xml:space="preserve">
-    <value />
+    <value>Decayed Medium Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48421" xml:space="preserve">
-    <value />
+    <value>Gravid Medium Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48422" xml:space="preserve">
-    <value />
+    <value>Unstable Medium Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48423" xml:space="preserve">
-    <value />
+    <value>Medium Abyssal Energy Nosferatu</value>
   </data>
   <data name="itemtype48424" xml:space="preserve">
-    <value />
+    <value>Decayed Heavy Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48425" xml:space="preserve">
-    <value />
+    <value>Gravid Heavy Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48426" xml:space="preserve">
-    <value />
+    <value>Unstable Heavy Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48427" xml:space="preserve">
-    <value />
+    <value>Heavy Abyssal Energy Nosferatu</value>
   </data>
   <data name="itemtype48428" xml:space="preserve">
-    <value />
+    <value>Decayed Small Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48429" xml:space="preserve">
-    <value />
+    <value>Gravid Small Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48430" xml:space="preserve">
-    <value />
+    <value>Unstable Small Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48431" xml:space="preserve">
-    <value />
+    <value>Small Abyssal Cap Battery</value>
   </data>
   <data name="itemtype48432" xml:space="preserve">
-    <value />
+    <value>Decayed Medium Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48433" xml:space="preserve">
-    <value />
+    <value>Gravid Medium Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48434" xml:space="preserve">
-    <value />
+    <value>Unstable Medium Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48435" xml:space="preserve">
-    <value />
+    <value>Medium Abyssal Cap Battery</value>
   </data>
   <data name="itemtype48436" xml:space="preserve">
-    <value />
+    <value>Decayed Large Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48437" xml:space="preserve">
-    <value />
+    <value>Gravid Large Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48438" xml:space="preserve">
-    <value />
+    <value>Unstable Large Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48439" xml:space="preserve">
-    <value />
+    <value>Large Abyssal Cap Battery</value>
   </data>
   <data name="itemtype48463" xml:space="preserve">
+    <value>Test Server Infrastructure Hub</value>
+  </data>
+  <data name="itemtype48464" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48465" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48466" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype48469" xml:space="preserve">
-    <value />
+    <value>Light Compact Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48470" xml:space="preserve">
-    <value />
+    <value>Light Scoped Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48471" xml:space="preserve">
-    <value />
+    <value>Heavy Compact Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48472" xml:space="preserve">
-    <value />
+    <value>Heavy Scoped Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48473" xml:space="preserve">
-    <value />
+    <value>Supratidal Compact Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48474" xml:space="preserve">
+    <value>Supratidal Scoped Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype48481" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48482" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48483" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48484" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype48485" xml:space="preserve">
-    <value />
+    <value>Breacher Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48486" xml:space="preserve">
-    <value />
+    <value>Burst Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48487" xml:space="preserve">
-    <value />
+    <value>Probe Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48488" xml:space="preserve">
-    <value />
+    <value>Rifter Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48489" xml:space="preserve">
-    <value />
+    <value>Slasher Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48490" xml:space="preserve">
-    <value />
+    <value>Vigil Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48491" xml:space="preserve">
-    <value />
+    <value>Jaguar Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48492" xml:space="preserve">
-    <value />
+    <value>Wolf Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48493" xml:space="preserve">
-    <value />
+    <value>Cheetah Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48494" xml:space="preserve">
-    <value />
+    <value>Hound Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48495" xml:space="preserve">
-    <value />
+    <value>Hyena Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48496" xml:space="preserve">
-    <value />
+    <value>Claw Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48497" xml:space="preserve">
-    <value />
+    <value>Stiletto Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48498" xml:space="preserve">
-    <value />
+    <value>Scalpel Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48499" xml:space="preserve">
-    <value />
+    <value>Republic Fleet Firetail Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48500" xml:space="preserve">
-    <value />
+    <value>Vigil Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48501" xml:space="preserve">
-    <value />
+    <value>Bellicose Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48502" xml:space="preserve">
-    <value />
+    <value>Rupture Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48503" xml:space="preserve">
-    <value />
+    <value>Scythe Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48504" xml:space="preserve">
-    <value />
+    <value>Stabber Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48505" xml:space="preserve">
-    <value />
+    <value>Muninn Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48506" xml:space="preserve">
-    <value />
+    <value>Vagabond Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48507" xml:space="preserve">
-    <value />
+    <value>Broadsword Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48508" xml:space="preserve">
-    <value />
+    <value>Scimitar Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48509" xml:space="preserve">
-    <value />
+    <value>Huginn Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48510" xml:space="preserve">
-    <value />
+    <value>Rapier Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48511" xml:space="preserve">
-    <value />
+    <value>Loki Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48512" xml:space="preserve">
-    <value />
+    <value>Scythe Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48513" xml:space="preserve">
-    <value />
+    <value>Stabber Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48514" xml:space="preserve">
-    <value />
+    <value>Maelstrom Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48515" xml:space="preserve">
-    <value />
+    <value>Tempest Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48516" xml:space="preserve">
-    <value />
+    <value>Typhoon Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48517" xml:space="preserve">
-    <value />
+    <value>Panther Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48518" xml:space="preserve">
-    <value />
+    <value>Vargur Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48519" xml:space="preserve">
-    <value />
+    <value>Tempest Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48520" xml:space="preserve">
-    <value />
+    <value>Typhoon Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48521" xml:space="preserve">
-    <value />
+    <value>Panther Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48522" xml:space="preserve">
-    <value />
+    <value>Vargur Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48523" xml:space="preserve">
-    <value />
+    <value>Naglfar Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48524" xml:space="preserve">
-    <value />
+    <value>Nidhoggur Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48525" xml:space="preserve">
-    <value />
+    <value>Hel Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48526" xml:space="preserve">
-    <value />
+    <value>Ragnarok Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48527" xml:space="preserve">
-    <value />
+    <value>Thrasher Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48528" xml:space="preserve">
-    <value />
+    <value>Svipul Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48529" xml:space="preserve">
-    <value />
+    <value>Hurricane Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48530" xml:space="preserve">
-    <value />
+    <value>Maelstrom Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48531" xml:space="preserve">
-    <value />
+    <value>Dawn of Liberation Frigate SKINs</value>
   </data>
   <data name="itemtype48532" xml:space="preserve">
-    <value />
+    <value>Dawn of Liberation Cruiser SKINs</value>
   </data>
   <data name="itemtype48533" xml:space="preserve">
-    <value />
+    <value>Dawn of Liberation Battleship SKINs</value>
   </data>
   <data name="itemtype48534" xml:space="preserve">
-    <value />
+    <value>Republic Justice Department Bronze Reward</value>
   </data>
   <data name="itemtype48535" xml:space="preserve">
-    <value />
+    <value>Republic Justice Department Silver Reward</value>
   </data>
   <data name="itemtype48536" xml:space="preserve">
-    <value />
+    <value>Republic Justice Department Gold Reward</value>
   </data>
   <data name="itemtype48543" xml:space="preserve">
-    <value />
+    <value>Tengu Ultra Jungle (Magneto) SKIN (Permanent)</value>
   </data>
   <data name="itemtype48544" xml:space="preserve">
+    <value>Tengu Ultra Jungle (Ladar) SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48545" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype48546" xml:space="preserve">
-    <value />
+    <value>Guardian IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48547" xml:space="preserve">
-    <value />
+    <value>Harbinger IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48548" xml:space="preserve">
-    <value />
+    <value>Harbinger Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48549" xml:space="preserve">
-    <value />
+    <value>Rook IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48550" xml:space="preserve">
-    <value />
+    <value>Ferox IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48551" xml:space="preserve">
-    <value />
+    <value>Drake Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48552" xml:space="preserve">
-    <value />
+    <value>Worm IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48553" xml:space="preserve">
-    <value />
+    <value>Gila IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48554" xml:space="preserve">
-    <value />
+    <value>Rattlesnake IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48555" xml:space="preserve">
-    <value />
+    <value>Vexor IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48556" xml:space="preserve">
-    <value />
+    <value>Vexor Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48557" xml:space="preserve">
-    <value />
+    <value>Ishtar IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48558" xml:space="preserve">
-    <value />
+    <value>Brutix IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48559" xml:space="preserve">
-    <value />
+    <value>Brutix Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48560" xml:space="preserve">
-    <value />
+    <value>Hurricane IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48561" xml:space="preserve">
-    <value />
+    <value>Hurricane Fleet Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48562" xml:space="preserve">
-    <value />
+    <value>Typhoon Fleet Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48563" xml:space="preserve">
-    <value />
+    <value>Damavik Triglavian Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype48564" xml:space="preserve">
-    <value />
+    <value>Vedmak Triglavian Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype48565" xml:space="preserve">
-    <value />
+    <value>Leshak Triglavian Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype48566" xml:space="preserve">
+    <value>Jackdaw Quantum Potential SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48567" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48568" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48569" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48570" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48571" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48572" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48573" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48575" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype48576" xml:space="preserve">
-    <value />
+    <value>Pacifier DED 'Master-at-Arms' Recruiter SKIN (Permanent)</value>
   </data>
   <data name="itemtype48577" xml:space="preserve">
-    <value />
+    <value>Enforcer DED 'Master-at-Arms' Recruiter SKIN (Permanent)</value>
   </data>
   <data name="itemtype48578" xml:space="preserve">
-    <value />
+    <value>Marshal DED 'Master-at-Arms' Recruiter SKIN (Permanent)</value>
   </data>
   <data name="itemtype48579" xml:space="preserve">
-    <value />
+    <value>Pacifier DED 'Alpha Plus' Taskforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype48580" xml:space="preserve">
-    <value />
+    <value>Enforcer DED 'Alpha Plus' Taskforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype48581" xml:space="preserve">
-    <value />
+    <value>Marshal DED 'Alpha Plus' Taskforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype48582" xml:space="preserve">
+    <value>Master-at-Arms Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48583" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype48584" xml:space="preserve">
-    <value />
+    <value>TLF Recruitment Poster</value>
   </data>
   <data name="itemtype48585" xml:space="preserve">
-    <value />
+    <value>Vherokior Medicinal Herbs</value>
   </data>
   <data name="itemtype48586" xml:space="preserve">
-    <value />
+    <value>Vial of Mikramurka</value>
   </data>
   <data name="itemtype48587" xml:space="preserve">
-    <value />
+    <value>Dice of Jade</value>
   </data>
   <data name="itemtype48588" xml:space="preserve">
-    <value />
+    <value>Krusual Etched Sticks</value>
   </data>
   <data name="itemtype48589" xml:space="preserve">
-    <value />
+    <value>Matari Word Calendar</value>
   </data>
   <data name="itemtype48590" xml:space="preserve">
-    <value />
+    <value>Kapli Bread</value>
   </data>
   <data name="itemtype48591" xml:space="preserve">
-    <value />
+    <value>Kri'tak Knife</value>
   </data>
   <data name="itemtype48592" xml:space="preserve">
-    <value />
+    <value>Ten Most Wanted Slavers</value>
   </data>
   <data name="itemtype48593" xml:space="preserve">
+    <value>Slaver Tooth Necklace</value>
+  </data>
+  <data name="itemtype48594" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48599" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48600" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48601" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48602" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48603" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48604" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48605" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48606" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48607" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48608" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48609" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48610" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48611" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48612" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48613" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48614" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48615" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48616" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48635" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48636" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48637" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48638" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48640" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48642" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48643" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48644" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48645" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48647" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48649" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48650" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48651" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48652" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48653" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48654" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48655" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48656" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48719" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48720" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48721" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48722" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48723" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48724" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48725" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48726" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48727" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48728" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48729" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48730" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48731" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48732" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48733" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48734" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48735" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48748" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48749" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48750" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48751" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48752" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48753" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48754" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48755" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48756" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48757" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48758" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48759" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48760" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48761" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48762" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48763" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48764" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48765" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48767" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48768" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48769" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48770" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48771" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48772" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48774" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48775" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48777" xml:space="preserve">
+    <value />
+  </data>
+  <data name="itemtype48778" xml:space="preserve">
     <value />
   </data>
   <data name="itemtype350916" xml:space="preserve">
