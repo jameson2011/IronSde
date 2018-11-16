@@ -1315,7 +1315,7 @@
     <value>Construction Platform Blueprint</value>
   </data>
   <data name="group536" xml:space="preserve">
-    <value>Station Components</value>
+    <value>Structure Components</value>
   </data>
   <data name="group537" xml:space="preserve">
     <value>Dreadnought Blueprint</value>
@@ -3057,6 +3057,9 @@
   <data name="group1310" xml:space="preserve">
     <value>Drifter Battleship</value>
   </data>
+  <data name="group1311" xml:space="preserve">
+    <value>Super Kerr-Induced Nanocoatings</value>
+  </data>
   <data name="group1312" xml:space="preserve">
     <value>Observatory Structures</value>
   </data>
@@ -3088,7 +3091,7 @@
     <value>Structure Observatory Service Module</value>
   </data>
   <data name="group1324" xml:space="preserve">
-    <value>Structure Stargate Service Module</value>
+    <value>Structure Navigation Service Module</value>
   </data>
   <data name="group1325" xml:space="preserve">
     <value>Structure Administration Service Module</value>
@@ -3148,7 +3151,7 @@
     <value>Observatory Array</value>
   </data>
   <data name="group1408" xml:space="preserve">
-    <value>Stargate</value>
+    <value>Upwell Jump Gate</value>
   </data>
   <data name="group1409" xml:space="preserve">
     <value>Administration Hub</value>
@@ -3661,7 +3664,7 @@
     <value>♦ Mining Hauler</value>
   </data>
   <data name="group1768" xml:space="preserve">
-    <value>Tutorial Seekers</value>
+    <value>Seeker Scouts</value>
   </data>
   <data name="group1769" xml:space="preserve">
     <value>Shield Command Burst Charges</value>
@@ -4173,8 +4176,44 @@
   <data name="group1998" xml:space="preserve">
     <value>Station Conversion Monuments</value>
   </data>
+  <data name="group2001" xml:space="preserve">
+    <value>Citizen Ships</value>
+  </data>
   <data name="group2002" xml:space="preserve">
-    <value />
+    <value>Triglavian Datastreams</value>
+  </data>
+  <data name="group2003" xml:space="preserve">
+    <value>Citizen Modules</value>
+  </data>
+  <data name="group2004" xml:space="preserve">
+    <value>Citizen Mining Laser</value>
+  </data>
+  <data name="group2005" xml:space="preserve">
+    <value>Deployable Advertisement</value>
+  </data>
+  <data name="group2006" xml:space="preserve">
+    <value>Deadspace Asteroids</value>
+  </data>
+  <data name="group2008" xml:space="preserve">
+    <value>Mass Entanglers</value>
+  </data>
+  <data name="group2009" xml:space="preserve">
+    <value>Precursor Cache</value>
+  </data>
+  <data name="group2010" xml:space="preserve">
+    <value>Mass Entangler Blueprints</value>
+  </data>
+  <data name="group2013" xml:space="preserve">
+    <value>Stasis Nullifiers</value>
+  </data>
+  <data name="group2015" xml:space="preserve">
+    <value>Upwell Monument</value>
+  </data>
+  <data name="group2016" xml:space="preserve">
+    <value>Upwell Cyno Jammer</value>
+  </data>
+  <data name="group2017" xml:space="preserve">
+    <value>Upwell Cyno Beacon</value>
   </data>
   <data name="group350858" xml:space="preserve">
     <value>Infantry Weapons</value>

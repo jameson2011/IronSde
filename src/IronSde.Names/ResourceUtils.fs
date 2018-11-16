@@ -40,13 +40,13 @@ module ResourceUtils=
         let resourceManagers = [| "IronSde.Names.Names0";"IronSde.Names.Names1";"IronSde.Names.Names2";"IronSde.Names.Names3";"IronSde.Names.Names4";"IronSde.Names.Names5";"IronSde.Names.Names6";"IronSde.Names.Names7" |] |> Array.map (fun n -> new ResourceManager(n, asm))
         let resMgr id =
             match id with
-            | x when x <= 40043642 -> resourceManagers.[0]
-            | x when x <= 40108711 -> resourceManagers.[1]
-            | x when x <= 40173791 -> resourceManagers.[2]
-            | x when x <= 40238926 -> resourceManagers.[3]
-            | x when x <= 40303982 -> resourceManagers.[4]
-            | x when x <= 40377708 -> resourceManagers.[5]
-            | x when x <= 40442738 -> resourceManagers.[6]
+            | x when x <= 40043640 -> resourceManagers.[0]
+            | x when x <= 40108709 -> resourceManagers.[1]
+            | x when x <= 40173789 -> resourceManagers.[2]
+            | x when x <= 40238924 -> resourceManagers.[3]
+            | x when x <= 40303980 -> resourceManagers.[4]
+            | x when x <= 40377706 -> resourceManagers.[5]
+            | x when x <= 40442737 -> resourceManagers.[6]
             | _ -> resourceManagers.[7]
         (fun id ->   try
                          let res = resMgr id

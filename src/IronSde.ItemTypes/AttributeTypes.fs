@@ -756,7 +756,7 @@ module internal AttributeTypes=
         | 865 -> Some { IronSde.Types.AttributeTypeData.id = 865; categoryId = Some 9; name = "planetAnchorDistance"; defaultValue = Some 100000.000000}
         | 866 -> Some { IronSde.Types.AttributeTypeData.id = 866; categoryId = Some 7; name = "jumpDriveConsumptionType"; defaultValue = Some 0.000000}
         | 867 -> Some { IronSde.Types.AttributeTypeData.id = 867; categoryId = Some 7; name = "jumpDriveRange"; defaultValue = Some 0.000000}
-        | 868 -> Some { IronSde.Types.AttributeTypeData.id = 868; categoryId = Some 7; name = "jumpDriveConsumptionAmount"; defaultValue = Some 0.000000}
+        | 868 -> Some { IronSde.Types.AttributeTypeData.id = 868; categoryId = Some 7; name = "jumpDriveConsumptionAmount"; defaultValue = Some 2000.000000}
         | 869 -> Some { IronSde.Types.AttributeTypeData.id = 869; categoryId = Some 9; name = "jumpDriveDuration"; defaultValue = Some 300000.000000}
         | 870 -> Some { IronSde.Types.AttributeTypeData.id = 870; categoryId = Some 7; name = "jumpDriveRangeBonus"; defaultValue = Some 0.000000}
         | 871 -> Some { IronSde.Types.AttributeTypeData.id = 871; categoryId = Some 9; name = "jumpDriveDurationBonus"; defaultValue = Some 0.000000}
@@ -987,7 +987,7 @@ module internal AttributeTypes=
         | 1151 -> Some { IronSde.Types.AttributeTypeData.id = 1151; categoryId = Some 7; name = "boosterMaxVelocityPenalty"; defaultValue = Some 0.000000}
         | 1152 -> Some { IronSde.Types.AttributeTypeData.id = 1152; categoryId = Some 7; name = "upgradeLoad"; defaultValue = Some 0.000000}
         | 1153 -> Some { IronSde.Types.AttributeTypeData.id = 1153; categoryId = Some 1; name = "upgradeCost"; defaultValue = Some 0.000000}
-        | 1154 -> Some { IronSde.Types.AttributeTypeData.id = 1154; categoryId = Some 7; name = "upgradeSlotsLeft"; defaultValue = Some 0.000000}
+        | 1154 -> Some { IronSde.Types.AttributeTypeData.id = 1154; categoryId = Some 1; name = "upgradeSlotsLeft"; defaultValue = Some 0.000000}
         | 1155 -> Some { IronSde.Types.AttributeTypeData.id = 1155; categoryId = Some 7; name = "researchPointCost"; defaultValue = Some 100.000000}
         | 1156 -> Some { IronSde.Types.AttributeTypeData.id = 1156; categoryId = Some 7; name = "maxScanDeviationModifier"; defaultValue = Some 0.000000}
         | 1157 -> Some { IronSde.Types.AttributeTypeData.id = 1157; categoryId = Some 9; name = "commandBonus2"; defaultValue = Some 0.000000}
@@ -2442,4 +2442,22 @@ module internal AttributeTypes=
         | 2785 -> Some { IronSde.Types.AttributeTypeData.id = 2785; categoryId = Some 42; name = "npcDroneBandwidth"; defaultValue = Some 0.000000}
         | 2786 -> Some { IronSde.Types.AttributeTypeData.id = 2786; categoryId = Some 42; name = "npcBehaviorMaximumCombatOrbitRange"; defaultValue = Some 0.000000}
         | 2787 -> Some { IronSde.Types.AttributeTypeData.id = 2787; categoryId = Some 7; name = "monumentAllianceID"; defaultValue = Some 0.000000}
+        | 2788 -> Some { IronSde.Types.AttributeTypeData.id = 2788; categoryId = Some 39; name = "panicDuration"; defaultValue = Some 0.000000}
+        | 2789 -> Some { IronSde.Types.AttributeTypeData.id = 2789; categoryId = Some 37; name = "shipRoleBonusWarpSpeed"; defaultValue = Some 0.000000}
+        | 2790 -> Some { IronSde.Types.AttributeTypeData.id = 2790; categoryId = Some 7; name = "cargoDeliveryRange"; defaultValue = Some 0.000000}
+        | 2791 -> Some { IronSde.Types.AttributeTypeData.id = 2791; categoryId = Some 7; name = "cannotBeUnfit"; defaultValue = Some 0.000000}
+        | 2792 -> Some { IronSde.Types.AttributeTypeData.id = 2792; categoryId = Some 4; name = "preFitServiceSlot0"; defaultValue = Some 0.000000}
+        | 2793 -> Some { IronSde.Types.AttributeTypeData.id = 2793; categoryId = Some 7; name = "jumpPortalAdditionalConsumption"; defaultValue = Some 0.000000}
+        | 2794 -> Some { IronSde.Types.AttributeTypeData.id = 2794; categoryId = Some 7; name = "cynoJammerActivationDelay"; defaultValue = Some 0.000000}
+        | 2795 -> Some { IronSde.Types.AttributeTypeData.id = 2795; categoryId = Some 7; name = "cynoJammerActivationDelay2"; defaultValue = Some 0.000000}
+        | 2796 -> Some { IronSde.Types.AttributeTypeData.id = 2796; categoryId = Some 20; name = "repairMultiplierBonusPerCycle"; defaultValue = Some 0.000000}
+        | 2797 -> Some { IronSde.Types.AttributeTypeData.id = 2797; categoryId = Some 20; name = "repairMultiplierBonusMax"; defaultValue = Some 0.000000}
+        | 2798 -> Some { IronSde.Types.AttributeTypeData.id = 2798; categoryId = Some 7; name = "gateMaxJumpMass"; defaultValue = Some 0.000000}
+        | 2799 -> Some { IronSde.Types.AttributeTypeData.id = 2799; categoryId = Some 9; name = "shipBonusPD1"; defaultValue = Some 0.000000}
+        | 2800 -> Some { IronSde.Types.AttributeTypeData.id = 2800; categoryId = Some 9; name = "shipBonusPD2"; defaultValue = Some 0.000000}
+        | 2801 -> Some { IronSde.Types.AttributeTypeData.id = 2801; categoryId = Some 9; name = "shipBonusPBC1"; defaultValue = Some 0.000000}
+        | 2802 -> Some { IronSde.Types.AttributeTypeData.id = 2802; categoryId = Some 9; name = "shipBonusPBC2"; defaultValue = Some 0.000000}
+        | 2803 -> Some { IronSde.Types.AttributeTypeData.id = 2803; categoryId = Some 7; name = "miningAmountSet"; defaultValue = Some 0.000000}
+        | 2804 -> Some { IronSde.Types.AttributeTypeData.id = 2804; categoryId = Some 7; name = "serviceModuleFullPowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
+        | 2805 -> Some { IronSde.Types.AttributeTypeData.id = 2805; categoryId = Some 7; name = "structurePowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
         | _ -> None

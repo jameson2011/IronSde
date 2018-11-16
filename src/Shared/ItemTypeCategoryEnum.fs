@@ -41,5 +41,5 @@ type ItemTypeCategories=
     | Structure = 65
     | StructureModule = 66
     | Fighter = 87
-    | SuperKerrInducedNanocoatings = 91
+    | SKINs = 91
     | Infantry = 350001

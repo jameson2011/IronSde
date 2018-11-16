@@ -28,10 +28,15 @@ type TypesReader(path)=
 
 
     let attributeType (values: ObjectMap) =                 
-        {AttributeType.id = (values |> getInt "attributeID");
-                            name = values |> getStr "attributeName";
-                            categoryId = values |> tryGetIntOption "categoryID";
-                            defaultValue = values |> tryGetFloatOption "defaultValue";}
+        let id = (values |> getInt "attributeID")
+        let name = match id with
+                    | 2795 -> "cynoJammerActivationDelay2"
+                    | _ -> values |> getStr "attributeName"
+
+        {AttributeType.id = id;
+                        name = name;
+                        categoryId = values |> tryGetIntOption "categoryID";
+                        defaultValue = values |> tryGetFloatOption "defaultValue";}
 
     let attributeCategory(values: ObjectMap)=
         {AttributeCategory.id = values |> getInt "categoryID";
