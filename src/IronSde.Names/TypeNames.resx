@@ -51964,7 +51964,7 @@
     <value>Planet (Shattered)</value>
   </data>
   <data name="itemtype30894" xml:space="preserve">
-    <value>Amarr Armageddon Battleship</value>
+    <value>CONCORD Research Battleship</value>
   </data>
   <data name="itemtype30895" xml:space="preserve">
     <value>Caldari Raven Battleship</value>
@@ -59689,7 +59689,7 @@
     <value>Burner Enyo</value>
   </data>
   <data name="itemtype34190" xml:space="preserve">
-    <value>Amarr Battleship Wreck</value>
+    <value>CONCORD Research Battleship Wreck</value>
   </data>
   <data name="itemtype34191" xml:space="preserve">
     <value>Amarr Battleship Wreck</value>
@@ -64150,10 +64150,10 @@
     <value>Large Observatory Array</value>
   </data>
   <data name="itemtype35840" xml:space="preserve">
-    <value>Medium Stargate</value>
+    <value>Pharolux Cyno Beacon</value>
   </data>
   <data name="itemtype35841" xml:space="preserve">
-    <value>X-Large Stargate</value>
+    <value>Ansiblex Jump Gate</value>
   </data>
   <data name="itemtype35842" xml:space="preserve">
     <value>Medium Administration Hub</value>
@@ -64165,7 +64165,7 @@
     <value>X-Large Administration Hub</value>
   </data>
   <data name="itemtype35845" xml:space="preserve">
-    <value>X-Large Advertisement Center</value>
+    <value>Upwell Monument AM</value>
   </data>
   <data name="itemtype35877" xml:space="preserve">
     <value>Standup Supercapital Shipyard I</value>
@@ -64249,13 +64249,13 @@
     <value>Structure Cynosural Jammer</value>
   </data>
   <data name="itemtype35912" xml:space="preserve">
-    <value>Structure Cynosural Generator Array</value>
+    <value>Standup Cynosural Field Generator I</value>
   </data>
   <data name="itemtype35913" xml:space="preserve">
-    <value>Structure Stargate Connector</value>
+    <value>Standup Conduit Generator I</value>
   </data>
   <data name="itemtype35914" xml:space="preserve">
-    <value>Structure Warp Accelerant</value>
+    <value>Standup Cynosural System Jammer I</value>
   </data>
   <data name="itemtype35915" xml:space="preserve">
     <value>Structure Wormhole Stabilizer</value>
@@ -65923,10 +65923,10 @@
     <value>Structure Advertisement Nexus</value>
   </data>
   <data name="itemtype36960" xml:space="preserve">
-    <value>Medium Stargate blueprint</value>
+    <value>Pharolux Cyno Beacon Blueprint</value>
   </data>
   <data name="itemtype36961" xml:space="preserve">
-    <value>X-Large Stargate Blueprint</value>
+    <value>Ansiblex Jump Gate Blueprint</value>
   </data>
   <data name="itemtype36962" xml:space="preserve">
     <value>Medium Administration Hub Blueprint</value>
@@ -65938,7 +65938,7 @@
     <value>X-Large Administration Hub Blueprint</value>
   </data>
   <data name="itemtype36965" xml:space="preserve">
-    <value>X-Large Advertisement Center Blueprint</value>
+    <value>Upwell Monument AM Blueprint</value>
   </data>
   <data name="itemtype36966" xml:space="preserve">
     <value>Astrahus Blueprint</value>
@@ -66415,7 +66415,7 @@
     <value>Structure Billboard</value>
   </data>
   <data name="itemtype37143" xml:space="preserve">
-    <value>Structure Monument</value>
+    <value>Structure Monument Module I</value>
   </data>
   <data name="itemtype37146" xml:space="preserve">
     <value>Standup M-Set Basic Medium Ship Manufacturing Material Efficiency I</value>
@@ -67468,19 +67468,19 @@
     <value>X-Large Observatory Array</value>
   </data>
   <data name="itemtype37534" xml:space="preserve">
-    <value>Large Stargate</value>
+    <value>Tenebrex Cyno Jammer</value>
   </data>
   <data name="itemtype37535" xml:space="preserve">
-    <value>Medium Advertisement Center</value>
+    <value>Upwell Simple Advertisement Center</value>
   </data>
   <data name="itemtype37536" xml:space="preserve">
-    <value>Large Advertisement Center</value>
+    <value>Upwell Advanced Advertisement Center</value>
   </data>
   <data name="itemtype37537" xml:space="preserve">
     <value>X-Large Observatory Array Blueprint</value>
   </data>
   <data name="itemtype37538" xml:space="preserve">
-    <value>Large Stargate Blueprint</value>
+    <value>Tenebrex Cyno Jammer Blueprint</value>
   </data>
   <data name="itemtype37539" xml:space="preserve">
     <value>Medium Advertisement Center Blueprint</value>
@@ -82153,7 +82153,7 @@
     <value>Cap Male White/Black</value>
   </data>
   <data name="itemtype42715" xml:space="preserve">
-    <value>Cap Female Minmatar</value>
+    <value>Women's ‘Liberator’ Cap (Minmatar Republic)</value>
   </data>
   <data name="itemtype42716" xml:space="preserve">
     <value>Cap Female Black/White</value>
@@ -82198,7 +82198,7 @@
     <value>Women's 'Boarder' Cap (Digital Camo)</value>
   </data>
   <data name="itemtype42730" xml:space="preserve">
-    <value>Cap Male Minmatar</value>
+    <value>Men's ‘Liberator’ Cap (Minmatar Republic)</value>
   </data>
   <data name="itemtype42731" xml:space="preserve">
     <value>Cap Male Caldari</value>
@@ -88395,6 +88395,21 @@
   <data name="itemtype45474" xml:space="preserve">
     <value>♦ Chemosh</value>
   </data>
+  <data name="itemtype45475" xml:space="preserve">
+    <value>Stratios YC119 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype45476" xml:space="preserve">
+    <value>Stratios YC119 SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype45477" xml:space="preserve">
+    <value>Stratios YC119 SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype45478" xml:space="preserve">
+    <value>Stratios YC119 SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype45479" xml:space="preserve">
+    <value>Stratios YC119 SKIN (365 Days)</value>
+  </data>
   <data name="itemtype45480" xml:space="preserve">
     <value>Enforcer CONCORD Aerospace 'Prototype' SKIN (Permanent)</value>
   </data>
@@ -94087,19 +94102,19 @@
     <value>CDIA Training Exercise Supply Crate</value>
   </data>
   <data name="itemtype47488" xml:space="preserve">
-    <value>Tower Structure</value>
+    <value>Sentry Tower</value>
   </data>
   <data name="itemtype47489" xml:space="preserve">
-    <value>NPC (Tracking)</value>
+    <value>Seeker Eluder</value>
   </data>
   <data name="itemtype47490" xml:space="preserve">
-    <value>NPC (Resist1)</value>
+    <value>Seeker Flare</value>
   </data>
   <data name="itemtype47491" xml:space="preserve">
-    <value>NPC (Resist2)</value>
+    <value>Seeker Trauma</value>
   </data>
   <data name="itemtype47492" xml:space="preserve">
-    <value>NPC (Speed)</value>
+    <value>Seeker Pacekeeper</value>
   </data>
   <data name="itemtype47493" xml:space="preserve">
     <value>Armageddon Hunter's Quiver SKIN (Permanent)</value>
@@ -94246,10 +94261,10 @@
     <value>Dramiel Sariel's Flames SKIN (Permanent)</value>
   </data>
   <data name="itemtype47542" xml:space="preserve">
-    <value>NPC (Resist3)</value>
+    <value>Seeker Aurora</value>
   </data>
   <data name="itemtype47543" xml:space="preserve">
-    <value>NPC (Resist4)</value>
+    <value>Seeker Nova</value>
   </data>
   <data name="itemtype47544" xml:space="preserve">
     <value>Apotheosis Versus Redforce SKIN (Permanent)</value>
@@ -94801,7 +94816,7 @@
     <value>Gravid 5MN Microwarpdrive Mutaplasmid</value>
   </data>
   <data name="itemtype47740" xml:space="preserve">
-    <value>5mn Abyssal Microwarpdrive</value>
+    <value>5MN Abyssal Microwarpdrive</value>
   </data>
   <data name="itemtype47741" xml:space="preserve">
     <value>Gravid 50MN Microwarpdrive Mutaplasmid</value>
@@ -95077,37 +95092,37 @@
     <value>Abyssal Trace</value>
   </data>
   <data name="itemtype47835" xml:space="preserve">
-    <value>Abnormal Medium Ancillary Shield Booster Mutaplasmid</value>
+    <value>Unstable Medium Ancillary Shield Booster Mutaplasmid</value>
   </data>
   <data name="itemtype47836" xml:space="preserve">
     <value>Medium Abyssal Ancillary Shield Booster</value>
   </data>
   <data name="itemtype47837" xml:space="preserve">
-    <value>Abnormal Large Ancillary Shield Booster Mutaplasmid</value>
+    <value>Unstable Large Ancillary Shield Booster Mutaplasmid</value>
   </data>
   <data name="itemtype47838" xml:space="preserve">
     <value>Large Abyssal Ancillary Shield Booster</value>
   </data>
   <data name="itemtype47839" xml:space="preserve">
-    <value>Abnormal X-Large Ancillary Shield Booster Mutaplasmid</value>
+    <value>Unstable X-Large Ancillary Shield Booster Mutaplasmid</value>
   </data>
   <data name="itemtype47840" xml:space="preserve">
     <value>X-Large Abyssal Ancillary Shield Booster</value>
   </data>
   <data name="itemtype47841" xml:space="preserve">
-    <value>Abnormal Small Ancillary Armor Repairer Mutaplasmid</value>
+    <value>Unstable Small Ancillary Armor Repairer Mutaplasmid</value>
   </data>
   <data name="itemtype47842" xml:space="preserve">
     <value>Small Abyssal Ancillary Armor Repairer</value>
   </data>
   <data name="itemtype47843" xml:space="preserve">
-    <value>Abnormal Medium Ancillary Armor Repairer Mutaplasmid</value>
+    <value>Unstable Medium Ancillary Armor Repairer Mutaplasmid</value>
   </data>
   <data name="itemtype47844" xml:space="preserve">
     <value>Medium Abyssal Ancillary Armor Repairer</value>
   </data>
   <data name="itemtype47845" xml:space="preserve">
-    <value>Abnormal Large Ancillary Armor Repairer Mutaplasmid</value>
+    <value>Unstable Large Ancillary Armor Repairer Mutaplasmid</value>
   </data>
   <data name="itemtype47846" xml:space="preserve">
     <value>Large Abyssal Ancillary Armor Repairer</value>
@@ -95911,13 +95926,13 @@
     <value>Agency 'Pyrolancea' DB9 Dose IV</value>
   </data>
   <data name="itemtype48116" xml:space="preserve">
-    <value>Standard 'Liberty' Cerebral Accelerator</value>
+    <value>Expired Standard 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48117" xml:space="preserve">
-    <value>Advanced 'Liberty' Cerebral Accelerator</value>
+    <value>Expired Advanced 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48118" xml:space="preserve">
-    <value>Extended 'Liberty' Cerebral Accelerator</value>
+    <value>Expired Extended 'Liberty' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48119" xml:space="preserve">
     <value>Official Federation Grand Prix Transport Ship</value>
@@ -95950,22 +95965,22 @@
     <value>Official Federation Grand Prix Passenger Yacht</value>
   </data>
   <data name="itemtype48129" xml:space="preserve">
-    <value>GalFed_NPC3</value>
+    <value>Excoriator Slaver</value>
   </data>
   <data name="itemtype48130" xml:space="preserve">
-    <value>GalFed_NPC4</value>
+    <value>Auspex Slaver</value>
   </data>
   <data name="itemtype48131" xml:space="preserve">
-    <value>GalFed_Boss1</value>
+    <value>Manuzivar Slaver</value>
   </data>
   <data name="itemtype48132" xml:space="preserve">
-    <value>GalFed_Boss2</value>
+    <value>Bestower Livestock Transport</value>
   </data>
   <data name="itemtype48133" xml:space="preserve">
-    <value>GalFed_Boss3</value>
+    <value>Human Containment Facility</value>
   </data>
   <data name="itemtype48134" xml:space="preserve">
-    <value>GalFed_Boss4</value>
+    <value>Justice Liberator</value>
   </data>
   <data name="itemtype48135" xml:space="preserve">
     <value>Copy of the Gallente Federation Constitution</value>
@@ -96010,16 +96025,16 @@
     <value>CreoDron 'Bumblebee' Drone Tuner T10-5D</value>
   </data>
   <data name="itemtype48150" xml:space="preserve">
-    <value>Drone_Implant3</value>
+    <value>Expired Basic 'Conditioning' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48151" xml:space="preserve">
-    <value>Drone_Implant4</value>
+    <value>Expired Improved 'Conditioning' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48152" xml:space="preserve">
-    <value>Drone_Implant5</value>
+    <value>Expired Advanced 'Reconditioning' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48153" xml:space="preserve">
-    <value>Drone_Implant6</value>
+    <value>Expired Extended 'Rehabilitation' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48155" xml:space="preserve">
     <value>Bantam Ghostbird SKIN (Permanent)</value>
@@ -96691,397 +96706,2647 @@
     <value>Federation Grand Prix Gold Package</value>
   </data>
   <data name="itemtype48380" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Veles)</value>
   </data>
   <data name="itemtype48381" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Svarog)</value>
   </data>
   <data name="itemtype48382" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Perun)</value>
   </data>
   <data name="itemtype48383" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Veles)</value>
   </data>
   <data name="itemtype48384" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Svarog)</value>
   </data>
   <data name="itemtype48385" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Perun)</value>
   </data>
   <data name="itemtype48386" xml:space="preserve">
-    <value />
+    <value>Women's Triglavian Survival Suit (Encounter)</value>
   </data>
   <data name="itemtype48387" xml:space="preserve">
-    <value />
+    <value>Men's Triglavian Survival Suit (Encounter)</value>
   </data>
   <data name="itemtype48416" xml:space="preserve">
-    <value />
+    <value>Decayed Small Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48417" xml:space="preserve">
-    <value />
+    <value>Gravid Small Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48418" xml:space="preserve">
-    <value />
+    <value>Unstable Small Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48419" xml:space="preserve">
-    <value />
+    <value>Small Abyssal Energy Nosferatu</value>
   </data>
   <data name="itemtype48420" xml:space="preserve">
-    <value />
+    <value>Decayed Medium Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48421" xml:space="preserve">
-    <value />
+    <value>Gravid Medium Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48422" xml:space="preserve">
-    <value />
+    <value>Unstable Medium Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48423" xml:space="preserve">
-    <value />
+    <value>Medium Abyssal Energy Nosferatu</value>
   </data>
   <data name="itemtype48424" xml:space="preserve">
-    <value />
+    <value>Decayed Heavy Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48425" xml:space="preserve">
-    <value />
+    <value>Gravid Heavy Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48426" xml:space="preserve">
-    <value />
+    <value>Unstable Heavy Energy Nosferatu Mutaplasmid</value>
   </data>
   <data name="itemtype48427" xml:space="preserve">
-    <value />
+    <value>Heavy Abyssal Energy Nosferatu</value>
   </data>
   <data name="itemtype48428" xml:space="preserve">
-    <value />
+    <value>Decayed Small Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48429" xml:space="preserve">
-    <value />
+    <value>Gravid Small Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48430" xml:space="preserve">
-    <value />
+    <value>Unstable Small Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48431" xml:space="preserve">
-    <value />
+    <value>Small Abyssal Cap Battery</value>
   </data>
   <data name="itemtype48432" xml:space="preserve">
-    <value />
+    <value>Decayed Medium Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48433" xml:space="preserve">
-    <value />
+    <value>Gravid Medium Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48434" xml:space="preserve">
-    <value />
+    <value>Unstable Medium Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48435" xml:space="preserve">
-    <value />
+    <value>Medium Abyssal Cap Battery</value>
   </data>
   <data name="itemtype48436" xml:space="preserve">
-    <value />
+    <value>Decayed Large Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48437" xml:space="preserve">
-    <value />
+    <value>Gravid Large Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48438" xml:space="preserve">
-    <value />
+    <value>Unstable Large Cap Battery Mutaplasmid</value>
   </data>
   <data name="itemtype48439" xml:space="preserve">
-    <value />
+    <value>Large Abyssal Cap Battery</value>
   </data>
   <data name="itemtype48463" xml:space="preserve">
-    <value />
+    <value>Test Server Infrastructure Hub</value>
+  </data>
+  <data name="itemtype48464" xml:space="preserve">
+    <value>asurface1_f_01:amarrbase:amarr</value>
+  </data>
+  <data name="itemtype48465" xml:space="preserve">
+    <value>asurface_c_01:amarrbase:amarr</value>
+  </data>
+  <data name="itemtype48466" xml:space="preserve">
+    <value>SPS Structure</value>
   </data>
   <data name="itemtype48469" xml:space="preserve">
-    <value />
+    <value>Light Compact Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48470" xml:space="preserve">
-    <value />
+    <value>Light Scoped Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48471" xml:space="preserve">
-    <value />
+    <value>Heavy Compact Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48472" xml:space="preserve">
-    <value />
+    <value>Heavy Scoped Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48473" xml:space="preserve">
-    <value />
+    <value>Supratidal Compact Entropic Disintegrator Blueprint</value>
   </data>
   <data name="itemtype48474" xml:space="preserve">
-    <value />
+    <value>Supratidal Scoped Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype48481" xml:space="preserve">
+    <value>SkinTest1</value>
+  </data>
+  <data name="itemtype48482" xml:space="preserve">
+    <value>SkinTest2</value>
+  </data>
+  <data name="itemtype48483" xml:space="preserve">
+    <value>SkinTest3</value>
+  </data>
+  <data name="itemtype48484" xml:space="preserve">
+    <value>SkinTest4</value>
   </data>
   <data name="itemtype48485" xml:space="preserve">
-    <value />
+    <value>Breacher Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48486" xml:space="preserve">
-    <value />
+    <value>Burst Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48487" xml:space="preserve">
-    <value />
+    <value>Probe Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48488" xml:space="preserve">
-    <value />
+    <value>Rifter Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48489" xml:space="preserve">
-    <value />
+    <value>Slasher Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48490" xml:space="preserve">
-    <value />
+    <value>Vigil Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48491" xml:space="preserve">
-    <value />
+    <value>Jaguar Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48492" xml:space="preserve">
-    <value />
+    <value>Wolf Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48493" xml:space="preserve">
-    <value />
+    <value>Cheetah Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48494" xml:space="preserve">
-    <value />
+    <value>Hound Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48495" xml:space="preserve">
-    <value />
+    <value>Hyena Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48496" xml:space="preserve">
-    <value />
+    <value>Claw Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48497" xml:space="preserve">
-    <value />
+    <value>Stiletto Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48498" xml:space="preserve">
-    <value />
+    <value>Scalpel Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48499" xml:space="preserve">
-    <value />
+    <value>Republic Fleet Firetail Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48500" xml:space="preserve">
-    <value />
+    <value>Vigil Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48501" xml:space="preserve">
-    <value />
+    <value>Bellicose Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48502" xml:space="preserve">
-    <value />
+    <value>Rupture Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48503" xml:space="preserve">
-    <value />
+    <value>Scythe Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48504" xml:space="preserve">
-    <value />
+    <value>Stabber Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48505" xml:space="preserve">
-    <value />
+    <value>Muninn Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48506" xml:space="preserve">
-    <value />
+    <value>Vagabond Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48507" xml:space="preserve">
-    <value />
+    <value>Broadsword Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48508" xml:space="preserve">
-    <value />
+    <value>Scimitar Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48509" xml:space="preserve">
-    <value />
+    <value>Huginn Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48510" xml:space="preserve">
-    <value />
+    <value>Rapier Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48511" xml:space="preserve">
-    <value />
+    <value>Loki Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48512" xml:space="preserve">
-    <value />
+    <value>Scythe Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48513" xml:space="preserve">
-    <value />
+    <value>Stabber Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48514" xml:space="preserve">
-    <value />
+    <value>Maelstrom Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48515" xml:space="preserve">
-    <value />
+    <value>Tempest Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48516" xml:space="preserve">
-    <value />
+    <value>Typhoon Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48517" xml:space="preserve">
-    <value />
+    <value>Panther Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48518" xml:space="preserve">
-    <value />
+    <value>Vargur Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48519" xml:space="preserve">
-    <value />
+    <value>Tempest Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48520" xml:space="preserve">
-    <value />
+    <value>Typhoon Fleet Issue Dawn of Liberation SKIN (Permanent)</value>
   </data>
   <data name="itemtype48521" xml:space="preserve">
-    <value />
+    <value>Panther Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48522" xml:space="preserve">
-    <value />
+    <value>Vargur Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48523" xml:space="preserve">
-    <value />
+    <value>Naglfar Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48524" xml:space="preserve">
-    <value />
+    <value>Nidhoggur Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48525" xml:space="preserve">
-    <value />
+    <value>Hel Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48526" xml:space="preserve">
-    <value />
+    <value>Ragnarok Chainbreaker Khumaak SKIN (Permanent)</value>
   </data>
   <data name="itemtype48527" xml:space="preserve">
-    <value />
+    <value>Thrasher Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48528" xml:space="preserve">
-    <value />
+    <value>Svipul Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48529" xml:space="preserve">
-    <value />
+    <value>Hurricane Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48530" xml:space="preserve">
-    <value />
+    <value>Maelstrom Firewall Breach SKIN (Permanent)</value>
   </data>
   <data name="itemtype48531" xml:space="preserve">
-    <value />
+    <value>Dawn of Liberation Frigate SKINs</value>
   </data>
   <data name="itemtype48532" xml:space="preserve">
-    <value />
+    <value>Dawn of Liberation Cruiser SKINs</value>
   </data>
   <data name="itemtype48533" xml:space="preserve">
-    <value />
+    <value>Dawn of Liberation Battleship SKINs</value>
   </data>
   <data name="itemtype48534" xml:space="preserve">
-    <value />
+    <value>Republic Justice Department Bronze Reward</value>
   </data>
   <data name="itemtype48535" xml:space="preserve">
-    <value />
+    <value>Republic Justice Department Silver Reward</value>
   </data>
   <data name="itemtype48536" xml:space="preserve">
-    <value />
+    <value>Republic Justice Department Gold Reward</value>
   </data>
   <data name="itemtype48543" xml:space="preserve">
-    <value />
+    <value>Tengu Ultra Jungle (Magneto) SKIN (Permanent)</value>
   </data>
   <data name="itemtype48544" xml:space="preserve">
-    <value />
+    <value>Tengu Ultra Jungle (Ladar) SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48545" xml:space="preserve">
+    <value>Seeker Retainer</value>
   </data>
   <data name="itemtype48546" xml:space="preserve">
-    <value />
+    <value>Guardian IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48547" xml:space="preserve">
-    <value />
+    <value>Harbinger IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48548" xml:space="preserve">
-    <value />
+    <value>Harbinger Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48549" xml:space="preserve">
-    <value />
+    <value>Rook IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48550" xml:space="preserve">
-    <value />
+    <value>Ferox IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48551" xml:space="preserve">
-    <value />
+    <value>Drake Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48552" xml:space="preserve">
-    <value />
+    <value>Worm IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48553" xml:space="preserve">
-    <value />
+    <value>Gila IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48554" xml:space="preserve">
-    <value />
+    <value>Rattlesnake IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48555" xml:space="preserve">
-    <value />
+    <value>Vexor IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48556" xml:space="preserve">
-    <value />
+    <value>Vexor Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48557" xml:space="preserve">
-    <value />
+    <value>Ishtar IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48558" xml:space="preserve">
-    <value />
+    <value>Brutix IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48559" xml:space="preserve">
-    <value />
+    <value>Brutix Navy Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48560" xml:space="preserve">
-    <value />
+    <value>Hurricane IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48561" xml:space="preserve">
-    <value />
+    <value>Hurricane Fleet Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48562" xml:space="preserve">
-    <value />
+    <value>Typhoon Fleet Issue IGC SKIN (Permanent)</value>
   </data>
   <data name="itemtype48563" xml:space="preserve">
-    <value />
+    <value>Damavik Triglavian Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype48564" xml:space="preserve">
-    <value />
+    <value>Vedmak Triglavian Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype48565" xml:space="preserve">
-    <value />
+    <value>Leshak Triglavian Victory SKIN (Permanent)</value>
   </data>
   <data name="itemtype48566" xml:space="preserve">
-    <value />
+    <value>Jackdaw Quantum Potential SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48567" xml:space="preserve">
+    <value>Circadian Seeker</value>
+  </data>
+  <data name="itemtype48568" xml:space="preserve">
+    <value>Seeker Escort</value>
+  </data>
+  <data name="itemtype48569" xml:space="preserve">
+    <value>Seeker Elite Interceptor</value>
+  </data>
+  <data name="itemtype48570" xml:space="preserve">
+    <value>Seeker Interceptor</value>
+  </data>
+  <data name="itemtype48571" xml:space="preserve">
+    <value>Circadian Seeker Resister</value>
+  </data>
+  <data name="itemtype48572" xml:space="preserve">
+    <value>Circadian Seeker Basal</value>
+  </data>
+  <data name="itemtype48573" xml:space="preserve">
+    <value>Seeker Safeguard</value>
+  </data>
+  <data name="itemtype48575" xml:space="preserve">
+    <value>Seeker Guardian</value>
   </data>
   <data name="itemtype48576" xml:space="preserve">
-    <value />
+    <value>Pacifier DED 'Master-at-Arms' Recruiter SKIN (Permanent)</value>
   </data>
   <data name="itemtype48577" xml:space="preserve">
-    <value />
+    <value>Enforcer DED 'Master-at-Arms' Recruiter SKIN (Permanent)</value>
   </data>
   <data name="itemtype48578" xml:space="preserve">
-    <value />
+    <value>Marshal DED 'Master-at-Arms' Recruiter SKIN (Permanent)</value>
   </data>
   <data name="itemtype48579" xml:space="preserve">
-    <value />
+    <value>Pacifier DED 'Alpha Plus' Taskforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype48580" xml:space="preserve">
-    <value />
+    <value>Enforcer DED 'Alpha Plus' Taskforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype48581" xml:space="preserve">
-    <value />
+    <value>Marshal DED 'Alpha Plus' Taskforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype48582" xml:space="preserve">
-    <value />
+    <value>Master-at-Arms Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48583" xml:space="preserve">
+    <value>♦ DED Special Operation Captain</value>
   </data>
   <data name="itemtype48584" xml:space="preserve">
-    <value />
+    <value>TLF Recruitment Poster</value>
   </data>
   <data name="itemtype48585" xml:space="preserve">
-    <value />
+    <value>Vherokior Medicinal Herbs</value>
   </data>
   <data name="itemtype48586" xml:space="preserve">
-    <value />
+    <value>Vial of Mikramurka</value>
   </data>
   <data name="itemtype48587" xml:space="preserve">
-    <value />
+    <value>Dice of Jade</value>
   </data>
   <data name="itemtype48588" xml:space="preserve">
-    <value />
+    <value>Krusual Etched Sticks</value>
   </data>
   <data name="itemtype48589" xml:space="preserve">
-    <value />
+    <value>Matari Word Calendar</value>
   </data>
   <data name="itemtype48590" xml:space="preserve">
-    <value />
+    <value>Kapli Bread</value>
   </data>
   <data name="itemtype48591" xml:space="preserve">
-    <value />
+    <value>Kri'tak Knife</value>
   </data>
   <data name="itemtype48592" xml:space="preserve">
-    <value />
+    <value>Ten Most Wanted Slavers</value>
   </data>
   <data name="itemtype48593" xml:space="preserve">
-    <value />
+    <value>Slaver Tooth Necklace</value>
+  </data>
+  <data name="itemtype48594" xml:space="preserve">
+    <value>Sentry Tower</value>
+  </data>
+  <data name="itemtype48599" xml:space="preserve">
+    <value>Expired Prototype 'Hercules' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48600" xml:space="preserve">
+    <value>Expired Extended 'Hercules' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48601" xml:space="preserve">
+    <value>Expired Basic 'Synapse' Overmind Accelerator</value>
+  </data>
+  <data name="itemtype48602" xml:space="preserve">
+    <value>Expired Standard 'Synapse' Overmind Accelerator</value>
+  </data>
+  <data name="itemtype48603" xml:space="preserve">
+    <value>Expired Advanced 'Synapse' Overmind Accelerator</value>
+  </data>
+  <data name="itemtype48604" xml:space="preserve">
+    <value>Expired Extended 'Synapse' Overmind Accelerator</value>
+  </data>
+  <data name="itemtype48605" xml:space="preserve">
+    <value>Basic 'Radiance' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48606" xml:space="preserve">
+    <value>Standard 'Radiance' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48607" xml:space="preserve">
+    <value>Advanced 'Radiance' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48608" xml:space="preserve">
+    <value>Extended 'Radiance' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype48609" xml:space="preserve">
+    <value>B11</value>
+  </data>
+  <data name="itemtype48610" xml:space="preserve">
+    <value>S11</value>
+  </data>
+  <data name="itemtype48611" xml:space="preserve">
+    <value>A11</value>
+  </data>
+  <data name="itemtype48612" xml:space="preserve">
+    <value>E11</value>
+  </data>
+  <data name="itemtype48613" xml:space="preserve">
+    <value>B12</value>
+  </data>
+  <data name="itemtype48614" xml:space="preserve">
+    <value>S12</value>
+  </data>
+  <data name="itemtype48615" xml:space="preserve">
+    <value>A12</value>
+  </data>
+  <data name="itemtype48616" xml:space="preserve">
+    <value>E12</value>
+  </data>
+  <data name="itemtype48635" xml:space="preserve">
+    <value>Tiamat</value>
+  </data>
+  <data name="itemtype48636" xml:space="preserve">
+    <value>Hydra</value>
+  </data>
+  <data name="itemtype48637" xml:space="preserve">
+    <value>Tiamat Blueprint</value>
+  </data>
+  <data name="itemtype48638" xml:space="preserve">
+    <value>Hydra Blueprint</value>
+  </data>
+  <data name="itemtype48640" xml:space="preserve">
+    <value>Circadian Seeker Sniper</value>
+  </data>
+  <data name="itemtype48642" xml:space="preserve">
+    <value>Experimental Mutaplasmid Repository</value>
+  </data>
+  <data name="itemtype48643" xml:space="preserve">
+    <value>DO NOT TRANSLATE - Unused Crate</value>
+  </data>
+  <data name="itemtype48644" xml:space="preserve">
+    <value>DO NOT TRANSLATE - Unused Crate</value>
+  </data>
+  <data name="itemtype48645" xml:space="preserve">
+    <value>DO NOT TRANSLATE - Unused Crate</value>
+  </data>
+  <data name="itemtype48647" xml:space="preserve">
+    <value>Seeker Upholder</value>
+  </data>
+  <data name="itemtype48648" xml:space="preserve">
+    <value>Citizen Venture</value>
+  </data>
+  <data name="itemtype48649" xml:space="preserve">
+    <value>Damavik Singularity Storm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48650" xml:space="preserve">
+    <value>Vedmak Singularity Storm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48651" xml:space="preserve">
+    <value>Leshak Singularity Storm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48652" xml:space="preserve">
+    <value>Unstable Wreckage</value>
+  </data>
+  <data name="itemtype48653" xml:space="preserve">
+    <value>Damavik Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48654" xml:space="preserve">
+    <value>Vedmak Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48655" xml:space="preserve">
+    <value>Leshak Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48656" xml:space="preserve">
+    <value>Epithal Planetary Extraction (Upwell) SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48719" xml:space="preserve">
+    <value>Augoror Combat Medic Section SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48720" xml:space="preserve">
+    <value>Osprey Combat Medic Section SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48721" xml:space="preserve">
+    <value>Exequror Combat Medic Section SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48722" xml:space="preserve">
+    <value>Scythe Combat Medic Section SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48723" xml:space="preserve">
+    <value>Guardian Emergency Response Squad SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48724" xml:space="preserve">
+    <value>Basilisk Emergency Response Squad SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48725" xml:space="preserve">
+    <value>Oneiros Emergency Response Squad SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48726" xml:space="preserve">
+    <value>Scimitar Emergency Response Squad SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48727" xml:space="preserve">
+    <value>Corax Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48728" xml:space="preserve">
+    <value>Stork Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48729" xml:space="preserve">
+    <value>Drake Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48730" xml:space="preserve">
+    <value>Naga Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48731" xml:space="preserve">
+    <value>Rokh Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48732" xml:space="preserve">
+    <value>Raven Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48733" xml:space="preserve">
+    <value>Golem Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48734" xml:space="preserve">
+    <value>Phoenix Caldari Union Day SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48735" xml:space="preserve">
+    <value>Rorqual Sovereign Claim SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48742" xml:space="preserve">
+    <value>Rogue Swarm Overmind Wreck</value>
+  </data>
+  <data name="itemtype48743" xml:space="preserve">
+    <value>Disabled Swarm Overmind</value>
+  </data>
+  <data name="itemtype48744" xml:space="preserve">
+    <value>'Subverted' JVN-UC49</value>
+  </data>
+  <data name="itemtype48745" xml:space="preserve">
+    <value>'Subverted' JVN-UC49 Blueprint</value>
+  </data>
+  <data name="itemtype48746" xml:space="preserve">
+    <value>Overmind 'Goliath' Drone Tuner T25-10S</value>
+  </data>
+  <data name="itemtype48747" xml:space="preserve">
+    <value>Overmind 'Hawkmoth' Drone Tuner S10-25T</value>
+  </data>
+  <data name="itemtype48748" xml:space="preserve">
+    <value>Query: Spaghetti or Chicken Sandwich?</value>
+  </data>
+  <data name="itemtype48749" xml:space="preserve">
+    <value>A Pile of Logs</value>
+  </data>
+  <data name="itemtype48750" xml:space="preserve">
+    <value>Retired Server Hamster</value>
+  </data>
+  <data name="itemtype48751" xml:space="preserve">
+    <value>Well-Worn Fedora</value>
+  </data>
+  <data name="itemtype48752" xml:space="preserve">
+    <value>Internal Policies</value>
+  </data>
+  <data name="itemtype48753" xml:space="preserve">
+    <value>The Policy Enforcer</value>
+  </data>
+  <data name="itemtype48754" xml:space="preserve">
+    <value>CONCORD Universal Translator</value>
+  </data>
+  <data name="itemtype48755" xml:space="preserve">
+    <value>Crunch Fuel</value>
+  </data>
+  <data name="itemtype48756" xml:space="preserve">
+    <value>Dried Moss</value>
+  </data>
+  <data name="itemtype48757" xml:space="preserve">
+    <value>Dropsuit Fragment</value>
+  </data>
+  <data name="itemtype48758" xml:space="preserve">
+    <value>Decommissioned ERIC Prototype</value>
+  </data>
+  <data name="itemtype48759" xml:space="preserve">
+    <value>Offensive Content Reports, Jan. YC120, vol. I</value>
+  </data>
+  <data name="itemtype48760" xml:space="preserve">
+    <value>Defunct Name Change Token</value>
+  </data>
+  <data name="itemtype48761" xml:space="preserve">
+    <value>Triglavian Cache Data Vault</value>
+  </data>
+  <data name="itemtype48762" xml:space="preserve">
+    <value>Triglavian Transfer Data Vault</value>
+  </data>
+  <data name="itemtype48763" xml:space="preserve">
+    <value>Triglavian Origin Data Vault</value>
+  </data>
+  <data name="itemtype48764" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AEA1</value>
+  </data>
+  <data name="itemtype48765" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AEA2</value>
+  </data>
+  <data name="itemtype48767" xml:space="preserve">
+    <value>Triglavian Trinary Datastream DAV1</value>
+  </data>
+  <data name="itemtype48768" xml:space="preserve">
+    <value>Triglavian Trinary Datastream DAV2</value>
+  </data>
+  <data name="itemtype48769" xml:space="preserve">
+    <value>Triglavian Trinary Datastream DAV3</value>
+  </data>
+  <data name="itemtype48770" xml:space="preserve">
+    <value>Triglavian Trinary Datastream HFN1</value>
+  </data>
+  <data name="itemtype48771" xml:space="preserve">
+    <value>Triglavian Trinary Datastream HFN2</value>
+  </data>
+  <data name="itemtype48772" xml:space="preserve">
+    <value>Triglavian Trinary Datastream HFN3</value>
+  </data>
+  <data name="itemtype48774" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AFN2</value>
+  </data>
+  <data name="itemtype48775" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AFN3</value>
+  </data>
+  <data name="itemtype48777" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AEA3</value>
+  </data>
+  <data name="itemtype48778" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AFN1</value>
+  </data>
+  <data name="itemtype48779" xml:space="preserve">
+    <value>Drop-off Container</value>
+  </data>
+  <data name="itemtype48780" xml:space="preserve">
+    <value>Citizen Miner</value>
+  </data>
+  <data name="itemtype48781" xml:space="preserve">
+    <value>Citizen Data Analyzer</value>
+  </data>
+  <data name="itemtype48799" xml:space="preserve">
+    <value>Swarm Overmind Tertius x01</value>
+  </data>
+  <data name="itemtype48800" xml:space="preserve">
+    <value>Swarm Overmind Primus x01</value>
+  </data>
+  <data name="itemtype48801" xml:space="preserve">
+    <value>Swarm Overmind Secundus x01</value>
+  </data>
+  <data name="itemtype48816" xml:space="preserve">
+    <value>Tengu Storm Bear SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48817" xml:space="preserve">
+    <value>Gila Storm Bear SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48819" xml:space="preserve">
+    <value>Sleipnir Storm Bear SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48830" xml:space="preserve">
+    <value>Punisher Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48831" xml:space="preserve">
+    <value>Zealot Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48833" xml:space="preserve">
+    <value>Eagle Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48834" xml:space="preserve">
+    <value>Ferox Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48836" xml:space="preserve">
+    <value>Brutix Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48837" xml:space="preserve">
+    <value>Slasher Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48838" xml:space="preserve">
+    <value>Sabre Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48839" xml:space="preserve">
+    <value>Hurricane Cordite Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48843" xml:space="preserve">
+    <value>Malediction Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48844" xml:space="preserve">
+    <value>Anathema Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48845" xml:space="preserve">
+    <value>Coercer Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48846" xml:space="preserve">
+    <value>Heretic Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48847" xml:space="preserve">
+    <value>Omen Navy Issue Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48848" xml:space="preserve">
+    <value>Curse Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48849" xml:space="preserve">
+    <value>Pilgrim Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48850" xml:space="preserve">
+    <value>Zealot Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48851" xml:space="preserve">
+    <value>Harbinger Navy Issue Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48852" xml:space="preserve">
+    <value>Absolution Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48853" xml:space="preserve">
+    <value>Damnation Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48854" xml:space="preserve">
+    <value>Apocalypse Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48855" xml:space="preserve">
+    <value>Apocalypse Navy Issue Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48856" xml:space="preserve">
+    <value>Armageddon Navy Issue Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48857" xml:space="preserve">
+    <value>Redeemer Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48858" xml:space="preserve">
+    <value>Apostle Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48859" xml:space="preserve">
+    <value>Prorator Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48860" xml:space="preserve">
+    <value>Impel Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48861" xml:space="preserve">
+    <value>Ark Imperial Jubilee SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48893" xml:space="preserve">
+    <value>Abaddon Cryptic Mimesis SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48894" xml:space="preserve">
+    <value>Raven Cryptic Mimesis SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48895" xml:space="preserve">
+    <value>Dominix Cryptic Mimesis SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48896" xml:space="preserve">
+    <value>Typhoon Cryptic Mimesis SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype48899" xml:space="preserve">
+    <value>Deployable Billboard</value>
+  </data>
+  <data name="itemtype48900" xml:space="preserve">
+    <value>Wrecker Alvum</value>
+  </data>
+  <data name="itemtype48901" xml:space="preserve">
+    <value>Destructor Alvum</value>
+  </data>
+  <data name="itemtype48902" xml:space="preserve">
+    <value>Shatter Alvior</value>
+  </data>
+  <data name="itemtype48903" xml:space="preserve">
+    <value>Ripper Alvior</value>
+  </data>
+  <data name="itemtype48904" xml:space="preserve">
+    <value>Infester Alvi</value>
+  </data>
+  <data name="itemtype48905" xml:space="preserve">
+    <value>Splinter Alvi</value>
+  </data>
+  <data name="itemtype48906" xml:space="preserve">
+    <value>Decimator Alvi</value>
+  </data>
+  <data name="itemtype48907" xml:space="preserve">
+    <value>Render Alvi</value>
+  </data>
+  <data name="itemtype48916" xml:space="preserve">
+    <value>Cthonic Attar</value>
+  </data>
+  <data name="itemtype48917" xml:space="preserve">
+    <value>Asteroid B UNUSED</value>
+  </data>
+  <data name="itemtype48918" xml:space="preserve">
+    <value>Asteroid C UNUSED</value>
+  </data>
+  <data name="itemtype48919" xml:space="preserve">
+    <value>Asteroid D UNUSED</value>
+  </data>
+  <data name="itemtype48920" xml:space="preserve">
+    <value>Cthonic Attar Cluster</value>
+  </data>
+  <data name="itemtype48921" xml:space="preserve">
+    <value>Cthonic Attar Cluster</value>
+  </data>
+  <data name="itemtype48922" xml:space="preserve">
+    <value>Cthonic Attar Cluster</value>
+  </data>
+  <data name="itemtype48923" xml:space="preserve">
+    <value>Basic 'Radiance' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype48924" xml:space="preserve">
+    <value>Standard 'Radiance' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype48925" xml:space="preserve">
+    <value>Advanced 'Radiance' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype48926" xml:space="preserve">
+    <value>Extended 'Radiance' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype48927" xml:space="preserve">
+    <value>Chromodynamic Tricarboxyls</value>
+  </data>
+  <data name="itemtype48928" xml:space="preserve">
+    <value>'Subverted' JVN-UC49 Blueprint Crate</value>
+  </data>
+  <data name="itemtype48929" xml:space="preserve">
+    <value>Moth Apis</value>
+  </data>
+  <data name="itemtype48930" xml:space="preserve">
+    <value>Dragonfly Apis</value>
+  </data>
+  <data name="itemtype48931" xml:space="preserve">
+    <value>Termite Apis</value>
+  </data>
+  <data name="itemtype48932" xml:space="preserve">
+    <value>Scorpionfly Apis</value>
+  </data>
+  <data name="itemtype48933" xml:space="preserve">
+    <value>Crimson Harvest Nebula</value>
+  </data>
+  <data name="itemtype48936" xml:space="preserve">
+    <value>November Nightmare</value>
+  </data>
+  <data name="itemtype48937" xml:space="preserve">
+    <value>November Cruiser Fast</value>
+  </data>
+  <data name="itemtype48938" xml:space="preserve">
+    <value>November Cruiser Strong</value>
+  </data>
+  <data name="itemtype48939" xml:space="preserve">
+    <value>November Cruiser Weak</value>
+  </data>
+  <data name="itemtype48940" xml:space="preserve">
+    <value>November Frigate Fast</value>
+  </data>
+  <data name="itemtype48941" xml:space="preserve">
+    <value>November Frigate Strong</value>
+  </data>
+  <data name="itemtype48942" xml:space="preserve">
+    <value>November Frigate Weak</value>
+  </data>
+  <data name="itemtype48943" xml:space="preserve">
+    <value>November Destroyer</value>
+  </data>
+  <data name="itemtype48944" xml:space="preserve">
+    <value>November Module</value>
+  </data>
+  <data name="itemtype48945" xml:space="preserve">
+    <value>Nov Imp B BPC</value>
+  </data>
+  <data name="itemtype48946" xml:space="preserve">
+    <value>Nov Imp S BPC</value>
+  </data>
+  <data name="itemtype48947" xml:space="preserve">
+    <value>Nov Imp E BPC</value>
+  </data>
+  <data name="itemtype48948" xml:space="preserve">
+    <value>Nov Imp A BPC</value>
+  </data>
+  <data name="itemtype48949" xml:space="preserve">
+    <value>Nov Mod BPC</value>
+  </data>
+  <data name="itemtype48950" xml:space="preserve">
+    <value>Nov Ship Log 1</value>
+  </data>
+  <data name="itemtype48951" xml:space="preserve">
+    <value>Nov Ship Log 2</value>
+  </data>
+  <data name="itemtype48952" xml:space="preserve">
+    <value>Nov Ship Log 3</value>
+  </data>
+  <data name="itemtype48953" xml:space="preserve">
+    <value>Nov Ship Log 4</value>
+  </data>
+  <data name="itemtype48954" xml:space="preserve">
+    <value>Nov Ship Log 5</value>
+  </data>
+  <data name="itemtype48955" xml:space="preserve">
+    <value>Deathglow Bottomfeeder</value>
+  </data>
+  <data name="itemtype48956" xml:space="preserve">
+    <value>Deathglow Filthraker</value>
+  </data>
+  <data name="itemtype48957" xml:space="preserve">
+    <value>Deathglow Scumlord</value>
+  </data>
+  <data name="itemtype48958" xml:space="preserve">
+    <value>Deathglow Brainjuicer</value>
+  </data>
+  <data name="itemtype48959" xml:space="preserve">
+    <value>Deathglow Splendorcook</value>
+  </data>
+  <data name="itemtype48960" xml:space="preserve">
+    <value>Deathglow Hunters Cookhouse</value>
+  </data>
+  <data name="itemtype48961" xml:space="preserve">
+    <value>Deathglow Harvest Silo</value>
+  </data>
+  <data name="itemtype48962" xml:space="preserve">
+    <value>Cookhouse Shielding Projector</value>
+  </data>
+  <data name="itemtype48963" xml:space="preserve">
+    <value>Cookhouse Force Field</value>
+  </data>
+  <data name="itemtype48964" xml:space="preserve">
+    <value>Abyssal Trace</value>
+  </data>
+  <data name="itemtype48968" xml:space="preserve">
+    <value>Deathglow Splendorcook</value>
+  </data>
+  <data name="itemtype48969" xml:space="preserve">
+    <value>November Hulk</value>
+  </data>
+  <data name="itemtype48970" xml:space="preserve">
+    <value>November Wreck</value>
+  </data>
+  <data name="itemtype49099" xml:space="preserve">
+    <value>Zero-Point Mass Entangler</value>
+  </data>
+  <data name="itemtype49100" xml:space="preserve">
+    <value>Zero-Point Mass Entangler Blueprint</value>
+  </data>
+  <data name="itemtype49104" xml:space="preserve">
+    <value>Env_Sleeper_Home_01a</value>
+  </data>
+  <data name="itemtype49105" xml:space="preserve">
+    <value>ENV_Sleeper_Conflict_01a</value>
+  </data>
+  <data name="itemtype49106" xml:space="preserve">
+    <value>ENV_Ancient_Jove_01a</value>
+  </data>
+  <data name="itemtype49107" xml:space="preserve">
+    <value>Env_SOE_Home_01a</value>
+  </data>
+  <data name="itemtype49108" xml:space="preserve">
+    <value>Fortified Roden Shipyard</value>
+  </data>
+  <data name="itemtype49109" xml:space="preserve">
+    <value>Fortified Partially Constructed Roden Megathron</value>
+  </data>
+  <data name="itemtype49110" xml:space="preserve">
+    <value>ENV_Asteroid_Colony_01a</value>
+  </data>
+  <data name="itemtype49117" xml:space="preserve">
+    <value>Revenant Wreck</value>
+  </data>
+  <data name="itemtype49118" xml:space="preserve">
+    <value>Raven Hulk</value>
+  </data>
+  <data name="itemtype49119" xml:space="preserve">
+    <value>Raven Hulk Wreck</value>
+  </data>
+  <data name="itemtype49120" xml:space="preserve">
+    <value>Typhoon Hulk</value>
+  </data>
+  <data name="itemtype49121" xml:space="preserve">
+    <value>Typhoon Hulk Wreck</value>
+  </data>
+  <data name="itemtype49122" xml:space="preserve">
+    <value>Megathron Hulk</value>
+  </data>
+  <data name="itemtype49123" xml:space="preserve">
+    <value>Megathron Hulk Wreck</value>
+  </data>
+  <data name="itemtype49124" xml:space="preserve">
+    <value>Armageddon Hulk</value>
+  </data>
+  <data name="itemtype49125" xml:space="preserve">
+    <value>Armageddon Hulk Wreck</value>
+  </data>
+  <data name="itemtype49126" xml:space="preserve">
+    <value>Crimson Harvest Environment</value>
+  </data>
+  <data name="itemtype49141" xml:space="preserve">
+    <value>Rorqual Sovereign Claim Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49142" xml:space="preserve">
+    <value>Rorqual Sovereign Claim Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49143" xml:space="preserve">
+    <value>Rorqual Sovereign Claim Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49144" xml:space="preserve">
+    <value>Rorqual Sovereign Claim Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49145" xml:space="preserve">
+    <value>Rorqual Sovereign Claim Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49146" xml:space="preserve">
+    <value>Dramiel Angel's Hex SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49147" xml:space="preserve">
+    <value>Cynabal Angel's Hex SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49148" xml:space="preserve">
+    <value>Daredevil Angel's Hex SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49149" xml:space="preserve">
+    <value>Vigilant Angel's Hex SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49150" xml:space="preserve">
+    <value>Vindicator Angel's Hex SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49151" xml:space="preserve">
+    <value>Magnate Serene Hao SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49152" xml:space="preserve">
+    <value>Hyperion Serene Mang SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49153" xml:space="preserve">
+    <value>Naga Serene Song SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49154" xml:space="preserve">
+    <value>Cynabal Serene Tu SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49155" xml:space="preserve">
+    <value>Augoror Navy Issue Serene Rou SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49156" xml:space="preserve">
+    <value>Rifter Absent Heroes SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49157" xml:space="preserve">
+    <value>Typhoon Absent Heroes SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49158" xml:space="preserve">
+    <value>Venture Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49159" xml:space="preserve">
+    <value>Venture Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49160" xml:space="preserve">
+    <value>Venture Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49161" xml:space="preserve">
+    <value>Venture Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49162" xml:space="preserve">
+    <value>Venture Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49163" xml:space="preserve">
+    <value>Endurance Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49164" xml:space="preserve">
+    <value>Endurance Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49165" xml:space="preserve">
+    <value>Endurance Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49166" xml:space="preserve">
+    <value>Endurance Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49167" xml:space="preserve">
+    <value>Endurance Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49168" xml:space="preserve">
+    <value>Prospect Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49169" xml:space="preserve">
+    <value>Prospect Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49170" xml:space="preserve">
+    <value>Prospect Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49171" xml:space="preserve">
+    <value>Prospect Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49172" xml:space="preserve">
+    <value>Prospect Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49173" xml:space="preserve">
+    <value>Procurer Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49174" xml:space="preserve">
+    <value>Procurer Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49175" xml:space="preserve">
+    <value>Procurer Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49176" xml:space="preserve">
+    <value>Procurer Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49177" xml:space="preserve">
+    <value>Procurer Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49178" xml:space="preserve">
+    <value>Retriever Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49179" xml:space="preserve">
+    <value>Retriever Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49180" xml:space="preserve">
+    <value>Retriever Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49181" xml:space="preserve">
+    <value>Retriever Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49182" xml:space="preserve">
+    <value>Retriever Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49183" xml:space="preserve">
+    <value>Covetor Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49184" xml:space="preserve">
+    <value>Covetor Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49185" xml:space="preserve">
+    <value>Covetor Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49186" xml:space="preserve">
+    <value>Covetor Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49187" xml:space="preserve">
+    <value>Covetor Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49188" xml:space="preserve">
+    <value>Skiff Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49189" xml:space="preserve">
+    <value>Skiff Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49190" xml:space="preserve">
+    <value>Skiff Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49191" xml:space="preserve">
+    <value>Skiff Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49192" xml:space="preserve">
+    <value>Skiff Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49193" xml:space="preserve">
+    <value>Mackinaw Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49194" xml:space="preserve">
+    <value>Mackinaw Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49195" xml:space="preserve">
+    <value>Mackinaw Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49196" xml:space="preserve">
+    <value>Mackinaw Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49197" xml:space="preserve">
+    <value>Mackinaw Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49198" xml:space="preserve">
+    <value>Hulk Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49199" xml:space="preserve">
+    <value>Hulk Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49200" xml:space="preserve">
+    <value>Hulk Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49201" xml:space="preserve">
+    <value>Hulk Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49202" xml:space="preserve">
+    <value>Hulk Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49203" xml:space="preserve">
+    <value>Bowhead Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49204" xml:space="preserve">
+    <value>Bowhead Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49205" xml:space="preserve">
+    <value>Bowhead Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49206" xml:space="preserve">
+    <value>Bowhead Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49207" xml:space="preserve">
+    <value>Bowhead Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49208" xml:space="preserve">
+    <value>Orca Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49209" xml:space="preserve">
+    <value>Orca Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49210" xml:space="preserve">
+    <value>Orca Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49211" xml:space="preserve">
+    <value>Orca Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49212" xml:space="preserve">
+    <value>Orca Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49213" xml:space="preserve">
+    <value>Rorqual Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49214" xml:space="preserve">
+    <value>Rorqual Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49215" xml:space="preserve">
+    <value>Rorqual Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49216" xml:space="preserve">
+    <value>Rorqual Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49217" xml:space="preserve">
+    <value>Rorqual Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49218" xml:space="preserve">
+    <value>Porpoise Amarr Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49219" xml:space="preserve">
+    <value>Porpoise Amarr Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49220" xml:space="preserve">
+    <value>Porpoise Amarr Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49221" xml:space="preserve">
+    <value>Porpoise Amarr Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49222" xml:space="preserve">
+    <value>Porpoise Amarr Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49223" xml:space="preserve">
+    <value>Venture Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49224" xml:space="preserve">
+    <value>Venture Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49225" xml:space="preserve">
+    <value>Venture Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49226" xml:space="preserve">
+    <value>Venture Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49227" xml:space="preserve">
+    <value>Venture Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49228" xml:space="preserve">
+    <value>Endurance Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49229" xml:space="preserve">
+    <value>Endurance Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49230" xml:space="preserve">
+    <value>Endurance Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49231" xml:space="preserve">
+    <value>Endurance Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49232" xml:space="preserve">
+    <value>Endurance Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49233" xml:space="preserve">
+    <value>Prospect Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49234" xml:space="preserve">
+    <value>Prospect Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49235" xml:space="preserve">
+    <value>Prospect Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49236" xml:space="preserve">
+    <value>Prospect Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49237" xml:space="preserve">
+    <value>Prospect Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49238" xml:space="preserve">
+    <value>Procurer Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49239" xml:space="preserve">
+    <value>Procurer Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49240" xml:space="preserve">
+    <value>Procurer Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49241" xml:space="preserve">
+    <value>Procurer Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49242" xml:space="preserve">
+    <value>Procurer Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49243" xml:space="preserve">
+    <value>Retriever Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49244" xml:space="preserve">
+    <value>Retriever Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49245" xml:space="preserve">
+    <value>Retriever Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49246" xml:space="preserve">
+    <value>Retriever Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49247" xml:space="preserve">
+    <value>Retriever Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49248" xml:space="preserve">
+    <value>Covetor Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49249" xml:space="preserve">
+    <value>Covetor Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49250" xml:space="preserve">
+    <value>Covetor Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49251" xml:space="preserve">
+    <value>Covetor Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49252" xml:space="preserve">
+    <value>Covetor Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49253" xml:space="preserve">
+    <value>Skiff Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49254" xml:space="preserve">
+    <value>Skiff Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49255" xml:space="preserve">
+    <value>Skiff Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49256" xml:space="preserve">
+    <value>Skiff Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49257" xml:space="preserve">
+    <value>Skiff Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49258" xml:space="preserve">
+    <value>Mackinaw Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49259" xml:space="preserve">
+    <value>Mackinaw Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49260" xml:space="preserve">
+    <value>Mackinaw Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49261" xml:space="preserve">
+    <value>Mackinaw Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49262" xml:space="preserve">
+    <value>Mackinaw Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49263" xml:space="preserve">
+    <value>Hulk Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49264" xml:space="preserve">
+    <value>Hulk Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49265" xml:space="preserve">
+    <value>Hulk Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49266" xml:space="preserve">
+    <value>Hulk Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49267" xml:space="preserve">
+    <value>Hulk Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49268" xml:space="preserve">
+    <value>Bowhead Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49269" xml:space="preserve">
+    <value>Bowhead Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49270" xml:space="preserve">
+    <value>Bowhead Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49271" xml:space="preserve">
+    <value>Bowhead Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49272" xml:space="preserve">
+    <value>Bowhead Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49273" xml:space="preserve">
+    <value>Orca Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49274" xml:space="preserve">
+    <value>Orca Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49275" xml:space="preserve">
+    <value>Orca Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49276" xml:space="preserve">
+    <value>Orca Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49277" xml:space="preserve">
+    <value>Orca Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49278" xml:space="preserve">
+    <value>Rorqual Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49279" xml:space="preserve">
+    <value>Rorqual Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49280" xml:space="preserve">
+    <value>Rorqual Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49281" xml:space="preserve">
+    <value>Rorqual Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49282" xml:space="preserve">
+    <value>Rorqual Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49283" xml:space="preserve">
+    <value>Porpoise Caldari Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49284" xml:space="preserve">
+    <value>Porpoise Caldari Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49285" xml:space="preserve">
+    <value>Porpoise Caldari Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49286" xml:space="preserve">
+    <value>Porpoise Caldari Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49287" xml:space="preserve">
+    <value>Porpoise Caldari Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49288" xml:space="preserve">
+    <value>Venture Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49289" xml:space="preserve">
+    <value>Venture Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49290" xml:space="preserve">
+    <value>Venture Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49291" xml:space="preserve">
+    <value>Venture Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49292" xml:space="preserve">
+    <value>Venture Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49293" xml:space="preserve">
+    <value>Endurance Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49294" xml:space="preserve">
+    <value>Endurance Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49295" xml:space="preserve">
+    <value>Endurance Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49296" xml:space="preserve">
+    <value>Endurance Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49297" xml:space="preserve">
+    <value>Endurance Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49298" xml:space="preserve">
+    <value>Prospect Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49299" xml:space="preserve">
+    <value>Prospect Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49300" xml:space="preserve">
+    <value>Prospect Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49301" xml:space="preserve">
+    <value>Prospect Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49302" xml:space="preserve">
+    <value>Prospect Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49303" xml:space="preserve">
+    <value>Procurer Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49304" xml:space="preserve">
+    <value>Procurer Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49305" xml:space="preserve">
+    <value>Procurer Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49306" xml:space="preserve">
+    <value>Procurer Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49307" xml:space="preserve">
+    <value>Procurer Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49308" xml:space="preserve">
+    <value>Retriever Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49309" xml:space="preserve">
+    <value>Retriever Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49310" xml:space="preserve">
+    <value>Retriever Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49311" xml:space="preserve">
+    <value>Retriever Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49312" xml:space="preserve">
+    <value>Retriever Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49313" xml:space="preserve">
+    <value>Covetor Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49314" xml:space="preserve">
+    <value>Covetor Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49315" xml:space="preserve">
+    <value>Covetor Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49316" xml:space="preserve">
+    <value>Covetor Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49317" xml:space="preserve">
+    <value>Covetor Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49318" xml:space="preserve">
+    <value>Skiff Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49319" xml:space="preserve">
+    <value>Skiff Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49320" xml:space="preserve">
+    <value>Skiff Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49321" xml:space="preserve">
+    <value>Skiff Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49322" xml:space="preserve">
+    <value>Skiff Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49323" xml:space="preserve">
+    <value>Mackinaw Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49324" xml:space="preserve">
+    <value>Mackinaw Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49325" xml:space="preserve">
+    <value>Mackinaw Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49326" xml:space="preserve">
+    <value>Mackinaw Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49327" xml:space="preserve">
+    <value>Mackinaw Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49328" xml:space="preserve">
+    <value>Hulk Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49329" xml:space="preserve">
+    <value>Hulk Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49330" xml:space="preserve">
+    <value>Hulk Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49331" xml:space="preserve">
+    <value>Hulk Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49332" xml:space="preserve">
+    <value>Hulk Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49333" xml:space="preserve">
+    <value>Bowhead Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49334" xml:space="preserve">
+    <value>Bowhead Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49335" xml:space="preserve">
+    <value>Bowhead Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49336" xml:space="preserve">
+    <value>Bowhead Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49337" xml:space="preserve">
+    <value>Bowhead Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49338" xml:space="preserve">
+    <value>Orca Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49339" xml:space="preserve">
+    <value>Orca Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49340" xml:space="preserve">
+    <value>Orca Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49341" xml:space="preserve">
+    <value>Orca Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49342" xml:space="preserve">
+    <value>Orca Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49343" xml:space="preserve">
+    <value>Rorqual Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49344" xml:space="preserve">
+    <value>Rorqual Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49345" xml:space="preserve">
+    <value>Rorqual Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49346" xml:space="preserve">
+    <value>Rorqual Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49347" xml:space="preserve">
+    <value>Rorqual Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49348" xml:space="preserve">
+    <value>Porpoise Gallente Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49349" xml:space="preserve">
+    <value>Porpoise Gallente Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49350" xml:space="preserve">
+    <value>Porpoise Gallente Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49351" xml:space="preserve">
+    <value>Porpoise Gallente Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49352" xml:space="preserve">
+    <value>Porpoise Gallente Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49353" xml:space="preserve">
+    <value>Venture Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49354" xml:space="preserve">
+    <value>Venture Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49355" xml:space="preserve">
+    <value>Venture Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49356" xml:space="preserve">
+    <value>Venture Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49357" xml:space="preserve">
+    <value>Venture Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49358" xml:space="preserve">
+    <value>Endurance Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49359" xml:space="preserve">
+    <value>Endurance Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49360" xml:space="preserve">
+    <value>Endurance Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49361" xml:space="preserve">
+    <value>Endurance Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49362" xml:space="preserve">
+    <value>Endurance Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49363" xml:space="preserve">
+    <value>Prospect Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49364" xml:space="preserve">
+    <value>Prospect Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49365" xml:space="preserve">
+    <value>Prospect Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49366" xml:space="preserve">
+    <value>Prospect Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49367" xml:space="preserve">
+    <value>Prospect Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49368" xml:space="preserve">
+    <value>Procurer Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49369" xml:space="preserve">
+    <value>Procurer Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49370" xml:space="preserve">
+    <value>Procurer Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49371" xml:space="preserve">
+    <value>Procurer Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49372" xml:space="preserve">
+    <value>Procurer Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49373" xml:space="preserve">
+    <value>Retriever Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49374" xml:space="preserve">
+    <value>Retriever Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49375" xml:space="preserve">
+    <value>Retriever Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49376" xml:space="preserve">
+    <value>Retriever Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49377" xml:space="preserve">
+    <value>Retriever Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49378" xml:space="preserve">
+    <value>Covetor Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49379" xml:space="preserve">
+    <value>Covetor Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49380" xml:space="preserve">
+    <value>Covetor Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49381" xml:space="preserve">
+    <value>Covetor Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49382" xml:space="preserve">
+    <value>Covetor Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49383" xml:space="preserve">
+    <value>Skiff Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49384" xml:space="preserve">
+    <value>Skiff Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49385" xml:space="preserve">
+    <value>Skiff Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49386" xml:space="preserve">
+    <value>Skiff Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49387" xml:space="preserve">
+    <value>Skiff Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49388" xml:space="preserve">
+    <value>Mackinaw Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49389" xml:space="preserve">
+    <value>Mackinaw Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49390" xml:space="preserve">
+    <value>Mackinaw Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49391" xml:space="preserve">
+    <value>Mackinaw Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49392" xml:space="preserve">
+    <value>Mackinaw Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49393" xml:space="preserve">
+    <value>Hulk Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49394" xml:space="preserve">
+    <value>Hulk Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49395" xml:space="preserve">
+    <value>Hulk Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49396" xml:space="preserve">
+    <value>Hulk Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49397" xml:space="preserve">
+    <value>Hulk Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49398" xml:space="preserve">
+    <value>Bowhead Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49399" xml:space="preserve">
+    <value>Bowhead Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49400" xml:space="preserve">
+    <value>Bowhead Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49401" xml:space="preserve">
+    <value>Bowhead Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49402" xml:space="preserve">
+    <value>Bowhead Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49403" xml:space="preserve">
+    <value>Orca Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49404" xml:space="preserve">
+    <value>Orca Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49405" xml:space="preserve">
+    <value>Orca Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49406" xml:space="preserve">
+    <value>Orca Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49407" xml:space="preserve">
+    <value>Orca Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49408" xml:space="preserve">
+    <value>Rorqual Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49409" xml:space="preserve">
+    <value>Rorqual Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49410" xml:space="preserve">
+    <value>Rorqual Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49411" xml:space="preserve">
+    <value>Rorqual Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49412" xml:space="preserve">
+    <value>Rorqual Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49413" xml:space="preserve">
+    <value>Porpoise Minmatar Industrial Livery Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49414" xml:space="preserve">
+    <value>Porpoise Minmatar Industrial Livery Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49415" xml:space="preserve">
+    <value>Porpoise Minmatar Industrial Livery Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49416" xml:space="preserve">
+    <value>Porpoise Minmatar Industrial Livery Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49417" xml:space="preserve">
+    <value>Porpoise Minmatar Industrial Livery Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49418" xml:space="preserve">
+    <value>ENV_Sansha_Home_01a</value>
+  </data>
+  <data name="itemtype49419" xml:space="preserve">
+    <value>November Module Crate</value>
+  </data>
+  <data name="itemtype49420" xml:space="preserve">
+    <value>Redeemer Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49421" xml:space="preserve">
+    <value>Apostle Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49422" xml:space="preserve">
+    <value>Aeon Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49423" xml:space="preserve">
+    <value>Golem Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49424" xml:space="preserve">
+    <value>Wyvern Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49425" xml:space="preserve">
+    <value>Leviathan Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49426" xml:space="preserve">
+    <value>Kronos Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49427" xml:space="preserve">
+    <value>Thanatos Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49428" xml:space="preserve">
+    <value>Erebus Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49429" xml:space="preserve">
+    <value>Panther Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49430" xml:space="preserve">
+    <value>Nidhoggur Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49431" xml:space="preserve">
+    <value>Ragnarok Headhunter SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49432" xml:space="preserve">
+    <value>Avatar Deathglow Hunters SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49433" xml:space="preserve">
+    <value>Gila Deathglow Hunters SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49434" xml:space="preserve">
+    <value>Machariel Deathglow Hunters SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49435" xml:space="preserve">
+    <value>Astero Deathglow Hunters SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49436" xml:space="preserve">
+    <value>Vexor Serenity Flame SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49437" xml:space="preserve">
+    <value>Vexor Serenity Flame SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49438" xml:space="preserve">
+    <value>Vexor Serenity Flame SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49439" xml:space="preserve">
+    <value>Vexor Serenity Flame SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49440" xml:space="preserve">
+    <value>Vexor Serenity Flame SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49441" xml:space="preserve">
+    <value>Rupture Serenity Cloud SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49442" xml:space="preserve">
+    <value>Rupture Serenity Cloud SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49443" xml:space="preserve">
+    <value>Rupture Serenity Cloud SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49444" xml:space="preserve">
+    <value>Rupture Serenity Cloud SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49445" xml:space="preserve">
+    <value>Rupture Serenity Cloud SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49446" xml:space="preserve">
+    <value>Caracal Serenity Water SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49447" xml:space="preserve">
+    <value>Caracal Serenity Water SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49448" xml:space="preserve">
+    <value>Caracal Serenity Water SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49449" xml:space="preserve">
+    <value>Caracal Serenity Water SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49450" xml:space="preserve">
+    <value>Caracal Serenity Water SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49451" xml:space="preserve">
+    <value>Omen Serenity Electric SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49452" xml:space="preserve">
+    <value>Omen Serenity Electric SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49453" xml:space="preserve">
+    <value>Omen Serenity Electric SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49454" xml:space="preserve">
+    <value>Omen Serenity Electric SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49455" xml:space="preserve">
+    <value>Omen Serenity Electric SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49456" xml:space="preserve">
+    <value>Vigilant Serenity Splatter (Thorax) SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49457" xml:space="preserve">
+    <value>Vigilant Serenity Splatter (Thorax) SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49458" xml:space="preserve">
+    <value>Vigilant Serenity Splatter (Thorax) SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49459" xml:space="preserve">
+    <value>Vigilant Serenity Splatter (Thorax) SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49460" xml:space="preserve">
+    <value>Vigilant Serenity Splatter (Thorax) SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49461" xml:space="preserve">
+    <value>Ashimmu Serenity Splatter (Ashimmu) SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49462" xml:space="preserve">
+    <value>Ashimmu Serenity Splatter (Ashimmu) SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49463" xml:space="preserve">
+    <value>Ashimmu Serenity Splatter (Ashimmu) SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49464" xml:space="preserve">
+    <value>Ashimmu Serenity Splatter (Ashimmu) SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49465" xml:space="preserve">
+    <value>Ashimmu Serenity Splatter (Ashimmu) SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49466" xml:space="preserve">
+    <value>Gila Serenity Circle SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49467" xml:space="preserve">
+    <value>Gila Serenity Circle SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49468" xml:space="preserve">
+    <value>Gila Serenity Circle SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49469" xml:space="preserve">
+    <value>Gila Serenity Circle SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49470" xml:space="preserve">
+    <value>Gila Serenity Circle SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49471" xml:space="preserve">
+    <value>Cynabal Serenity Twirl SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49472" xml:space="preserve">
+    <value>Cynabal Serenity Twirl SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49473" xml:space="preserve">
+    <value>Cynabal Serenity Twirl SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49474" xml:space="preserve">
+    <value>Cynabal Serenity Twirl SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49475" xml:space="preserve">
+    <value>Cynabal Serenity Twirl SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49476" xml:space="preserve">
+    <value>Astero Spectral Shift Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49477" xml:space="preserve">
+    <value>Astero Spectral Shift Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49478" xml:space="preserve">
+    <value>Astero Spectral Shift Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49479" xml:space="preserve">
+    <value>Astero Spectral Shift Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49480" xml:space="preserve">
+    <value>Astero Spectral Shift Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49481" xml:space="preserve">
+    <value>Stratios Spectral Shift Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49482" xml:space="preserve">
+    <value>Stratios Spectral Shift Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49483" xml:space="preserve">
+    <value>Stratios Spectral Shift Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49484" xml:space="preserve">
+    <value>Stratios Spectral Shift Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49485" xml:space="preserve">
+    <value>Stratios Spectral Shift Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49486" xml:space="preserve">
+    <value>Nestor Spectral Shift Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49487" xml:space="preserve">
+    <value>Nestor Spectral Shift Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49488" xml:space="preserve">
+    <value>Nestor Spectral Shift Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49489" xml:space="preserve">
+    <value>Nestor Spectral Shift Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49490" xml:space="preserve">
+    <value>Nestor Spectral Shift Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49491" xml:space="preserve">
+    <value>Providence Imperial Jubilee Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49492" xml:space="preserve">
+    <value>Providence Imperial Jubilee Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49493" xml:space="preserve">
+    <value>Providence Imperial Jubilee Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49494" xml:space="preserve">
+    <value>Providence Imperial Jubilee Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49495" xml:space="preserve">
+    <value>Providence Imperial Jubilee Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49496" xml:space="preserve">
+    <value>Paladin Imperial Jubilee Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49497" xml:space="preserve">
+    <value>Paladin Imperial Jubilee Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49498" xml:space="preserve">
+    <value>Paladin Imperial Jubilee Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49499" xml:space="preserve">
+    <value>Paladin Imperial Jubilee Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49500" xml:space="preserve">
+    <value>Paladin Imperial Jubilee Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49501" xml:space="preserve">
+    <value>Tengu Ghostbird Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49502" xml:space="preserve">
+    <value>Tengu Ghostbird Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49503" xml:space="preserve">
+    <value>Tengu Ghostbird Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49504" xml:space="preserve">
+    <value>Tengu Ghostbird Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49505" xml:space="preserve">
+    <value>Tengu Ghostbird Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49506" xml:space="preserve">
+    <value>Golem Ghostbird Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49507" xml:space="preserve">
+    <value>Golem Ghostbird Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49508" xml:space="preserve">
+    <value>Golem Ghostbird Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49509" xml:space="preserve">
+    <value>Golem Ghostbird Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49510" xml:space="preserve">
+    <value>Golem Ghostbird Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49511" xml:space="preserve">
+    <value>Damavik Hadean Horror Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49512" xml:space="preserve">
+    <value>Damavik Hadean Horror Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49513" xml:space="preserve">
+    <value>Damavik Hadean Horror Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49514" xml:space="preserve">
+    <value>Damavik Hadean Horror Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49515" xml:space="preserve">
+    <value>Damavik Hadean Horror Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49516" xml:space="preserve">
+    <value>Vedmak Hadean Horror Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49517" xml:space="preserve">
+    <value>Vedmak Hadean Horror Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49518" xml:space="preserve">
+    <value>Vedmak Hadean Horror Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49519" xml:space="preserve">
+    <value>Vedmak Hadean Horror Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49520" xml:space="preserve">
+    <value>Vedmak Hadean Horror Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49521" xml:space="preserve">
+    <value>Leshak Hadean Horror Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49522" xml:space="preserve">
+    <value>Leshak Hadean Horror Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49523" xml:space="preserve">
+    <value>Leshak Hadean Horror Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49524" xml:space="preserve">
+    <value>Leshak Hadean Horror Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49525" xml:space="preserve">
+    <value>Leshak Hadean Horror Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49526" xml:space="preserve">
+    <value>Machariel Angel's Hex Serenity Only SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49527" xml:space="preserve">
+    <value>Machariel Angel's Hex Serenity Only SKIN (7 Days)</value>
+  </data>
+  <data name="itemtype49528" xml:space="preserve">
+    <value>Machariel Angel's Hex Serenity Only SKIN (30 Days)</value>
+  </data>
+  <data name="itemtype49529" xml:space="preserve">
+    <value>Machariel Angel's Hex Serenity Only SKIN (90 Days)</value>
+  </data>
+  <data name="itemtype49530" xml:space="preserve">
+    <value>Machariel Angel's Hex Serenity Only SKIN (365 Days)</value>
+  </data>
+  <data name="itemtype49531" xml:space="preserve">
+    <value>Nov Imp A BPC Crate</value>
+  </data>
+  <data name="itemtype49532" xml:space="preserve">
+    <value>Nov Imp E BPC Crate</value>
+  </data>
+  <data name="itemtype49533" xml:space="preserve">
+    <value>Nov Imp S BPC Crate</value>
+  </data>
+  <data name="itemtype49534" xml:space="preserve">
+    <value>Guristas Frigate</value>
+  </data>
+  <data name="itemtype49535" xml:space="preserve">
+    <value>Guristas Destroyer</value>
+  </data>
+  <data name="itemtype49536" xml:space="preserve">
+    <value>Guristas Cruiser</value>
+  </data>
+  <data name="itemtype49537" xml:space="preserve">
+    <value>Guristas Battlecruiser</value>
+  </data>
+  <data name="itemtype49538" xml:space="preserve">
+    <value>Basic Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype49539" xml:space="preserve">
+    <value>Standard Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype49540" xml:space="preserve">
+    <value>Advanced Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype49541" xml:space="preserve">
+    <value>Extended Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype49557" xml:space="preserve">
+    <value>Deathglow Hunters Reinforced Wall</value>
+  </data>
+  <data name="itemtype49558" xml:space="preserve">
+    <value>Deathglow Juicers and Cooks Quarters</value>
+  </data>
+  <data name="itemtype49559" xml:space="preserve">
+    <value>Deathglow Scum and Filth Barracks</value>
+  </data>
+  <data name="itemtype49560" xml:space="preserve">
+    <value>Triglavian Boundary Pylon</value>
+  </data>
+  <data name="itemtype49561" xml:space="preserve">
+    <value>Triglavian Boundary Nexus</value>
+  </data>
+  <data name="itemtype49562" xml:space="preserve">
+    <value>Triglavian Boundary Geodesic</value>
+  </data>
+  <data name="itemtype49563" xml:space="preserve">
+    <value>Triglavian Proving Conduit</value>
+  </data>
+  <data name="itemtype49600" xml:space="preserve">
+    <value>Upwell Monument 1M</value>
+  </data>
+  <data name="itemtype49601" xml:space="preserve">
+    <value>Upwell Monument 1F</value>
+  </data>
+  <data name="itemtype49615" xml:space="preserve">
+    <value>ENV_Abyssal_PVP_asteroid_s1_01a</value>
+  </data>
+  <data name="itemtype49616" xml:space="preserve">
+    <value>PVP Dungeon Cloud 6435</value>
+  </data>
+  <data name="itemtype49617" xml:space="preserve">
+    <value>PVP Dungeon Cloud 6436</value>
+  </data>
+  <data name="itemtype49618" xml:space="preserve">
+    <value>PVP Dungeon Cloud 6437</value>
+  </data>
+  <data name="itemtype49619" xml:space="preserve">
+    <value>Deathglow Residue</value>
+  </data>
+  <data name="itemtype49620" xml:space="preserve">
+    <value>Decayed Deathglow</value>
+  </data>
+  <data name="itemtype49621" xml:space="preserve">
+    <value>Top Grade Deathglow</value>
+  </data>
+  <data name="itemtype49625" xml:space="preserve">
+    <value>Upwell Monument 1M Blueprint</value>
+  </data>
+  <data name="itemtype49626" xml:space="preserve">
+    <value>Upwell Monument 1F Blueprint</value>
+  </data>
+  <data name="itemtype49627" xml:space="preserve">
+    <value>Ansiblex Jump Gate Wreck</value>
+  </data>
+  <data name="itemtype49628" xml:space="preserve">
+    <value>Pharolux Cyno Beacon Wreck</value>
+  </data>
+  <data name="itemtype49629" xml:space="preserve">
+    <value>Tenebrex Cyno Jammer Wreck</value>
+  </data>
+  <data name="itemtype49630" xml:space="preserve">
+    <value>Upwell Monument AM Wreck</value>
+  </data>
+  <data name="itemtype49631" xml:space="preserve">
+    <value>Upwell Monument 1M Wreck</value>
+  </data>
+  <data name="itemtype49632" xml:space="preserve">
+    <value>Upwell Monument 1F Wreck</value>
+  </data>
+  <data name="itemtype49634" xml:space="preserve">
+    <value>St. Tetrimon's Finger</value>
+  </data>
+  <data name="itemtype49635" xml:space="preserve">
+    <value>'Marginis' Fortizar Wreck</value>
+  </data>
+  <data name="itemtype49641" xml:space="preserve">
+    <value>Amarr Religious Mask</value>
+  </data>
+  <data name="itemtype49644" xml:space="preserve">
+    <value>Black Dagger</value>
+  </data>
+  <data name="itemtype49645" xml:space="preserve">
+    <value>Tarot of St. Jamyl</value>
+  </data>
+  <data name="itemtype49646" xml:space="preserve">
+    <value>Blood Coated Statuette</value>
+  </data>
+  <data name="itemtype49647" xml:space="preserve">
+    <value>Golden Sabik Vial</value>
+  </data>
+  <data name="itemtype49648" xml:space="preserve">
+    <value>Sani Sabik Sermon</value>
+  </data>
+  <data name="itemtype49649" xml:space="preserve">
+    <value>Lifeblood (Collector's Edition)</value>
+  </data>
+  <data name="itemtype49650" xml:space="preserve">
+    <value>Sani Sabik Murder Security Tapes</value>
+  </data>
+  <data name="itemtype49651" xml:space="preserve">
+    <value>Purgative Coffin</value>
+  </data>
+  <data name="itemtype49652" xml:space="preserve">
+    <value>Vintage Wine?</value>
+  </data>
+  <data name="itemtype49653" xml:space="preserve">
+    <value>Colonize! Board Game</value>
+  </data>
+  <data name="itemtype49661" xml:space="preserve">
+    <value>Triglavian Extraction SubNode</value>
+  </data>
+  <data name="itemtype49662" xml:space="preserve">
+    <value>Triglavian Extraction Node</value>
+  </data>
+  <data name="itemtype49663" xml:space="preserve">
+    <value>Triglavian Extraction Nexus</value>
+  </data>
+  <data name="itemtype49664" xml:space="preserve">
+    <value>Extraction SubNode Wreck</value>
+  </data>
+  <data name="itemtype49665" xml:space="preserve">
+    <value>Extraction Node Wreck</value>
+  </data>
+  <data name="itemtype49666" xml:space="preserve">
+    <value>Extraction Nexus Wreck</value>
+  </data>
+  <data name="itemtype49668" xml:space="preserve">
+    <value>Women's 'Shadowglam' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49669" xml:space="preserve">
+    <value>Women's 'Eico Azurchev' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49670" xml:space="preserve">
+    <value>Women's 'Imkuradori' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49671" xml:space="preserve">
+    <value>Women's 'Domino Auric' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49672" xml:space="preserve">
+    <value>Women's 'Eico Flamjaw' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49673" xml:space="preserve">
+    <value>Women's 'Domino Turqoise' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49674" xml:space="preserve">
+    <value>Women's 'Khalikos Vector' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49675" xml:space="preserve">
+    <value>Women's 'Eico Sunstrip' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49676" xml:space="preserve">
+    <value>Women's 'Domino Bronza' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49677" xml:space="preserve">
+    <value>Men's 'Grimglam' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49678" xml:space="preserve">
+    <value>Men's 'Eico Azurbrak' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49679" xml:space="preserve">
+    <value>Men's 'Rikkadori' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49680" xml:space="preserve">
+    <value>Men's 'Eico Hexarc' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49681" xml:space="preserve">
+    <value>Men's 'Eico Flamjaw' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49682" xml:space="preserve">
+    <value>Men's 'Domino Turqoise' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49683" xml:space="preserve">
+    <value>Men's 'Barbatus Glimmer' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49684" xml:space="preserve">
+    <value>Men's 'Eico Zygomandiba' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49685" xml:space="preserve">
+    <value>Men's 'Glamstreak' Facial Augmentation</value>
+  </data>
+  <data name="itemtype49689" xml:space="preserve">
+    <value>Triglavian Biocombinative Cache</value>
+  </data>
+  <data name="itemtype49690" xml:space="preserve">
+    <value>Triglavian Cladistic Cache</value>
+  </data>
+  <data name="itemtype49691" xml:space="preserve">
+    <value>Triglavian Triplex Extraction Cluster</value>
+  </data>
+  <data name="itemtype49692" xml:space="preserve">
+    <value>Biocombinative Cache Wreck</value>
+  </data>
+  <data name="itemtype49693" xml:space="preserve">
+    <value>Cladistic Cache Wreck</value>
+  </data>
+  <data name="itemtype49694" xml:space="preserve">
+    <value>Guristas Research Convoy</value>
+  </data>
+  <data name="itemtype49695" xml:space="preserve">
+    <value>Guristas Research Convoy</value>
+  </data>
+  <data name="itemtype49696" xml:space="preserve">
+    <value>Winter Event Nebulae_a</value>
+  </data>
+  <data name="itemtype49697" xml:space="preserve">
+    <value>Winter Event Nebulae_b</value>
+  </data>
+  <data name="itemtype49698" xml:space="preserve">
+    <value>Winter Event AoE</value>
+  </data>
+  <data name="itemtype49699" xml:space="preserve">
+    <value>Winter Event Structure</value>
+  </data>
+  <data name="itemtype49700" xml:space="preserve">
+    <value>Winter Event Foreground</value>
+  </data>
+  <data name="itemtype49701" xml:space="preserve">
+    <value>Impetus Potency-75 Glamourex Booster</value>
+  </data>
+  <data name="itemtype49702" xml:space="preserve">
+    <value>Mat Boost 2018.11</value>
+  </data>
+  <data name="itemtype49703" xml:space="preserve">
+    <value>ASI 2018.11</value>
+  </data>
+  <data name="itemtype49704" xml:space="preserve">
+    <value>OSI 2018.11</value>
+  </data>
+  <data name="itemtype49705" xml:space="preserve">
+    <value>'Domino Turqoise' Augmentation Crate</value>
+  </data>
+  <data name="itemtype49706" xml:space="preserve">
+    <value>'Eico Flamjaw' Augmentation Crate</value>
+  </data>
+  <data name="itemtype49707" xml:space="preserve">
+    <value>Hair Accessory Shipment (Damaged)</value>
+  </data>
+  <data name="itemtype49708" xml:space="preserve">
+    <value>Calm Abyssal Filaments Crate</value>
+  </data>
+  <data name="itemtype49709" xml:space="preserve">
+    <value>Fierce Abyssal Filaments Crate</value>
+  </data>
+  <data name="itemtype49710" xml:space="preserve">
+    <value>Kikimora</value>
+  </data>
+  <data name="itemtype49711" xml:space="preserve">
+    <value>Drekavac</value>
+  </data>
+  <data name="itemtype49712" xml:space="preserve">
+    <value>Rodiva</value>
+  </data>
+  <data name="itemtype49713" xml:space="preserve">
+    <value>Zarmazd</value>
+  </data>
+  <data name="itemtype49714" xml:space="preserve">
+    <value>Kikimora Blueprint</value>
+  </data>
+  <data name="itemtype49715" xml:space="preserve">
+    <value>Drekavac Blueprint</value>
+  </data>
+  <data name="itemtype49716" xml:space="preserve">
+    <value>Rodiva Blueprint</value>
+  </data>
+  <data name="itemtype49717" xml:space="preserve">
+    <value>Zarmazd Blueprint</value>
+  </data>
+  <data name="itemtype49718" xml:space="preserve">
+    <value>Medium Navy Ammunition Crate</value>
+  </data>
+  <data name="itemtype49719" xml:space="preserve">
+    <value>Medium Faction Ammunition Crate</value>
+  </data>
+  <data name="itemtype49720" xml:space="preserve">
+    <value>Structure EXERT Conduit Coupler</value>
+  </data>
+  <data name="itemtype49721" xml:space="preserve">
+    <value>Structure EXERT Conduit Coupler Blueprint</value>
+  </data>
+  <data name="itemtype49722" xml:space="preserve">
+    <value>Abyssal Magnetic Field Stabilizer</value>
+  </data>
+  <data name="itemtype49723" xml:space="preserve">
+    <value>Decayed Magnetic Field Stabilizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype49724" xml:space="preserve">
+    <value>Gravid Magnetic Field Stabilizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype49725" xml:space="preserve">
+    <value>Unstable Magnetic Field Stabilizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype49726" xml:space="preserve">
+    <value>Abyssal Heat Sink</value>
+  </data>
+  <data name="itemtype49727" xml:space="preserve">
+    <value>Decayed Heat Sink Mutaplasmid</value>
+  </data>
+  <data name="itemtype49728" xml:space="preserve">
+    <value>Gravid Heat Sink Mutaplasmid</value>
+  </data>
+  <data name="itemtype49729" xml:space="preserve">
+    <value>Unstable Heat Sink Mutaplasmid</value>
+  </data>
+  <data name="itemtype49730" xml:space="preserve">
+    <value>Abyssal Gyrostabilizer</value>
+  </data>
+  <data name="itemtype49731" xml:space="preserve">
+    <value>Decayed Gyrostabilizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype49732" xml:space="preserve">
+    <value>Gravid Gyrostabilizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype49733" xml:space="preserve">
+    <value>Unstable Gyrostabilizer Mutaplasmid</value>
+  </data>
+  <data name="itemtype49734" xml:space="preserve">
+    <value>Abyssal Entropic Radiation Sink</value>
+  </data>
+  <data name="itemtype49735" xml:space="preserve">
+    <value>Decayed Entropic Radiation Sink Mutaplasmid</value>
+  </data>
+  <data name="itemtype49736" xml:space="preserve">
+    <value>Gravid Entropic Radiation Sink Mutaplasmid</value>
+  </data>
+  <data name="itemtype49737" xml:space="preserve">
+    <value>Unstable Entropic Radiation Sink Mutaplasmid</value>
+  </data>
+  <data name="itemtype49738" xml:space="preserve">
+    <value>Abyssal Ballistic Control System</value>
+  </data>
+  <data name="itemtype49739" xml:space="preserve">
+    <value>Decayed Ballistic Control System Mutaplasmid</value>
+  </data>
+  <data name="itemtype49740" xml:space="preserve">
+    <value>Gravid Ballistic Control System Mutaplasmid</value>
+  </data>
+  <data name="itemtype49741" xml:space="preserve">
+    <value>Unstable Ballistic Control System Mutaplasmid</value>
+  </data>
+  <data name="itemtype49742" xml:space="preserve">
+    <value>Precursor Destroyer</value>
+  </data>
+  <data name="itemtype49743" xml:space="preserve">
+    <value>Precursor Battlecruiser</value>
+  </data>
+  <data name="itemtype49746" xml:space="preserve">
+    <value>Small Navy Ammunition Crate</value>
+  </data>
+  <data name="itemtype49748" xml:space="preserve">
+    <value>Large Faction Ammunition Crate</value>
+  </data>
+  <data name="itemtype49749" xml:space="preserve">
+    <value>Impetus Potency-50 Glamourex Booster</value>
+  </data>
+  <data name="itemtype49750" xml:space="preserve">
+    <value>Gila Abyssal Afterglow SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49751" xml:space="preserve">
+    <value>Gila Abyssal Firestorm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49752" xml:space="preserve">
+    <value>Gila Abyssal Thunderstorm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49756" xml:space="preserve">
+    <value>25,000 Skill Points</value>
+  </data>
+  <data name="itemtype49757" xml:space="preserve">
+    <value>ENV_Abyssal_PVP_pillar_s1_01a</value>
+  </data>
+  <data name="itemtype49758" xml:space="preserve">
+    <value>ENV_Abyssal_PVP_crystal_s1_01a</value>
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>

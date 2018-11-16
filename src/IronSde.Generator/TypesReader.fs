@@ -19,16 +19,24 @@ type TypesReader(path)=
         { Name.id = id; name = name }
 
     let itemTypeGroup  (id, values: ObjectMap) =
+        let name = match id with
+                    | 2002 -> "Triglavian Datastreams"
+                    | _ -> values |> get "name" |> castObjectMap |> getName
         { ItemGroup.id = id; 
                     categoryId = values |> getInt "categoryID";
-                    name = values |> get "name" |> castObjectMap |> getName }
+                    name = name }
 
 
     let attributeType (values: ObjectMap) =                 
-        {AttributeType.id = (values |> getInt "attributeID");
-                            name = values |> getStr "attributeName";
-                            categoryId = values |> tryGetIntOption "categoryID";
-                            defaultValue = values |> tryGetFloatOption "defaultValue";}
+        let id = (values |> getInt "attributeID")
+        let name = match id with
+                    | 2795 -> "cynoJammerActivationDelay2"
+                    | _ -> values |> getStr "attributeName"
+
+        {AttributeType.id = id;
+                        name = name;
+                        categoryId = values |> tryGetIntOption "categoryID";
+                        defaultValue = values |> tryGetFloatOption "defaultValue";}
 
     let attributeCategory(values: ObjectMap)=
         {AttributeCategory.id = values |> getInt "categoryID";

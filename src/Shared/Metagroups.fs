@@ -16,4 +16,4 @@ type MetaGroups=
     | TechIII = 14
     | Abyssal = 15
     | Premium = 17
-    | Limited = 19
+    | LimitedTime = 19

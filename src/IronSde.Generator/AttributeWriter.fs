@@ -54,7 +54,7 @@ type AttributeWriter(targetPath: string)=
         
         // check that we do not have dupe names
         let values = values |> List.ofSeq
-
+        
         let names = values  |> Seq.map (fun at -> Source.toEnumName at.name) 
         if not (Strings.areUnique names) then
             invalidOp "Duplicate names found"
