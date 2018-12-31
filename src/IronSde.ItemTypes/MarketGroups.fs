@@ -2291,6 +2291,10 @@ module internal MarketGroups=
     let private marketGroup2508()= {MarketGroupData.id = 2508; parentId = Some 214; name = "Mass Entangler"; }
     let private marketGroup2510()= {MarketGroupData.id = 2510; parentId = Some 1338; name = "Navigation Structures"; }
     let private marketGroup2511()= {MarketGroupData.id = 2511; parentId = Some 477; name = "Navigation Structures"; }
+    let private marketGroup2518()= {MarketGroupData.id = 2518; parentId = Some 1955; name = "Precursor Battlecruisers"; }
+    let private marketGroup2519()= {MarketGroupData.id = 2519; parentId = Some 2518; name = "Triglavian"; }
+    let private marketGroup2520()= {MarketGroupData.id = 2520; parentId = Some 1989; name = "Precursor Destroyers"; }
+    let private marketGroup2521()= {MarketGroupData.id = 2521; parentId = Some 2520; name = "Triglavian"; }
     let private marketGroup2512()= {MarketGroupData.id = 2512; parentId = Some 2436; name = "Weapon Upgrade Mutaplasmids"; }
     let private marketGroup2513()= {MarketGroupData.id = 2513; parentId = Some 2512; name = "Magnetic Field Stabilizer Mutaplasmids"; }
     let private marketGroup2514()= {MarketGroupData.id = 2514; parentId = Some 2512; name = "Heat Sink Mutaplasmids"; }
@@ -2301,6 +2305,11 @@ module internal MarketGroups=
     let private marketGroup2523()= {MarketGroupData.id = 2523; parentId = Some 2522; name = "Triglavian"; }
     let private marketGroup2524()= {MarketGroupData.id = 2524; parentId = Some 1374; name = "Precursor Battlecruisers"; }
     let private marketGroup2525()= {MarketGroupData.id = 2525; parentId = Some 2524; name = "Triglavian"; }
+    let private marketGroup2529()= {MarketGroupData.id = 2529; parentId = Some 2527; name = "Medium"; }
+    let private marketGroup2527()= {MarketGroupData.id = 2527; parentId = Some 14; name = "Mutadaptive Remote Armor Repairers"; }
+    let private marketGroup2530()= {MarketGroupData.id = 2530; parentId = Some 977; name = "Booster Slot 12"; }
+    let private marketGroup2531()= {MarketGroupData.id = 2531; parentId = Some 977; name = "Booster Slot 14"; }
+    let private marketGroup2526()= {MarketGroupData.id = 2526; parentId = Some 437; name = "Triglavian"; }
     let marketgroup = 
         function
         | 2 -> marketGroup2() |> Some
@@ -4592,6 +4601,10 @@ module internal MarketGroups=
         | 2508 -> marketGroup2508() |> Some
         | 2510 -> marketGroup2510() |> Some
         | 2511 -> marketGroup2511() |> Some
+        | 2518 -> marketGroup2518() |> Some
+        | 2519 -> marketGroup2519() |> Some
+        | 2520 -> marketGroup2520() |> Some
+        | 2521 -> marketGroup2521() |> Some
         | 2512 -> marketGroup2512() |> Some
         | 2513 -> marketGroup2513() |> Some
         | 2514 -> marketGroup2514() |> Some
@@ -4602,6 +4615,11 @@ module internal MarketGroups=
         | 2523 -> marketGroup2523() |> Some
         | 2524 -> marketGroup2524() |> Some
         | 2525 -> marketGroup2525() |> Some
+        | 2529 -> marketGroup2529() |> Some
+        | 2527 -> marketGroup2527() |> Some
+        | 2530 -> marketGroup2530() |> Some
+        | 2531 -> marketGroup2531() |> Some
+        | 2526 -> marketGroup2526() |> Some
         | _ -> None
     let marketGroupChildren = function
         | None -> [| 2;4;9;11;19;24;150;157;475;477;955;1320;1396;1659;1922;1954;2202;2203;350001 |]
@@ -4613,7 +4631,7 @@ module internal MarketGroups=
         | Some 114 -> [| 115;116;117;118;387;505;580;581;968;1316;2196;2197 |]
         | Some 554 -> [| 126;128;550;551;552;553;687;688 |]
         | Some 52 -> [| 131;132;542;1650;2135 |]
-        | Some 14 -> [| 133;134;135;535;537;538;540;541;615;1018;1669;1687;2509 |]
+        | Some 14 -> [| 133;134;135;535;537;538;540;541;615;1018;1669;1687;2509;2527 |]
         | Some 157 -> [| 158;159;841;842;843;1646;2236 |]
         | Some 2 -> [| 204;209;211;357;943;1041;1338;1849;2157;2158 |]
         | Some 204 -> [| 205;206;207;208;408;414;419;442;453;458;496;582;588;634;782;787;878;879;880;881;882;883;1045;2262;2333 |]
@@ -4922,7 +4940,7 @@ module internal MarketGroups=
         | Some 432 -> [| 433;434;435;436 |]
         | Some 1065 -> [| 1066;1067;1068;1069 |]
         | Some 6 -> [| 73;74;75;76 |]
-        | Some 437 -> [| 438;439;440;441 |]
+        | Some 437 -> [| 438;439;440;441;2526 |]
         | Some 448 -> [| 449;450;451;452 |]
         | Some 824 -> [| 827;830;833;836 |]
         | Some 1070 -> [| 1071;1072;1073;1074 |]
@@ -5050,7 +5068,7 @@ module internal MarketGroups=
         | Some 2029 -> [| 2030;2063 |]
         | Some 2028 -> [| 1990;1991;1992;1993 |]
         | Some 2022 -> [| 2023;2109 |]
-        | Some 1989 -> [| 2035;2036;2313 |]
+        | Some 1989 -> [| 2035;2036;2313;2520 |]
         | Some 2035 -> [| 1994;1995;1996;1997 |]
         | Some 2036 -> [| 2037;2141;2309 |]
         | Some 2037 -> [| 2038;2039;2040;2041 |]
@@ -5069,7 +5087,7 @@ module internal MarketGroups=
         | Some 2086 -> [| 2087 |]
         | Some 2087 -> [| 2088;2089;2090;2091 |]
         | Some 2094 -> [| 2095;2096;2097;2098 |]
-        | Some 1955 -> [| 2099;2100;2101;2311 |]
+        | Some 1955 -> [| 2099;2100;2101;2311;2518 |]
         | Some 2101 -> [| 1956;1957;1958;1959 |]
         | Some 2099 -> [| 2102 |]
         | Some 2100 -> [| 2103 |]
@@ -5157,12 +5175,15 @@ module internal MarketGroups=
         | Some 2481 -> [| 2482 |]
         | Some 2483 -> [| 2485 |]
         | Some 2484 -> [| 2486 |]
-        | Some 977 -> [| 2488;2489;2490;2502 |]
+        | Some 977 -> [| 2488;2489;2490;2502;2530;2531 |]
         | Some 2488 -> [| 2491;2492;2493;2494;2495;2506 |]
         | Some 2489 -> [| 2496;2497;2498;2499 |]
         | Some 2490 -> [| 2500;2501 |]
         | Some 2502 -> [| 2503;2504;2505 |]
+        | Some 2518 -> [| 2519 |]
+        | Some 2520 -> [| 2521 |]
         | Some 2512 -> [| 2513;2514;2515;2516;2517 |]
         | Some 2522 -> [| 2523 |]
         | Some 2524 -> [| 2525 |]
+        | Some 2527 -> [| 2529 |]
         | _ -> [||]

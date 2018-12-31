@@ -2278,7 +2278,7 @@
     <value>Rig Security Transponder</value>
   </data>
   <data name="group897" xml:space="preserve">
-    <value>Covert Beacon</value>
+    <value>Covert Cynosural Field</value>
   </data>
   <data name="group898" xml:space="preserve">
     <value>Black Ops</value>
@@ -4214,6 +4214,18 @@
   </data>
   <data name="group2017" xml:space="preserve">
     <value>Upwell Cyno Beacon</value>
+  </data>
+  <data name="group2018" xml:space="preserve">
+    <value>Mutadaptive Remote Armor Repairer</value>
+  </data>
+  <data name="group2019" xml:space="preserve">
+    <value>Mutadaptive Remote Armor Repairer Blueprint</value>
+  </data>
+  <data name="group2020" xml:space="preserve">
+    <value>Future Home of Cyno Fields</value>
+  </data>
+  <data name="group2022" xml:space="preserve">
+    <value>Temporal Resources</value>
   </data>
   <data name="group350858" xml:space="preserve">
     <value>Infantry Weapons</value>

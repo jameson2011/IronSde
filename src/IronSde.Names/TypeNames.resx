@@ -93580,7 +93580,7 @@
     <value>Crimson Helix Firework (Large)</value>
   </data>
   <data name="itemtype47302" xml:space="preserve">
-    <value>Yoiul Blizzard Firework (Large)</value>
+    <value>Yoiul Blizzard Firework</value>
   </data>
   <data name="itemtype47303" xml:space="preserve">
     <value>Standup Large Festival Launcher</value>
@@ -94672,10 +94672,10 @@
     <value>Monitor Firewatch SKIN (Permanent)</value>
   </data>
   <data name="itemtype47685" xml:space="preserve">
-    <value>Triglavian Transfer Conduit</value>
+    <value>Transfer Conduit (Triglavian)</value>
   </data>
   <data name="itemtype47686" xml:space="preserve">
-    <value>Triglavian Origin Conduit</value>
+    <value>Origin Conduit (Triglavian)</value>
   </data>
   <data name="itemtype47688" xml:space="preserve">
     <value>Corrupted Trinary Data Vault</value>
@@ -97171,16 +97171,16 @@
     <value>Expired Extended 'Synapse' Overmind Accelerator</value>
   </data>
   <data name="itemtype48605" xml:space="preserve">
-    <value>Basic 'Radiance' Cerebral Accelerator</value>
+    <value>Expired Basic 'Radiance' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48606" xml:space="preserve">
-    <value>Standard 'Radiance' Cerebral Accelerator</value>
+    <value>Expired Standard 'Radiance' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48607" xml:space="preserve">
-    <value>Advanced 'Radiance' Cerebral Accelerator</value>
+    <value>Expired Advanced 'Radiance' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48608" xml:space="preserve">
-    <value>Extended 'Radiance' Cerebral Accelerator</value>
+    <value>Expired Extended 'Radiance' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48609" xml:space="preserve">
     <value>B11</value>
@@ -97195,16 +97195,16 @@
     <value>E11</value>
   </data>
   <data name="itemtype48613" xml:space="preserve">
-    <value>B12</value>
+    <value>Basic 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48614" xml:space="preserve">
-    <value>S12</value>
+    <value>Standard 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48615" xml:space="preserve">
-    <value>A12</value>
+    <value>Advanced 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48616" xml:space="preserve">
-    <value>E12</value>
+    <value>Extended 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48635" xml:space="preserve">
     <value>Tiamat</value>
@@ -97585,16 +97585,16 @@
     <value>Cthonic Attar Cluster</value>
   </data>
   <data name="itemtype48923" xml:space="preserve">
-    <value>Basic 'Radiance' Cerebral Accelerator Blueprint</value>
+    <value>Expired Basic 'Radiance' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype48924" xml:space="preserve">
-    <value>Standard 'Radiance' Cerebral Accelerator Blueprint</value>
+    <value>Expired Standard 'Radiance' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype48925" xml:space="preserve">
-    <value>Advanced 'Radiance' Cerebral Accelerator Blueprint</value>
+    <value>Expired Advanced 'Radiance' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype48926" xml:space="preserve">
-    <value>Extended 'Radiance' Cerebral Accelerator Blueprint</value>
+    <value>Expired Extended 'Radiance' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype48927" xml:space="preserve">
     <value>Chromodynamic Tricarboxyls</value>
@@ -98992,7 +98992,7 @@
     <value>Triglavian Boundary Geodesic</value>
   </data>
   <data name="itemtype49563" xml:space="preserve">
-    <value>Triglavian Proving Conduit</value>
+    <value>Proving Conduit (Triglavian)</value>
   </data>
   <data name="itemtype49600" xml:space="preserve">
     <value>Upwell Monument 1M</value>
@@ -99118,7 +99118,7 @@
     <value>Women's 'Eico Flamjaw' Facial Augmentation</value>
   </data>
   <data name="itemtype49673" xml:space="preserve">
-    <value>Women's 'Domino Turqoise' Facial Augmentation</value>
+    <value>Women's 'Domino Turquoise' Facial Augmentation</value>
   </data>
   <data name="itemtype49674" xml:space="preserve">
     <value>Women's 'Khalikos Vector' Facial Augmentation</value>
@@ -99145,7 +99145,7 @@
     <value>Men's 'Eico Flamjaw' Facial Augmentation</value>
   </data>
   <data name="itemtype49682" xml:space="preserve">
-    <value>Men's 'Domino Turqoise' Facial Augmentation</value>
+    <value>Men's 'Domino Turquoise' Facial Augmentation</value>
   </data>
   <data name="itemtype49683" xml:space="preserve">
     <value>Men's 'Barbatus Glimmer' Facial Augmentation</value>
@@ -99187,7 +99187,7 @@
     <value>Winter Event AoE</value>
   </data>
   <data name="itemtype49699" xml:space="preserve">
-    <value>Winter Event Structure</value>
+    <value>Automated Frostline Condensate Separation Rig</value>
   </data>
   <data name="itemtype49700" xml:space="preserve">
     <value>Winter Event Foreground</value>
@@ -99205,7 +99205,7 @@
     <value>OSI 2018.11</value>
   </data>
   <data name="itemtype49705" xml:space="preserve">
-    <value>'Domino Turqoise' Augmentation Crate</value>
+    <value>'Domino Turquoise' Augmentation Crate</value>
   </data>
   <data name="itemtype49706" xml:space="preserve">
     <value>'Eico Flamjaw' Augmentation Crate</value>
@@ -99324,6 +99324,9 @@
   <data name="itemtype49746" xml:space="preserve">
     <value>Small Navy Ammunition Crate</value>
   </data>
+  <data name="itemtype49747" xml:space="preserve">
+    <value>Ice Dwarf Planet</value>
+  </data>
   <data name="itemtype49748" xml:space="preserve">
     <value>Large Faction Ammunition Crate</value>
   </data>
@@ -99339,6 +99342,15 @@
   <data name="itemtype49752" xml:space="preserve">
     <value>Gila Abyssal Thunderstorm SKIN (Permanent)</value>
   </data>
+  <data name="itemtype49753" xml:space="preserve">
+    <value>Onslaught Accelerator</value>
+  </data>
+  <data name="itemtype49754" xml:space="preserve">
+    <value>Winter_ENV_S1_01a</value>
+  </data>
+  <data name="itemtype49755" xml:space="preserve">
+    <value>Winter_Cloud_R2</value>
+  </data>
   <data name="itemtype49756" xml:space="preserve">
     <value>25,000 Skill Points</value>
   </data>
@@ -99347,6 +99359,315 @@
   </data>
   <data name="itemtype49758" xml:space="preserve">
     <value>ENV_Abyssal_PVP_crystal_s1_01a</value>
+  </data>
+  <data name="itemtype49759" xml:space="preserve">
+    <value>Frostline Industrial Warehouse Unit</value>
+  </data>
+  <data name="itemtype49763" xml:space="preserve">
+    <value>Mordu's Legionnaire</value>
+  </data>
+  <data name="itemtype49764" xml:space="preserve">
+    <value>Mordu's Decurion</value>
+  </data>
+  <data name="itemtype49765" xml:space="preserve">
+    <value>Mordu's Centurion</value>
+  </data>
+  <data name="itemtype49766" xml:space="preserve">
+    <value>pvp_weather_1</value>
+  </data>
+  <data name="itemtype49770" xml:space="preserve">
+    <value>Heavy Mutadaptive Remote Armor Repairer I</value>
+  </data>
+  <data name="itemtype49771" xml:space="preserve">
+    <value>Heavy Mutadaptive Scoped Remote Armor Repairer</value>
+  </data>
+  <data name="itemtype49772" xml:space="preserve">
+    <value>Heavy Mutadaptive Compact Remote Armor Repairer</value>
+  </data>
+  <data name="itemtype49773" xml:space="preserve">
+    <value>Heavy Mutadaptive Remote Armor Repairer II</value>
+  </data>
+  <data name="itemtype49774" xml:space="preserve">
+    <value>Perun Heavy Mutadaptive Remote Armor Repairer</value>
+  </data>
+  <data name="itemtype49775" xml:space="preserve">
+    <value>Heavy Mutadaptive Remote Armor Repairer I Blueprint</value>
+  </data>
+  <data name="itemtype49776" xml:space="preserve">
+    <value>Heavy Mutadaptive Scoped Remote Armor Repairer Blueprint</value>
+  </data>
+  <data name="itemtype49777" xml:space="preserve">
+    <value>Heavy Mutadaptive Compact Remote Armor Repairer Blueprint</value>
+  </data>
+  <data name="itemtype49778" xml:space="preserve">
+    <value>Heavy Mutadaptive Remote Armor Repairer II Blueprint</value>
+  </data>
+  <data name="itemtype49779" xml:space="preserve">
+    <value>Perun Heavy Mutadaptive Remote Armor Repairer Blueprint</value>
+  </data>
+  <data name="itemtype49782" xml:space="preserve">
+    <value>Winter Event Camera Lock</value>
+  </data>
+  <data name="itemtype49784" xml:space="preserve">
+    <value>Polar Gate North</value>
+  </data>
+  <data name="itemtype49785" xml:space="preserve">
+    <value>Polar Gate West</value>
+  </data>
+  <data name="itemtype49786" xml:space="preserve">
+    <value>Polar Gate East</value>
+  </data>
+  <data name="itemtype49787" xml:space="preserve">
+    <value>Hiemal Tricarboxyl Vapor</value>
+  </data>
+  <data name="itemtype49788" xml:space="preserve">
+    <value>Frostline Logistics Node</value>
+  </data>
+  <data name="itemtype49789" xml:space="preserve">
+    <value>Hiemal Tricarboxyl Condensate</value>
+  </data>
+  <data name="itemtype49790" xml:space="preserve">
+    <value>ML-EKP 'Polybolos' Ballistic Control System</value>
+  </data>
+  <data name="itemtype49791" xml:space="preserve">
+    <value>Frostline 'Clavicula' Integrated Analyzer</value>
+  </data>
+  <data name="itemtype49792" xml:space="preserve">
+    <value>Frostline 'Omnivore' Harvester Upgrade</value>
+  </data>
+  <data name="itemtype49793" xml:space="preserve">
+    <value>Frostline Transporter</value>
+  </data>
+  <data name="itemtype49794" xml:space="preserve">
+    <value>Apotheosis Icecloud Investigators SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49795" xml:space="preserve">
+    <value>Gnosis Icecloud Investigators SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49796" xml:space="preserve">
+    <value>Praxis Icecloud Investigators SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49797" xml:space="preserve">
+    <value>Sunesis Icecloud Investigators SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49798" xml:space="preserve">
+    <value>Punisher Chromodynamic Candy SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49799" xml:space="preserve">
+    <value>Tristan Chromodynamic Candy SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49800" xml:space="preserve">
+    <value>Drake Chromodynamic Candy SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49801" xml:space="preserve">
+    <value>Rupture Chromodynamic Candy SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49802" xml:space="preserve">
+    <value>Gnosis &amp; Punisher SKIN Crate</value>
+  </data>
+  <data name="itemtype49803" xml:space="preserve">
+    <value>Men's &amp; Women's Frostline Exploration Suit</value>
+  </data>
+  <data name="itemtype49804" xml:space="preserve">
+    <value>'Bitwave Glacier' Augmentation Crate</value>
+  </data>
+  <data name="itemtype49805" xml:space="preserve">
+    <value>Drake &amp; Rupture SKIN Crate</value>
+  </data>
+  <data name="itemtype49806" xml:space="preserve">
+    <value>'Mistborne Rime' Augmentation Crate</value>
+  </data>
+  <data name="itemtype49807" xml:space="preserve">
+    <value>Mordu's Spatha</value>
+  </data>
+  <data name="itemtype49809" xml:space="preserve">
+    <value>50,000 Skillpoints</value>
+  </data>
+  <data name="itemtype49810" xml:space="preserve">
+    <value>100,000 Skillpoints</value>
+  </data>
+  <data name="itemtype49811" xml:space="preserve">
+    <value>Hurricane Operation Permafrost SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49812" xml:space="preserve">
+    <value>Merlin Operation Permafrost SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49813" xml:space="preserve">
+    <value>Omen Operation Permafrost SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49814" xml:space="preserve">
+    <value>Megathron Operation Permafrost SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49816" xml:space="preserve">
+    <value>Confessor Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49817" xml:space="preserve">
+    <value>Apocalypse Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49818" xml:space="preserve">
+    <value>Armageddon Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49819" xml:space="preserve">
+    <value>Redeemer Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49820" xml:space="preserve">
+    <value>Apocalypse Navy Issue Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49821" xml:space="preserve">
+    <value>Armageddon Navy Issue Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49822" xml:space="preserve">
+    <value>Revelation Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49823" xml:space="preserve">
+    <value>Aeon Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49824" xml:space="preserve">
+    <value>Avatar Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49825" xml:space="preserve">
+    <value>Apostle Lavacore Imperial SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49922" xml:space="preserve">
+    <value>Damavik Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49923" xml:space="preserve">
+    <value>Kikimora Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49924" xml:space="preserve">
+    <value>Vedmak Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49925" xml:space="preserve">
+    <value>Rodiva Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49926" xml:space="preserve">
+    <value>Zarmazd Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49927" xml:space="preserve">
+    <value>Drekavac Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49928" xml:space="preserve">
+    <value>Leshak Blackfire Steel SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49933" xml:space="preserve">
+    <value>Kikimora Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49934" xml:space="preserve">
+    <value>Rodiva Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49935" xml:space="preserve">
+    <value>Zarmazd Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49936" xml:space="preserve">
+    <value>Drekavac Hadean Horror SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49946" xml:space="preserve">
+    <value>Oracle Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49947" xml:space="preserve">
+    <value>Paladin Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49948" xml:space="preserve">
+    <value>Ark Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49952" xml:space="preserve">
+    <value>Jackdaw Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49953" xml:space="preserve">
+    <value>Cerberus Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49954" xml:space="preserve">
+    <value>Minokawa Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49955" xml:space="preserve">
+    <value>Vexor Navy Issue Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49956" xml:space="preserve">
+    <value>Talos Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49957" xml:space="preserve">
+    <value>Dominix Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49958" xml:space="preserve">
+    <value>Sleipnir Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49959" xml:space="preserve">
+    <value>Typhoon Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49960" xml:space="preserve">
+    <value>Panther Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49961" xml:space="preserve">
+    <value>Astero Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49962" xml:space="preserve">
+    <value>Stratios Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49963" xml:space="preserve">
+    <value>Nestor Yoiul Festival YC121 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype49964" xml:space="preserve">
+    <value>Frostline Gatherer</value>
+  </data>
+  <data name="itemtype49965" xml:space="preserve">
+    <value>Automated Frostline Vapor Condensation Rig</value>
+  </data>
+  <data name="itemtype49967" xml:space="preserve">
+    <value>Basic 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype49968" xml:space="preserve">
+    <value>Standard 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype49969" xml:space="preserve">
+    <value>Advanced 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype49970" xml:space="preserve">
+    <value>Extended 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype49971" xml:space="preserve">
+    <value>ML-EKP 'Polybolos' Ballistic Control System Blueprint</value>
+  </data>
+  <data name="itemtype49972" xml:space="preserve">
+    <value>Frostline 'Clavicula' Integrated Analyzer Blueprint</value>
+  </data>
+  <data name="itemtype49973" xml:space="preserve">
+    <value>Frostline 'Omnivore' Harvester Upgrade Blueprint</value>
+  </data>
+  <data name="itemtype49974" xml:space="preserve">
+    <value>ML-EKP 'Polybolos' Ballistic Control System Blueprint Crate</value>
+  </data>
+  <data name="itemtype49975" xml:space="preserve">
+    <value>Frostline 'Clavicula' Integrated Analyzer Blueprint Crate</value>
+  </data>
+  <data name="itemtype49976" xml:space="preserve">
+    <value>Debris</value>
+  </data>
+  <data name="itemtype49977" xml:space="preserve">
+    <value>Jump Gate Wreckage</value>
+  </data>
+  <data name="itemtype49978" xml:space="preserve">
+    <value>Men's Frostline Exploration Suit</value>
+  </data>
+  <data name="itemtype49979" xml:space="preserve">
+    <value>'Absolute' Injection Augmentor</value>
+  </data>
+  <data name="itemtype49980" xml:space="preserve">
+    <value>Women's Frostline Exploration Suit</value>
+  </data>
+  <data name="itemtype49981" xml:space="preserve">
+    <value>Frostline 'Omnivore' Harvester Upgrade Blueprint Crate</value>
+  </data>
+  <data name="itemtype49984" xml:space="preserve">
+    <value>Women's 'Bitwave Glacier' Augmentation</value>
+  </data>
+  <data name="itemtype49985" xml:space="preserve">
+    <value>Women's 'Mistborne Rime' Augmentation</value>
+  </data>
+  <data name="itemtype49986" xml:space="preserve">
+    <value>Men's 'Mistborne Rime' Augmentation</value>
+  </data>
+  <data name="itemtype49987" xml:space="preserve">
+    <value>Men's 'Bitwave Glacier' Augmentation</value>
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>

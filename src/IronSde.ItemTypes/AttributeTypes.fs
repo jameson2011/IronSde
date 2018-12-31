@@ -2460,4 +2460,5 @@ module internal AttributeTypes=
         | 2803 -> Some { IronSde.Types.AttributeTypeData.id = 2803; categoryId = Some 7; name = "miningAmountSet"; defaultValue = Some 0.000000}
         | 2804 -> Some { IronSde.Types.AttributeTypeData.id = 2804; categoryId = Some 7; name = "serviceModuleFullPowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
         | 2805 -> Some { IronSde.Types.AttributeTypeData.id = 2805; categoryId = Some 7; name = "structurePowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
+        | 2806 -> Some { IronSde.Types.AttributeTypeData.id = 2806; categoryId = Some 7; name = "NonDiminishingSkillInjectorUses"; defaultValue = Some 1.000000}
         | _ -> None

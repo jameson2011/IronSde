@@ -2458,3 +2458,4 @@ type AttributeTypes=
     | miningAmountSet = 2803
     | serviceModuleFullPowerStateArmorPlatingMultiplier = 2804
     | structurePowerStateArmorPlatingMultiplier = 2805
+    | NonDiminishingSkillInjectorUses = 2806
