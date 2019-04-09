@@ -13,8 +13,8 @@ open Fake.DotNet.Testing.XUnit2
 open Http
 
 let buildNumber() =
-  match System.Environment.GetEnvironmentVariable("APPVEYOR_BUILD_NUMBER") with
-    | null -> System.Console.Out.WriteLine("APPVEYOR_BUILD_NUMBER is null")
+  match System.Environment.GetEnvironmentVariable("APPVEYOR_BUILD_VERSION") with
+    | null -> System.Console.Out.WriteLine("APPVEYOR_BUILD_VERSION is null")
               "0.0.1"
     | v -> v          
  
