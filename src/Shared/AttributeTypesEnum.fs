@@ -2459,3 +2459,4 @@ type AttributeTypes=
     | serviceModuleFullPowerStateArmorPlatingMultiplier = 2804
     | structurePowerStateArmorPlatingMultiplier = 2805
     | NonDiminishingSkillInjectorUses = 2806
+    | reactivationDelayBonus = 2807

@@ -97195,16 +97195,16 @@
     <value>E11</value>
   </data>
   <data name="itemtype48613" xml:space="preserve">
-    <value>Basic 'Brainfreeze' Cerebral Accelerator</value>
+    <value>Expired Basic 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48614" xml:space="preserve">
-    <value>Standard 'Brainfreeze' Cerebral Accelerator</value>
+    <value>Expired Standard 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48615" xml:space="preserve">
-    <value>Advanced 'Brainfreeze' Cerebral Accelerator</value>
+    <value>Expired Advanced 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48616" xml:space="preserve">
-    <value>Extended 'Brainfreeze' Cerebral Accelerator</value>
+    <value>Expired Extended 'Brainfreeze' Cerebral Accelerator</value>
   </data>
   <data name="itemtype48635" xml:space="preserve">
     <value>Tiamat</value>
@@ -97660,19 +97660,19 @@
     <value>Nov Mod BPC</value>
   </data>
   <data name="itemtype48950" xml:space="preserve">
-    <value>Nov Ship Log 1</value>
+    <value>Log Fragment 1 (Gala YC121)</value>
   </data>
   <data name="itemtype48951" xml:space="preserve">
-    <value>Nov Ship Log 2</value>
+    <value>Log Fragment 2 (Gala YC121)</value>
   </data>
   <data name="itemtype48952" xml:space="preserve">
-    <value>Nov Ship Log 3</value>
+    <value>Log Fragment 3 (Gala YC121)</value>
   </data>
   <data name="itemtype48953" xml:space="preserve">
-    <value>Nov Ship Log 4</value>
+    <value>Log Fragment 4 (Gala YC121)</value>
   </data>
   <data name="itemtype48954" xml:space="preserve">
-    <value>Nov Ship Log 5</value>
+    <value>Log Fragment 5 (Gala YC121)</value>
   </data>
   <data name="itemtype48955" xml:space="preserve">
     <value>Deathglow Bottomfeeder</value>
@@ -99613,16 +99613,16 @@
     <value>Automated Frostline Vapor Condensation Rig</value>
   </data>
   <data name="itemtype49967" xml:space="preserve">
-    <value>Basic 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+    <value>Expired Basic 'Brainfreeze' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype49968" xml:space="preserve">
-    <value>Standard 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+    <value>Expired Standard 'Brainfreeze' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype49969" xml:space="preserve">
-    <value>Advanced 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+    <value>Expired Advanced 'Brainfreeze' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype49970" xml:space="preserve">
-    <value>Extended 'Brainfreeze' Cerebral Accelerator Blueprint</value>
+    <value>Expired Extended 'Brainfreeze' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype49971" xml:space="preserve">
     <value>ML-EKP 'Polybolos' Ballistic Control System Blueprint</value>
@@ -99649,7 +99649,7 @@
     <value>Men's Frostline Exploration Suit</value>
   </data>
   <data name="itemtype49979" xml:space="preserve">
-    <value>'Absolute' Injection Augmentor</value>
+    <value>Expired 'Absolute' Injection Augmentor</value>
   </data>
   <data name="itemtype49980" xml:space="preserve">
     <value>Women's Frostline Exploration Suit</value>
@@ -99668,6 +99668,210 @@
   </data>
   <data name="itemtype49987" xml:space="preserve">
     <value>Men's 'Bitwave Glacier' Augmentation</value>
+  </data>
+  <data name="itemtype49991" xml:space="preserve">
+    <value>Stargazer Lantern Firework</value>
+  </data>
+  <data name="itemtype49992" xml:space="preserve">
+    <value>Cherubic Heartburst Firework</value>
+  </data>
+  <data name="itemtype50002" xml:space="preserve">
+    <value>Vexor Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50003" xml:space="preserve">
+    <value>Ishtar Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50004" xml:space="preserve">
+    <value>Nyx Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50007" xml:space="preserve">
+    <value>Basic 'Ardour' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype50008" xml:space="preserve">
+    <value>Standard 'Ardour' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype50009" xml:space="preserve">
+    <value>Advanced 'Ardour' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype50010" xml:space="preserve">
+    <value>Extended 'Ardour' Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype50011" xml:space="preserve">
+    <value>Basic 'Ardour' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype50012" xml:space="preserve">
+    <value>Standard 'Ardour' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype50013" xml:space="preserve">
+    <value>Advanced 'Ardour' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype50014" xml:space="preserve">
+    <value>Extended 'Ardour' Cerebral Accelerator Blueprint</value>
+  </data>
+  <data name="itemtype50015" xml:space="preserve">
+    <value>Amethystic Crystallite</value>
+  </data>
+  <data name="itemtype50016" xml:space="preserve">
+    <value>Guardian's Gala YC121 Nebula</value>
+  </data>
+  <data name="itemtype50017" xml:space="preserve">
+    <value>Paradise Club</value>
+  </data>
+  <data name="itemtype50018" xml:space="preserve">
+    <value>Paradise Club</value>
+  </data>
+  <data name="itemtype50019" xml:space="preserve">
+    <value>Gala Bunker</value>
+  </data>
+  <data name="itemtype50020" xml:space="preserve">
+    <value>Gala Elevator</value>
+  </data>
+  <data name="itemtype50021" xml:space="preserve">
+    <value>Gala Junction</value>
+  </data>
+  <data name="itemtype50022" xml:space="preserve">
+    <value>Gala Lookout</value>
+  </data>
+  <data name="itemtype50023" xml:space="preserve">
+    <value>Gala Missile Battery</value>
+  </data>
+  <data name="itemtype50024" xml:space="preserve">
+    <value>Gala Wall</value>
+  </data>
+  <data name="itemtype50025" xml:space="preserve">
+    <value>Gala Barricade</value>
+  </data>
+  <data name="itemtype50026" xml:space="preserve">
+    <value>Gala Fence</value>
+  </data>
+  <data name="itemtype50027" xml:space="preserve">
+    <value>Gala Barrier</value>
+  </data>
+  <data name="itemtype50028" xml:space="preserve">
+    <value>Gala Coatroom</value>
+  </data>
+  <data name="itemtype50029" xml:space="preserve">
+    <value>Basic 'Ardour' Cerebral Accelerator Blueprint Crate</value>
+  </data>
+  <data name="itemtype50030" xml:space="preserve">
+    <value>Standard 'Ardour' Cerebral Accelerator Blueprint Crate</value>
+  </data>
+  <data name="itemtype50031" xml:space="preserve">
+    <value>Talos Amaranthine Mantle SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50033" xml:space="preserve">
+    <value>Tornado Amaranthine Mantle SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50034" xml:space="preserve">
+    <value>Vindicator Amaranthine Mantle SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50035" xml:space="preserve">
+    <value>Machariel Amaranthine Mantle SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50036" xml:space="preserve">
+    <value>Amaranthine Divide Facial Augmentation Package</value>
+  </data>
+  <data name="itemtype50037" xml:space="preserve">
+    <value>GalaFacAugM</value>
+  </data>
+  <data name="itemtype50038" xml:space="preserve">
+    <value>GalaFacAugF</value>
+  </data>
+  <data name="itemtype50039" xml:space="preserve">
+    <value>YC121 Guardian's Gala Ticket</value>
+  </data>
+  <data name="itemtype50040" xml:space="preserve">
+    <value>Log Fragment 6 (Gala YC121)</value>
+  </data>
+  <data name="itemtype50041" xml:space="preserve">
+    <value>Log Fragment 7 (Gala YC121)</value>
+  </data>
+  <data name="itemtype50042" xml:space="preserve">
+    <value>Log Fragment 8 (Gala YC121)</value>
+  </data>
+  <data name="itemtype50043" xml:space="preserve">
+    <value>50043_Female_Makeup_Augmentations_Face_Paint_F01_Types_Face_Paint_F01_V30_ChOper.png</value>
+  </data>
+  <data name="itemtype50044" xml:space="preserve">
+    <value>50044_Male_Makeup_Augmentations_Face_Paint_M01_Types_Face_Paint_M01_V5_Purple.png</value>
+  </data>
+  <data name="itemtype50045" xml:space="preserve">
+    <value>Guardian's Gala Surprise Gift</value>
+  </data>
+  <data name="itemtype50046" xml:space="preserve">
+    <value>Guardian's Gala VIP Surprise Gift</value>
+  </data>
+  <data name="itemtype50047" xml:space="preserve">
+    <value>Guardian's Gala Surprise Gift, Damaged</value>
+  </data>
+  <data name="itemtype50048" xml:space="preserve">
+    <value>Guardian's Gala VIP Surprise Gift, Damaged</value>
+  </data>
+  <data name="itemtype50049" xml:space="preserve">
+    <value>50049_Female_Makeup_Augmentations_Face_Paint_F01_Types_Face_Paint_F01_V5_Purple.png</value>
+  </data>
+  <data name="itemtype50050" xml:space="preserve">
+    <value>50050_Male_Makeup_Augmentations_Face_Paint_M01_Types_Face_Paint_M01_V30_ChOper.png</value>
+  </data>
+  <data name="itemtype50051" xml:space="preserve">
+    <value>Men's Amaranthine Divide Facial Augmentation</value>
+  </data>
+  <data name="itemtype50052" xml:space="preserve">
+    <value>Women's Amaranthine Divide Facial Augmentation</value>
+  </data>
+  <data name="itemtype50053" xml:space="preserve">
+    <value>Inquest 'Hedone' Entanglement Optimizer WS-802</value>
+  </data>
+  <data name="itemtype50066" xml:space="preserve">
+    <value>Inquest 'Hedone' Entanglement Optimizer WS-803</value>
+  </data>
+  <data name="itemtype50067" xml:space="preserve">
+    <value>Inquest 'Hedone' Entanglement Optimizer WS-804</value>
+  </data>
+  <data name="itemtype50068" xml:space="preserve">
+    <value>Inquest 'Hedone' Entanglement Optimizer WS-802 Blueprint</value>
+  </data>
+  <data name="itemtype50069" xml:space="preserve">
+    <value>Confessor Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50070" xml:space="preserve">
+    <value>Redeemer Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50071" xml:space="preserve">
+    <value>Avatar Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50072" xml:space="preserve">
+    <value>Inquest 'Hedone' Entanglement Optimizer WS-803 Blueprint</value>
+  </data>
+  <data name="itemtype50073" xml:space="preserve">
+    <value>Inquest 'Hedone' Entanglement Optimizer WS-804 Blueprint</value>
+  </data>
+  <data name="itemtype50074" xml:space="preserve">
+    <value>Eagle Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50075" xml:space="preserve">
+    <value>Basilisk Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50076" xml:space="preserve">
+    <value>Leviathan Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50077" xml:space="preserve">
+    <value>Deimos Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50078" xml:space="preserve">
+    <value>Nyx Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50079" xml:space="preserve">
+    <value>Erebus Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50083" xml:space="preserve">
+    <value>Sabre Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50084" xml:space="preserve">
+    <value>Panther Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50085" xml:space="preserve">
+    <value>Ragnarok Eros Blossom SKIN (Permanent)</value>
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>
