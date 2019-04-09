@@ -12,8 +12,15 @@ open Fake.IO
 open Fake.DotNet.Testing.XUnit2
 open Http
 
+let buildNumber() =
+  match System.Environment.GetEnvironmentVariable("APPVEYOR_BUILD_NUMBER") with
+    | null -> System.Console.Out.WriteLine("APPVEYOR_BUILD_NUMBER is null")
+              "0.0.1"
+    | v -> v          
+ 
 
 let sdeVersion = "sde-20190219-TRANQUILITY"
+let nugetPkgVersion = buildNumber() 
 let latestSdeUri = sprintf "https://cdn1.eveonline.com/data/sde/tranquility/%s.zip" sdeVersion
 
 let buildDir = ".\\artifacts\\"
@@ -21,6 +28,8 @@ let buildGeneratorDir = buildDir </> "Generator"
 let buildNamesDir = buildDir </> "Names"
 let buildUniverseDir = buildDir </> "Universe"
 let packageDir = buildDir </> "package"
+let nugetPackageDir = buildDir </> "nupkgs"
+let packageTargetDir = packageDir </> "lib" </> "net461"
 let packageSourceFiles = buildUniverseDir </> "IronSde*.*"
 let buildTestsDir = ".\\testartifacts\\"
 
@@ -29,6 +38,7 @@ let downloadDir = dataDir </> "download\\"
 let sdeZipFile = downloadDir </> "sde.zip"
 let sdeFolder = dataDir </> "sde\\"
 
+let nugetExePath = ".\\.tools\\nuget.exe"
 let generatorSolution = ".\\src\\IronSde.Generator.sln"
 let unitTestsSolution = ".\\src\\IronSde.UnitTests.sln"
 let namesSolution = ".\\src\\IronSde.Names.sln"
@@ -64,7 +74,7 @@ Target.create "CleanArtifacts" (fun _ -> Shell.cleanDirs [ buildDir; buildTestsD
 
 
 Target.description "Create local workspaces"
-Target.create "CreateWorkspace" (fun _ -> Shell.cleanDirs [ sdeFolder; downloadDir; packageDir; ] )
+Target.create "CreateWorkspace" (fun _ -> Shell.cleanDirs [ sdeFolder; downloadDir; packageDir; packageTargetDir; nugetPackageDir;  ] )
 
 Target.description "Download Static Data"
 Target.create "DownloadSde" (fun _ -> downloadFileAsync sdeZipFile latestSdeUri |> Async.RunSynchronously |> sprintf "Downloaded %s" |> Trace.trace)
@@ -141,13 +151,25 @@ Target.create "UnitTests" (fun _ ->
                                         )                            
                             )
 
+
 Target.description "Create package dir"
 Target.create "CreatePackageDir" ( fun _ -> Fake.IO.Directory.ensure packageDir)
 
 Target.description "Copy package files"
 Target.create "CopyPackageFiles" (fun _ -> !! packageSourceFiles
-                                                |> Fake.IO.Shell.copyFiles packageDir
+                                                |> Fake.IO.Shell.copyFiles packageTargetDir;
                                                 )
+
+Target.description "Create nupkg"
+Target.create "CreateNupkg" (fun p -> Fake.IO.Directory.ensure nugetPackageDir
+                                      Fake.DotNet.NuGet.NuGet.NuGetPackDirectly 
+                                        (fun p2 -> { p2 with ToolPath = nugetExePath; 
+                                                              Version = nugetPkgVersion; 
+                                                              WorkingDir = ".\\";
+                                                              BasePath = Some packageDir;
+                                                              OutputPath = nugetPackageDir;
+                                                               }) 
+                                        ".\\IronSde.nuspec")
 
 Target.create "All" (fun _ -> Trace.trace "All done" )
 
@@ -172,7 +194,7 @@ Target.create "All" (fun _ -> Trace.trace "All done" )
 
 ?=> "CreatePackageDir"
 ==> "CopyPackageFiles"
-
+==> "CreateNupkg"
 
 "VerifySde"
 ==> "All"
@@ -183,6 +205,8 @@ Target.create "All" (fun _ -> Trace.trace "All done" )
 "UnitTests"
 ==> "All"
 "CopyPackageFiles"
+==> "All"
+"CreateNupkg"
 ==> "All"
 
 Target.runOrDefault "All"

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IronSde</id>
+    <version>0.0.0</version>
+    <authors>Jameson2011</authors>
+    <owners>Jameson2011</owners>
+    <licenseUrl>https://github.com/jameson2011/IronSde/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/jameson2011/IronSde</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>IronSde - a partial .NET implementation of the Eve static data export</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright Jameson2011 2019 Data Copyright CCP hf 2019</copyright>
+    <tags></tags>
+    <dependencies>
+        <dependency id="FSharp.Core" version="4.3.4" />
+        <dependency id="System.ValueTuple" version="4.4.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -25,3 +25,6 @@ artifacts:
   name: IronSde
 - path: artifacts\package
   name: IronSdePackage
+- path: artifacts\nupkgs
+  name: IronSdeNupkg
+  

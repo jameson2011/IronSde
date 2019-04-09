@@ -5,7 +5,7 @@ open System.Reflection
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
 [<assembly: AssemblyProduct("IronSde")>]
-[<assembly: AssemblyCopyright("Copyright © Jameson2011 2018 Data Copyright © CCP hf 2018")>]
+[<assembly: AssemblyCopyright("Copyright © Jameson2011 2019 Data Copyright © CCP hf 2019")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 [<assembly:System.Resources.NeutralResourcesLanguage("en")>]
