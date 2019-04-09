@@ -1606,7 +1606,7 @@
     <value>Advanced Torpedo</value>
   </data>
   <data name="group658" xml:space="preserve">
-    <value>Cynosural Field</value>
+    <value>Cynosural Field Generator</value>
   </data>
   <data name="group659" xml:space="preserve">
     <value>Supercarrier</value>
@@ -4222,10 +4222,16 @@
     <value>Mutadaptive Remote Armor Repairer Blueprint</value>
   </data>
   <data name="group2020" xml:space="preserve">
-    <value>Future Home of Cyno Fields</value>
+    <value>Cynosural Fields</value>
   </data>
   <data name="group2022" xml:space="preserve">
     <value>Temporal Resources</value>
+  </data>
+  <data name="group2023" xml:space="preserve">
+    <value>Cyber Electronics Implant Blueprints</value>
+  </data>
+  <data name="group2024" xml:space="preserve">
+    <value>Fluorite</value>
   </data>
   <data name="group350858" xml:space="preserve">
     <value>Infantry Weapons</value>

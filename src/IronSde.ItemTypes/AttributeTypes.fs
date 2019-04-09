@@ -1143,7 +1143,7 @@ module internal AttributeTypes=
         | 1324 -> Some { IronSde.Types.AttributeTypeData.id = 1324; categoryId = Some 7; name = "massBonusPercentageBonus"; defaultValue = Some 0.000000}
         | 1325 -> Some { IronSde.Types.AttributeTypeData.id = 1325; categoryId = Some 7; name = "speedBoostFactorBonusBonus"; defaultValue = Some 0.000000}
         | 1326 -> Some { IronSde.Types.AttributeTypeData.id = 1326; categoryId = Some 7; name = "speedFactorBonusBonus"; defaultValue = Some 0.000000}
-        | 1327 -> Some { IronSde.Types.AttributeTypeData.id = 1327; categoryId = Some 7; name = "warpScrambleRangeBonus"; defaultValue = Some 0.000000}
+        | 1327 -> Some { IronSde.Types.AttributeTypeData.id = 1327; categoryId = Some 27; name = "warpScrambleRangeBonus"; defaultValue = Some 0.000000}
         | 1328 -> Some { IronSde.Types.AttributeTypeData.id = 1328; categoryId = Some 10; name = "droneBandwidthMultiplier"; defaultValue = Some 0.000000}
         | 1329 -> Some { IronSde.Types.AttributeTypeData.id = 1329; categoryId = Some 10; name = "droneBandwidthBonusAdd"; defaultValue = Some 0.000000}
         | 1330 -> Some { IronSde.Types.AttributeTypeData.id = 1330; categoryId = Some 9; name = "isHacking"; defaultValue = Some 0.000000}
@@ -2461,4 +2461,5 @@ module internal AttributeTypes=
         | 2804 -> Some { IronSde.Types.AttributeTypeData.id = 2804; categoryId = Some 7; name = "serviceModuleFullPowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
         | 2805 -> Some { IronSde.Types.AttributeTypeData.id = 2805; categoryId = Some 7; name = "structurePowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
         | 2806 -> Some { IronSde.Types.AttributeTypeData.id = 2806; categoryId = Some 7; name = "NonDiminishingSkillInjectorUses"; defaultValue = Some 1.000000}
+        | 2807 -> Some { IronSde.Types.AttributeTypeData.id = 2807; categoryId = Some 7; name = "reactivationDelayBonus"; defaultValue = Some 0.000000}
         | _ -> None
