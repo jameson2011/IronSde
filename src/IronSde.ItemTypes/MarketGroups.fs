@@ -2209,7 +2209,7 @@ module internal MarketGroups=
     let private marketGroup2447()= {MarketGroupData.id = 2447; parentId = Some 2438; name = "Medium Shield Mutaplasmids"; }
     let private marketGroup2448()= {MarketGroupData.id = 2448; parentId = Some 2438; name = "Large Shield Mutaplasmids"; }
     let private marketGroup2449()= {MarketGroupData.id = 2449; parentId = Some 2438; name = "X-Large Shield Mutaplasmids"; }
-    let private marketGroup2450()= {MarketGroupData.id = 2450; parentId = Some 2439; name = "Small Atronautic Mutaplasmids"; }
+    let private marketGroup2450()= {MarketGroupData.id = 2450; parentId = Some 2439; name = "Small Astronautic Mutaplasmids"; }
     let private marketGroup2451()= {MarketGroupData.id = 2451; parentId = Some 2439; name = "Medium Astronautic Mutaplasmids"; }
     let private marketGroup2452()= {MarketGroupData.id = 2452; parentId = Some 2439; name = "Large Astronautic Mutaplasmids"; }
     let private marketGroup2453()= {MarketGroupData.id = 2453; parentId = Some 2440; name = "Small Engineering Mutaplasmids"; }
