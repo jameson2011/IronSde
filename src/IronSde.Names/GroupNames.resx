@@ -4236,6 +4236,18 @@
   <data name="group2026" xml:space="preserve">
     <value>Triglavian Artifacts</value>
   </data>
+  <data name="group4028" xml:space="preserve">
+    <value>Invading Precursor Entities</value>
+  </data>
+  <data name="group4029" xml:space="preserve">
+    <value>Talassonite</value>
+  </data>
+  <data name="group4030" xml:space="preserve">
+    <value>Rakovene</value>
+  </data>
+  <data name="group4031" xml:space="preserve">
+    <value>Bezdnacine</value>
+  </data>
   <data name="group350858" xml:space="preserve">
     <value>Infantry Weapons</value>
   </data>
