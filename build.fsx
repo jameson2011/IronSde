@@ -19,7 +19,7 @@ let buildNumber() =
     | v -> v          
  
 
-let sdeVersion = "sde-20190219-TRANQUILITY"
+let sdeVersion = "sde-20190529-TRANQUILITY"
 let nugetPkgVersion = buildNumber() 
 let latestSdeUri = sprintf "https://cdn1.eveonline.com/data/sde/tranquility/%s.zip" sdeVersion
 

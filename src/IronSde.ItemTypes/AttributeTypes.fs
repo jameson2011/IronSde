@@ -2462,4 +2462,17 @@ module internal AttributeTypes=
         | 2805 -> Some { IronSde.Types.AttributeTypeData.id = 2805; categoryId = Some 7; name = "structurePowerStateArmorPlatingMultiplier"; defaultValue = Some 0.000000}
         | 2806 -> Some { IronSde.Types.AttributeTypeData.id = 2806; categoryId = Some 7; name = "NonDiminishingSkillInjectorUses"; defaultValue = Some 1.000000}
         | 2807 -> Some { IronSde.Types.AttributeTypeData.id = 2807; categoryId = Some 7; name = "reactivationDelayBonus"; defaultValue = Some 0.000000}
+        | 2808 -> Some { IronSde.Types.AttributeTypeData.id = 2808; categoryId = Some 7; name = "TotalArmorRepairOnTarget"; defaultValue = Some 0.000000}
+        | 2809 -> Some { IronSde.Types.AttributeTypeData.id = 2809; categoryId = None; name = "TotalShieldRepairOnTarget"; defaultValue = Some 0.000000}
+        | 2810 -> Some { IronSde.Types.AttributeTypeData.id = 2810; categoryId = None; name = "TotalHullRepairOnTarget"; defaultValue = Some 0.000000}
+        | 2811 -> Some { IronSde.Types.AttributeTypeData.id = 2811; categoryId = None; name = "TotalCapTransferOnTarget"; defaultValue = Some 0.000000}
+        | 2812 -> Some { IronSde.Types.AttributeTypeData.id = 2812; categoryId = Some 42; name = "behaviorSmartBombDuration"; defaultValue = Some 0.000000}
+        | 2814 -> Some { IronSde.Types.AttributeTypeData.id = 2814; categoryId = Some 42; name = "behaviorSmartBombDischarge"; defaultValue = Some 0.000000}
+        | 2815 -> Some { IronSde.Types.AttributeTypeData.id = 2815; categoryId = Some 42; name = "behaviorMicroJumpAttackDischarge"; defaultValue = Some 0.000000}
+        | 2816 -> Some { IronSde.Types.AttributeTypeData.id = 2816; categoryId = Some 42; name = "behaviorMicroJumpAttackRange"; defaultValue = Some 0.000000}
+        | 2818 -> Some { IronSde.Types.AttributeTypeData.id = 2818; categoryId = Some 42; name = "behaviorMicroJumpAttackJumpDistance"; defaultValue = Some 0.000000}
+        | 2819 -> Some { IronSde.Types.AttributeTypeData.id = 2819; categoryId = Some 42; name = "behaviorMicroJumpAttackDuration"; defaultValue = Some 0.000000}
+        | 2820 -> Some { IronSde.Types.AttributeTypeData.id = 2820; categoryId = Some 37; name = "siegeHAWTurretDamageBonus"; defaultValue = Some 0.000000}
+        | 2821 -> Some { IronSde.Types.AttributeTypeData.id = 2821; categoryId = Some 37; name = "siegeHAWMissileROFBonus"; defaultValue = Some 0.000000}
+        | 2822 -> Some { IronSde.Types.AttributeTypeData.id = 2822; categoryId = Some 7; name = "ecmJamDuration"; defaultValue = Some 0.000000}
         | _ -> None

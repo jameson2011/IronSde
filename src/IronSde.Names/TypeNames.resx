@@ -8056,7 +8056,7 @@
     <value>Odin Synthetic Eye (right/gold)</value>
   </data>
   <data name="itemtype4042" xml:space="preserve">
-    <value>Looking Glass Monocle Interface (right/gray)</value>
+    <value>Looking Glass Monocle Interface (right/silver)</value>
   </data>
   <data name="itemtype4043" xml:space="preserve">
     <value>Odin Synthetic Eye (left/dark)</value>
@@ -12430,7 +12430,7 @@
     <value>Amarr Shuttle Blueprint</value>
   </data>
   <data name="itemtype11136" xml:space="preserve">
-    <value>Concord Billboard</value>
+    <value>CONCORD Billboard</value>
   </data>
   <data name="itemtype11137" xml:space="preserve">
     <value>Imperial Navy Fleet Marshall</value>
@@ -15493,7 +15493,7 @@
     <value>Sansha's Loyal Ravener</value>
   </data>
   <data name="itemtype13046" xml:space="preserve">
-    <value>Sansha's Loyal Scavanger</value>
+    <value>Sansha's Loyal Scavenger</value>
   </data>
   <data name="itemtype13047" xml:space="preserve">
     <value>Sansha's Loyal Minion</value>
@@ -21949,7 +21949,7 @@
     <value>Landing Pad</value>
   </data>
   <data name="itemtype16736" xml:space="preserve">
-    <value>Infested station ruins</value>
+    <value>Infested Station Ruins</value>
   </data>
   <data name="itemtype16737" xml:space="preserve">
     <value>Ruined Stargate</value>
@@ -94276,13 +94276,13 @@
     <value>Gnosis Versus Redforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype47547" xml:space="preserve">
-    <value>Apotheosis Versus Blueforce  SKIN (Permanent)</value>
+    <value>Apotheosis Versus Blueforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype47548" xml:space="preserve">
-    <value>Sunesis Versus Blueforce  SKIN (Permanent)</value>
+    <value>Sunesis Versus Blueforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype47549" xml:space="preserve">
-    <value>Gnosis Versus Blueforce  SKIN (Permanent)</value>
+    <value>Gnosis Versus Blueforce SKIN (Permanent)</value>
   </data>
   <data name="itemtype47550" xml:space="preserve">
     <value>Apotheosis Silver Racer SKIN (Permanent)</value>
@@ -95329,7 +95329,7 @@
     <value>Light Entropic Disintegrator II</value>
   </data>
   <data name="itemtype47915" xml:space="preserve">
-    <value>Light Veles Entropic Disintegrator</value>
+    <value>Veles Light Entropic Disintegrator</value>
   </data>
   <data name="itemtype47916" xml:space="preserve">
     <value>Heavy Compact Entropic Disintegrator</value>
@@ -95341,7 +95341,7 @@
     <value>Heavy Entropic Disintegrator II</value>
   </data>
   <data name="itemtype47919" xml:space="preserve">
-    <value>Heavy Veles Entropic Disintegrator</value>
+    <value>Veles Heavy Entropic Disintegrator</value>
   </data>
   <data name="itemtype47920" xml:space="preserve">
     <value>Supratidal Compact Entropic Disintegrator</value>
@@ -95353,7 +95353,7 @@
     <value>Supratidal Entropic Disintegrator II</value>
   </data>
   <data name="itemtype47923" xml:space="preserve">
-    <value>Supratidal Veles Entropic Disintegrator</value>
+    <value>Veles Supratidal Entropic Disintegrator</value>
   </data>
   <data name="itemtype47924" xml:space="preserve">
     <value>Baryon Exotic Plasma S</value>
@@ -99481,10 +99481,10 @@
     <value>Mordu's Spatha</value>
   </data>
   <data name="itemtype49809" xml:space="preserve">
-    <value>50,000 Skillpoints</value>
+    <value>50,000 Skill Points</value>
   </data>
   <data name="itemtype49810" xml:space="preserve">
-    <value>100,000 Skillpoints</value>
+    <value>100,000 Skill Points</value>
   </data>
   <data name="itemtype49811" xml:space="preserve">
     <value>Hurricane Operation Permafrost SKIN (Permanent)</value>
@@ -99685,28 +99685,28 @@
     <value>Nyx Police SKIN (Permanent)</value>
   </data>
   <data name="itemtype50007" xml:space="preserve">
-    <value>Basic 'Ardour' Cerebral Accelerator</value>
+    <value>Expired Basic 'Ardour' Cerebral Accelerator</value>
   </data>
   <data name="itemtype50008" xml:space="preserve">
-    <value>Standard 'Ardour' Cerebral Accelerator</value>
+    <value>Expired Standard 'Ardour' Cerebral Accelerator</value>
   </data>
   <data name="itemtype50009" xml:space="preserve">
-    <value>Advanced 'Ardour' Cerebral Accelerator</value>
+    <value>Expired Advanced 'Ardour' Cerebral Accelerator</value>
   </data>
   <data name="itemtype50010" xml:space="preserve">
-    <value>Extended 'Ardour' Cerebral Accelerator</value>
+    <value>Expired Extended 'Ardour' Cerebral Accelerator</value>
   </data>
   <data name="itemtype50011" xml:space="preserve">
-    <value>Basic 'Ardour' Cerebral Accelerator Blueprint</value>
+    <value>Expired Basic 'Ardour' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype50012" xml:space="preserve">
-    <value>Standard 'Ardour' Cerebral Accelerator Blueprint</value>
+    <value>Expired Standard 'Ardour' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype50013" xml:space="preserve">
-    <value>Advanced 'Ardour' Cerebral Accelerator Blueprint</value>
+    <value>Expired Advanced 'Ardour' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype50014" xml:space="preserve">
-    <value>Extended 'Ardour' Cerebral Accelerator Blueprint</value>
+    <value>Expired Extended 'Ardour' Cerebral Accelerator Blueprint</value>
   </data>
   <data name="itemtype50015" xml:space="preserve">
     <value>Amethystic Crystallite</value>
@@ -99872,6 +99872,849 @@
   </data>
   <data name="itemtype50085" xml:space="preserve">
     <value>Ragnarok Eros Blossom SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50088" xml:space="preserve">
+    <value>McGuffin</value>
+  </data>
+  <data name="itemtype50089" xml:space="preserve">
+    <value>Circadian Seeker</value>
+  </data>
+  <data name="itemtype50090" xml:space="preserve">
+    <value>Seeker Drone</value>
+  </data>
+  <data name="itemtype50091" xml:space="preserve">
+    <value>Cerebral Accelerator</value>
+  </data>
+  <data name="itemtype50092" xml:space="preserve">
+    <value>Circadian Seeker</value>
+  </data>
+  <data name="itemtype50093" xml:space="preserve">
+    <value>Drifter Battleship</value>
+  </data>
+  <data name="itemtype50094" xml:space="preserve">
+    <value>Particle Cloud Thunder 01a</value>
+  </data>
+  <data name="itemtype50095" xml:space="preserve">
+    <value>Dungeon Cloud 6463</value>
+  </data>
+  <data name="itemtype50096" xml:space="preserve">
+    <value>ENV_Triglavian_Construction_01a</value>
+  </data>
+  <data name="itemtype50097" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="itemtype50098" xml:space="preserve">
+    <value>Avatar Wreck</value>
+  </data>
+  <data name="itemtype50099" xml:space="preserve">
+    <value>Amarr Station</value>
+  </data>
+  <data name="itemtype50100" xml:space="preserve">
+    <value>Imperial Escort Aeon</value>
+  </data>
+  <data name="itemtype50104" xml:space="preserve">
+    <value>Imperial Escort Punisher</value>
+  </data>
+  <data name="itemtype50105" xml:space="preserve">
+    <value>Imperial Escort Omen</value>
+  </data>
+  <data name="itemtype50106" xml:space="preserve">
+    <value>Imperial Escort Carrier</value>
+  </data>
+  <data name="itemtype50107" xml:space="preserve">
+    <value>Imperial Escort Apocalypse</value>
+  </data>
+  <data name="itemtype50108" xml:space="preserve">
+    <value>Imperial Escort Armageddon</value>
+  </data>
+  <data name="itemtype50109" xml:space="preserve">
+    <value>Imperial Escort Providence</value>
+  </data>
+  <data name="itemtype50110" xml:space="preserve">
+    <value>Imperial Escort Prophecy</value>
+  </data>
+  <data name="itemtype50111" xml:space="preserve">
+    <value>Imperial Escort Oracle</value>
+  </data>
+  <data name="itemtype50117" xml:space="preserve">
+    <value>Imperial Escort Maller</value>
+  </data>
+  <data name="itemtype50118" xml:space="preserve">
+    <value>Environment Moon 3D</value>
+  </data>
+  <data name="itemtype50119" xml:space="preserve">
+    <value>tgs01_uc01</value>
+  </data>
+  <data name="itemtype50120" xml:space="preserve">
+    <value>Placeholder TG construction phase 2</value>
+  </data>
+  <data name="itemtype50121" xml:space="preserve">
+    <value>Placeholder TG construction phase 3</value>
+  </data>
+  <data name="itemtype50122" xml:space="preserve">
+    <value>tgsy0001</value>
+  </data>
+  <data name="itemtype50123" xml:space="preserve">
+    <value>Placeholder TG site 2</value>
+  </data>
+  <data name="itemtype50124" xml:space="preserve">
+    <value>Placeholder TG site 3</value>
+  </data>
+  <data name="itemtype50125" xml:space="preserve">
+    <value>ENV_Amarr_01a</value>
+  </data>
+  <data name="itemtype50126" xml:space="preserve">
+    <value>Particle cloud triPoint 01a</value>
+  </data>
+  <data name="itemtype50127" xml:space="preserve">
+    <value>Triglavian storage facility</value>
+  </data>
+  <data name="itemtype50128" xml:space="preserve">
+    <value>Triglavian storage transfer facility</value>
+  </data>
+  <data name="itemtype50130" xml:space="preserve">
+    <value>Women's Permaband Tour T-Shirt</value>
+  </data>
+  <data name="itemtype50131" xml:space="preserve">
+    <value>Men's Permaband Tour T-Shirt</value>
+  </data>
+  <data name="itemtype50132" xml:space="preserve">
+    <value>Women's Permaband Tour Cap</value>
+  </data>
+  <data name="itemtype50133" xml:space="preserve">
+    <value>Men's Permaband Tour Cap</value>
+  </data>
+  <data name="itemtype50135" xml:space="preserve">
+    <value>loot_structure_locator</value>
+  </data>
+  <data name="itemtype50137" xml:space="preserve">
+    <value>npc_spawn_locator</value>
+  </data>
+  <data name="itemtype50138" xml:space="preserve">
+    <value>Easter Firework</value>
+  </data>
+  <data name="itemtype50139" xml:space="preserve">
+    <value>Damavik Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50140" xml:space="preserve">
+    <value>Kikimora Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50141" xml:space="preserve">
+    <value>Vedmak Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50142" xml:space="preserve">
+    <value>Rodiva Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50143" xml:space="preserve">
+    <value>Zarmazd Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50144" xml:space="preserve">
+    <value>Drekavac Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50145" xml:space="preserve">
+    <value>Leshak Metamateria Exotica SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50146" xml:space="preserve">
+    <value>Hecate Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50147" xml:space="preserve">
+    <value>Deimos Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50148" xml:space="preserve">
+    <value>Ishtar Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50149" xml:space="preserve">
+    <value>Kronos Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50150" xml:space="preserve">
+    <value>Thanatos Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50151" xml:space="preserve">
+    <value>Nyx Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50152" xml:space="preserve">
+    <value>Erebus Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50153" xml:space="preserve">
+    <value>Nemesis Caille Neon SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50156" xml:space="preserve">
+    <value>Leshak Netherworld Striker SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50157" xml:space="preserve">
+    <value>Vedmak Netherworld Striker SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50158" xml:space="preserve">
+    <value>Kikimora Netherworld Striker SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype50162" xml:space="preserve">
+    <value>Semiosis Conduction Console (Perun Clade)</value>
+  </data>
+  <data name="itemtype50163" xml:space="preserve">
+    <value>Semiosis Conduction Console (Svarog Clade)</value>
+  </data>
+  <data name="itemtype50164" xml:space="preserve">
+    <value>Semiosis Conduction Console (Veles Clade)</value>
+  </data>
+  <data name="itemtype50165" xml:space="preserve">
+    <value>Seeker Drone</value>
+  </data>
+  <data name="itemtype50167" xml:space="preserve">
+    <value>Triglavian Semiosis Data Vault (AEA)</value>
+  </data>
+  <data name="itemtype50168" xml:space="preserve">
+    <value>Triglavian Semiosis Data Vault (AFN)</value>
+  </data>
+  <data name="itemtype50169" xml:space="preserve">
+    <value>Triglavian Semiosis Data Vault (DAV)</value>
+  </data>
+  <data name="itemtype50170" xml:space="preserve">
+    <value>Triglavian Semiosis Data Vault (HFN)</value>
+  </data>
+  <data name="itemtype50171" xml:space="preserve">
+    <value>Triglavian Semiosis Data Vault (NFN)</value>
+  </data>
+  <data name="itemtype50172" xml:space="preserve">
+    <value>Triglavian Semiosis Data Vault (NON)</value>
+  </data>
+  <data name="itemtype50175" xml:space="preserve">
+    <value>Blockout Cone</value>
+  </data>
+  <data name="itemtype50176" xml:space="preserve">
+    <value>Stasis Field Effect Subpylon</value>
+  </data>
+  <data name="itemtype50177" xml:space="preserve">
+    <value>ECM Field Effect Subpylon</value>
+  </data>
+  <data name="itemtype50178" xml:space="preserve">
+    <value>Energy Pulse Field Effect Subpylon</value>
+  </data>
+  <data name="itemtype50179" xml:space="preserve">
+    <value>Dampening Field Effect Subpylon</value>
+  </data>
+  <data name="itemtype50180" xml:space="preserve">
+    <value>Transport Field Effect Sublyon</value>
+  </data>
+  <data name="itemtype52182" xml:space="preserve">
+    <value>Liminal Damavik</value>
+  </data>
+  <data name="itemtype52183" xml:space="preserve">
+    <value>Liminal Vedmak</value>
+  </data>
+  <data name="itemtype52184" xml:space="preserve">
+    <value>Liminal Leshak</value>
+  </data>
+  <data name="itemtype52185" xml:space="preserve">
+    <value>Liminal Kikimora</value>
+  </data>
+  <data name="itemtype52186" xml:space="preserve">
+    <value>Liminal Rodiva</value>
+  </data>
+  <data name="itemtype52187" xml:space="preserve">
+    <value>Liminal Drekavac</value>
+  </data>
+  <data name="itemtype52188" xml:space="preserve">
+    <value>Women's 'Eico Redwire XVI' Facial Augmentation</value>
+  </data>
+  <data name="itemtype52189" xml:space="preserve">
+    <value>Men's 'Eico Redarc XVI' Facial Augmentation</value>
+  </data>
+  <data name="itemtype52190" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AEA4</value>
+  </data>
+  <data name="itemtype52191" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AFN4</value>
+  </data>
+  <data name="itemtype52192" xml:space="preserve">
+    <value>Triglavian Trinary Datastream DAV4</value>
+  </data>
+  <data name="itemtype52193" xml:space="preserve">
+    <value>Blockout Cube</value>
+  </data>
+  <data name="itemtype52194" xml:space="preserve">
+    <value>Blockout Cylinder</value>
+  </data>
+  <data name="itemtype52195" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AEA5</value>
+  </data>
+  <data name="itemtype52196" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AFN5</value>
+  </data>
+  <data name="itemtype52197" xml:space="preserve">
+    <value>Triglavian Trinary Datastream DAV5</value>
+  </data>
+  <data name="itemtype52198" xml:space="preserve">
+    <value>Women's Capsuleer Day XVI T-Shirt</value>
+  </data>
+  <data name="itemtype52200" xml:space="preserve">
+    <value>Men's Capsuleer Day XVI T-Shirt</value>
+  </data>
+  <data name="itemtype52201" xml:space="preserve">
+    <value>Women's Capsuleer Day XVI Cap</value>
+  </data>
+  <data name="itemtype52202" xml:space="preserve">
+    <value>Men's Capsuleer Day XVI Cap</value>
+  </data>
+  <data name="itemtype52203" xml:space="preserve">
+    <value>Journey of Katia Sae Memorial</value>
+  </data>
+  <data name="itemtype52204" xml:space="preserve">
+    <value>Blockout Sphere</value>
+  </data>
+  <data name="itemtype52205" xml:space="preserve">
+    <value>Starving Damavik</value>
+  </data>
+  <data name="itemtype52206" xml:space="preserve">
+    <value>Harrowing Damavik</value>
+  </data>
+  <data name="itemtype52207" xml:space="preserve">
+    <value>Anchoring Damavik</value>
+  </data>
+  <data name="itemtype52208" xml:space="preserve">
+    <value>Renewing Damavik</value>
+  </data>
+  <data name="itemtype52209" xml:space="preserve">
+    <value>Blinding Damavik</value>
+  </data>
+  <data name="itemtype52210" xml:space="preserve">
+    <value>Ghosting Damavik</value>
+  </data>
+  <data name="itemtype52211" xml:space="preserve">
+    <value>Harrowing Vedmak</value>
+  </data>
+  <data name="itemtype52212" xml:space="preserve">
+    <value>Harrowing Kikimora</value>
+  </data>
+  <data name="itemtype52213" xml:space="preserve">
+    <value>Anchoring Kikimora</value>
+  </data>
+  <data name="itemtype52214" xml:space="preserve">
+    <value>Renewing Rodiva</value>
+  </data>
+  <data name="itemtype52215" xml:space="preserve">
+    <value>Renewing Leshak</value>
+  </data>
+  <data name="itemtype52216" xml:space="preserve">
+    <value>Blinding Leshak</value>
+  </data>
+  <data name="itemtype52217" xml:space="preserve">
+    <value>Blinding Kikimora</value>
+  </data>
+  <data name="itemtype52218" xml:space="preserve">
+    <value>Ghosting Drekavac</value>
+  </data>
+  <data name="itemtype52219" xml:space="preserve">
+    <value>Halloween 2019 Firework</value>
+  </data>
+  <data name="itemtype52220" xml:space="preserve">
+    <value>Scout Roaming Spawner</value>
+  </data>
+  <data name="itemtype52221" xml:space="preserve">
+    <value>Vanguard Roaming Spawner</value>
+  </data>
+  <data name="itemtype52222" xml:space="preserve">
+    <value>Assault Roaming Spawner</value>
+  </data>
+  <data name="itemtype52223" xml:space="preserve">
+    <value>WW Roaming Spawner</value>
+  </data>
+  <data name="itemtype52224" xml:space="preserve">
+    <value>Decayed Damage Control Mutaplasmid</value>
+  </data>
+  <data name="itemtype52225" xml:space="preserve">
+    <value>Gravid Damage Control Mutaplasmid</value>
+  </data>
+  <data name="itemtype52226" xml:space="preserve">
+    <value>Unstable Damage Control Mutaplasmid</value>
+  </data>
+  <data name="itemtype52227" xml:space="preserve">
+    <value>Abyssal Damage Control</value>
+  </data>
+  <data name="itemtype52228" xml:space="preserve">
+    <value>Decayed Assault Damage Control Mutaplasmid</value>
+  </data>
+  <data name="itemtype52229" xml:space="preserve">
+    <value>Gravid Assault Damage Control Mutaplasmid</value>
+  </data>
+  <data name="itemtype52230" xml:space="preserve">
+    <value>Abyssal Assault Damage Control</value>
+  </data>
+  <data name="itemtype52231" xml:space="preserve">
+    <value>Unstable Assault Damage Control Mutaplasmid</value>
+  </data>
+  <data name="itemtype52232" xml:space="preserve">
+    <value>Tangling Damavik</value>
+  </data>
+  <data name="itemtype52233" xml:space="preserve">
+    <value>Tangling Kikimora</value>
+  </data>
+  <data name="itemtype52234" xml:space="preserve">
+    <value>Starving Drekavac</value>
+  </data>
+  <data name="itemtype52236" xml:space="preserve">
+    <value>Zorya's Light Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype52237" xml:space="preserve">
+    <value>Zorya's Light Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype52238" xml:space="preserve">
+    <value>Zorya's Heavy Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype52239" xml:space="preserve">
+    <value>Zorya's Heavy Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype52240" xml:space="preserve">
+    <value>Zorya's Supratidal Entropic Disintegrator</value>
+  </data>
+  <data name="itemtype52241" xml:space="preserve">
+    <value>Zorya's Supratidal Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype52242" xml:space="preserve">
+    <value>Zorya's Entropic Radiation Sink</value>
+  </data>
+  <data name="itemtype52243" xml:space="preserve">
+    <value>Zorya's Entropic Radiation Sink Blueprint</value>
+  </data>
+  <data name="itemtype52244" xml:space="preserve">
+    <value>Veles Entropic Radiation Sink</value>
+  </data>
+  <data name="itemtype52245" xml:space="preserve">
+    <value>Veles Entropic Radiation Sink Blueprint</value>
+  </data>
+  <data name="itemtype52247" xml:space="preserve">
+    <value>Invasion Effects Light</value>
+  </data>
+  <data name="itemtype52248" xml:space="preserve">
+    <value>Invasion Effects Medium</value>
+  </data>
+  <data name="itemtype52249" xml:space="preserve">
+    <value>Invasion Effects Strong</value>
+  </data>
+  <data name="itemtype52250" xml:space="preserve">
+    <value>Nergal</value>
+  </data>
+  <data name="itemtype52251" xml:space="preserve">
+    <value>Nergal Blueprint</value>
+  </data>
+  <data name="itemtype52252" xml:space="preserve">
+    <value>Ikitursa</value>
+  </data>
+  <data name="itemtype52253" xml:space="preserve">
+    <value>Ikitursa Blueprint</value>
+  </data>
+  <data name="itemtype52254" xml:space="preserve">
+    <value>Draugur</value>
+  </data>
+  <data name="itemtype52255" xml:space="preserve">
+    <value>Draugur Blueprint</value>
+  </data>
+  <data name="itemtype52263" xml:space="preserve">
+    <value>1,000,000 Skill Points</value>
+  </data>
+  <data name="itemtype52264" xml:space="preserve">
+    <value>Test Site Gatling Pulse Laser</value>
+  </data>
+  <data name="itemtype52265" xml:space="preserve">
+    <value>Test Site Armor Repair</value>
+  </data>
+  <data name="itemtype52266" xml:space="preserve">
+    <value>Test Site Damage Mod</value>
+  </data>
+  <data name="itemtype52267" xml:space="preserve">
+    <value>Test Site Maller</value>
+  </data>
+  <data name="itemtype52269" xml:space="preserve">
+    <value>500,000 Skill Points</value>
+  </data>
+  <data name="itemtype52270" xml:space="preserve">
+    <value>750,000 Skill Points</value>
+  </data>
+  <data name="itemtype52273" xml:space="preserve">
+    <value>The Yulai Siege YC106</value>
+  </data>
+  <data name="itemtype52274" xml:space="preserve">
+    <value>Drone Regions YC109</value>
+  </data>
+  <data name="itemtype52275" xml:space="preserve">
+    <value>Jita Protest YC113</value>
+  </data>
+  <data name="itemtype52276" xml:space="preserve">
+    <value>Titanomachy YC116</value>
+  </data>
+  <data name="itemtype52277" xml:space="preserve">
+    <value>Fall of Fort Knocks YC120</value>
+  </data>
+  <data name="itemtype52278" xml:space="preserve">
+    <value>Praxis Capsuleer Day XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52279" xml:space="preserve">
+    <value>Sunesis Capsuleer Day XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52280" xml:space="preserve">
+    <value>Gnosis Capsuleer Day XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52281" xml:space="preserve">
+    <value>Apotheosis Capsuleer Day XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52282" xml:space="preserve">
+    <value>Oracle Argyros Elite XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52283" xml:space="preserve">
+    <value>Myrmidon Argyros Elite XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52284" xml:space="preserve">
+    <value>Tornado Argyros Elite XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52285" xml:space="preserve">
+    <value>Drake Argyros Elite XVI SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52286" xml:space="preserve">
+    <value>Rokh Permaband - Wrecking Machine SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52287" xml:space="preserve">
+    <value>Sabre Permaband - Warp to the Dance Floor SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52288" xml:space="preserve">
+    <value>Permaband SKIN Ishtar (Come Fly With Us) Placeholder</value>
+  </data>
+  <data name="itemtype52289" xml:space="preserve">
+    <value>Permaband SKIN Abaddon (Killing Is Just A Means) Placeholder</value>
+  </data>
+  <data name="itemtype52290" xml:space="preserve">
+    <value>Capsuleer Day XVI T-Shirt Crate</value>
+  </data>
+  <data name="itemtype52291" xml:space="preserve">
+    <value>Capsuleer Day XVI Gnosis &amp; SKIN Crate</value>
+  </data>
+  <data name="itemtype52292" xml:space="preserve">
+    <value>Permaband Tour Cap Crate</value>
+  </data>
+  <data name="itemtype52293" xml:space="preserve">
+    <value>Myrmidon &amp; Tornado Argyros SKIN Crate</value>
+  </data>
+  <data name="itemtype52294" xml:space="preserve">
+    <value>Capsuleer Day XVI Cap Crate</value>
+  </data>
+  <data name="itemtype52295" xml:space="preserve">
+    <value>Capsuleer Day XVI Sunesis &amp; SKIN Crate</value>
+  </data>
+  <data name="itemtype52296" xml:space="preserve">
+    <value>Capsuleer Day XVI Apotheosis &amp; SKIN Crate</value>
+  </data>
+  <data name="itemtype52297" xml:space="preserve">
+    <value>Drake &amp; Oracle Argyros SKIN Crate</value>
+  </data>
+  <data name="itemtype52298" xml:space="preserve">
+    <value>Capsuleer Day XVI Praxis &amp; SKIN Crate</value>
+  </data>
+  <data name="itemtype52299" xml:space="preserve">
+    <value>Eico Redarc/Redwire XVI Augmentations Crate</value>
+  </data>
+  <data name="itemtype52300" xml:space="preserve">
+    <value>Permaband Tour T-Shirt Crate</value>
+  </data>
+  <data name="itemtype52301" xml:space="preserve">
+    <value>Silver Monocle Interface Crate</value>
+  </data>
+  <data name="itemtype52302" xml:space="preserve">
+    <value>Gila Emperor Bear SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52303" xml:space="preserve">
+    <value>Tengu Emperor Bear SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52304" xml:space="preserve">
+    <value>Sleipnir Emperor Bear SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52306" xml:space="preserve">
+    <value>Talassonite</value>
+  </data>
+  <data name="itemtype52307" xml:space="preserve">
+    <value>Triglavian Quantum Engineering</value>
+  </data>
+  <data name="itemtype52308" xml:space="preserve">
+    <value>Triglavian Encryption Methods</value>
+  </data>
+  <data name="itemtype52309" xml:space="preserve">
+    <value>Datacore - Triglavian Quantum Engineering</value>
+  </data>
+  <data name="itemtype52310" xml:space="preserve">
+    <value>Radiation Absorption Thruster</value>
+  </data>
+  <data name="itemtype52311" xml:space="preserve">
+    <value>Singularity Radiation Convertor</value>
+  </data>
+  <data name="itemtype52312" xml:space="preserve">
+    <value>Zero-Point Field Manipulator</value>
+  </data>
+  <data name="itemtype52313" xml:space="preserve">
+    <value>Trinary State Processor</value>
+  </data>
+  <data name="itemtype52314" xml:space="preserve">
+    <value>Lattice Locked Dekaisogen</value>
+  </data>
+  <data name="itemtype52315" xml:space="preserve">
+    <value>Rakovene</value>
+  </data>
+  <data name="itemtype52316" xml:space="preserve">
+    <value>Bezdnacine</value>
+  </data>
+  <data name="itemtype52317" xml:space="preserve">
+    <value>Looking Glass Monocle Interface (right/silver)</value>
+  </data>
+  <data name="itemtype52318" xml:space="preserve">
+    <value>Civilian Skill Pack</value>
+  </data>
+  <data name="itemtype52320" xml:space="preserve">
+    <value>Zorya's Leshak</value>
+  </data>
+  <data name="itemtype52321" xml:space="preserve">
+    <value>Kikimora Red Meatgrinder SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52322" xml:space="preserve">
+    <value>Vedmak Red Meatgrinder SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52323" xml:space="preserve">
+    <value>Leshak Red Meatgrinder SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52326" xml:space="preserve">
+    <value>Invasion Core Environment</value>
+  </data>
+  <data name="itemtype52327" xml:space="preserve">
+    <value>Invasion Neighbourhood Environment</value>
+  </data>
+  <data name="itemtype52328" xml:space="preserve">
+    <value>Invasion Fringe Environment</value>
+  </data>
+  <data name="itemtype52329" xml:space="preserve">
+    <value>Empress Jamyl's Avatar</value>
+  </data>
+  <data name="itemtype52336" xml:space="preserve">
+    <value>Zorya's Damavik</value>
+  </data>
+  <data name="itemtype52337" xml:space="preserve">
+    <value>Zorya's Drekavac</value>
+  </data>
+  <data name="itemtype52338" xml:space="preserve">
+    <value>Zorya's Leshak</value>
+  </data>
+  <data name="itemtype52343" xml:space="preserve">
+    <value>Small Rift</value>
+  </data>
+  <data name="itemtype52344" xml:space="preserve">
+    <value>Large Rift</value>
+  </data>
+  <data name="itemtype52348" xml:space="preserve">
+    <value>Veles Light Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype52349" xml:space="preserve">
+    <value>Veles Heavy Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype52350" xml:space="preserve">
+    <value>Veles Supratidal Entropic Disintegrator Blueprint</value>
+  </data>
+  <data name="itemtype52351" xml:space="preserve">
+    <value>Nergal Singularity Storm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52352" xml:space="preserve">
+    <value>Draugur Singularity Storm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52353" xml:space="preserve">
+    <value>Ikitursa Singularity Storm SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52354" xml:space="preserve">
+    <value>ECM TFU Wreck</value>
+  </data>
+  <data name="itemtype52355" xml:space="preserve">
+    <value>Damp TFU Wreck</value>
+  </data>
+  <data name="itemtype52356" xml:space="preserve">
+    <value>Web TFU Wreck</value>
+  </data>
+  <data name="itemtype52357" xml:space="preserve">
+    <value>MJFG TFU Wreck</value>
+  </data>
+  <data name="itemtype52358" xml:space="preserve">
+    <value>Bomb TFU Wreck</value>
+  </data>
+  <data name="itemtype52359" xml:space="preserve">
+    <value>Triglavian Graviton Monitor</value>
+  </data>
+  <data name="itemtype52360" xml:space="preserve">
+    <value>Triglavian Entropic Monitor</value>
+  </data>
+  <data name="itemtype52361" xml:space="preserve">
+    <value>World Ark (Xordazh-class)</value>
+  </data>
+  <data name="itemtype52362" xml:space="preserve">
+    <value>Triglavian Boundary Geodesic 140k</value>
+  </data>
+  <data name="itemtype52363" xml:space="preserve">
+    <value>Particle cloud spiral 01a</value>
+  </data>
+  <data name="itemtype52364" xml:space="preserve">
+    <value>ENV_RedFog_01a</value>
+  </data>
+  <data name="itemtype52365" xml:space="preserve">
+    <value>Particle cloud 01a</value>
+  </data>
+  <data name="itemtype52390" xml:space="preserve">
+    <value>Triglavian Fermion Monitor</value>
+  </data>
+  <data name="itemtype52392" xml:space="preserve">
+    <value>Apocalypse Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52393" xml:space="preserve">
+    <value>Prophecy Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52394" xml:space="preserve">
+    <value>Coercer Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52395" xml:space="preserve">
+    <value>Thorax Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52396" xml:space="preserve">
+    <value>Megathron Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52397" xml:space="preserve">
+    <value>Brutix Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52398" xml:space="preserve">
+    <value>Algos Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52399" xml:space="preserve">
+    <value>Caracal Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52400" xml:space="preserve">
+    <value>Scorpion Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52401" xml:space="preserve">
+    <value>Drake Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52402" xml:space="preserve">
+    <value>Cormorant Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52403" xml:space="preserve">
+    <value>Stabber Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52404" xml:space="preserve">
+    <value>Typhoon Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52405" xml:space="preserve">
+    <value>Hurricane Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52406" xml:space="preserve">
+    <value>Talwar Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52407" xml:space="preserve">
+    <value>Arbitrator Triglavian Twilight SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52408" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AEA6</value>
+  </data>
+  <data name="itemtype52409" xml:space="preserve">
+    <value>Triglavian Trinary Datastream AFN6</value>
+  </data>
+  <data name="itemtype52410" xml:space="preserve">
+    <value>Triglavian Trinary Datastream DAV6</value>
+  </data>
+  <data name="itemtype52411" xml:space="preserve">
+    <value>Triglavian Trinary Datastream HFN4</value>
+  </data>
+  <data name="itemtype52412" xml:space="preserve">
+    <value>Triglavian Trinary Datastream HFN5</value>
+  </data>
+  <data name="itemtype52413" xml:space="preserve">
+    <value>Triglavian Trinary Datastream HFN6</value>
+  </data>
+  <data name="itemtype52414" xml:space="preserve">
+    <value>Triglavian Small Wreck</value>
+  </data>
+  <data name="itemtype52415" xml:space="preserve">
+    <value>Triglavian Medium Wreck</value>
+  </data>
+  <data name="itemtype52416" xml:space="preserve">
+    <value>Triglavian Large Wreck</value>
+  </data>
+  <data name="itemtype52417" xml:space="preserve">
+    <value>Damavik Deadspace Dreamtime SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52418" xml:space="preserve">
+    <value>Rodiva Deadspace Dreamtime SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52419" xml:space="preserve">
+    <value>Drekavac Deadspace Dreamtime SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52420" xml:space="preserve">
+    <value>Sunesis Violet Vellication SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52421" xml:space="preserve">
+    <value>Sleeper Large Advanced Wreck</value>
+  </data>
+  <data name="itemtype52422" xml:space="preserve">
+    <value>Boundary bubble scalable</value>
+  </data>
+  <data name="itemtype52423" xml:space="preserve">
+    <value>Jaguar In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52424" xml:space="preserve">
+    <value>Wolf In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52425" xml:space="preserve">
+    <value>Sabre In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52426" xml:space="preserve">
+    <value>Svipul In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52427" xml:space="preserve">
+    <value>Muninn In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52428" xml:space="preserve">
+    <value>Loki In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52429" xml:space="preserve">
+    <value>Hurricane In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52430" xml:space="preserve">
+    <value>Hurricane Fleet Issue In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52431" xml:space="preserve">
+    <value>Sleipnir In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52432" xml:space="preserve">
+    <value>Vargur In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52433" xml:space="preserve">
+    <value>Naglfar In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52434" xml:space="preserve">
+    <value>Hel In Rust We Trust SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52435" xml:space="preserve">
+    <value>Thorax Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52436" xml:space="preserve">
+    <value>Brutix Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52437" xml:space="preserve">
+    <value>Brutix Navy Issue Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52438" xml:space="preserve">
+    <value>Hyperion Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52439" xml:space="preserve">
+    <value>Ninazu Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52440" xml:space="preserve">
+    <value>Erebus Police SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52442" xml:space="preserve">
+    <value>Damavik Trig Beat 04 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52443" xml:space="preserve">
+    <value>Rodiva Trig Beat 04 SKIN (Permanent)</value>
+  </data>
+  <data name="itemtype52444" xml:space="preserve">
+    <value>Drekavac Trig Beat 04 SKIN (Permanent)</value>
   </data>
   <data name="itemtype350916" xml:space="preserve">
     <value>Plasma Cannon</value>
